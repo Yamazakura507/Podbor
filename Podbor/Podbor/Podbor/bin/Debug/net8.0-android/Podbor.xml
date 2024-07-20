@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Podbor</name>
+    </assembly>
+    <members>
+        <member name="T:Podbor.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.mailActiv">
+             <summary>
+               Ищет локализованную строку, похожую на &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+            &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot;&gt; 
+             &lt;head&gt; 
+              &lt;meta charset=&quot;UTF-8&quot;&gt; 
+              &lt;meta content=&quot;width=device-width, initial-scale=1&quot; name=&quot;viewport&quot;&gt; 
+              &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt; 
+              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt; 
+              &lt;meta content=&quot;telephone=no&quot; name=&quot;format-detection&quot;&gt; 
+              &lt;title&gt;Коп [остаток строки не уместился]&quot;;.
+             </summary>
+        </member>
+    </members>
+</doc>
