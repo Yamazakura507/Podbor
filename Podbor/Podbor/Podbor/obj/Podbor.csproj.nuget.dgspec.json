@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\danii\\Downloads\\Podbor\\Podbor\\Podbor\\Podbor.csproj": {}
+    "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Podbor.csproj": {}
   },
   "projects": {
-    "D:\\Users\\danii\\Downloads\\Podbor\\Podbor\\Podbor\\Podbor.csproj": {
+    "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Podbor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\danii\\Downloads\\Podbor\\Podbor\\Podbor\\Podbor.csproj",
+        "projectUniqueName": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Podbor.csproj",
         "projectName": "Podbor",
-        "projectPath": "D:\\Users\\danii\\Downloads\\Podbor\\Podbor\\Podbor\\Podbor.csproj",
+        "projectPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Podbor.csproj",
         "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\danii\\Downloads\\Podbor\\Podbor\\Podbor\\obj\\",
+        "outputPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

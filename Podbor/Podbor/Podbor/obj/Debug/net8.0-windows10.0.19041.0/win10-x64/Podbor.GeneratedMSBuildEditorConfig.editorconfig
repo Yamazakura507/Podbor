@@ -8,35 +8,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Podbor
-build_property.ProjectDir = D:\Users\danii\Downloads\Podbor\Podbor\Podbor\
+build_property.ProjectDir = D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[D:/Users/danii/Downloads/Podbor/Podbor/Podbor/App.xaml]
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Users/danii/Downloads/Podbor/Podbor/Podbor/AppShell.xaml]
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Users/danii/Downloads/Podbor/Podbor/Podbor/MainPage.xaml]
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Users/danii/Downloads/Podbor/Podbor/Podbor/Resources/Styles/Colors.xaml]
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Users/danii/Downloads/Podbor/Podbor/Podbor/Resources/Styles/Styles.xaml]
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

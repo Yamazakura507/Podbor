@@ -16,6 +16,8 @@ namespace Podbor.Models
         private string phone;
         private string email;
         private string name;
+        private string login;
+        private string password;
         private bool flag;
 
         public delegate void MessageEventHandler(string message);
@@ -134,6 +136,54 @@ namespace Podbor.Models
                     SetParametrs<Users>("Flag", value);
                 }
                 flag = value;
+            }
+        }
+
+        public string Login
+        {
+            get => !IsGet ? GetParametrs<string>("Login", this.GetType()) : login;
+            set
+            {
+                if (value.Length > 100)
+                {
+                    Users.ErrorEvent("Логин не должен превышать 100 символов!");
+                }
+                else if (String.IsNullOrEmpty(value))
+                {
+                    Users.ErrorEvent("Логин это обязательное поле для заполнения!");
+                }
+                else
+                {
+                    if (!IsGet)
+                    {
+                        SetParametrs<Users>("Login", value);
+                    }
+                    login = value;
+                }
+            }
+        }
+
+        public string Password
+        {
+            get => !IsGet ? GetParametrs<string>("Password", this.GetType()) : password;
+            set
+            {
+                if (value.Length > 100)
+                {
+                    Users.ErrorEvent("Пароль не должен превышать 100 символов!");
+                }
+                else if (String.IsNullOrEmpty(value))
+                {
+                    Users.ErrorEvent("Пароль это обязательное поле для заполнения!");
+                }
+                else
+                {
+                    if (!IsGet)
+                    {
+                        SetParametrs<Users>("Password", value);
+                    }
+                    password = value;
+                }
             }
         }
 
