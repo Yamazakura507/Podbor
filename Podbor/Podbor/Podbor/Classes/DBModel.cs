@@ -27,16 +27,16 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int? Limit = null, int Offset = 0, Dictionary<string, string>? OrderCollection = null)
+        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int? Limit = null, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
         {
             ObservableCollection<T> collection = new ObservableCollection<T>();
 
             using (var ms = new Mysql())
             {
                 var dt = ms.GetTable(@$"SELECT * FROM {typeof(T).Name} 
-                WHERE {(WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = {i.Value}")))} 
+                WHERE {(WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")))} 
                 {(Limit is null ? null : $"LIMIT {Limit} ")}OFFSET {Offset}
-                {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"{i.Key} {i.Value}"))}")}");
+                {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"{i.Key} {(i.Value ? "asc" : "desc")}"))}")}");
 
                 IsGet = true;
 
@@ -57,7 +57,7 @@ namespace Podbor.Classes
 
             using (var ms = new Mysql())
             {
-                dr = ms.GetRow($"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = {Id}")} LIMIT 1 OFFSET {numRow-1}");
+                dr = ms.GetRow($"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = '{Id}'")} LIMIT 1 OFFSET {numRow-1}");
             }
 
             IsGet = true;
@@ -74,7 +74,7 @@ namespace Podbor.Classes
             using (var ms = new Mysql())
             {
                 ms.ExecSql(@$"DELETE FROM {typeof(T).Name}
-                WHERE {(Id is null ? WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = {i.Value}")) : $"Id = {Id}")}");
+                WHERE {(Id is null ? WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")) : $"Id = '{Id}'")}");
             }
         }
 
@@ -94,7 +94,14 @@ namespace Podbor.Classes
         {
             using (var ms = new Mysql())
             {
-                ms.ExecSql($"UPDATE {typeof(T).Name} SET {param} = {value} WHERE Id = '{Id}'");
+                if (value.GetType() != typeof(Byte[]))
+                {
+                    ms.ExecSql($"UPDATE {typeof(T).Name} SET {param} = '{value}' WHERE Id = '{Id}'");
+                }
+                else 
+                {
+                    ms.UpdateBinaryColumn(typeof(T).Name, param, $"Id = '{Id}'", (byte[])value);
+                }
             }
         }
 

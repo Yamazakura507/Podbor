@@ -30,6 +30,18 @@ Spacing="25">
     SemanticProperties.Hint="Counts the number of times you click"
     Clicked="OnCounterClicked"
     HorizontalOptions="Fill" />
+            <Button
+x:Name="CounterBtn1"
+Text="Crypt" 
+SemanticProperties.Hint="Counts the number of times you click"
+Clicked="CounterBtn_Clicked"
+HorizontalOptions="Fill" />
+            <Button
+x:Name="CounterBtn2"
+Text="Decrypt" 
+SemanticProperties.Hint="Counts the number of times you click"
+Clicked="CounterBtn2_Clicked"
+HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 

@@ -323,7 +323,7 @@ namespace Podbor.Classes
             });
         }
 
-        public void UpdateBinaryColumn(string table, string column, string whereClouse, byte data)
+        public void UpdateBinaryColumn(string table, string column, string whereClouse, byte[] data)
         {
             try
             {
@@ -332,8 +332,8 @@ namespace Podbor.Classes
 
                 var cmd = new MySqlCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = string.Format(@"UPDATE {0} SET {1}=:data WHERE {2}", table, column, whereClouse);
-                cmd.Parameters.AddWithValue("data", data);
+                cmd.CommandText = string.Format(@"UPDATE {0} SET {1}=@data WHERE {2}", table, column, whereClouse);
+                cmd.Parameters.AddWithValue("@data", data);
 
                 var rowsaffected = cmd.ExecuteNonQuery();
             }

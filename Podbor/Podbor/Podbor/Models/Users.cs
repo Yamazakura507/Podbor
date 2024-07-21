@@ -17,7 +17,8 @@ namespace Podbor.Models
         private string email;
         private string name;
         private string login;
-        private string password;
+        private byte[] password;
+        private byte[] pkey;
         private bool flag;
 
         public delegate void MessageEventHandler(string message);
@@ -163,27 +164,29 @@ namespace Podbor.Models
             }
         }
 
-        public string Password
+        public byte[] Password
         {
-            get => !IsGet ? GetParametrs<string>("Password", this.GetType()) : password;
+            get => !IsGet ? GetParametrs<byte[]>("Password", this.GetType()) : password;
             set
             {
-                if (value.Length > 100)
+                if (!IsGet)
                 {
-                    Users.ErrorEvent("Пароль не должен превышать 100 символов!");
+                    SetParametrs<Users>("Password", value);
                 }
-                else if (String.IsNullOrEmpty(value))
+                password = value;
+            }
+        }
+
+        public byte[] PKey
+        {
+            get => !IsGet ? GetParametrs<byte[]>("PKey", this.GetType()) : pkey;
+            set
+            {
+                if (!IsGet) 
                 {
-                    Users.ErrorEvent("Пароль это обязательное поле для заполнения!");
+                    SetParametrs<Users>("PKey", value);
                 }
-                else
-                {
-                    if (!IsGet)
-                    {
-                        SetParametrs<Users>("Password", value);
-                    }
-                    password = value;
-                }
+                pkey = value;
             }
         }
 
