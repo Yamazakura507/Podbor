@@ -121,6 +121,6 @@ public partial class Provaider : ContentView
 
     private void WindowMessage()
     {
-        App.MyAppShell.CurrentPage.Messege(Message, TypeProvider);
+        App.MyAppShell.Messege(Message, TypeProvider);
     }
 }

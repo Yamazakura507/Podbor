@@ -65,6 +65,11 @@
         <Setter Property="Source" Value="BlackHideLottie.json"/>
     </Style>
 
+    <!--<Style TargetType="TabbedPage">
+        --><!--<Setter Property="UnselectedTabColor" Value="{AppThemeBinding Light={DynamicResource Gray300}, Dark={DynamicResource Gray100}}"/>-->
+        <!--<Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource PrimaryDark}}"/>-->
+        <!--<Setter Property="BarTextColor" Value="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource PrimaryDark}}"/>--><!--
+    </Style>-->
 
     <Style TargetType="Entry">
         <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource Black}, Dark={DynamicResource White}}" />

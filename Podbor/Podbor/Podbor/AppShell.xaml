@@ -7,12 +7,6 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Podbor" Shell.TabBarIsVisible="True">
 
-    <TabBar>
-        <Tab Title="Вход">
-            <ShellContent  ContentTemplate="{DataTemplate local:AutorizationPage}"/>
-        </Tab>
-        <Tab Title="Регистрация">
-            <ShellContent Title="Регистрация" ContentTemplate="{DataTemplate local:RegistrationPage}"/>
-        </Tab>
-    </TabBar>
+    
+    <!--<ShellContent  ContentTemplate="{DataTemplate local:AutorizationPage}"/>-->
 </Shell>

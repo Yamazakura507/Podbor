@@ -27,6 +27,8 @@ public partial class Loading : Popup
 
     private void Loaded()
     {
+        loadingLottie.WidthRequest = loadingLottie.HeightRequest = DeviceDisplay.MainDisplayInfo.Width/5;
+
         LoadingBackgorundWorker.DoWork += new DoWorkEventHandler(bw_DoWork);
         LoadingBackgorundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(bw_RunWorkerCompleted);
     }

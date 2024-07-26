@@ -16,7 +16,7 @@ namespace Podbor.Pages;
 
 public partial class AutorizationPage : ContentPage
 {
-    Loading loading = new Loading();
+    Loading loading;
 
     StartParametrs parametrs = new StartParametrs();
 
@@ -104,6 +104,7 @@ public partial class AutorizationPage : ContentPage
     {
         bool isEmpty = false;
         Users user = null;
+        loading = new Loading();
 
         loginProvider.IsVisible = passwordProvaider.IsVisible = errorProvider.IsVisible = isEmpty;
 

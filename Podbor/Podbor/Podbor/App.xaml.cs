@@ -1,14 +1,16 @@
-﻿namespace Podbor
+﻿using Podbor.Pages.Tabbed;
+
+namespace Podbor
 {
     public partial class App : Application
     {
-        public static AppShell  MyAppShell { get; set; }
+        public static Page  MyAppShell { get; set; }
 
         public App()
         {
             InitializeComponent();
 
-            MyAppShell = new AppShell();
+            MyAppShell = new MainTabbedPage();
             MainPage = MyAppShell;
         }
     }
