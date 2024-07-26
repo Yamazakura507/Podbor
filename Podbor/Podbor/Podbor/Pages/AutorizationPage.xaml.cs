@@ -131,10 +131,9 @@ public partial class AutorizationPage : ContentPage
                 if (isEmpty) return;
 
                 user = DBModel.GetModel<Users>((int?)DBModel.ResultRequest(
-                    $"SELECT u.Id FROM `Users` u WHERE u.Flag=?Flag AND u.Login=?Login", 
+                    $"SELECT Autorization(?Login)", 
                     new Dictionary<string, object>()
                     {
-                        { "Flag", Convert.ToInt16(true) },
                         { "Login", Login.Text }
                     }), "Акаунт с указаным логином не найден");
 

@@ -27,14 +27,13 @@ public partial class Loading : Popup
 
     private void Loaded()
     {
-        loadingLottie.Source = loadingsFiles[new Random().Next(0, loadingsFiles.Length)];
-
         LoadingBackgorundWorker.DoWork += new DoWorkEventHandler(bw_DoWork);
         LoadingBackgorundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(bw_RunWorkerCompleted);
     }
 
     void bw_DoWork(object sender, DoWorkEventArgs e)
     {
+        loadingLottie.Source = loadingsFiles[new Random().Next(0, loadingsFiles.Length)];
         Thread thread = (Thread)e.Argument;
 
         thread.Start();

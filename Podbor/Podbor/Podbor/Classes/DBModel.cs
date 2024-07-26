@@ -173,7 +173,7 @@ namespace Podbor.Classes
                     obj = ms.GetValue(sql, whereClause);
                 }
 
-                return obj;
+                return obj == DBNull.Value ? null : obj;
             }
             catch (Exception ex)
             {
