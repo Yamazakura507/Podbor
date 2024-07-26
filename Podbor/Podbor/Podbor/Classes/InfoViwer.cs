@@ -1,4 +1,6 @@
 ﻿
+using Podbor.Classes.Enums;
+
 namespace Podbor.Classes
 {
     public static class InfoViwer
@@ -33,19 +35,9 @@ namespace Podbor.Classes
             }
         }
 
-        public static void ErrrorMessege(this Page page,string messege)
+        public static void Messege(this Page page,string messege, ProviderType providerType)
         {
-            Messege(page, messege, "ОШИБКА", default, default);
-        }
-
-        public static void InfoMessege(this Page page,string messege)
-        {
-            Messege(page, messege, "СООБЩЕНИЕ", default, default);
-        }
-
-        public static void AlertMessege(this Page page, string messege)
-        {
-            Messege(page, messege, "ПРЕДУПРЕЖДЕНИЕ", default, default);
+            Messege(page, messege, providerType == ProviderType.Error ? "ОШИБКА" : providerType == ProviderType.Alert ? "ПРЕДУПРЕЖДЕНИЕ" : "СООБЩЕНИЕ");
         }
 
         public static string SheetMessege(this Page page, string title, string[] sheets, bool isDelete = false)

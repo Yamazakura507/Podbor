@@ -3,13 +3,16 @@
     x:Class="Podbor.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Podbor"
+    xmlns:local="clr-namespace:Podbor.Pages"
     Shell.FlyoutBehavior="Disabled"
-    Title="Podbor">
+    Title="Podbor" Shell.TabBarIsVisible="True">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <TabBar>
+        <Tab Title="Вход">
+            <ShellContent  ContentTemplate="{DataTemplate local:AutorizationPage}"/>
+        </Tab>
+        <Tab Title="Регистрация">
+            <ShellContent Title="Регистрация" ContentTemplate="{DataTemplate local:RegistrationPage}"/>
+        </Tab>
+    </TabBar>
 </Shell>

@@ -61,6 +61,106 @@ namespace Podbor.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] AlertProvader {
+            get {
+                object obj = ResourceManager.GetObject("AlertProvader", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] BlackHideLottie {
+            get {
+                object obj = ResourceManager.GetObject("BlackHideLottie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] ErrorProvaider {
+            get {
+                object obj = ResourceManager.GetObject("ErrorProvaider", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] InfoProvader {
+            get {
+                object obj = ResourceManager.GetObject("InfoProvader", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Loading {
+            get {
+                object obj = ResourceManager.GetObject("Loading", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Loading1 {
+            get {
+                object obj = ResourceManager.GetObject("Loading1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Loading2 {
+            get {
+                object obj = ResourceManager.GetObject("Loading2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Loading3 {
+            get {
+                object obj = ResourceManager.GetObject("Loading3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Loading4 {
+            get {
+                object obj = ResourceManager.GetObject("Loading4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Loading5 {
+            get {
+                object obj = ResourceManager.GetObject("Loading5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
         ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot;&gt; 
         /// &lt;head&gt; 
@@ -74,6 +174,16 @@ namespace Podbor.Properties {
         internal static string mailActiv {
             get {
                 return ResourceManager.GetString("mailActiv", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] WhiteHideLottie {
+            get {
+                object obj = ResourceManager.GetObject("WhiteHideLottie", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

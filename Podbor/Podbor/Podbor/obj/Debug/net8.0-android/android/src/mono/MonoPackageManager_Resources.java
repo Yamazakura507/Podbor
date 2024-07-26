@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Podbor.dll" comes first in this list. */
 		"Podbor.dll",
+		"CommunityToolkit.Maui.dll",
+		"CommunityToolkit.Maui.Core.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -20,6 +22,14 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
 		"MySqlConnector.dll",
+		"SkiaSharp.dll",
+		"SkiaSharp.Extended.dll",
+		"SkiaSharp.Extended.UI.dll",
+		"SkiaSharp.SceneGraph.dll",
+		"SkiaSharp.Skottie.dll",
+		"SkiaSharp.Views.Android.dll",
+		"SkiaSharp.Views.Maui.Controls.dll",
+		"SkiaSharp.Views.Maui.Core.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",

@@ -27,7 +27,7 @@ namespace Podbor.Classes
 
             if (answer != null)
             {
-                page.InfoMessege(answer);
+                page.Messege(answer, Enums.ProviderType.Info);
             }
         }
 

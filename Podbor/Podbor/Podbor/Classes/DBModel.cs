@@ -13,95 +13,171 @@ namespace Podbor.Classes
 
         public static void InsertModel<T>(Dictionary<string, object> parametrs)
         {
-            using (var ms = new Mysql())
+            try
             {
-                ms.Insert(typeof(T).Name, parametrs);
+                using (var ms = new Mysql())
+                {
+                    ms.Insert(typeof(T).Name, parametrs);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
         
         public virtual void UpdateModel<T>(Dictionary<string, object> parametrs, int? Id = null, Dictionary<string, object>? WhereCollection = null)
         {
-            using (var ms = new Mysql())
+            try
             {
-                ms.Update(typeof(T).Name, parametrs, Id is null ? WhereCollection : new Dictionary<string, object>() { { "Id", Id } });
+                using (var ms = new Mysql())
+                {
+                    ms.Update(typeof(T).Name, parametrs, Id is null ? WhereCollection : new Dictionary<string, object>() { { "Id", Id } });
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int? Limit = null, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
+        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
         {
-            ObservableCollection<T> collection = new ObservableCollection<T>();
-
-            using (var ms = new Mysql())
+            try
             {
-                var dt = ms.GetTable(@$"SELECT * FROM {typeof(T).Name} 
-                WHERE {(WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")))} 
-                {(Limit is null ? null : $"LIMIT {Limit} ")}OFFSET {Offset}
-                {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"{i.Key} {(i.Value ? "asc" : "desc")}"))}")}");
+                ObservableCollection<T> collection = new ObservableCollection<T>();
+
+                using (var ms = new Mysql())
+                {
+                    var sql = @$"SELECT * FROM {typeof(T).Name} 
+                    WHERE {(WhereCollection is null ? "true" : String.Join(" AND ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")))} 
+                    {(Limit == 0 ? null : $"LIMIT {Limit} OFFSET {Offset}")}
+                    {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"{i.Key} {(i.Value ? "asc" : "desc")}"))}")}";
+                        var dt = ms.GetTable(sql);
+
+                    IsGet = true;
+
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        collection.Add(ToObject<T>(dr));
+                    }
+
+                    IsGet = false;
+                }
+
+                return collection;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
+        }
+       
+        public static T GetModel<T>(int? Id = null,string errMess = null, int numRow = 1)
+        {
+            try
+            {
+                if (Id is null && errMess != null)
+                    throw new Exception(errMess);
+
+                DataRow dr = null;
+
+                using (var ms = new Mysql())
+                {
+                    dr = ms.GetRow($"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = '{Id}'")} LIMIT 1 OFFSET {numRow - 1}");
+                }
 
                 IsGet = true;
 
-                foreach (DataRow dr in dt.Rows)
-                {
-                    collection.Add(ToObject<T>(dr));
-                }
+                T obj = ToObject<T>(dr);
 
                 IsGet = false;
+
+                return obj;
             }
-
-            return collection;
-        }
-       
-        public static T GetModel<T>(int? Id = null, int numRow = 1)
-        {
-            DataRow dr = null;
-
-            using (var ms = new Mysql())
+            catch (Exception ex)
             {
-                dr = ms.GetRow($"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = '{Id}'")} LIMIT 1 OFFSET {numRow-1}");
+                throw ex;
             }
-
-            IsGet = true;
-
-            T obj = ToObject<T>(dr);
-
-            IsGet = false;
-
-            return obj;
+            
         }
 
         public virtual void DeleteModel<T>(int? Id = null, Dictionary<string, object>? WhereCollection = null)
         {
-            using (var ms = new Mysql())
+            try
             {
-                ms.ExecSql(@$"DELETE FROM {typeof(T).Name}
+                using (var ms = new Mysql())
+                {
+                    ms.ExecSql(@$"DELETE FROM {typeof(T).Name}
                 WHERE {(Id is null ? WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")) : $"Id = '{Id}'")}");
+                }
             }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public virtual T GetParametrs<T>(string param, Type typeTb, int? Id = null)
         {
-            T obj = default(T);
-
-            using (var ms = new Mysql())
+            try
             {
-                obj = (T)ms.GetValue($"SELECT {param} FROM {typeTb.Name} WHERE Id = '{Id}'");
-            }
+                T obj = default(T);
 
-            return obj;
+                using (var ms = new Mysql())
+                {
+                    obj = (T)ms.GetValue($"SELECT {param} FROM {typeTb.Name} WHERE Id = '{Id}'");
+                }
+
+                return obj;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public virtual void SetParametrs<T>(string param, object value, int? Id = null)
         {
-            using (var ms = new Mysql())
+            try
             {
-                if (value.GetType() != typeof(Byte[]))
+                using (var ms = new Mysql())
                 {
-                    ms.ExecSql($"UPDATE {typeof(T).Name} SET {param} = '{value}' WHERE Id = '{Id}'");
+                    if (value.GetType() != typeof(Byte[]))
+                    {
+                        ms.ExecSql($"UPDATE {typeof(T).Name} SET {param} = '{value}' WHERE Id = '{Id}'");
+                    }
+                    else
+                    {
+                        ms.UpdateBinaryColumn(typeof(T).Name, param, $"Id = '{Id}'", (byte[])value);
+                    }
                 }
-                else 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static object ResultRequest(string sql, Dictionary<string, object> whereClause = null)
+        {
+            try
+            {
+                object obj;
+
+                using (var ms = new Mysql())
                 {
-                    ms.UpdateBinaryColumn(typeof(T).Name, param, $"Id = '{Id}'", (byte[])value);
+                    obj = ms.GetValue(sql, whereClause);
                 }
+
+                return obj;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
 
@@ -109,35 +185,42 @@ namespace Podbor.Classes
 
         private static T ToObject<T>(DataRow dataRow)
         {
-            T item = default(T);
-            string XMLstr = $"<{typeof(T).Name}>";
-
-            foreach (DataColumn column in dataRow.Table.Columns)
+            try
             {
-                var value = dataRow[column];
-                string byteArr = value.ToString();
+                T item = default(T);
+                string XMLstr = $"<{typeof(T).Name}>";
 
-                if (value.GetType() == typeof(byte[]))
+                foreach (DataColumn column in dataRow.Table.Columns)
                 {
-                    byteArr = Convert.ToBase64String((byte[])value);
+                    var value = dataRow[column];
+                    string byteArr = value.ToString();
+
+                    if (value.GetType() == typeof(byte[]))
+                    {
+                        byteArr = Convert.ToBase64String((byte[])value);
+                    }
+
+                    if (value.GetType() == typeof(bool))
+                    {
+                        byteArr = (bool)value ? "1" : "0";
+                    }
+
+                    XMLstr += $"<{column.ColumnName}>{byteArr}</{column.ColumnName}>";
                 }
 
-                if (value.GetType() == typeof(bool))
+                XMLstr += $"</{typeof(T).Name}>";
+
+                using (StringReader readerXml = new StringReader(XMLstr))
                 {
-                    byteArr = (bool)value ? "1" : "0";
+                    item = (T)new XmlSerializer(typeof(T)).Deserialize(readerXml);
                 }
 
-                XMLstr += $"<{column.ColumnName}>{byteArr}</{column.ColumnName}>";
+                return item;
             }
-
-            XMLstr += $"</{typeof(T).Name}>";
-
-            using (StringReader readerXml = new StringReader(XMLstr))
+            catch (Exception ex)
             {
-                item = (T)new XmlSerializer(typeof(T)).Deserialize(readerXml);
+                throw ex;
             }
-
-            return item;
         }
     }
 }

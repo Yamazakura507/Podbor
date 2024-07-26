@@ -115,12 +115,25 @@ namespace Podbor.Classes
             return;
         }
 
-        public object GetValue(string Qerry)
+        public object GetValue(string Qerry, Dictionary<string, object> whereClause = null)
         {
             if (conn.State != ConnectionState.Open)
                 Connect();
 
-            var cmd = new MySqlCommand(Qerry, conn);
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = Qerry;
+
+            if (whereClause != null)
+            {
+                foreach (KeyValuePair<string, object> kvp in whereClause)
+                {
+                    if (kvp.Value == null)
+                        cmd.Parameters.AddWithValue(kvp.Key, DBNull.Value);
+                    else
+                        cmd.Parameters.AddWithValue(kvp.Key, kvp.Value);
+                }
+            }
 
             object cel = null;
             try
@@ -362,16 +375,16 @@ namespace Podbor.Classes
                     @"INSERT INTO {0} ({1}) VALUES ({2}) {3};",
                     table,
                     String.Join(", ", pars.Select(x => x.Key).ToArray()),
-                    String.Join(", ", pars.Select(x => ":" + x.Key).ToArray()),
+                    String.Join(", ", pars.Select(x => "@" + x.Key).ToArray()),
                     returning.Trim() == "" ? "" : "RETURNING " + returning.Trim()
                 );
 
                 foreach (KeyValuePair<string, object> kvp in pars)
                 {
                     if (kvp.Value == null)
-                        cmd.Parameters.AddWithValue(kvp.Key, DBNull.Value);
+                        cmd.Parameters.AddWithValue("@"+kvp.Key, DBNull.Value);
                     else
-                        cmd.Parameters.AddWithValue(kvp.Key, kvp.Value);
+                        cmd.Parameters.AddWithValue("@"+kvp.Key, kvp.Value);
                 }
 
                 var dt = new DataTable();
@@ -411,14 +424,14 @@ namespace Podbor.Classes
                 cmd.CommandText = String.Format(
                     @"UPDATE {0} SET {1} WHERE {2} {3};",
                     table,
-                    String.Join(", ", pars.Select(x => x.Key + "=" + ":" + x.Key).ToArray()),
+                    String.Join(", ", pars.Select(x => x.Key + "=" + "@" + x.Key).ToArray()),
                     whereClause,
                     returning.Trim() == "" ? "" : "RETURNING " + returning.Trim()
                 );
 
                 foreach (KeyValuePair<string, object> kvp in pars)
                 {
-                    cmd.Parameters.AddWithValue(kvp.Key, kvp.Value);
+                    cmd.Parameters.AddWithValue("@" + kvp.Key, kvp.Value);
                 }
 
                 var dt = new DataTable();
@@ -456,21 +469,21 @@ namespace Podbor.Classes
                 cmd.Connection = conn;
                 cmd.CommandText = string.Format(@"UPDATE {0} SET {1} WHERE {2};",
                     table,
-                    string.Join(", ", pars.Select(x => x.Key + "=" + ":" + x.Key).ToArray()),
-                    string.Join(" AND ", whereClause.Select(x => x.Key + "=" + ":w_" + x.Key).ToArray())
+                    string.Join(", ", pars.Select(x => x.Key + "=" + "@" + x.Key).ToArray()),
+                    string.Join(" AND ", whereClause.Select(x => x.Key + "=" + "@w_" + x.Key).ToArray())
                 );
 
                 foreach (KeyValuePair<string, object> kvp in pars)
                     if (kvp.Value == null)
-                        cmd.Parameters.AddWithValue(kvp.Key, DBNull.Value);
+                        cmd.Parameters.AddWithValue("@" + kvp.Key, DBNull.Value);
                     else
-                        cmd.Parameters.AddWithValue(kvp.Key, kvp.Value);
+                        cmd.Parameters.AddWithValue("@" + kvp.Key, kvp.Value);
 
                 foreach (KeyValuePair<string, object> kvp in whereClause)
                     if (kvp.Value == null)
-                        cmd.Parameters.AddWithValue("w_" + kvp.Key, DBNull.Value);
+                        cmd.Parameters.AddWithValue("@w_" + kvp.Key, DBNull.Value);
                     else
-                        cmd.Parameters.AddWithValue("w_" + kvp.Key, kvp.Value);
+                        cmd.Parameters.AddWithValue("@w_" + kvp.Key, kvp.Value);
 
                 var rowsaffected = cmd.ExecuteNonQuery();
             }
@@ -526,7 +539,6 @@ namespace Podbor.Classes
 
             return null;
         }
-
 
         bool disposed = false;
         public void Dispose()

@@ -6,44 +6,44 @@ namespace Podbor.Classes
     static class TextBoxRestrictions
     {
 
-        private static SolidColorBrush AlertBursh = new SolidColorBrush(Colors.MistyRose);
+        private static Color AlertBursh = Color.FromRgba(112, 1, 1, 30);
 
-        private static SolidColorBrush GoodBursh = new SolidColorBrush(Colors.White);
+        private static Color GoodBursh = Colors.Transparent;
 
         async private static void Sleep(Entry textBox)
         {
             await Task.Delay(3000);
-            textBox.Background = GoodBursh;
+            textBox.BackgroundColor = GoodBursh;
         }
 
         async private static void Sleep(ListView listBox)
         {
             await Task.Delay(3000);
-            listBox.Background = new SolidColorBrush(Colors.Transparent);
+            listBox.BackgroundColor = GoodBursh;
         }
 
-        async public static Task<bool> TextEmptyTextBox(Entry textBox)
+        public static bool TextEmptyTextBox(Entry textBox)
         {
             if (String.IsNullOrWhiteSpace(textBox.Text))
             {
-                textBox.Background = AlertBursh;
+                textBox.BackgroundColor = AlertBursh;
                 textBox.Text = null;
                 Sleep(textBox);
             }
             else
             {
-                textBox.Background = GoodBursh;
+                textBox.BackgroundColor = GoodBursh;
                 return true;
             }
 
             return false;
         }
 
-        async public static Task<bool> TextCheckTextBox(Entry passwordBox, Entry passwordRepetBox)
+        public static bool TextCheckTextBox(Entry passwordBox, Entry passwordRepetBox)
         {
             if (passwordBox.Text != passwordRepetBox.Text)
             {
-                passwordRepetBox.Background = passwordBox.Background = AlertBursh;
+                passwordRepetBox.BackgroundColor = passwordBox.BackgroundColor = AlertBursh;
                 passwordBox.Text = passwordRepetBox.Text = null;
 
                 Sleep(passwordRepetBox);
@@ -52,16 +52,16 @@ namespace Podbor.Classes
             }
             else
             {
-                passwordRepetBox.Background = passwordBox.Background = GoodBursh;
+                passwordRepetBox.BackgroundColor = passwordBox.BackgroundColor = GoodBursh;
                 return true;
             }
         }
 
-        async public static Task<bool> EmailTextBoxCheck(this Page page, string email, string login = null)
+        public static bool EmailTextBoxCheck(this Page page, string email, string login = null)
         {
             try
             {
-                await page.EmailTextBoxCheck(new Entry() { Text = email }, login);
+                 page.EmailTextBoxCheck(new Entry() { Text = email }, login);
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace Podbor.Classes
             return true;
         }
 
-        async public static Task<bool> EmailTextBoxCheck(this Page page, Entry textBox, string login = null)
+        public static bool EmailTextBoxCheck(this Page page, Entry textBox, string login = null)
         {
             string rand = GeneratorChufleString(new Random().Next(4, 10));
 
@@ -94,7 +94,7 @@ namespace Podbor.Classes
             {
                 if (rand != answer)
                 {
-                    textBox.Background = AlertBursh;
+                    textBox.BackgroundColor = AlertBursh;
                     textBox.Text = null;
                     Sleep(textBox);
                     throw new Exception("Ключ подтверждения не валиден\n");
@@ -110,16 +110,16 @@ namespace Podbor.Classes
             return true;
         }
 
-        async public static Task<bool> ListEmpty<T>(IEnumerable<T> values, ListView listView)
+        public static bool ListEmpty<T>(IEnumerable<T> values, ListView listView)
         {
             if (values.Count() == 0)
             {
-                listView.Background = AlertBursh;
+                listView.BackgroundColor = AlertBursh;
                 Sleep(listView);
                 return false;
             }
 
-            listView.Background = new SolidColorBrush(Colors.Transparent);
+            listView.BackgroundColor = GoodBursh;
             return true;
         }
 

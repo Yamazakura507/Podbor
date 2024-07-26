@@ -40,6 +40,36 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\AlertProvader.json">
+      <PackagePath>AlertProvader.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\BlackHideLottie.json">
+      <PackagePath>BlackHideLottie.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\ErrorProvaider.json">
+      <PackagePath>ErrorProvaider.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\InfoProvader.json">
+      <PackagePath>InfoProvader.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\Loading.json">
+      <PackagePath>Loading.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\Loading2.json">
+      <PackagePath>Loading2.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\Loading3.json">
+      <PackagePath>Loading3.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\Loading4.json">
+      <PackagePath>Loading4.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\Loading5.json">
+      <PackagePath>Loading5.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\WhiteHideLottie.json">
+      <PackagePath>WhiteHideLottie.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -54,6 +84,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Angeme-Bold.ttf">
+      <PackagePath>Angeme-Bold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Angeme-Regular.ttf">
+      <PackagePath>Angeme-Regular.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -199,21 +235,6 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Podbor.deps.json">
       <PackagePath>Podbor.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -222,6 +243,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\communitytoolkit.maui\9.0.2\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+      <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\communitytoolkit.maui.core\9.0.2\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+      <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -321,6 +348,33 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\mysqlconnector\2.3.7\lib\net8.0\MySqlConnector.dll">
       <PackagePath>MySqlConnector.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp\2.88.7\lib\net6.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.extended\2.0.0\lib\netstandard2.0\SkiaSharp.Extended.dll">
+      <PackagePath>SkiaSharp.Extended.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.extended.ui.maui\2.0.0\lib\net7.0-windows10.0.19041\SkiaSharp.Extended.UI.dll">
+      <PackagePath>SkiaSharp.Extended.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.skottie\2.88.7\lib\net6.0\SkiaSharp.SceneGraph.dll">
+      <PackagePath>SkiaSharp.SceneGraph.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.skottie\2.88.7\lib\net6.0\SkiaSharp.Skottie.dll">
+      <PackagePath>SkiaSharp.Skottie.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.views.maui.controls\2.88.7\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Controls.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.views.maui.core\2.88.7\lib\net6.0-windows10.0.18362.0\SkiaSharp.Views.Maui.Core.dll">
+      <PackagePath>SkiaSharp.Views.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.views.winui\2.88.7\lib\net6.0-windows10.0.19041.0\SkiaSharp.Views.Windows.dll">
+      <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\system.speech\8.0.0\runtimes\win\lib\net8.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.maui.controls.core\8.0.61\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -429,6 +483,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\skiasharp.nativeassets.win32\2.88.7\runtimes\win-x64\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.maui.controls.compatibility\8.0.61\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

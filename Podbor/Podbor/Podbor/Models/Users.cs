@@ -171,7 +171,8 @@ namespace Podbor.Models
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Password", value);
+                    SetParametrs<Users>("Password", value.RSAEcrypt());
+                    this.PKey = Encoding.UTF8.GetBytes(Encrypt.Key);
                 }
                 password = value;
             }
