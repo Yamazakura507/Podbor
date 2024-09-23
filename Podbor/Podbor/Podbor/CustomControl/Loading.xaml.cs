@@ -6,7 +6,7 @@ namespace Podbor.CustomControl;
 
 public partial class Loading : Popup
 {
-
+    public bool IsNetworking = false;
     public BackgroundWorker LoadingBackgorundWorker = new BackgroundWorker();
 
     private SKFileLottieImageSource[] loadingsFiles = 
@@ -18,9 +18,16 @@ public partial class Loading : Popup
 			new SKFileLottieImageSource() { File = "Loading5.json" }
 		};
 
-    public Loading()
+    public Loading(bool isNetwork = false)
 	{
 		InitializeComponent();
+
+        if (isNetwork)
+        {
+            loadingsFiles = new []{ new SKFileLottieImageSource() { File = "NoNetworking.json" } };
+        }
+
+        this.IsNetworking = isNetwork;
 
         Loaded();
 	}
@@ -44,6 +51,9 @@ public partial class Loading : Popup
 
     void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
     {
+        if (this.IsNetworking && Connectivity.NetworkAccess != NetworkAccess.Internet)
+            return;
+
         this.Close();
     }
 }

@@ -43,7 +43,7 @@ public partial class AutorizationPage : ContentPage
         }
         catch (Exception ex)
         {
-            WorkProvider(errorProvider, ProviderType.Error, ex.Message);
+            errorProvider.WorkProvider(ProviderType.Error, ex.Message);
         }
     }
 
@@ -57,7 +57,7 @@ public partial class AutorizationPage : ContentPage
     { 
         try 
         {
-            return Convert.ToInt32(DBModel.ResultRequest($"SELECT COUNT(*) FROM Users u WHERE u.Id = '{idUser}' AND u.Flag")) != 0;
+            return Convert.ToBoolean(DBModel.ResultRequest($"SELECT COUNT(*) <> 0 FROM `Users` u WHERE u.`Id` = '{idUser}'"));
         }
         catch (Exception ex) 
         {
@@ -71,7 +71,8 @@ public partial class AutorizationPage : ContentPage
         {
             if (CheckAutoAutorizate(idUser))
             {
-                WorkProvider(errorProvider, ProviderType.Info, "У вас имеется раняя авторизация");
+                parametrs.IdAutorizateUser = idUser;
+                errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
                 //Переход...
             }
         }
@@ -93,13 +94,6 @@ public partial class AutorizationPage : ContentPage
         btlPass.IsAnimationEnabled = false;
     }
 
-    private void WorkProvider(Provaider provaider, ProviderType providerType, string message)
-    {
-        provaider.IsVisible = true;
-        provaider.TypeProvider = providerType;
-        provaider.Message = message;
-    }
-
     private void AutorizationButtonOnPressed(object sender, EventArgs e)
     {
         bool isEmpty = false;
@@ -118,34 +112,26 @@ public partial class AutorizationPage : ContentPage
                 {
                     if (!TextBoxRestrictions.TextEmptyTextBox(Login)) 
                     {
-                        WorkProvider(loginProvider, ProviderType.Info, "Логин обязательное поле для заполнения");
+                        loginProvider.WorkProvider(ProviderType.Info, "Логин обязательное поле для заполнения");
                         isEmpty = true;
                     }
 
                     if (!TextBoxRestrictions.TextEmptyTextBox(Password)) 
                     {
-                        WorkProvider(passwordProvaider, ProviderType.Info, "Пароль обязательное поле для заполнения");
+                        passwordProvaider.WorkProvider(ProviderType.Info, "Пароль обязательное поле для заполнения");
                         isEmpty = true;
                     }
                 }));
 
                 if (isEmpty) return;
 
-                user = DBModel.GetModel<Users>((int?)DBModel.ResultRequest(
-                    $"SELECT Autorization(?Login)", 
-                    new Dictionary<string, object>()
-                    {
-                        { "Login", Login.Text }
-                    }), "Акаунт с указаным логином не найден");
-
-                if (user.Password.RSADecrypt(user.PKey) != Password.Text)
-                throw new Exception("Указаный пароль не совпадает");
+                user = DBModel.GetModel<Users>(default, $"CALL autorization('{Login.Text}','{Password.Text}')", "Акаунт с указаным логином не найден");
 
                 MainThread.BeginInvokeOnMainThread(new Action(() => Autorizate(user.Id)));
             }
             catch (Exception ex)
             {
-                MainThread.BeginInvokeOnMainThread(new Action(() => WorkProvider(errorProvider, ProviderType.Error, ex.Message)));
+                MainThread.BeginInvokeOnMainThread(new Action(() => errorProvider.WorkProvider(ProviderType.Error, ex.Message)));
             } 
         }));
 

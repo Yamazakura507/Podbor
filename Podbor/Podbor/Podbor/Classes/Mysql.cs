@@ -11,11 +11,12 @@ namespace Podbor.Classes
 
         static MySqlConnectionStringBuilder _connectionBuilder = new MySqlConnectionStringBuilder()
         { 
-            Server = "sql7.freesqldatabase.com",
+            Server = "FVH1.spaceweb.ru",
             Port = 3306,
-            UserID = "sql7720732",
-            Password = "LHKUaaRsLq",
-            Database = "sql7720732"
+            UserID = "daniilkupt",
+            Password = "Ironmaiden01",
+            Database = "daniilkupt",
+            AllowUserVariables = true
         };
 
         public static MySqlConnectionStringBuilder ConnectionBuilder

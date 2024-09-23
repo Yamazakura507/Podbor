@@ -167,3 +167,5 @@ SkiaSharp.Extended.UI.aar
 SkiaSharp.Views.Android.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
+CommunityToolkit.Maui.Core.dll
+CommunityToolkit.Maui.dll

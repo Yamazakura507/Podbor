@@ -123,4 +123,11 @@ public partial class Provaider : ContentView
     {
         App.MyAppShell.Messege(Message, TypeProvider);
     }
+
+    public void WorkProvider(ProviderType providerType, string message)
+    {
+        this.IsVisible = true;
+        this.TypeProvider = providerType;
+        this.Message = message;
+    }
 }

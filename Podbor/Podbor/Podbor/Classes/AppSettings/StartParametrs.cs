@@ -1,11 +1,14 @@
 ﻿using System.Reflection;
+using System.Reflection.Metadata;
 using System.Text.Json;
+using System.Text.Json.Serialization;
+using Windows.Management.Deployment;
 
 namespace Podbor.Classes.AppSettings
 {
     public class StartParametrs
     {
-        private string FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "temp.json");
+        private string FileName = Path.Combine(String.Join("\\",Environment.ProcessPath.Split('\\').SkipLast(1)), "temp.json");
 
         private int idAutorizateUser;
         private bool isGet = false;
@@ -14,21 +17,38 @@ namespace Podbor.Classes.AppSettings
         {
             get
             {
-                return !isGet ? GetParametrs<int>("IdAutorizateUser").Result : idAutorizateUser;
+                return !this.isGet ? GetParametrs<int>("IdAutorizateUser") : this.idAutorizateUser;
             } 
             set 
             {
-                Save();
+                this.idAutorizateUser = value;
+                if (!this.isGet)
+                {
+                    Save();
+                }
             }
         }
 
-        public StartParametrs(int idAutorizateUser = 0)
+        public StartParametrs()
         {
+            int idAutorizateUser = 0;
+
+            if (File.Exists(FileName))
+            {
+                idAutorizateUser = GetParametrs<int>("IdAutorizateUser");
+            }
+
             this.idAutorizateUser = idAutorizateUser;
-            isGet = true;
         }
 
-        private async Task<T> GetParametrs<T>(string fildsName)
+        [JsonConstructor]
+        public StartParametrs(int idAutorizateUser)
+        {
+            isGet = true;
+            this.IdAutorizateUser = idAutorizateUser;
+        }
+
+        private T GetParametrs<T>(string fildsName)
         {
             try
             {
@@ -38,12 +58,16 @@ namespace Podbor.Classes.AppSettings
 
                 using (FileStream fs = new FileStream(FileName, FileMode.OpenOrCreate))
                 {
-                    parametrs = await JsonSerializer.DeserializeAsync<StartParametrs>(fs) ?? new StartParametrs();
+                    parametrs = JsonSerializer.Deserialize<StartParametrs>(fs) ?? new StartParametrs(0);
                 }
 
                 isGet = false;
 
-                return (T)typeof(StartParametrs).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).ToArray().First(i => i.Name == "IdAutorizateUser").GetValue(parametrs);
+                return (T)typeof(StartParametrs).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).ToArray().First(i => i.Name.Equals(fildsName, StringComparison.InvariantCultureIgnoreCase)).GetValue(parametrs);
+            }
+            catch (IOException)
+            {
+                return (T)typeof(StartParametrs).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).ToArray().First(i => i.Name.Equals(fildsName, StringComparison.InvariantCultureIgnoreCase)).GetValue(this);
             }
             catch (Exception ex)
             {

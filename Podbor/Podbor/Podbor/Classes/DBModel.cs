@@ -75,19 +75,22 @@ namespace Podbor.Classes
             
         }
        
-        public static T GetModel<T>(int? Id = null,string errMess = null, int numRow = 1)
+        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1)
         {
             try
             {
-                if (Id is null && errMess != null)
+                if (Id is null && proc_comm is null && errMess != null)
                     throw new Exception(errMess);
 
                 DataRow dr = null;
 
                 using (var ms = new Mysql())
                 {
-                    dr = ms.GetRow($"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = '{Id}'")} LIMIT 1 OFFSET {numRow - 1}");
+                    dr = ms.GetRow(Id is null ? proc_comm : $"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = '{Id}'")} LIMIT 1 OFFSET {numRow - 1}");
                 }
+
+                if (dr is null)
+                    throw new Exception(errMess);
 
                 IsGet = true;
 
@@ -101,8 +104,8 @@ namespace Podbor.Classes
             {
                 throw ex;
             }
-            
         }
+
 
         public virtual void DeleteModel<T>(int? Id = null, Dictionary<string, object>? WhereCollection = null)
         {

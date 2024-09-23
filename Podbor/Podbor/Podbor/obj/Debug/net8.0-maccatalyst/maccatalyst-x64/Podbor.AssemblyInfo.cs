@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1a07a1dfa9ab686504818b761a1713f654edae28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ab61b6dc8511297aadb0721aaa6e9cd529e8e09a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst17.2")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst17.5")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 
 // Создано классом WriteCodeFragment MSBuild.

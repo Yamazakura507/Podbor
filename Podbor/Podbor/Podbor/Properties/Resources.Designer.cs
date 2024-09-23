@@ -169,7 +169,7 @@ namespace Podbor.Properties {
         ///  &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt; 
         ///  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt; 
         ///  &lt;meta content=&quot;telephone=no&quot; name=&quot;format-detection&quot;&gt; 
-        ///  &lt;title&gt;Коп [остаток строки не уместился]&quot;;.
+        ///  &lt;title&gt;РљР [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string mailActiv {
             get {

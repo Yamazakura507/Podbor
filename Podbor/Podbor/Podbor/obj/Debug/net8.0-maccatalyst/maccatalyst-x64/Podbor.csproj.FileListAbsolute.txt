@@ -3,6 +3,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Podbor.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Core.dll
+D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -313,4 +314,3 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Podbor.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Podbor.genruntimeconfig.cache
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\Podbor.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
