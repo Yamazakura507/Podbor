@@ -1,5 +1,4 @@
-﻿
-using System.Text;
+﻿using System.Text;
 
 namespace Podbor.Classes
 {
@@ -14,12 +13,6 @@ namespace Podbor.Classes
         {
             await Task.Delay(3000);
             textBox.BackgroundColor = GoodBursh;
-        }
-
-        async private static void Sleep(ListView listBox)
-        {
-            await Task.Delay(3000);
-            listBox.BackgroundColor = GoodBursh;
         }
 
         public static bool TextEmptyTextBox(Entry textBox)
@@ -71,56 +64,49 @@ namespace Podbor.Classes
             return true;
         }
 
-        public static bool EmailTextBoxCheck(this Page page, Entry textBox, string login = null)
+        public static string EmailTextBoxCheck(this Page page, Entry textBox, string login = null)
         {
             string rand = GeneratorChufleString(new Random().Next(4, 10));
 
-            string answer;
-
             try
             {
-                answer = page.InputMessage(Properties.Resources.mailActiv, "Подтвердитверждение учетной записи", textBox.Text, new Dictionary<string, string>()
+                page.InputMessage(Properties.Resources.mailActiv, "Подтвердитверждение учетной записи", textBox.Text, new Dictionary<string, string>()
                                                                                             {
                                                                                                 { "@Login", login },
                                                                                                 { "@Code", rand }
                                                                                             }, "На вашу электронную почту\nбыло отправлено письмо.\nВведите код подтверждения\nиз письма");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 throw new Exception("Указаный Email не существует.\n");
             }
 
+            return rand;
+        }
+
+        public static bool ContinueEmailTextBoxCheck(this Page page, string rand, Entry answerEntry)
+        {
+
+            bool is_reterning = true;
+
             try
             {
-                if (rand != answer)
+                if (rand != answerEntry.Text || String.IsNullOrEmpty(answerEntry.Text))
                 {
-                    textBox.BackgroundColor = AlertBursh;
-                    textBox.Text = null;
-                    Sleep(textBox);
-                    throw new Exception("Ключ подтверждения не валиден\n");
+                    answerEntry.BackgroundColor = AlertBursh;
+                    answerEntry.Text = null;
+                    Sleep(answerEntry);
+                    is_reterning = false;
                 }
             }
             catch (Exception ex)
             {
+                is_reterning = false;
                 throw ex;
             }
 
-
-            textBox.Background = GoodBursh;
-            return true;
-        }
-
-        public static bool ListEmpty<T>(IEnumerable<T> values, ListView listView)
-        {
-            if (values.Count() == 0)
-            {
-                listView.BackgroundColor = AlertBursh;
-                Sleep(listView);
-                return false;
-            }
-
-            listView.BackgroundColor = GoodBursh;
-            return true;
+            if (is_reterning) answerEntry.Background = GoodBursh;
+            return is_reterning;
         }
 
         public static string GeneratorChufleString(int lenght)

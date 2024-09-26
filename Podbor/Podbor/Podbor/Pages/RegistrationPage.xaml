@@ -12,11 +12,13 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
 
         <Label Grid.Row="0" x:Name="lbRegistr"
             Text="Регистрация"
-            FontSize="60"
+            FontSize="55"
             VerticalOptions="Center" 
             HorizontalOptions="Center" Margin="0,0,0,0"/>
 
@@ -54,7 +56,7 @@
             <control:Provaider Grid.Column="2" x:Name="passwordProvaider" HorizontalOptions="Start" IsVisible="Collapse"/>
         </Grid>
 
-        <Grid Grid.Row="3" x:Name="GE" Margin="0,10,0,0" MaximumWidthRequest="600">
+        <Grid Grid.Row="3" x:Name="GE" Margin="0,10,0,0" MaximumWidthRequest="600" HorizontalOptions="FillAndExpand">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition x:Name="colSPE"/>
@@ -77,6 +79,42 @@
             </Button>
 
             <control:Provaider Grid.Column="1" x:Name="errorProvider" HorizontalOptions="Start" IsVisible="Collapse"/>
+        </Grid>
+
+        <Grid  x:Name="GCb" Grid.Row="5" Margin="0,10,0,0"  MaximumWidthRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition x:Name="colSC"/>
+            </Grid.ColumnDefinitions>
+            
+            <CheckBox Grid.Column="0" x:Name="cbStorageUser"
+              IsChecked="{Binding IsChecked,Mode=TwoWay}">
+            </CheckBox>
+            <Label VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" Text="Запомнить меня">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LabelCbOnTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
+
+        <Grid Grid.Row="6" x:Name="GPC" Margin="0,10,0,0" MaximumWidthRequest="600" HorizontalOptions="FillAndExpand" IsVisible="Collapse">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition x:Name="colSPC"/>
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="CodeMail" Grid.Column="0" Margin="0,0,5,0" MaximumWidthRequest="350" HorizontalOptions="FillAndExpand"
+   Placeholder="Код подтверждения"/>
+
+            <skia:SKLottieView x:Name="btlEmail" Margin="0,0,5,0" Grid.Column="1" HorizontalOptions="Start"
+   Style="{AppThemeBinding Light={DynamicResource EmailWhite}, Dark={DynamicResource EmailBlack}}">
+                <skia:SKLottieView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="EmailButtonOnTapped"/>
+                </skia:SKLottieView.GestureRecognizers>
+            </skia:SKLottieView>
+
+            <control:Provaider Grid.Column="2" x:Name="codeMailProvaider" HorizontalOptions="Start" IsVisible="Collapse"/>
         </Grid>
     </Grid>
 </ContentPage>

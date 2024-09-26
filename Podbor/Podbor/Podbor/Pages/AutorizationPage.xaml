@@ -11,7 +11,8 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
-            </Grid.RowDefinitions>
+                <RowDefinition/>
+        </Grid.RowDefinitions>
 
             <Label Grid.Row="0" x:Name="lbAvtorizte"
             Text="Вход"
@@ -65,5 +66,21 @@
 
                 <control:Provaider Grid.Column="1" x:Name="errorProvider" HorizontalOptions="Start" IsVisible="Collapse"/>
             </Grid>
+
+        <Grid  x:Name="GCb" Grid.Row="4" Margin="0,10,0,0"  MaximumWidthRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition x:Name="colSC"/>
+            </Grid.ColumnDefinitions>
+
+            <CheckBox Grid.Column="0" x:Name="cbStorageUser"
+      IsChecked="{Binding IsChecked,Mode=TwoWay}">
+            </CheckBox>
+            <Label VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" Text="Запомнить меня">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LabelCbOnTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
         </Grid>
+    </Grid>
 </ContentPage>

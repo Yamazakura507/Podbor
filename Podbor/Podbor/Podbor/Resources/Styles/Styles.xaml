@@ -65,6 +65,14 @@
         <Setter Property="Source" Value="BlackHideLottie.json"/>
     </Style>
 
+    <Style TargetType="skia:SKLottieView" x:Key="EmailBlack" BasedOn="{StaticResource LottieDefault}">
+        <Setter Property="Source" Value="EmailBlackLottie.json"/>
+    </Style>
+
+    <Style TargetType="skia:SKLottieView" x:Key="EmailWhite" BasedOn="{StaticResource LottieDefault}">
+        <Setter Property="Source" Value="EmailLottie.json"/>
+    </Style>
+
     <!--<Style TargetType="TabbedPage">
         --><!--<Setter Property="UnselectedTabColor" Value="{AppThemeBinding Light={DynamicResource Gray300}, Dark={DynamicResource Gray100}}"/>-->
         <!--<Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource PrimaryDark}}"/>-->

@@ -7,6 +7,7 @@ using Podbor.Classes.Enums;
 using Podbor.CustomControl;
 using Podbor.Models;
 using SkiaSharp.Extended.UI.Controls;
+using System;
 using System.ComponentModel;
 using System.Text;
 using System.Text.Json;
@@ -29,16 +30,18 @@ public partial class AutorizationPage : ContentPage
     {
         try
         {
-            #if ANDROID || IOS
-                colSA.Width = colSPL.Width = colSPP.Width = GridLength.Auto;
-            #else
-                colSA.Width = colSPL.Width = colSPP.Width = 200;
-                GA.Margin = GP.Margin = GL.Margin = new Thickness(colSPL.Width.Value/2, 10, 0, 0);
+#if ANDROID || IOS
+                colSA.Width = colSPL.Width = colSPP.Width = colSC.Width = GridLength.Auto;
+#else
+            colSA.Width = colSPL.Width = colSPP.Width = colSC.Width = 200;
+                GA.Margin = GP.Margin = GL.Margin = GCb.Margin = new Thickness(colSPL.Width.Value/2, 10, 0, 0);
                 lbAvtorizte.Margin = new Thickness(0, 0, colSPL.Width.Value/2, 10);
-                GA.MaximumWidthRequest = GP.MaximumWidthRequest = GL.MaximumWidthRequest = colSPL.Width.Value + 400;
+                GA.MaximumWidthRequest = GP.MaximumWidthRequest = GL.MaximumWidthRequest = GCb.MaximumWidthRequest = colSPL.Width.Value + 400;
             #endif
 
             HideAnimationStop();
+            cbStorageUser.IsChecked = true;
+
             Autorizate(parametrs.IdAutorizateUser);
         }
         catch (Exception ex)
@@ -71,7 +74,7 @@ public partial class AutorizationPage : ContentPage
         {
             if (CheckAutoAutorizate(idUser))
             {
-                parametrs.IdAutorizateUser = idUser;
+                if(cbStorageUser.IsChecked) parametrs.IdAutorizateUser = idUser;
                 errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
                 //Переход...
             }
@@ -128,6 +131,7 @@ public partial class AutorizationPage : ContentPage
                 user = DBModel.GetModel<Users>(default, $"CALL autorization('{Login.Text}','{Password.Text}')", "Акаунт с указаным логином не найден");
 
                 MainThread.BeginInvokeOnMainThread(new Action(() => Autorizate(user.Id)));
+               
             }
             catch (Exception ex)
             {
@@ -137,4 +141,6 @@ public partial class AutorizationPage : ContentPage
 
         GC.Collect();
     }
+
+    private void LabelCbOnTapped(object sender, TappedEventArgs e) => cbStorageUser.IsChecked = !cbStorageUser.IsChecked;
 }

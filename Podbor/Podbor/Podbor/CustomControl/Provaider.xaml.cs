@@ -125,7 +125,7 @@ public partial class Provaider : ContentView
     }
 
     public void WorkProvider(ProviderType providerType, string message)
-    {
+    {       
         this.IsVisible = true;
         this.TypeProvider = providerType;
         this.Message = message;

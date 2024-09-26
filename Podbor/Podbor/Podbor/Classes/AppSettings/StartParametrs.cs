@@ -2,7 +2,6 @@
 using System.Reflection.Metadata;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Windows.Management.Deployment;
 
 namespace Podbor.Classes.AppSettings
 {
@@ -56,6 +55,10 @@ namespace Podbor.Classes.AppSettings
 
                 isGet = true;
 
+                #if ANDROID || IOS
+                    FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "temp.json");
+                #endif
+
                 using (FileStream fs = new FileStream(FileName, FileMode.OpenOrCreate))
                 {
                     parametrs = JsonSerializer.Deserialize<StartParametrs>(fs) ?? new StartParametrs(0);
@@ -71,7 +74,8 @@ namespace Podbor.Classes.AppSettings
             }
             catch (Exception ex)
             {
-                throw ex;
+                Save();
+                return (T)typeof(StartParametrs).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).ToArray().First(i => i.Name.Equals(fildsName, StringComparison.InvariantCultureIgnoreCase)).GetValue(this);
             }
         }
 

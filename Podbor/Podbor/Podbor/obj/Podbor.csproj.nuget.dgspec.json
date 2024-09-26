@@ -26,7 +26,7 @@
           "net8.0-android",
           "net8.0-ios",
           "net8.0-maccatalyst",
-          "net8.0-windows10.0.19041.0"
+          "net8.0-windows10.0.26100.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -46,8 +46,8 @@
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
           },
-          "net8.0-windows10.0.19041": {
-            "targetAlias": "net8.0-windows10.0.19041.0",
+          "net8.0-windows10.0.26100": {
+            "targetAlias": "net8.0-windows10.0.26100.0",
             "projectReferences": {}
           }
         },
@@ -74,23 +74,31 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )",
               "autoReferenced": true
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             },
             "MySqlConnector": {
               "target": "Package",
@@ -99,6 +107,10 @@
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -133,23 +145,31 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )",
               "autoReferenced": true
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             },
             "MySqlConnector": {
               "target": "Package",
@@ -158,6 +178,10 @@
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -192,23 +216,31 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )",
               "autoReferenced": true
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             },
             "MySqlConnector": {
               "target": "Package",
@@ -217,6 +249,10 @@
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -241,8 +277,8 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-windows10.0.19041": {
-          "targetAlias": "net8.0-windows10.0.19041.0",
+        "net8.0-windows10.0.26100": {
+          "targetAlias": "net8.0-windows10.0.26100.0",
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
@@ -252,17 +288,25 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             },
             "MySqlConnector": {
               "target": "Package",
@@ -271,6 +315,10 @@
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -287,7 +335,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.34, 10.0.19041.34]"
+              "version": "[10.0.26100.34, 10.0.26100.34]"
             }
           ],
           "frameworkReferences": {
