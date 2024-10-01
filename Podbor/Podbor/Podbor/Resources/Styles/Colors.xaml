@@ -10,6 +10,7 @@
     <Color x:Key="Primary">#0073ee</Color>
     <Color x:Key="PrimaryDark">#004288</Color>
     <Color x:Key="TabDark">#ddedff</Color>
+    <Color x:Key="LightPrimary">#a8d2ff</Color>
 
     <Color x:Key="PrimaryPressed">#004a99</Color>
     <Color x:Key="PrimaryDarkPressed">#002144</Color>

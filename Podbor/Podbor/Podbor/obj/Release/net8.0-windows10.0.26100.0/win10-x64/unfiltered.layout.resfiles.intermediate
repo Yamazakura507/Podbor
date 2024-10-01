@@ -56,6 +56,8 @@ splashSplashScreen.scale-400.png
 AboutAssets.txt
 AlertProvader.json
 BlackHideLottie.json
+EmailBlackLottie.json
+EmailLottie.json
 ErrorProvaider.json
 InfoProvader.json
 Loading.json
@@ -64,4 +66,5 @@ Loading3.json
 Loading4.json
 Loading5.json
 NoNetworking.json
+RebasePasswordWhite.json
 WhiteHideLottie.json

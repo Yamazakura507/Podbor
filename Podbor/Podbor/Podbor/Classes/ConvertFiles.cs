@@ -1,6 +1,6 @@
 ﻿namespace Podbor.Classes
 {
-    public static class ConverFile
+    public static class ConverFiles
     {
         public static ImageSource ToImageConvert(byte[] imageArr) => ImageSource.FromStream(() => new MemoryStream(imageArr));
        

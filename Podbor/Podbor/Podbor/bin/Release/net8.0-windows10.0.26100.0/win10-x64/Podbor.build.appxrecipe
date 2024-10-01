@@ -43,6 +43,12 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\BlackHideLottie.json">
       <PackagePath>BlackHideLottie.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\EmailBlackLottie.json">
+      <PackagePath>EmailBlackLottie.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\EmailLottie.json">
+      <PackagePath>EmailLottie.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\ErrorProvaider.json">
       <PackagePath>ErrorProvaider.json</PackagePath>
     </AppxPackagedFile>
@@ -66,6 +72,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\NoNetworking.json">
       <PackagePath>NoNetworking.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\RebasePasswordWhite.json">
+      <PackagePath>RebasePasswordWhite.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\WhiteHideLottie.json">
       <PackagePath>WhiteHideLottie.json</PackagePath>

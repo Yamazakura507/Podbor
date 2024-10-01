@@ -152,6 +152,81 @@
     <value>..\Resources\Raw\WhiteHideLottie.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="mailActiv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mailActiv.tpl;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\Files\mailActiv.tpl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mailNewPass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Files\mailNewPass.tpl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mailGoodRegistration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Files\mailGoodRegistration.tpl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RebasePasswordWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\RebasePasswordWhite.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NoNetworking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\NoNetworking.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmailLottie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\EmailLottie.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmailBlackLottie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\RebasePasswordBlack.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RightLottie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\RightLottie.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="non_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\non_group.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="debtors_credits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\debtors_credits.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\account.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="credit_test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\credit_test.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="credit_no_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\credit_no_active.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="credit_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\credit_add.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="finance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\finance.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="planing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\planing.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\time.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="account_admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\account_admin.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\support.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\SettingWhite.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\SettingBlack.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="registration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\registration.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="autorizate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\autorizate.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\back.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

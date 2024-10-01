@@ -83,6 +83,36 @@ namespace Podbor.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
+        internal static byte[] debtors_credits {
+            get {
+                object obj = ResourceManager.GetObject("debtors_credits", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] EmailBlackLottie {
+            get {
+                object obj = ResourceManager.GetObject("EmailBlackLottie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] EmailLottie {
+            get {
+                object obj = ResourceManager.GetObject("EmailLottie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
         internal static byte[] ErrorProvaider {
             get {
                 object obj = ResourceManager.GetObject("ErrorProvaider", resourceCulture);
@@ -161,28 +191,260 @@ namespace Podbor.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
-        ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot;&gt; 
-        /// &lt;head&gt; 
-        ///  &lt;meta charset=&quot;UTF-8&quot;&gt;
-        ///  &lt;meta content=&quot;width=device-width, initial-scale=1&quot; name=&quot;viewport&quot;&gt; 
-        ///  &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt; 
-        ///  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt; 
-        ///  &lt;meta content=&quot;telephone=no&quot; name=&quot;format-detection&quot;&gt; 
-        ///  &lt;title&gt;Копи [остаток строки не уместился]&quot;;.
+        ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
-        internal static string mailActiv {
+        internal static byte[] mailActiv {
             get {
-                return ResourceManager.GetString("mailActiv", resourceCulture);
+                object obj = ResourceManager.GetObject("mailActiv", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] mailNewPass {
+            get {
+                object obj = ResourceManager.GetObject("mailNewPass", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
+        internal static byte[] non_group {
+            get {
+                object obj = ResourceManager.GetObject("non_group", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] NoNetworking {
+            get {
+                object obj = ResourceManager.GetObject("NoNetworking", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] RebasePasswordWhite {
+            get {
+                object obj = ResourceManager.GetObject("RebasePasswordWhite", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] RightLottie {
+            get {
+                object obj = ResourceManager.GetObject("RightLottie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] account
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("account", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] credit
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("credit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] credit_test
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("credit_test", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] credit_no_active
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("credit_no_active", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] credit_add
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("credit_add", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] finance
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("finance", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] account_admin
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("account_admin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] time
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("time", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] planing
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("planing", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
         internal static byte[] WhiteHideLottie {
             get {
                 object obj = ResourceManager.GetObject("WhiteHideLottie", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] SettingWhite {
+            get {
+                object obj = ResourceManager.GetObject("SettingWhite", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] SettingBlack {
+            get {
+                object obj = ResourceManager.GetObject("SettingBlack", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] mailGoodRegistration {
+            get {
+                object obj = ResourceManager.GetObject("mailGoodRegistration", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] support {
+            get {
+                object obj = ResourceManager.GetObject("support", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] registration {
+            get {
+                object obj = ResourceManager.GetObject("registration", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] autorizate {
+            get {
+                object obj = ResourceManager.GetObject("autorizate", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] save {
+            get {
+                object obj = ResourceManager.GetObject("save", resourceCulture);
                 return ((byte[])(obj));
             }
         }

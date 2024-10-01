@@ -31,7 +31,6 @@ namespace Podbor.Models
                 id = value;
             } 
         }
-       
 
         public string Login
         {

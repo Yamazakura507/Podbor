@@ -44,6 +44,22 @@
         </Style.Triggers>
     </Style>
 
+    <Style TargetType="Grid" x:Key="MenuItemG">
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Selected">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={DynamicResource PrimaryPressed}, Dark={DynamicResource PrimaryDarkPressed}}"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+
     <Style TargetType="skia:SKLottieView" x:Key="LottieDefault">
         <Setter Property="RepeatCount" Value="-1"/>
         <Setter Property="IsVisible" Value="True"/>
@@ -71,6 +87,28 @@
 
     <Style TargetType="skia:SKLottieView" x:Key="EmailWhite" BasedOn="{StaticResource LottieDefault}">
         <Setter Property="Source" Value="EmailLottie.json"/>
+    </Style>
+
+    <Style TargetType="skia:SKLottieView" x:Key="SettingBlack" BasedOn="{StaticResource LottieDefault}">
+        <Setter Property="Source" Value="SettingBlack.json"/>
+    </Style>
+
+    <Style TargetType="skia:SKLottieView" x:Key="SettingWhite" BasedOn="{StaticResource LottieDefault}">
+        <Setter Property="Source" Value="SettingWhite.json"/>
+    </Style>
+
+    <Style TargetType="skia:SKLottieView" x:Key="RebasePassBlack" BasedOn="{StaticResource LottieDefault}">
+        <Setter Property="MaximumHeightRequest" Value="50"/>
+        <Setter Property="WidthRequest" Value="50"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="Source" Value="RebasePasswordWhite.json"/>
+    </Style>
+
+    <Style TargetType="skia:SKLottieView" x:Key="RebasePassWhite" BasedOn="{StaticResource LottieDefault}">
+        <Setter Property="MaximumHeightRequest" Value="50"/>
+        <Setter Property="WidthRequest" Value="50"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="Source" Value="RebasePasswordBlack.json"/>
     </Style>
 
     <!--<Style TargetType="TabbedPage">
@@ -104,6 +142,7 @@
     <Style TargetType="ImageButton">
         <Setter Property="Opacity" Value="1" />
         <Setter Property="BorderColor" Value="Transparent"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
         <Setter Property="BorderWidth" Value="0"/>
         <Setter Property="CornerRadius" Value="0"/>
         <Setter Property="MinimumHeightRequest" Value="44"/>
@@ -121,6 +160,12 @@
                 </VisualStateGroup>
             </VisualStateGroupList>
         </Setter>
+        <Style.Triggers>
+            <Trigger TargetType="ImageButton" Property="IsPressed" Value="True">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="Scale" Value="0.9" />
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <Style TargetType="Label">
@@ -140,6 +185,15 @@
                 </VisualStateGroup>
             </VisualStateGroupList>
         </Setter>
+    </Style>
+
+    <Style TargetType="Label" x:Key="ItemLabel">
+        <Setter Property="FontSize" Value="15" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="BoldItemLabel">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontAttributes" Value="Bold"/>
     </Style>
 
     <Style TargetType="ProgressBar">

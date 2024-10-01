@@ -30,6 +30,21 @@
               Поиск локализованного ресурса типа System.Byte[].
             </summary>
         </member>
+        <member name="P:Podbor.Properties.Resources.debtors_credits">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.EmailBlackLottie">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.EmailLottie">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
         <member name="P:Podbor.Properties.Resources.ErrorProvaider">
             <summary>
               Поиск локализованного ресурса типа System.Byte[].
@@ -71,19 +86,121 @@
             </summary>
         </member>
         <member name="P:Podbor.Properties.Resources.mailActiv">
-             <summary>
-               Ищет локализованную строку, похожую на &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
-            &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:o=&quot;urn:schemas-microsoft-com:office:office&quot;&gt; 
-             &lt;head&gt; 
-              &lt;meta charset=&quot;UTF-8&quot;&gt;
-              &lt;meta content=&quot;width=device-width, initial-scale=1&quot; name=&quot;viewport&quot;&gt; 
-              &lt;meta name=&quot;x-apple-disable-message-reformatting&quot;&gt; 
-              &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt; 
-              &lt;meta content=&quot;telephone=no&quot; name=&quot;format-detection&quot;&gt; 
-              &lt;title&gt;Копи [остаток строки не уместился]&quot;;.
-             </summary>
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.mailNewPass">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.non_group">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.NoNetworking">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.RebasePasswordWhite">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.RightLottie">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.account">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.credit">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.credit_test">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.credit_no_active">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.credit_add">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.finance">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.account_admin">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.time">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.planing">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
         </member>
         <member name="P:Podbor.Properties.Resources.WhiteHideLottie">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.SettingWhite">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.SettingBlack">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.mailGoodRegistration">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.support">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.registration">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.autorizate">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.back">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.save">
             <summary>
               Поиск локализованного ресурса типа System.Byte[].
             </summary>

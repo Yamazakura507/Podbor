@@ -12,6 +12,7 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
+                <RowDefinition/>
         </Grid.RowDefinitions>
 
             <Label Grid.Row="0" x:Name="lbAvtorizte"
@@ -70,17 +71,71 @@
         <Grid  x:Name="GCb" Grid.Row="4" Margin="0,10,0,0"  MaximumWidthRequest="400">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition x:Name="colSC"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <CheckBox Grid.Column="0" x:Name="cbStorageUser"
-      IsChecked="{Binding IsChecked,Mode=TwoWay}">
+          IsChecked="{Binding IsChecked,Mode=TwoWay}">
             </CheckBox>
+            
             <Label VerticalTextAlignment="Center" FontSize="15" Grid.Column="1" Text="Запомнить меня">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="LabelCbOnTapped"/>
                 </Label.GestureRecognizers>
             </Label>
+
+            <Grid Grid.Column="2" HorizontalOptions="End">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition x:Name="colSli"/>
+                </Grid.ColumnDefinitions>
+
+                <skia:SKLottieView x:Name="btsRebasePassword" Grid.Column="0" HorizontalOptions="Start"
+                    Style="{AppThemeBinding Light={DynamicResource RebasePassWhite}, Dark={DynamicResource RebasePassBlack}}" Source="RebasePasswordWhite.json">
+                    <skia:SKLottieView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PasswordRebase_Pressed"/>
+                    </skia:SKLottieView.GestureRecognizers>
+                </skia:SKLottieView>
+
+                <Label x:Name="lbPasswordRebase" Grid.Column="1" VerticalOptions="Center" Margin="-10,0,0,0" HorizontalOptions="FillAndExpand"
+                    Text="Забыли пароль" FontSize="14">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PasswordRebase_Pressed"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <control:Provaider Grid.Column="2" x:Name="rebaseProvaider" HorizontalOptions="Start" IsVisible="Collapse" Margin="-1,0,0,0"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="5" x:Name="GPC" Margin="0,10,0,0" MaximumWidthRequest="600" HorizontalOptions="FillAndExpand" IsVisible="Collapse">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition x:Name="colSPC"/>
+            </Grid.ColumnDefinitions>
+
+            <Entry x:Name="CodeMail" Grid.Column="0" Margin="0,0,5,0" MaximumWidthRequest="300" HorizontalOptions="FillAndExpand"
+   Placeholder="Код подтверждения"/>
+
+            <skia:SKLottieView x:Name="btlEmail" Margin="0,0,5,0" Grid.Column="1" HorizontalOptions="Start"
+   Style="{AppThemeBinding Light={DynamicResource EmailWhite}, Dark={DynamicResource EmailBlack}}">
+                <skia:SKLottieView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="EmailSend_Tapped"/>
+                </skia:SKLottieView.GestureRecognizers>
+            </skia:SKLottieView>
+
+            <skia:SKLottieView x:Name="btlCodeCont" Margin="0,0,5,0" Grid.Column="2" HorizontalOptions="Start"
+   Style="{DynamicResource LottieDefault}" Source="RightLottie.json">
+                <skia:SKLottieView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="UpdatePassword_Tapped"/>
+                </skia:SKLottieView.GestureRecognizers>
+            </skia:SKLottieView>
+
+            <control:Provaider Grid.Column="3" x:Name="codeMailProvaider" HorizontalOptions="Start" IsVisible="Collapse"/>
         </Grid>
     </Grid>
 </ContentPage>

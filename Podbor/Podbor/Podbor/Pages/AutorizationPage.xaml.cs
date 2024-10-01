@@ -1,17 +1,10 @@
 using CommunityToolkit.Maui.Views;
-using Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific;
-using Microsoft.Maui.Storage;
 using Podbor.Classes;
 using Podbor.Classes.AppSettings;
 using Podbor.Classes.Enums;
 using Podbor.CustomControl;
 using Podbor.Models;
 using SkiaSharp.Extended.UI.Controls;
-using System;
-using System.ComponentModel;
-using System.Text;
-using System.Text.Json;
-using System.Windows.Input;
 
 namespace Podbor.Pages;
 
@@ -20,6 +13,8 @@ public partial class AutorizationPage : ContentPage
     Loading loading;
 
     StartParametrs parametrs = new StartParametrs();
+    private string rand = null;
+    private Users users = null;
 
     public AutorizationPage()
     {
@@ -30,16 +25,19 @@ public partial class AutorizationPage : ContentPage
     {
         try
         {
-#if ANDROID || IOS
-                colSA.Width = colSPL.Width = colSPP.Width = colSC.Width = GridLength.Auto;
-#else
-            colSA.Width = colSPL.Width = colSPP.Width = colSC.Width = 200;
-                GA.Margin = GP.Margin = GL.Margin = GCb.Margin = new Thickness(colSPL.Width.Value/2, 10, 0, 0);
+            #if ANDROID || IOS
+                colSA.Width = colSPL.Width = colSPP.Width = colSli.Width = colSPC.Width = GridLength.Auto;
+            #else
+                colSA.Width = colSPL.Width = colSPP.Width = colSli.Width = colSPC.Width = 200;
+                GA.Margin = GP.Margin = GL.Margin = GCb.Margin = GPC.Margin = new Thickness(colSPL.Width.Value/2, 10, 0, 0);
                 lbAvtorizte.Margin = new Thickness(0, 0, colSPL.Width.Value/2, 10);
-                GA.MaximumWidthRequest = GP.MaximumWidthRequest = GL.MaximumWidthRequest = GCb.MaximumWidthRequest = colSPL.Width.Value + 400;
+                GA.MaximumWidthRequest = GP.MaximumWidthRequest = GL.MaximumWidthRequest = GCb.MaximumWidthRequest = GPC.MaximumWidthRequest = colSPL.Width.Value + 400;
             #endif
 
-            HideAnimationStop();
+            LottieAnimation.HideAnimationStop(btlPass);
+            LottieAnimation.HideAnimationStop(btlEmail);
+            LottieAnimation.HideAnimationStop(btsRebasePassword);
+            LottieAnimation.HideAnimationStop(btlCodeCont);
             cbStorageUser.IsChecked = true;
 
             Autorizate(parametrs.IdAutorizateUser);
@@ -53,7 +51,7 @@ public partial class AutorizationPage : ContentPage
     private void HideAnimationOnTapped(object sender, TappedEventArgs e)
     {
         Password.IsPassword = !Password.IsPassword;
-        HideAnimationStart();
+        LottieAnimation.HideAnimationStart(btlPass);
     }
 
     private bool CheckAutoAutorizate(int idUser)
@@ -76,7 +74,9 @@ public partial class AutorizationPage : ContentPage
             {
                 if(cbStorageUser.IsChecked) parametrs.IdAutorizateUser = idUser;
                 errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
-                //Переход...
+
+                InfoAccount.IdUser = idUser;
+                App.Current.MainPage = new FlyautPage.PersonalAccountPage();
             }
         }
         catch (Exception ex)
@@ -85,22 +85,9 @@ public partial class AutorizationPage : ContentPage
         }
     }
 
-    async private void HideAnimationStart(int time = 1000)
-    {
-        btlPass.IsAnimationEnabled = true;
-        await Task.Delay(time);
-        HideAnimationStop();
-    }
-
-    private void HideAnimationStop()
-    {
-        btlPass.IsAnimationEnabled = false;
-    }
-
     private void AutorizationButtonOnPressed(object sender, EventArgs e)
     {
         bool isEmpty = false;
-        Users user = null;
         loading = new Loading();
 
         loginProvider.IsVisible = passwordProvaider.IsVisible = errorProvider.IsVisible = isEmpty;
@@ -128,10 +115,9 @@ public partial class AutorizationPage : ContentPage
 
                 if (isEmpty) return;
 
-                user = DBModel.GetModel<Users>(default, $"CALL autorization('{Login.Text}','{Password.Text}')", "Акаунт с указаным логином не найден");
+                users = DBModel.GetModel<Users>(default, $"CALL autorization('{Login.Text}','{Password.Text}')", "Акаунт с указаным логином не найден");
 
-                MainThread.BeginInvokeOnMainThread(new Action(() => Autorizate(user.Id)));
-               
+                MainThread.BeginInvokeOnMainThread(new Action(() => Autorizate(users.Id)));
             }
             catch (Exception ex)
             {
@@ -143,4 +129,116 @@ public partial class AutorizationPage : ContentPage
     }
 
     private void LabelCbOnTapped(object sender, TappedEventArgs e) => cbStorageUser.IsChecked = !cbStorageUser.IsChecked;
+
+    private void PasswordRebase_Pressed(object sender, TappedEventArgs e)
+    {
+        LottieAnimation.HideAnimationStart(btsRebasePassword, 3000);
+
+        if (!TextBoxRestrictions.TextEmptyTextBox(Login))
+        {
+            loginProvider.WorkProvider(ProviderType.Info, "Логин обязательное поле для заполнения");
+        }
+        else
+        {
+            try
+            {
+                loading = new Loading();
+
+                loading.LoadingBackgorundWorker.RunWorkerAsync(new Thread(() =>
+                {
+                    try
+                    {
+                        users = DBModel.GetModel<Users>(default,$"SELECT * FROM `Users` u WHERE u.`Login` = '{Login.Text}'","Аккаунт с указаным логином не найде");
+                    }
+                    catch (Exception ex)
+                    {
+                        MainThread.BeginInvokeOnMainThread(new Action(() => throw ex));
+                    }
+                }));
+
+                while (users is null) continue;
+
+                rand = this.EmailTextBoxCheck(new Microsoft.Maui.Controls.Entry() { Text = users.Email }, Login.Text);
+                GPC.IsVisible = true;
+            }
+            catch (Exception ex)
+            {
+                codeMailProvaider.WorkProvider(ProviderType.Error, ex.Message);
+            }
+        }
+    }
+
+    private void UpdatePassword_Tapped(object sender, TappedEventArgs e)
+    {
+        LottieAnimation.HideAnimationStart(btlCodeCont,2400);
+        bool isEmpty = false;
+
+        try
+        {
+            if (!TextBoxRestrictions.TextEmptyTextBox(Login))
+            {
+                loginProvider.WorkProvider(ProviderType.Info, "Логин обязательное поле для заполнения");
+                isEmpty = true;
+            }
+
+            if (!this.ContinueEmailTextBoxCheck(rand, CodeMail))
+            {
+                codeMailProvaider.WorkProvider(ProviderType.Info, "Не верный или пустой код подтверждения");
+                isEmpty = true;
+            }
+
+            if (isEmpty) return;
+
+            loading = new Loading();
+
+            loading.LoadingBackgorundWorker.RunWorkerAsync(new Thread(() =>
+            {
+                try
+                {
+                    rand = TextBoxRestrictions.GeneratorChufleString(new Random().Next(10, 20));
+
+                    this.NewPassMail(users.Email, new Dictionary<string, string>()
+                    { 
+                        { "@Login", Login.Text },
+                        { "@Code", rand } 
+                    });
+
+                    DBModel.ResultRequest($"SELECT ins_upd_user('{users.Login}','{rand}','{users.Email}','{users.Id}')");
+                    rand = null;
+                    CodeMail.Text = null;
+                }
+                catch (Exception ex)
+                {
+                    MainThread.BeginInvokeOnMainThread(new Action(() => codeMailProvaider.WorkProvider(ProviderType.Error, ex.Message)));
+                }
+            }));
+
+            GPC.IsVisible = false;
+        }
+        catch (Exception ex)
+        {
+            codeMailProvaider.WorkProvider(ProviderType.Error, ex.Message);
+        }
+    }
+
+    private void EmailSend_Tapped(object sender, TappedEventArgs e)
+    {
+        LottieAnimation.HideAnimationStart(btlEmail, 4100);
+
+        try
+        {
+            if (users != null)
+            {
+                rand = this.EmailTextBoxCheck(new Microsoft.Maui.Controls.Entry() { Text = users.Email }, Login.Text);            
+            }
+            else
+            {
+                codeMailProvaider.WorkProvider(ProviderType.Alert, "Email не найден!");
+            }
+        }
+        catch (Exception ex)
+        {
+            codeMailProvaider.WorkProvider(ProviderType.Error, ex.Message);
+        }
+    }
 }

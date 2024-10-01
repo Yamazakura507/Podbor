@@ -2,6 +2,7 @@
 using System.Reflection.Metadata;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Xml.Serialization;
 
 namespace Podbor.Classes.AppSettings
 {
@@ -56,7 +57,7 @@ namespace Podbor.Classes.AppSettings
                 isGet = true;
 
                 #if ANDROID || IOS
-                    FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "temp.json");
+                    FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tempFinance.json");
                 #endif
 
                 using (FileStream fs = new FileStream(FileName, FileMode.OpenOrCreate))

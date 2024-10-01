@@ -30,15 +30,6 @@ public class ConnectivityImplementation_EssentialsNetworkCallback
 	}
 
 
-	public ConnectivityImplementation_EssentialsNetworkCallback (int p0)
-	{
-		super (p0);
-		if (getClass () == ConnectivityImplementation_EssentialsNetworkCallback.class) {
-			mono.android.TypeManager.Activate ("Microsoft.Maui.Networking.ConnectivityImplementation+EssentialsNetworkCallback, Microsoft.Maui.Essentials", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
-		}
-	}
-
-
 	public void onAvailable (android.net.Network p0)
 	{
 		n_onAvailable (p0);

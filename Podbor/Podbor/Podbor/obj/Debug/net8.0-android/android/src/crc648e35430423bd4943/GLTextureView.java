@@ -24,15 +24,6 @@ public class GLTextureView
 	}
 
 
-	public GLTextureView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
-	{
-		super (p0, p1, p2, p3);
-		if (getClass () == GLTextureView.class) {
-			mono.android.TypeManager.Activate ("SkiaSharp.Views.Android.GLTextureView, SkiaSharp.Views.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1, p2, p3 });
-		}
-	}
-
-
 	public GLTextureView (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);

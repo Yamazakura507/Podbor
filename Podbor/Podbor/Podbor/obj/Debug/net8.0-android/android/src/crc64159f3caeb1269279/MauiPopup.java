@@ -18,24 +18,6 @@ public class MauiPopup
 	}
 
 
-	public MauiPopup (android.content.Context p0, boolean p1, android.content.DialogInterface.OnCancelListener p2)
-	{
-		super (p0, p1, p2);
-		if (getClass () == MauiPopup.class) {
-			mono.android.TypeManager.Activate ("CommunityToolkit.Maui.Core.Views.MauiPopup, CommunityToolkit.Maui.Core", "Android.Content.Context, Mono.Android:System.Boolean, System.Private.CoreLib:Android.Content.IDialogInterfaceOnCancelListener, Mono.Android", this, new java.lang.Object[] { p0, p1, p2 });
-		}
-	}
-
-
-	public MauiPopup (android.content.Context p0, int p1)
-	{
-		super (p0, p1);
-		if (getClass () == MauiPopup.class) {
-			mono.android.TypeManager.Activate ("CommunityToolkit.Maui.Core.Views.MauiPopup, CommunityToolkit.Maui.Core", "Android.Content.Context, Mono.Android:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1 });
-		}
-	}
-
-
 	public MauiPopup (android.content.Context p0)
 	{
 		super (p0);

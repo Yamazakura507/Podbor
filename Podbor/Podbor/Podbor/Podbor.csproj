@@ -42,12 +42,27 @@
 	  <AndroidEnableMultiDex>True</AndroidEnableMultiDex>
 	  <EnableLLVM>True</EnableLLVM>
 	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <RunAOTCompilation>True</RunAOTCompilation>
+	  <PublishTrimmed>True</PublishTrimmed>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
 	  <AndroidEnableMultiDex>True</AndroidEnableMultiDex>
 	  <EnableLLVM>True</EnableLLVM>
 	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <DebugSymbols>True</DebugSymbols>
+	  <PublishTrimmed>True</PublishTrimmed>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-ios|AnyCPU'">
+	  <MtouchLink>SdkOnly</MtouchLink>
+	  <EnableSGenConc>True</EnableSGenConc>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">
+	  <MtouchUseLlvm>True</MtouchUseLlvm>
+	  <EnableSGenConc>True</EnableSGenConc>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -109,7 +124,16 @@
 	  <MauiXaml Update="Pages\AutorizationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\FlyautPage\PersonalAccountPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\MainPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\MenuPage\MainPersanalAccountMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Tabbed\CreditTabbedPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Tabbed\MainTabbedPage.xaml">
@@ -118,10 +142,23 @@
 	  <MauiXaml Update="Pages\RegistrationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\CreditInfoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\CreditPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\LoanPaymentsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\MainPersonalAccountPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\" />
+	  <MauiAsset Include="Resources\Images\debtors_credits.png" />
+	  <MauiAsset Include="Resources\Images\non_group.png" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,8 +1,10 @@
-﻿using MySqlConnector;
+﻿//using Java.Util.Logging;
+using MySqlConnector;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace Podbor.Classes
@@ -50,11 +52,13 @@ namespace Podbor.Classes
 
                 using (var ms = new Mysql())
                 {
-                    var sql = @$"SELECT * FROM {typeof(T).Name} 
-                    WHERE {(WhereCollection is null ? "true" : String.Join(" AND ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")))} 
+                    var sql = @$"SELECT * FROM `{typeof(T).Name}`
+                    WHERE {(WhereCollection is null ? "true" : String.Join(" AND ", WhereCollection.Select(i => $"`{i.Key}` = '{i.Value}'")))} 
                     {(Limit == 0 ? null : $"LIMIT {Limit} OFFSET {Offset}")}
-                    {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"{i.Key} {(i.Value ? "asc" : "desc")}"))}")}";
-                        var dt = ms.GetTable(sql);
+                    {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"`{i.Key}` {(i.Value ? "asc" : "desc")}"))}")}";
+                        var dt = ms.GetTable(sql.Trim());
+
+                    if (dt is null) return null;
 
                     IsGet = true;
 
@@ -72,9 +76,38 @@ namespace Podbor.Classes
             {
                 throw ex;
             }
-            
         }
-       
+
+        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery)
+        {
+            try
+            {
+                ObservableCollection<T> collection = new ObservableCollection<T>();
+
+                using (var ms = new Mysql())
+                {
+                    var dt = ms.GetTable(sqlQuery.Trim());
+
+                    if (dt is null) return null;
+
+                    IsGet = true;
+
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        collection.Add(ToObject<T>(dr));
+                    }
+
+                    IsGet = false;
+                }
+
+                return collection;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1)
         {
             try
@@ -86,7 +119,7 @@ namespace Podbor.Classes
 
                 using (var ms = new Mysql())
                 {
-                    dr = ms.GetRow(Id is null ? proc_comm : $"SELECT * FROM {typeof(T).Name} WHERE {(Id is null ? "true" : $"Id = '{Id}'")} LIMIT 1 OFFSET {numRow - 1}");
+                    dr = ms.GetRow(Id is null ? proc_comm : $"SELECT * FROM `{typeof(T).Name}` WHERE {(Id is null ? "true" : $"`Id` = '{Id}'")} LIMIT 1 OFFSET {numRow - 1}");
                 }
 
                 if (dr is null)
@@ -106,15 +139,14 @@ namespace Podbor.Classes
             }
         }
 
-
         public virtual void DeleteModel<T>(int? Id = null, Dictionary<string, object>? WhereCollection = null)
         {
             try
             {
                 using (var ms = new Mysql())
                 {
-                    ms.ExecSql(@$"DELETE FROM {typeof(T).Name}
-                WHERE {(Id is null ? WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"{i.Key} = '{i.Value}'")) : $"Id = '{Id}'")}");
+                    ms.ExecSql(@$"DELETE FROM `{typeof(T).Name}`
+                WHERE {(Id is null ? WhereCollection is null ? "true" : String.Join(", ", WhereCollection.Select(i => $"`{i.Key}` = '{i.Value}'")) : $"`Id` = '{Id}'")}");
                 }
             }
             catch (Exception ex)
@@ -132,7 +164,7 @@ namespace Podbor.Classes
 
                 using (var ms = new Mysql())
                 {
-                    obj = (T)ms.GetValue($"SELECT {param} FROM {typeTb.Name} WHERE Id = '{Id}'");
+                    obj = (T)ms.GetValue($"SELECT `{param}` FROM `{typeTb.Name}` WHERE `Id` = '{Id}'");
                 }
 
                 return obj;
@@ -149,13 +181,28 @@ namespace Podbor.Classes
             {
                 using (var ms = new Mysql())
                 {
+                    if (value.GetType() == typeof(DateTime))
+                    {
+                        value = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
+                    }
+
+                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
+                    {
+                        value = value.ToString().Replace(",", ".");
+                    }
+
+                    if (value.GetType() == typeof(bool))
+                    {
+                        value = (bool)value ? "1" : "0";
+                    }
+
                     if (value.GetType() != typeof(Byte[]))
                     {
-                        ms.ExecSql($"UPDATE {typeof(T).Name} SET {param} = '{value}' WHERE Id = '{Id}'");
+                        ms.ExecSql($"UPDATE `{typeof(T).Name}` SET `{param}` = '{value}' WHERE `Id` = '{Id}'");
                     }
                     else
                     {
-                        ms.UpdateBinaryColumn(typeof(T).Name, param, $"Id = '{Id}'", (byte[])value);
+                        ms.UpdateBinaryColumn(typeof(T).Name, param, $"`Id` = '{Id}'", (byte[])value);
                     }
                 }
             }
@@ -206,6 +253,16 @@ namespace Podbor.Classes
                     if (value.GetType() == typeof(bool))
                     {
                         byteArr = (bool)value ? "1" : "0";
+                    }
+
+                    if (value.GetType() == typeof(DateTime))
+                    {
+                        byteArr = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
+                    }
+
+                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
+                    {
+                        byteArr = value.ToString().Replace(",", ".");
                     }
 
                     XMLstr += $"<{column.ColumnName}>{byteArr}</{column.ColumnName}>";

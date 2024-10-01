@@ -70,11 +70,10 @@ namespace Podbor.Classes
 
             try
             {
-                page.InputMessage(Properties.Resources.mailActiv, "Подтвердитверждение учетной записи", textBox.Text, new Dictionary<string, string>()
-                                                                                            {
-                                                                                                { "@Login", login },
-                                                                                                { "@Code", rand }
-                                                                                            }, "На вашу электронную почту\nбыло отправлено письмо.\nВведите код подтверждения\nиз письма");
+                page.CheckCodeMail(textBox.Text, new Dictionary<string, string>(){
+                                                                { "@Login", login },
+                                                                { "@Code", rand }
+                                                            });
             }
             catch (Exception ex)
             {
