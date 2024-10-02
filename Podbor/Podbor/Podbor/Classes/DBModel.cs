@@ -1,5 +1,7 @@
 ﻿//using Java.Util.Logging;
 using MySqlConnector;
+using Podbor.Classes.AppSettings;
+using System;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Reflection;
@@ -17,6 +19,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     ms.Insert(typeof(T).Name, parametrs);
@@ -32,6 +36,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     ms.Update(typeof(T).Name, parametrs, Id is null ? WhereCollection : new Dictionary<string, object>() { { "Id", Id } });
@@ -48,6 +54,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(true, typeof(T));
+
                 ObservableCollection<T> collection = new ObservableCollection<T>();
 
                 using (var ms = new Mysql())
@@ -82,6 +90,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(true, typeof(T));
+
                 ObservableCollection<T> collection = new ObservableCollection<T>();
 
                 using (var ms = new Mysql())
@@ -112,6 +122,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(true, typeof(T));
+
                 if (Id is null && proc_comm is null && errMess != null)
                     throw new Exception(errMess);
 
@@ -143,6 +155,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     ms.ExecSql(@$"DELETE FROM `{typeof(T).Name}`
@@ -160,6 +174,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(true, typeTb);
+
                 T obj = default(T);
 
                 using (var ms = new Mysql())
@@ -179,6 +195,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     if (value.GetType() == typeof(DateTime))
@@ -276,6 +294,38 @@ namespace Podbor.Classes
                 }
 
                 return item;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void CheckPolice(bool isRead, Type typeTb)
+        {
+            try
+            {
+                if (InfoAccount.IdUser > 0)
+                {
+                    DataTable dtPolice = new DataTable();
+
+                    using (var ms = new Mysql())
+                    {
+                        dtPolice = ms.GetTable($@"SELECT tn.`ObjectName`, tn.`Name`, obr.`Name` PoliceName FROM `RestrictionsUser` ru 
+                                                    INNER JOIN `GroupingRestriction` gr ON gr.`IdRestriction` = ru.`IdRestrictions` 
+                                                    INNER JOIN `ObjectRestrict` obr ON obr.`Id` = gr.`IdObjectRestriction` 
+                                                    INNER JOIN `GroupingObject` gro ON gr.`IdGroup` = gro.`IdGroup` 
+                                                    INNER JOIN `TableName` tn ON tn.`Id` = gro.`IdObject`
+                                                WHERE ru.`IdUser` = '{InfoAccount.IdUser}' AND tn.`ObjectName` = '{typeTb.Name}'", true);
+                    }
+
+                    if (dtPolice is null) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {typeTb.Name}!\nДля получения прав обратитесь в подержку");
+
+                    if (!isRead)
+                    {
+                        if (!dtPolice.AsEnumerable().Any(i => i["PoliceName"].ToString() == "W" || i["PoliceName"].ToString() == "WA")) throw new Exception($"Увас нет прав записи объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
+                    }
+                }
             }
             catch (Exception ex)
             {
