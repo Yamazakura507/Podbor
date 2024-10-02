@@ -58,11 +58,7 @@ public partial class AutorizationPage : ContentPage
     { 
         try 
         {
-<<<<<<< HEAD
             return Convert.ToBoolean(DBModel.ResultRequest($"SELECT COUNT(*) <> 0 FROM `Users` u WHERE u.`Id` = '{idUser}'"));
-=======
-            return true; //Результат проверки
->>>>>>> dev
         }
         catch (Exception ex) 
         {
@@ -76,16 +72,11 @@ public partial class AutorizationPage : ContentPage
         {
             if (CheckAutoAutorizate(idUser))
             {
-<<<<<<< HEAD
                 if(cbStorageUser.IsChecked) parametrs.IdAutorizateUser = idUser;
                 errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
 
                 InfoAccount.IdUser = idUser;
                 App.Current.MainPage = new FlyautPage.PersonalAccountPage();
-=======
-                errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
-                //Переход...
->>>>>>> dev
             }
         }
         catch (Exception ex)
@@ -94,21 +85,6 @@ public partial class AutorizationPage : ContentPage
         }
     }
 
-<<<<<<< HEAD
-=======
-    async private void HideAnimationStart(int time = 1000)
-    {
-        btlPass.IsAnimationEnabled = true;
-        await Task.Delay(time);
-        HideAnimationStop();
-    }
-
-    private void HideAnimationStop()
-    {
-        btlPass.IsAnimationEnabled = false;
-    }
-
->>>>>>> dev
     private void AutorizationButtonOnPressed(object sender, EventArgs e)
     {
         bool isEmpty = false;
@@ -139,13 +115,9 @@ public partial class AutorizationPage : ContentPage
 
                 if (isEmpty) return;
 
-<<<<<<< HEAD
                 users = DBModel.GetModel<Users>(default, $"CALL autorization('{Login.Text}','{Password.Text}')", "Акаунт с указаным логином не найден");
 
                 MainThread.BeginInvokeOnMainThread(new Action(() => Autorizate(users.Id)));
-=======
-                // Авторизация
->>>>>>> dev
             }
             catch (Exception ex)
             {
