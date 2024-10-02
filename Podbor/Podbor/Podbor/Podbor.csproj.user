@@ -27,9 +27,6 @@
     <MauiXaml Update="Pages\FlyautPage\PersonalAccountPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\MainPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Pages\MenuPage\MainPersanalAccountMenuPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

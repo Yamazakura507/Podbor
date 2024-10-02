@@ -58,11 +58,8 @@ public partial class AutorizationPage : ContentPage
     { 
         try 
         {
-<<<<<<< HEAD
             return Convert.ToBoolean(DBModel.ResultRequest($"SELECT COUNT(*) <> 0 FROM `Users` u WHERE u.`Id` = '{idUser}'"));
-=======
             return true; //Результат проверки
->>>>>>> dev
         }
         catch (Exception ex) 
         {
