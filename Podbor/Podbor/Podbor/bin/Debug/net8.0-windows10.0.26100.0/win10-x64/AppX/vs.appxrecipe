@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.26100.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-02T08:27:41.252</Modified>
+      <Modified>2024-10-02T14:22:42.104</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.26100.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-02T08:03:17.860</Modified>
+      <Modified>2024-10-02T14:22:41.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.26100.0\win10-x64\Podbor.runtimeconfig.json">
       <PackagePath>Podbor.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-02T08:03:17.609</Modified>
+      <Modified>2024-10-02T12:17:28.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.26100.0\win10-x64\Podbor.dll">
       <PackagePath>Podbor.dll</PackagePath>
-      <Modified>2024-10-02T08:27:40.588</Modified>
+      <Modified>2024-10-02T14:22:41.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\apphost.exe">
       <PackagePath>Podbor.exe</PackagePath>
-      <Modified>2024-10-02T08:27:40.593</Modified>
+      <Modified>2024-10-02T14:22:41.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -61,6 +61,10 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\BlackHideLottie.json">
       <PackagePath>BlackHideLottie.json</PackagePath>
       <Modified>2024-07-26T08:57:16.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\delete.json">
+      <PackagePath>delete.json</PackagePath>
+      <Modified>2024-10-02T12:28:01.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\EmailBlackLottie.json">
       <PackagePath>EmailBlackLottie.json</PackagePath>
@@ -134,257 +138,301 @@
       <PackagePath>Resources\Images\non_group.png</PackagePath>
       <Modified>2024-09-11T10:48:32.887</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2024-10-02T12:17:23.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2024-10-02T12:17:23.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2024-10-02T12:17:23.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-10-02T12:17:23.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2024-10-02T12:17:23.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\f\Angeme-Bold.ttf">
+      <PackagePath>Angeme-Bold.ttf</PackagePath>
+      <Modified>2024-07-26T08:57:16.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\f\Angeme-Regular.ttf">
+      <PackagePath>Angeme-Regular.ttf</PackagePath>
+      <Modified>2024-07-26T08:57:16.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2024-07-20T20:38:46.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+      <Modified>2024-07-20T20:38:46.575</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\account.scale-100.png">
       <PackagePath>account.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\account_admin.scale-100.png">
       <PackagePath>account_admin.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-10-02T08:03:15.639</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.637</Modified>
+      <Modified>2024-10-02T14:20:07.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.639</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.638</Modified>
+      <Modified>2024-10-02T14:20:07.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.635</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.636</Modified>
+      <Modified>2024-10-02T14:20:07.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.634</Modified>
+      <Modified>2024-10-02T14:20:07.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\autorizate.scale-100.png">
       <PackagePath>autorizate.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\back.scale-100.png">
       <PackagePath>back.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\credit.scale-100.png">
       <PackagePath>credit.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\credit_add.scale-100.png">
       <PackagePath>credit_add.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\credit_no_active.scale-100.png">
       <PackagePath>credit_no_active.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\credit_test.scale-100.png">
       <PackagePath>credit_test.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\debtors_credits.scale-100.png">
       <PackagePath>debtors_credits.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.632</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\delete_credit.scale-100.png">
+      <PackagePath>delete_credit.scale-100.png</PackagePath>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\finance.scale-100.png">
       <PackagePath>finance.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\futury_debtors_credit.scale-100.png">
+      <PackagePath>futury_debtors_credit.scale-100.png</PackagePath>
+      <Modified>2024-10-02T14:20:07.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\non_group.scale-100.png">
       <PackagePath>non_group.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\planing.scale-100.png">
       <PackagePath>planing.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\registration.scale-100.png">
       <PackagePath>registration.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-100.png">
       <PackagePath>save.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\support.scale-100.png">
       <PackagePath>support.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\time.scale-100.png">
       <PackagePath>time.scale-100.png</PackagePath>
-      <Modified>2024-10-02T08:03:15.633</Modified>
+      <Modified>2024-10-02T14:20:07.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.26100.0\win10-x64\Podbor.deps.json">
       <PackagePath>Podbor.deps.json</PackagePath>
-      <Modified>2024-10-02T08:03:17.476</Modified>
+      <Modified>2024-10-02T12:17:28.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

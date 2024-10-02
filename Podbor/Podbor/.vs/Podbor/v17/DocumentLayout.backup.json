@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\classes\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\classes\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\creditpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\creditpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\models\\credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\models\\credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\creditinfopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\creditinfopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\classes\\appsettings\\infoaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\classes\\appsettings\\infoaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\tabbed\\maintabbedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\tabbed\\maintabbedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\creditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\creditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\creditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\creditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\customcontrol\\provaider.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\customcontrol\\provaider.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\creditinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\creditinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\loanpaymentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\loanpaymentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\creditinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\creditinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\classes\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\classes\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,110 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DBModel.cs",
               "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\DBModel.cs",
               "RelativeDocumentMoniker": "Podbor\\Classes\\DBModel.cs",
               "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\DBModel.cs",
               "RelativeToolTip": "Podbor\\Classes\\DBModel.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAAwDYBAAADAQAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawKwAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T08:00:20.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Credit.cs",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Models\\Credit.cs",
-              "RelativeDocumentMoniker": "Podbor\\Models\\Credit.cs",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Models\\Credit.cs",
-              "RelativeToolTip": "Podbor\\Models\\Credit.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAwwBABAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T07:58:59.218Z",
+              "WhenOpened": "2024-10-02T13:32:13.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainTabbedPage.xaml",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\Tabbed\\MainTabbedPage.xaml",
-              "RelativeDocumentMoniker": "Podbor\\Pages\\Tabbed\\MainTabbedPage.xaml",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\Tabbed\\MainTabbedPage.xaml",
-              "RelativeToolTip": "Podbor\\Pages\\Tabbed\\MainTabbedPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Podbor\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Podbor\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T07:13:17.68Z",
+              "WhenOpened": "2024-10-02T10:45:32.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Provaider.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\CustomControl\\Provaider.xaml.cs",
-              "RelativeDocumentMoniker": "Podbor\\CustomControl\\Provaider.xaml.cs",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\CustomControl\\Provaider.xaml.cs",
-              "RelativeToolTip": "Podbor\\CustomControl\\Provaider.xaml.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAwwH4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:54:22.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CreditPage.xaml.cs",
               "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditPage.xaml.cs",
               "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\CreditPage.xaml.cs",
               "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditPage.xaml.cs",
               "RelativeToolTip": "Podbor\\Pages\\WorkPage\\CreditPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAawFoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T06:18:42.664Z",
+              "WhenOpened": "2024-10-02T10:22:06.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "CreditPage.xaml",
               "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditPage.xaml",
               "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\CreditPage.xaml",
               "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditPage.xaml",
               "RelativeToolTip": "Podbor\\Pages\\WorkPage\\CreditPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T06:15:58.671Z",
+              "WhenOpened": "2024-10-02T10:21:34.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InfoAccount.cs",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "RelativeDocumentMoniker": "Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "RelativeToolTip": "Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T05:24:11.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoanPaymentsPage.xaml",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\LoanPaymentsPage.xaml",
-              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\LoanPaymentsPage.xaml",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\LoanPaymentsPage.xaml",
-              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\LoanPaymentsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreditInfoPage.xaml",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
+              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-01T12:53:17.694Z",
+              "WhenOpened": "2024-10-02T09:27:57.874Z",
               "EditorCaption": ""
             },
             {
@@ -164,22 +109,9 @@
               "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml.cs",
               "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml.cs",
               "RelativeToolTip": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwDgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:32:53.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreditInfoPage.xaml",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-29T16:29:11.341Z",
+              "WhenOpened": "2024-10-02T08:50:47.924Z",
               "EditorCaption": ""
             }
           ]

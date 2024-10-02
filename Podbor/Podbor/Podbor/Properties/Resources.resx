@@ -229,4 +229,13 @@
     <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="delete_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\delete_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+    <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\delete.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="futury_debtors_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\futury_debtors_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
