@@ -301,7 +301,7 @@ namespace Podbor.Classes
             table.AcceptChanges();
         }
 
-        public void ExecSql(string Qerry)
+        public void ExecSql(string Qerry, MySqlParameter[] parametrs = null)
         {
             try
             {
@@ -309,6 +309,11 @@ namespace Podbor.Classes
                     Connect();
 
                 var cmd = new MySqlCommand(Qerry, conn);
+
+                if (parametrs != null)
+                { 
+                    cmd.Parameters.AddRange(parametrs);
+                }
 
                 var rowsaffected = cmd.ExecuteNonQuery();
             }
@@ -333,6 +338,14 @@ namespace Podbor.Classes
         {
             return Task.Run(() => {
                 ExecSql(Qerry, par);
+                return true;
+            });
+        }
+
+        public Task<bool> ExecSqlAsync(string Qerry, MySqlParameter[] parametrs = null)
+        {
+            return Task.Run(() => {
+                ExecSql(Qerry, parametrs);
                 return true;
             });
         }

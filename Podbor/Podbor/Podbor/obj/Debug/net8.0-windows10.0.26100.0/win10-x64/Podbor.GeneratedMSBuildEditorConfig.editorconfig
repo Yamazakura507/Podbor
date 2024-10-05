@@ -90,6 +90,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Cred
 build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\CreditPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\CreditPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/FutureLoanPaymentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.FutureLoanPaymentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\FutureLoanPaymentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\FutureLoanPaymentsPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/LoanPaymentsInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.LoanPaymentsInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\LoanPaymentsInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\LoanPaymentsInfoPage.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/LoanPaymentsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.LoanPaymentsPage.xaml

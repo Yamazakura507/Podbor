@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Runtime.CompilerServices;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Podbor.Classes
 {
@@ -14,6 +16,8 @@ namespace Podbor.Classes
             await Task.Delay(3000);
             textBox.BackgroundColor = GoodBursh;
         }
+
+        public static void IsDecimalTextBox(this Entry entry) => entry.Text = Regex.Replace(entry.Text, "[^0-9.,]", "");
 
         public static bool TextEmptyTextBox(Entry textBox)
         {
