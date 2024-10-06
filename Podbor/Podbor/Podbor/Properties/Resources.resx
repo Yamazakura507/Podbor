@@ -229,6 +229,7 @@
     <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+<<<<<<< HEAD
       <data name="debtors_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\debtors_time.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -244,4 +245,6 @@
         <data name="future_payments" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\future_payments.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+=======
+>>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
 </root>

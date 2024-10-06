@@ -448,6 +448,7 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+<<<<<<< HEAD
 		
 		/// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
@@ -497,5 +498,7 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+=======
+>>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
     }
 }

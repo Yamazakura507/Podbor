@@ -1,7 +1,3 @@
-Angeme-Bold.ttf
-Angeme-Regular.ttf
-OpenSans-Regular.ttf
-OpenSans-Semibold.ttf
 account.scale-100.png
 account_admin.scale-100.png
 appicon.ico
@@ -57,28 +53,26 @@ credit_add.scale-100.png
 credit_no_active.scale-100.png
 credit_test.scale-100.png
 debtors_credits.scale-100.png
+<<<<<<< HEAD
 debtors_sum.scale-100.png
 debtors_time.scale-100.png
 delete_credit.scale-100.png
 finance.scale-100.png
 future_payments.scale-100.png
+=======
+finance.scale-100.png
+>>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
 non_group.scale-100.png
 planing.scale-100.png
 registration.scale-100.png
 save.scale-100.png
 support.scale-100.png
 time.scale-100.png
-splashSplashScreen.scale-100.png
-splashSplashScreen.scale-125.png
-splashSplashScreen.scale-150.png
-splashSplashScreen.scale-200.png
-splashSplashScreen.scale-400.png
 Resources\Images\debtors_credits.png
 Resources\Images\non_group.png
 AboutAssets.txt
 AlertProvader.json
 BlackHideLottie.json
-delete.json
 EmailBlackLottie.json
 EmailLottie.json
 ErrorProvaider.json
