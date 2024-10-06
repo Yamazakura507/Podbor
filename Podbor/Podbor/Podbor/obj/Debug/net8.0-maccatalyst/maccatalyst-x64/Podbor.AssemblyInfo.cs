@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7f7b0ef99f9bbd63fe062cc1b597d7a21f6ee331")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+14d06cc8b88de09227cd05ccefe87267ee083754")]
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0b6206c0d98b3778956406218363cd5c1bbd8cdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
