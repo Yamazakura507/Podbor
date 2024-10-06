@@ -165,6 +165,11 @@
 	  <Resource Include="Resources\mailActiv.tpl" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Pages\MenuPage\" />
+	  <Folder Include="Pages\WorkPage\" />
+	</ItemGroup>
+
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionPodborHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 
 </Project>

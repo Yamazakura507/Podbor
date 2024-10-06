@@ -85,17 +85,6 @@ public partial class AutorizationPage : ContentPage
             throw ex;
         }
     }
-    async private void HideAnimationStart(int time = 1000)
-    {
-        btlPass.IsAnimationEnabled = true;
-        await Task.Delay(time);
-        HideAnimationStop();
-    }
-
-    private void HideAnimationStop()
-    {
-        btlPass.IsAnimationEnabled = false;
-    }
 
     private void AutorizationButtonOnPressed(object sender, EventArgs e)
     {

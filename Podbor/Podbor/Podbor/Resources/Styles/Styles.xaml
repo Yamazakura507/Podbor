@@ -59,7 +59,6 @@
         </Setter>
     </Style>
 
-
     <Style TargetType="skia:SKLottieView" x:Key="LottieDefault">
         <Setter Property="RepeatCount" Value="-1"/>
         <Setter Property="IsVisible" Value="True"/>
@@ -81,7 +80,6 @@
         <Setter Property="Source" Value="BlackHideLottie.json"/>
     </Style>
 
-<<<<<<< HEAD
     <Style TargetType="skia:SKLottieView" x:Key="EmailBlack" BasedOn="{StaticResource LottieDefault}">
         <Setter Property="Source" Value="EmailBlackLottie.json"/>
     </Style>
@@ -118,8 +116,6 @@
         <!--<Setter Property="BarTextColor" Value="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource PrimaryDark}}"/>--><!--
     </Style>-->
 
-=======
->>>>>>> dev
     <Style TargetType="Entry">
         <Setter Property="TextColor" Value="{AppThemeBinding Light={DynamicResource Black}, Dark={DynamicResource White}}" />
         <Setter Property="BackgroundColor" Value="Transparent" />

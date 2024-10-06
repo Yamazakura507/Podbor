@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.AutorizationP
 build_metadata.AdditionalFiles.TargetPath = Pages\AutorizationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AutorizationPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/FlyautPage/PersonalAccountPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.PersonalAccountPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\PersonalAccountPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\PersonalAccountPage.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.RegistrationPage.xaml
