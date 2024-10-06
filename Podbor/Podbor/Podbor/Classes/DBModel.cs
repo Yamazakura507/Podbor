@@ -285,6 +285,7 @@ namespace Podbor.Classes
                 throw ex;
             }
         }
+<<<<<<< HEAD
 
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
         public static void CheckPolice(bool isRead, Type typeTb)
@@ -363,5 +364,7 @@ namespace Podbor.Classes
                 throw ex;
             }
         }
+=======
+>>>>>>> parent of 74cb767 (Добавление проверки доступа)
     }
 }
