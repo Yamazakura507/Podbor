@@ -46,59 +46,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.AutorizationP
 build_metadata.AdditionalFiles.TargetPath = Pages\AutorizationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AutorizationPage.xaml
 
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/FlyautPage/PersonalAccountPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.PersonalAccountPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\PersonalAccountPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\PersonalAccountPage.xaml
-
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/MenuPage/MainPersanalAccountMenuPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.MenuPage.MainPersanalAccountMenuPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage\MainPersanalAccountMenuPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage\MainPersanalAccountMenuPage.xaml
-
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.RegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\RegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\RegistrationPage.xaml
 
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/Tabbed/CreditTabbedPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.CreditTabbedPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\CreditTabbedPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\CreditTabbedPage.xaml
-
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/Tabbed/MainTabbedPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.MainTabbedPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\MainTabbedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\MainTabbedPage.xaml
-
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/CreditInfoPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.CreditInfoPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\CreditInfoPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\CreditInfoPage.xaml
-
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/CreditPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.CreditPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\CreditPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\CreditPage.xaml
-
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/LoanPaymentsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.LoanPaymentsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\LoanPaymentsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\LoanPaymentsPage.xaml
-
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/MainPersonalAccountPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.MainPersonalAccountPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\MainPersonalAccountPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\MainPersonalAccountPage.xaml
 
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
