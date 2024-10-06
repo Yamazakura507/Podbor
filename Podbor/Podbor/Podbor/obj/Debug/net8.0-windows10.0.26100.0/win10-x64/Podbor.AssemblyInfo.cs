@@ -18,7 +18,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d511e7ac4c0df4a14e85ef81f28344b51f71ae07")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e49b3211c8aa8313026d84365b57139d871d256c")]
+>>>>>>> parent of 74cb767 (Добавление проверки доступа)
 [assembly: System.Reflection.AssemblyProductAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

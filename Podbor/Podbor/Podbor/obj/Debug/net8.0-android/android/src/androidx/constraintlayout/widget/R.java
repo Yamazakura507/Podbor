@@ -908,9 +908,14 @@ public final class R {
 		public static final int notification_template_icon_low_bg = 0x7f0700e9;
 		public static final int notification_tile_bg = 0x7f0700ea;
 		public static final int notify_panel_notification_icon_bg = 0x7f0700eb;
+<<<<<<< HEAD
 		public static final int tooltip_frame_dark = 0x7f0700f3;
 		public static final int tooltip_frame_light = 0x7f0700f4;
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
+=======
+		public static final int tooltip_frame_dark = 0x7f0700f2;
+		public static final int tooltip_frame_light = 0x7f0700f3;
+>>>>>>> parent of 74cb767 (Добавление проверки доступа)
 	}
 	public static final class id {
 		public static final int NO_DEBUG = 0x7f080006;

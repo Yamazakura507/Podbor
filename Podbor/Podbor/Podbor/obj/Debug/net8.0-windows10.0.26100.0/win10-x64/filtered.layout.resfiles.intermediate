@@ -1,3 +1,7 @@
+Angeme-Bold.ttf
+Angeme-Regular.ttf
+OpenSans-Regular.ttf
+OpenSans-Semibold.ttf
 account.scale-100.png
 account_admin.scale-100.png
 appicon.ico
@@ -68,6 +72,11 @@ registration.scale-100.png
 save.scale-100.png
 support.scale-100.png
 time.scale-100.png
+splashSplashScreen.scale-100.png
+splashSplashScreen.scale-125.png
+splashSplashScreen.scale-150.png
+splashSplashScreen.scale-200.png
+splashSplashScreen.scale-400.png
 Resources\Images\debtors_credits.png
 Resources\Images\non_group.png
 AboutAssets.txt

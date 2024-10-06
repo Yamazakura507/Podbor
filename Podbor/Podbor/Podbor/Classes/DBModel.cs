@@ -1,7 +1,5 @@
 ﻿//using Java.Util.Logging;
 using MySqlConnector;
-using Podbor.Classes.AppSettings;
-using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Data;
@@ -20,8 +18,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(false, typeof(T));
-
                 using (var ms = new Mysql())
                 {
                     ms.Insert(typeof(T).Name, parametrs);
@@ -37,8 +33,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(false, typeof(T));
-
                 using (var ms = new Mysql())
                 {
                     ms.Update(typeof(T).Name, parametrs, Id is null ? WhereCollection : new Dictionary<string, object>() { { "Id", Id } });
@@ -55,8 +49,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(true, typeof(T));
-
                 ObservableCollection<T> collection = new ObservableCollection<T>();
 
                 using (var ms = new Mysql())
@@ -88,8 +80,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(true, typeof(T));
-
                 ObservableCollection<T> collection = new ObservableCollection<T>();
 
                 using (var ms = new Mysql())
@@ -117,8 +107,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(true, typeof(T));
-
                 if (Id is null && proc_comm is null && errMess != null)
                     throw new Exception(errMess);
 
@@ -152,8 +140,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(false, typeof(T));
-
                 using (var ms = new Mysql())
                 {
                     ms.ExecSql(@$"DELETE FROM `{typeof(T).Name}`
@@ -171,8 +157,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(true, typeTb);
-
                 T obj = default(T);
 
                 using (var ms = new Mysql())
@@ -193,8 +177,6 @@ namespace Podbor.Classes
         {
             try
             {
-                CheckPolice(false, typeof(T));
-
                 using (var ms = new Mysql())
                 {
                     if (value.GetType() != typeof(Byte[]))
@@ -234,6 +216,7 @@ namespace Podbor.Classes
 
         private static string ToFirstUpper(string str) => char.ToUpper(str[0]) + str.Substring(1);
 
+<<<<<<< HEAD
         public static void CheckPolice(bool isRead, Type typeTb)
         {
             try
@@ -259,6 +242,51 @@ namespace Podbor.Classes
                         if (!dtPolice.AsEnumerable().AsParallel().Any(i => i["PoliceName"].ToString() == "W" || i["PoliceName"].ToString() == "WA")) throw new Exception($"Увас нет прав записи объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
                     }
                 }
+=======
+        private static T ToObject<T>(DataRow dataRow)
+        {
+            try
+            {
+                T item = default(T);
+                string XMLstr = $"<{typeof(T).Name}>";
+
+                foreach (DataColumn column in dataRow.Table.Columns)
+                {
+                    var value = dataRow[column];
+                    string byteArr = value.ToString();
+
+                    if (value.GetType() == typeof(byte[]))
+                    {
+                        byteArr = Convert.ToBase64String((byte[])value);
+                    }
+
+                    if (value.GetType() == typeof(bool))
+                    {
+                        byteArr = (bool)value ? "1" : "0";
+                    }
+
+                    if (value.GetType() == typeof(DateTime))
+                    {
+                        byteArr = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
+                    }
+
+                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
+                    {
+                        byteArr = value.ToString().Replace(",", ".");
+                    }
+
+                    XMLstr += $"<{column.ColumnName}>{byteArr}</{column.ColumnName}>";
+                }
+
+                XMLstr += $"</{typeof(T).Name}>";
+
+                using (StringReader readerXml = new StringReader(XMLstr))
+                {
+                    item = (T)new XmlSerializer(typeof(T)).Deserialize(readerXml);
+                }
+
+                return item;
+>>>>>>> parent of 74cb767 (Добавление проверки доступа)
             }
             catch (Exception ex)
             {

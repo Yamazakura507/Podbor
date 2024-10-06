@@ -585,6 +585,7 @@ public final class R {
 		public static final int btn_radio_on_mtrl = 0x7f070083;
 		public static final int btn_radio_on_to_off_mtrl_animation = 0x7f070084;
 <<<<<<< HEAD
+<<<<<<< HEAD
 		public static final int test_level_drawable = 0x7f0700f5;
 		public static final int tooltip_frame_dark = 0x7f0700f7;
 		public static final int tooltip_frame_light = 0x7f0700f8;
@@ -593,6 +594,11 @@ public final class R {
 		public static final int tooltip_frame_dark = 0x7f0700f3;
 		public static final int tooltip_frame_light = 0x7f0700f4;
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
+=======
+		public static final int test_level_drawable = 0x7f0700f0;
+		public static final int tooltip_frame_dark = 0x7f0700f2;
+		public static final int tooltip_frame_light = 0x7f0700f3;
+>>>>>>> parent of 74cb767 (Добавление проверки доступа)
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f080033;
