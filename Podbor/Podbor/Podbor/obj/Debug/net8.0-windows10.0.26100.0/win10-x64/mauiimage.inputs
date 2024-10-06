@@ -1,6 +1,5 @@
 File=Resources\Images\credit_test.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\Images\debtors_credits.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
-File=Resources\Images\debtors_time.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
-File=Resources\Images\delete_credit.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
+File=Resources\Images\futury_debtors_credit.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\Images\registration.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\AppIcon\appicon.svg;Link=;BaseSize=;Resize=;TintColor=;Color=#512BD4;IsAppIcon=True;ForegroundScale=;ForegroundFile=Resources\AppIcon\appiconfg.svg

@@ -1,7 +1,6 @@
 ﻿//using Java.Util.Logging;
 using MySqlConnector;
 using System.Collections.ObjectModel;
-using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -12,7 +11,7 @@ namespace Podbor.Classes
 {
     public class DBModel
     {
-        protected static bool IsGet { get; set; }
+        protected static bool IsGet { get; set; } = false;
 
         public static void InsertModel<T>(Dictionary<string, object> parametrs)
         {
@@ -45,7 +44,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null) where T : new()
+        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
         {
             try
             {
@@ -63,7 +62,10 @@ namespace Podbor.Classes
 
                     IsGet = true;
 
-                    Parallel.ForEach(dt.AsEnumerable(),new ParallelOptions { MaxDegreeOfParallelism = 8 }, dr => collection.Add(dr.ToObject<T>(new T())));
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        collection.Add(ToObject<T>(dr));
+                    }
 
                     IsGet = false;
                 }
@@ -76,7 +78,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery) where T : new()
+        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery)
         {
             try
             {
@@ -90,7 +92,10 @@ namespace Podbor.Classes
 
                     IsGet = true;
 
-                    Parallel.ForEach(dt.AsEnumerable(),new ParallelOptions { MaxDegreeOfParallelism = 8 }, dr => collection.Add(dr.ToObject<T>(new T())));
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        collection.Add(ToObject<T>(dr));
+                    }
 
                     IsGet = false;
                 }
@@ -103,7 +108,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1) where T : new()
+        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1)
         {
             try
             {
@@ -120,13 +125,11 @@ namespace Podbor.Classes
                 if (dr is null)
                     throw new Exception(errMess);
 
-                bool isGet = IsGet;
-
                 IsGet = true;
 
-                T obj = dr.ToObject<T>(new T());
+                T obj = ToObject<T>(dr);
 
-                IsGet = isGet;
+                IsGet = false;
 
                 return obj;
             }
@@ -161,8 +164,7 @@ namespace Podbor.Classes
 
                 using (var ms = new Mysql())
                 {
-                    var ob = ms.GetValue($"SELECT `{param}` FROM `{typeTb.Name}` WHERE `Id` = '{Id}'") ;
-                    obj = (T)(ob == DBNull.Value ? null : ob);
+                    obj = (T)ms.GetValue($"SELECT `{param}` FROM `{typeTb.Name}` WHERE `Id` = '{Id}'");
                 }
 
                 return obj;
@@ -179,13 +181,28 @@ namespace Podbor.Classes
             {
                 using (var ms = new Mysql())
                 {
+                    if (value.GetType() == typeof(DateTime))
+                    {
+                        value = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
+                    }
+
+                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
+                    {
+                        value = value.ToString().Replace(",", ".");
+                    }
+
+                    if (value.GetType() == typeof(bool))
+                    {
+                        value = (bool)value ? "1" : "0";
+                    }
+
                     if (value.GetType() != typeof(Byte[]))
                     {
-                        ms.ExecSql($"UPDATE `{typeof(T).Name}` SET `{param}` = @valParam WHERE `Id` = @Id", new[]
-                        {
-                            new MySqlParameter("@valParam", value is null ? DBNull.Value : value),
-                            new MySqlParameter("@Id", Id)
-                        });
+                        ms.ExecSql($"UPDATE `{typeof(T).Name}` SET `{param}` = '{value}' WHERE `Id` = '{Id}'");
+                    }
+                    else
+                    {
+                        ms.UpdateBinaryColumn(typeof(T).Name, param, $"`Id` = '{Id}'", (byte[])value);
                     }
                 }
             }
@@ -217,6 +234,59 @@ namespace Podbor.Classes
         private static string ToFirstUpper(string str) => char.ToUpper(str[0]) + str.Substring(1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        private static T ToObject<T>(DataRow dataRow)
+        {
+            try
+            {
+                T item = default(T);
+                string XMLstr = $"<{typeof(T).Name}>";
+
+                foreach (DataColumn column in dataRow.Table.Columns)
+                {
+                    var value = dataRow[column];
+                    string byteArr = value.ToString();
+
+                    if (value.GetType() == typeof(byte[]))
+                    {
+                        byteArr = Convert.ToBase64String((byte[])value);
+                    }
+
+                    if (value.GetType() == typeof(bool))
+                    {
+                        byteArr = (bool)value ? "1" : "0";
+                    }
+
+                    if (value.GetType() == typeof(DateTime))
+                    {
+                        byteArr = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
+                    }
+
+                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
+                    {
+                        byteArr = value.ToString().Replace(",", ".");
+                    }
+
+                    XMLstr += $"<{column.ColumnName}>{byteArr}</{column.ColumnName}>";
+                }
+
+                XMLstr += $"</{typeof(T).Name}>";
+
+                using (StringReader readerXml = new StringReader(XMLstr))
+                {
+                    item = (T)new XmlSerializer(typeof(T)).Deserialize(readerXml);
+                }
+
+                return item;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
         public static void CheckPolice(bool isRead, Type typeTb)
         {
             try
@@ -239,7 +309,7 @@ namespace Podbor.Classes
 
                     if (!isRead)
                     {
-                        if (!dtPolice.AsEnumerable().AsParallel().Any(i => i["PoliceName"].ToString() == "W" || i["PoliceName"].ToString() == "WA")) throw new Exception($"Увас нет прав записи объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
+                        if (!dtPolice.AsEnumerable().Any(i => i["PoliceName"].ToString() == "W" || i["PoliceName"].ToString() == "WA")) throw new Exception($"Увас нет прав записи объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
                     }
                 }
 =======

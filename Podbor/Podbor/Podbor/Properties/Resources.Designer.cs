@@ -453,32 +453,13 @@ namespace Podbor.Properties {
 		/// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
-        internal static byte[] debtors_time {
-            get {
-                object obj = ResourceManager.GetObject("debtors_time", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-		
-		/// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] debtors_sum {
-            get {
-                object obj = ResourceManager.GetObject("debtors_sum", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-		
-		/// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
         internal static byte[] delete_credit {
             get {
                 object obj = ResourceManager.GetObject("delete_credit", resourceCulture);
                 return ((byte[])(obj));
             }
         }
+		
 		/// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
@@ -492,9 +473,9 @@ namespace Podbor.Properties {
 				/// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
-        internal static byte[] future_payments {
+        internal static byte[] futury_debtors_credit {
             get {
-                object obj = ResourceManager.GetObject("future_payments", resourceCulture);
+                object obj = ResourceManager.GetObject("futury_debtors_credit", resourceCulture);
                 return ((byte[])(obj));
             }
         }

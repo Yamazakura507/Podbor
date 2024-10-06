@@ -230,6 +230,7 @@
     <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <data name="debtors_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\debtors_time.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -237,13 +238,16 @@
     <value>..\Resources\Images\debtors_sum.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
         <data name="delete_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+=======
+  <data name="delete_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
     <value>..\Resources\Images\delete_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-        <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Raw\delete.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-        <data name="future_payments" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\future_payments.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="futury_debtors_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\futury_debtors_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 =======
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
