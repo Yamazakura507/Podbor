@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Podbor.Models
+namespace Podbor.Classes
 {
-    internal class dsfdsfsd
+    internal class LottieAnimation
     {
     }
 }
