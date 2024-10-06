@@ -33,27 +33,6 @@
     <MauiXaml Update="Pages\RegistrationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-<<<<<<< HEAD
-=======
-    <MauiXaml Update="Pages\WorkPage\CreditInfoPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\CreditPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\FutureLoanPaymentsPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\LoanPaymentsInfoPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\LoanPaymentsPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\MainPersonalAccountPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
->>>>>>> future/LoanPaimentsEditor
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">
