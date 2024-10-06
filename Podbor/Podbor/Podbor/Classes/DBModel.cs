@@ -13,6 +13,7 @@ namespace Podbor.Classes
 {
     public class DBModel
     {
+        private static bool isGet = false;
         protected static bool IsGet { get; set; } = false;
 
         public static void InsertModel<T>(Dictionary<string, object> parametrs)
@@ -49,7 +50,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
+        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null) where T : new()
         {
             try
             {
@@ -69,10 +70,7 @@ namespace Podbor.Classes
 
                     IsGet = true;
 
-                    foreach (DataRow dr in dt.Rows)
-                    {
-                        collection.Add(ToObject<T>(dr));
-                    }
+                    Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 
                     IsGet = false;
                 }
@@ -85,7 +83,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery)
+        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery) where T : new()
         {
             CheckPolice(true, typeof(T));
 
@@ -101,10 +99,7 @@ namespace Podbor.Classes
 
                     IsGet = true;
 
-                    foreach (DataRow dr in dt.Rows)
-                    {
-                        collection.Add(ToObject<T>(dr));
-                    }
+                    Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 
                     IsGet = false;
                 }
@@ -117,7 +112,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1)
+        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1) where T : new()
         {
             try
             {
@@ -136,11 +131,12 @@ namespace Podbor.Classes
                 if (dr is null)
                     throw new Exception(errMess);
 
+                isGet = IsGet;
                 IsGet = true;
 
-                T obj = ToObject<T>(dr);
+                T obj = dr.ToObject<T>(new T());
 
-                IsGet = false;
+                IsGet = isGet;
 
                 return obj;
             }
@@ -278,55 +274,5 @@ namespace Podbor.Classes
         }
 
         private static string ToFirstUpper(string str) => char.ToUpper(str[0]) + str.Substring(1);
-
-        private static T ToObject<T>(DataRow dataRow)
-        {
-            try
-            {
-                T item = default(T);
-                string XMLstr = $"<{typeof(T).Name}>";
-
-                foreach (DataColumn column in dataRow.Table.Columns)
-                {
-                    var value = dataRow[column];
-                    string byteArr = value.ToString();
-
-                    if (value.GetType() == typeof(byte[]))
-                    {
-                        byteArr = Convert.ToBase64String((byte[])value);
-                    }
-
-                    if (value.GetType() == typeof(bool))
-                    {
-                        byteArr = (bool)value ? "1" : "0";
-                    }
-
-                    if (value.GetType() == typeof(DateTime))
-                    {
-                        byteArr = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
-                    }
-
-                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
-                    {
-                        byteArr = value.ToString().Replace(",", ".");
-                    }
-
-                    XMLstr += $"<{column.ColumnName}>{byteArr}</{column.ColumnName}>";
-                }
-
-                XMLstr += $"</{typeof(T).Name}>";
-
-                using (StringReader readerXml = new StringReader(XMLstr))
-                {
-                    item = (T)new XmlSerializer(typeof(T)).Deserialize(readerXml);
-                }
-
-                return item;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
     }
 }
