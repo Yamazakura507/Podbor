@@ -9,8 +9,11 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\credit_test.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_sum.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_time.png
+=======
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png

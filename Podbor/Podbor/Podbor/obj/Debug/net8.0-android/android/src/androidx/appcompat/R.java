@@ -588,6 +588,7 @@ public final class R {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		public static final int test_level_drawable = 0x7f0700f5;
 		public static final int tooltip_frame_dark = 0x7f0700f7;
 		public static final int tooltip_frame_light = 0x7f0700f8;
@@ -611,6 +612,11 @@ public final class R {
 		public static final int tooltip_frame_dark = 0x7f0700f2;
 		public static final int tooltip_frame_light = 0x7f0700f3;
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+		public static final int test_level_drawable = 0x7f0700f2;
+		public static final int tooltip_frame_dark = 0x7f0700f4;
+		public static final int tooltip_frame_light = 0x7f0700f5;
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f080033;

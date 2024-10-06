@@ -235,7 +235,10 @@ namespace Podbor.Classes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
         private static T ToObject<T>(DataRow dataRow)
         {
             try
@@ -286,6 +289,10 @@ namespace Podbor.Classes
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
 
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
         public static void CheckPolice(bool isRead, Type typeTb)

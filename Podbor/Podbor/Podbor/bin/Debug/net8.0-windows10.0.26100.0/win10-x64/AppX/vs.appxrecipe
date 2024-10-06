@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Modified>2024-10-05T22:38:41.619</Modified>
 =======
       <Modified>2024-10-02T08:27:41.252</Modified>
@@ -47,6 +48,9 @@
 =======
       <Modified>2024-10-01T17:22:53.836</Modified>
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+      <Modified>2024-10-02T14:22:42.104</Modified>
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -56,7 +60,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Modified>2024-10-05T22:13:09.881</Modified>
+=======
+      <Modified>2024-10-02T14:22:41.951</Modified>
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
       <Modified>2024-10-02T14:22:41.951</Modified>
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
@@ -71,6 +79,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\apphost.exe">
       <PackagePath>Podbor.exe</PackagePath>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <Modified>2024-10-05T22:38:41.062</Modified>
 =======
@@ -113,6 +122,9 @@
       <PackagePath>Podbor.exe</PackagePath>
       <Modified>2024-10-01T17:22:53.295</Modified>
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+      <Modified>2024-10-02T14:22:41.337</Modified>
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -220,6 +232,7 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Modified>2024-10-05T21:21:21.762</Modified>
 =======
 =======
@@ -250,6 +263,9 @@
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+      <Modified>2024-10-02T12:17:23.547</Modified>
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\f\Angeme-Bold.ttf">
       <PackagePath>Angeme-Bold.ttf</PackagePath>
@@ -527,6 +543,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\bin\Debug\net8.0-windows10.0.26100.0\win10-x64\Podbor.deps.json">
       <PackagePath>Podbor.deps.json</PackagePath>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <Modified>2024-10-05T22:13:09.614</Modified>
 =======
@@ -1044,6 +1061,9 @@
       <PackagePath>Podbor.deps.json</PackagePath>
       <Modified>2024-10-01T13:25:39.482</Modified>
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+      <Modified>2024-10-02T12:17:28.790</Modified>
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\danii\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
