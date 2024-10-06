@@ -229,19 +229,4 @@
     <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-      <data name="debtors_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\debtors_time.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-      <data name="debtors_sum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\debtors_sum.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-        <data name="delete_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\delete_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-        <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Raw\delete.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-        <data name="future_payments" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\future_payments.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
 </root>

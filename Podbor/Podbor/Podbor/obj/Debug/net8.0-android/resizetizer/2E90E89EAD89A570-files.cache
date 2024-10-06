@@ -7,11 +7,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\credit_add.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\credit_no_active.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\credit_test.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_sum.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_time.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\finance.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\future_payments.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\non_group.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\planing.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\registration.png

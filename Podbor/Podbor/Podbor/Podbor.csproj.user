@@ -2,8 +2,8 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugFramework>net8.0-windows10.0.26100.0</ActiveDebugFramework>
-    <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
+    <ActiveDebugProfile>Phone 420-DPI (1) - API 34 (Android 14.0 — API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>phone_420-dpi_1_-_api_34</DefaultDevice>
   </PropertyGroup>
@@ -24,7 +24,13 @@
     <MauiXaml Update="Pages\AutorizationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\MainPage.xaml">
+    <MauiXaml Update="Pages\FlyautPage\PersonalAccountPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\MenuPage\MainPersanalAccountMenuPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Tabbed\CreditTabbedPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\Tabbed\MainTabbedPage.xaml">
@@ -33,18 +39,10 @@
     <MauiXaml Update="Pages\RegistrationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-<<<<<<< HEAD
-=======
     <MauiXaml Update="Pages\WorkPage\CreditInfoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\CreditPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\FutureLoanPaymentsPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\WorkPage\LoanPaymentsInfoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\LoanPaymentsPage.xaml">
@@ -53,7 +51,6 @@
     <MauiXaml Update="Pages\WorkPage\MainPersonalAccountPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
->>>>>>> future/LoanPaimentsEditor
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">

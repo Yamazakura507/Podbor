@@ -31,13 +31,13 @@ namespace Podbor.Models
             {
                 if (value.Length > 100)
                 {
-                    Restrictions.ErrorEvent("Наименование не должено превышать 100 символов!");
+                    throw new Exception(("Наименование не должено превышать 100 символов!");
                 }
                 else
                 {
                     if (String.IsNullOrEmpty(value))
                     {
-                        Restrictions.ErrorEvent("Наименование не может быть пустым!");
+                        throw new Exception(("Наименование не может быть пустым!");
                     }
                     else
                     {
