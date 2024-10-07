@@ -448,5 +448,44 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] delete_credit {
+            get {
+                object obj = ResourceManager.GetObject("delete_credit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] delete {
+            get {
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+				/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] futury_debtors_credit {
+            get {
+                object obj = ResourceManager.GetObject("futury_debtors_credit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+=======
+>>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
+>>>>>>> main
     }
 }

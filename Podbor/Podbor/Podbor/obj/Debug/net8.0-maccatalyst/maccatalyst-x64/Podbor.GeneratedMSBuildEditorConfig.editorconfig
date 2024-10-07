@@ -76,12 +76,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.MainTa
 build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\MainTabbedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\MainTabbedPage.xaml
 
-[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/AccountPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.AccountPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\AccountPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\AccountPage.xaml
-
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Credit/CreditInfoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Credit.CreditInfoPage.xaml

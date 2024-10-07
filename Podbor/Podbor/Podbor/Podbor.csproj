@@ -133,12 +133,15 @@
 	  <MauiXaml Update="Pages\MenuPage\MainPersanalAccountMenuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+<<<<<<< HEAD
 	  <MauiXaml Update="Pages\MenuPage\PersonalAccountMenuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Tabbed\CreditInfoTappedPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+=======
+>>>>>>> origin/future/LoanPaimentsEditor
 	  <MauiXaml Update="Pages\Tabbed\CreditTabbedPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -146,9 +149,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\RegistrationPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\WorkPage\AccountPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\CreditInfoPage.xaml">
@@ -178,6 +178,11 @@
 
 	<ItemGroup>
 	  <Resource Include="Resources\mailActiv.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Pages\MenuPage\" />
+	  <Folder Include="Pages\WorkPage\" />
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionPodborHideInfoBar="True" /></VisualStudio></ProjectExtensions>
