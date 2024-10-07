@@ -44,15 +44,6 @@
     <MauiXaml Update="Pages\RegistrationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <MauiXaml Update="Pages\WorkPage\AccountPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
->>>>>>> future/LoanPaimentsEditor
-=======
     <MauiXaml Update="Pages\WorkPage\AccountPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -62,9 +53,6 @@
     <MauiXaml Update="Pages\WorkPage\Credit\CreditPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
->>>>>>> future/LoanPaimentsEditor
-=======
->>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">
