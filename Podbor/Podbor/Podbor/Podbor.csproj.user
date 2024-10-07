@@ -32,10 +32,16 @@
     <MauiXaml Update="Pages\FlyautPage\PersonalAccountPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\MenuPage\PersonalAccountMenuPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\Tabbed\MainTabbedPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\RegistrationPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\AccountPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

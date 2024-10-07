@@ -57,7 +57,12 @@ credit_add.scale-100.png
 credit_no_active.scale-100.png
 credit_test.scale-100.png
 debtors_credits.scale-100.png
+debtors_sum.scale-100.png
+debtors_time.scale-100.png
+delete_credit.scale-100.png
 finance.scale-100.png
+future_debtors_credit.scale-100.png
+future_payments.scale-100.png
 non_group.scale-100.png
 planing.scale-100.png
 registration.scale-100.png
@@ -74,6 +79,7 @@ Resources\Images\non_group.png
 AboutAssets.txt
 AlertProvader.json
 BlackHideLottie.json
+delete.json
 EmailBlackLottie.json
 EmailLottie.json
 ErrorProvaider.json

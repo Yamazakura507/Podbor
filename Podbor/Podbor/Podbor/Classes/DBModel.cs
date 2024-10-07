@@ -202,7 +202,7 @@ namespace Podbor.Classes
                                                     INNER JOIN `ObjectRestrict` obr ON obr.`Id` = gr.`IdObjectRestriction` 
                                                     INNER JOIN `GroupingObject` gro ON gr.`IdGroup` = gro.`IdGroup` 
                                                     INNER JOIN `TableName` tn ON tn.`Id` = gro.`IdObject`
-                                                WHERE ru.`IdUser` = '{InfoAccount.IdUser}' AND tn.`Name` = '{typeTb.Name}'", true);
+                                                WHERE ru.`IdUser` = '{InfoAccount.IdUser}' AND tn.`ObjectName` = '{typeTb.Name}'", true);
                     }
 
                     if (dtPolice is null) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {typeTb.Name}!\nДля получения прав обратитесь в подержку");

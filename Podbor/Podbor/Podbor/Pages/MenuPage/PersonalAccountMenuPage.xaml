@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Podbor.Pages.MenuPage.PersonalAccountMenuPage"
+             xmlns:stat="clr-namespace:Podbor.Classes.AppSettings"
+             xmlns:local="clr-namespace:Podbor.Pages.FlyautPage.FlyautModel"
+             xmlns:page="clr-namespace:Podbor.Pages.WorkPage"
+             Title="PersonalAccountMenuPage">
+    <ScrollView>
+        <CollectionView x:Name="collectionView"
+                    x:FieldModifier="public"
+                    SelectionMode="Single" Margin="20,0,0,0">
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type local:FlyautAccountModel}">
+                <local:FlyautAccountModel Title="Акаунт"
+                                      IconSource="account.png"
+                                      TargetType="{x:Type page:AccountPage}" />
+                <local:FlyautAccountModel Title="Кредиты"
+                                      IconSource="credit.png"
+                                      TargetType="{x:Type page:AccountPage}" />
+                <local:FlyautAccountModel Title="Финансы"
+                                      IconSource="finance.png"
+                                      TargetType="{x:Type page:AccountPage}" />
+                <local:FlyautAccountModel Title="Время"
+                                      IconSource="time.png"
+                                      TargetType="{x:Type page:AccountPage}" />
+                <local:FlyautAccountModel Title="Планирование"
+                                      IconSource="planing.png"
+                                      TargetType="{x:Type page:AccountPage}" />
+                <local:FlyautAccountModel Title="Поддержака"
+                                      IconSource="support.png"
+                                      TargetType="{x:Type page:AccountPage}" />
+            </x:Array>
+        </CollectionView.ItemsSource>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="5,10" x:Name="gm">
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup Name="CommonStates">
+                            <VisualState Name="Normal"></VisualState>
+                            <VisualState Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={DynamicResource LightPrimary}, Dark={DynamicResource Gray900}}"></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding IconSource}">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Style.Triggers>
+                                    <MultiTrigger TargetType="Image">
+                                        <MultiTrigger.Conditions>
+                                            <BindingCondition Binding="{Binding Source={x:Static stat:InfoAccount.IsAdmin}}" Value="True"/>
+                                            <BindingCondition Binding="{Binding Title}" Value="Акаунт"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter Property="Source" Value="account_admin.png"/>
+                                    </MultiTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                    <Label Grid.Column="1"
+                           Margin="20,0"
+                           Text="{Binding Title}"
+                           VerticalOptions="Center">
+                        <Label.Style>
+                            <Style TargetType="Label" BasedOn="{StaticResource BoldItemLabel}">
+                                <Style.Triggers>
+                                    <DataTrigger TargetType="Label" Binding="{Binding Title}" Value="Акаунт">
+                                        <Setter Property="Text" Value="{Binding Source={x:Static stat:InfoAccount.User},Path=Login, StringFormat='Акаунт {0}'}"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Label.Style>
+                    </Label>
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+    </ScrollView>
+</ContentPage>
