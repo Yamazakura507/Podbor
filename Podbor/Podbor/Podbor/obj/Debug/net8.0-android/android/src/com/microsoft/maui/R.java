@@ -2864,6 +2864,7 @@ public final class R {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		public static final int design_fab_background = 0x7f07008d;
 		public static final int design_ic_visibility = 0x7f07008e;
 		public static final int design_ic_visibility_off = 0x7f07008f;
@@ -2956,6 +2957,8 @@ public final class R {
 		public static final int tooltip_frame_dark = 0x7f0700f7;
 		public static final int tooltip_frame_light = 0x7f0700f8;
 =======
+=======
+>>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		public static final int design_fab_background = 0x7f07008a;
 		public static final int design_ic_visibility = 0x7f07008b;
 		public static final int design_ic_visibility_off = 0x7f07008c;
@@ -3044,6 +3047,7 @@ public final class R {
 		public static final int notification_template_icon_low_bg = 0x7f0700e9;
 		public static final int notification_tile_bg = 0x7f0700ea;
 		public static final int notify_panel_notification_icon_bg = 0x7f0700eb;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		public static final int test_level_drawable = 0x7f0700f1;
@@ -3158,6 +3162,11 @@ public final class R {
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+		public static final int test_level_drawable = 0x7f0700f0;
+		public static final int tooltip_frame_dark = 0x7f0700f2;
+		public static final int tooltip_frame_light = 0x7f0700f3;
+>>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	}
 	public static final class id {
 		public static final int BOTTOM_END = 0x7f080001;

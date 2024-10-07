@@ -15,11 +15,6 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <MauiXaml Update="CustomControl\Loading.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -29,24 +24,12 @@
     <MauiXaml Update="Pages\AutorizationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Pages\FlyautPage\PersonalAccountPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\MenuPage\PersonalAccountMenuPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Pages\Tabbed\MainTabbedPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\RegistrationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-<<<<<<< HEAD
-    <MauiXaml Update="Pages\WorkPage\AccountPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-=======
->>>>>>> main
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">
