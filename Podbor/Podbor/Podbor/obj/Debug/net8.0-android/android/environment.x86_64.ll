@@ -108,24 +108,10 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 3, ; uint32_t package_naming_policy (0x3)
 	i32 12, ; uint32_t environment_variable_count (0xc)
 	i32 0, ; uint32_t system_property_count (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	i32 164, ; uint32_t number_of_assemblies_in_apk (0xa4)
 	i32 65, ; uint32_t bundled_assembly_name_width (0x41)
 	i32 2, ; uint32_t number_of_assembly_store_files (0x2)
 	i32 820, ; uint32_t number_of_dso_cache_entries (0x334)
-=======
-	i32 163, ; uint32_t number_of_assemblies_in_apk (0xa3)
-	i32 65, ; uint32_t bundled_assembly_name_width (0x41)
-	i32 2, ; uint32_t number_of_assembly_store_files (0x2)
-	i32 814, ; uint32_t number_of_dso_cache_entries (0x32e)
->>>>>>> main
-=======
-	i32 163, ; uint32_t number_of_assemblies_in_apk (0xa3)
-	i32 65, ; uint32_t bundled_assembly_name_width (0x41)
-	i32 2, ; uint32_t number_of_assembly_store_files (0x2)
-	i32 814, ; uint32_t number_of_dso_cache_entries (0x32e)
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	i32 33555219, ; uint32_t android_runtime_jnienv_class_token (0x2000313)
 	i32 100671988, ; uint32_t jnienv_initialize_method_token (0x60021f4)
 	i32 100671987, ; uint32_t jnienv_registerjninatives_method_token (0x60021f3)
@@ -136,15 +122,7 @@ target triple = "x86_64-unknown-linux-android21"
 }, align 16
 
 ; DSO cache entries
-<<<<<<< HEAD
-<<<<<<< HEAD
 @dso_cache = dso_local local_unnamed_addr global [820 x %struct.DSOCacheEntry] [
-=======
-@dso_cache = dso_local local_unnamed_addr global [814 x %struct.DSOCacheEntry] [
->>>>>>> main
-=======
-@dso_cache = dso_local local_unnamed_addr global [814 x %struct.DSOCacheEntry] [
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10013782901593326, ; hash 0x23937b84b514ee, from name: aot-System.Buffers.dll.so
 		i8 0, ; bool ignore
@@ -160,15 +138,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 120698629574877762, ; hash 0x1accec39cafe242, from name: Mono.Android
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.138_name, ; name: libaot-Mono.Android.dll.so
-=======
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 2
 	%struct.DSOCacheEntry {
@@ -186,15 +156,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 221057335580609593, ; hash 0x3115a79ba46cc39, from name: libaot-System.Threading.Thread.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Threading.Thread.dll.so
-=======
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 5
 	%struct.DSOCacheEntry {
@@ -212,15 +174,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 290628453294630638, ; hash 0x4088509d83f66ee, from name: libaot-System.Net.Primitives.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Primitives.dll.so
-=======
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 8
 	%struct.DSOCacheEntry {
@@ -244,43 +198,19 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 327393534088447553, ; hash 0x48b22af451a0641, from name: libaot-System.Console.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Console.dll.so
-=======
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 12
 	%struct.DSOCacheEntry {
 		i64 390170653843578339, ; hash 0x56a2a247820dde3, from name: aot-System.Security.Cryptography.Algorithms
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-=======
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 13
 	%struct.DSOCacheEntry {
 		i64 409388313388362627, ; hash 0x5ae708082b5ab83, from name: System.Web.HttpUtility.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Web.HttpUtility.dll.so
-=======
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 14
 	%struct.DSOCacheEntry {
@@ -298,15 +228,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 472512565983034901, ; hash 0x68eb3acdf53be15, from name: libaot-System.ComponentModel.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.ComponentModel.dll.so
-=======
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 17
 	%struct.DSOCacheEntry {
@@ -318,148 +240,80 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 542231388356652987, ; hash 0x78664932910afbb, from name: System.Transactions.Local.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Transactions.Local.dll.so
-=======
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 19
 	%struct.DSOCacheEntry {
 		i64 544465019603341966, ; hash 0x78e540cf615528e, from name: libaot-System.Text.Encoding.Extensions
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-=======
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 20
 	%struct.DSOCacheEntry {
-		i64 603416640204715261, ; hash 0x85fc43cbaf634fd, from name: libaot-System.Net.NameResolution
+		i64 587225303260200101, ; hash 0x8263e4d53f1fca5, from name: libaot-System.Threading.Tasks.Parallel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
+		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.Tasks.Parallel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 21
 	%struct.DSOCacheEntry {
-		i64 626497116700919570, ; hash 0x8b1c3ceedc3c712, from name: aot-System.Text.RegularExpressions
+		i64 603416640204715261, ; hash 0x85fc43cbaf634fd, from name: libaot-System.Net.NameResolution
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
+		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NameResolution.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 22
 	%struct.DSOCacheEntry {
-		i64 628522906763308403, ; hash 0x8b8f640eed2ad73, from name: libaot-System.ObjectModel.dll.so
+		i64 626497116700919570, ; hash 0x8b1c3ceedc3c712, from name: aot-System.Text.RegularExpressions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
+		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Text.RegularExpressions.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 23
 	%struct.DSOCacheEntry {
-		i64 658334938653860260, ; hash 0x922e02381b121a4, from name: System.ComponentModel.EventBasedAsync.dll.so
+		i64 628522906763308403, ; hash 0x8b8f640eed2ad73, from name: libaot-System.ObjectModel.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
+		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.ObjectModel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 24
 	%struct.DSOCacheEntry {
+		i64 658334938653860260, ; hash 0x922e02381b121a4, from name: System.ComponentModel.EventBasedAsync.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 25
+	%struct.DSOCacheEntry {
 		i64 680930311029487832, ; hash 0x973268299b578d8, from name: aot-System.IO.Compression.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Compression.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 26
-=======
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 20
-	%struct.DSOCacheEntry {
-		i64 603416640204715261, ; hash 0x85fc43cbaf634fd, from name: libaot-System.Net.NameResolution
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 21
-	%struct.DSOCacheEntry {
-		i64 626497116700919570, ; hash 0x8b1c3ceedc3c712, from name: aot-System.Text.RegularExpressions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 22
-	%struct.DSOCacheEntry {
-		i64 628522906763308403, ; hash 0x8b8f640eed2ad73, from name: libaot-System.ObjectModel.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 23
-	%struct.DSOCacheEntry {
-		i64 658334938653860260, ; hash 0x922e02381b121a4, from name: System.ComponentModel.EventBasedAsync.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 24
-	%struct.DSOCacheEntry {
-		i64 680930311029487832, ; hash 0x973268299b578d8, from name: aot-System.IO.Compression.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 25
->>>>>>> main
-=======
-	}, ; 25
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 716574749169539573, ; hash 0x9f1c8f01343d9f5, from name: mono-component-debugger
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.3_name, ; name: libmono-component-debugger.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 27
-=======
-	}, ; 26
->>>>>>> main
-=======
-	}, ; 26
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 739739707383691399, ; hash 0xa44155834db3887, from name: aot-Xamarin.AndroidX.CursorAdapter.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.49_name, ; name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 28
-=======
-	}, ; 27
->>>>>>> main
-=======
-	}, ; 27
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 743359736279824557, ; hash 0xa50f1bddd4978ad, from name: libaot-Xamarin.AndroidX.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.48_name, ; name: libaot-Xamarin.AndroidX.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 29
-=======
-	}, ; 28
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 750875890346172408, ; hash 0xa6ba5a4da7d1ff8, from name: System.Threading.Thread
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
+		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Threading.Thread.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 29
+	}, ; 30
 	%struct.DSOCacheEntry {
 		i64 756290313852954525, ; hash 0xa7ee2089046279d, from name: System.Security.Cryptography.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
+		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Security.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 31
 	%struct.DSOCacheEntry {
 		i64 799181003517975415, ; hash 0xb1742e371eddb77, from name: libaot-System.ComponentModel.Annotations.dll.so
@@ -467,2189 +321,910 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.Annotations.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 32
-=======
-	}, ; 28
-	%struct.DSOCacheEntry {
-		i64 750875890346172408, ; hash 0xa6ba5a4da7d1ff8, from name: System.Threading.Thread
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 29
-	%struct.DSOCacheEntry {
-		i64 756290313852954525, ; hash 0xa7ee2089046279d, from name: System.Security.Cryptography.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 30
->>>>>>> main
-=======
-	}, ; 30
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 872800313462103108, ; hash 0xc1ccf42c3c21c44, from name: Xamarin.AndroidX.DrawerLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.51_name, ; name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 33
-=======
-	}, ; 31
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 926729488379472330, ; hash 0xcdc678f45bce9ca, from name: aot-Java.Interop.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
+		ptr @.DSOCacheEntry.136_name, ; name: libaot-Java.Interop.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 34
-=======
-	}, ; 31
-	%struct.DSOCacheEntry {
-		i64 926729488379472330, ; hash 0xcdc678f45bce9ca, from name: aot-Java.Interop.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 32
->>>>>>> main
-=======
-	}, ; 32
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 926762996762141689, ; hash 0xcdc86090cfbe3f9, from name: libaot-Xamarin.AndroidX.Lifecycle.Common
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.53_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 35
-=======
-	}, ; 33
->>>>>>> main
-=======
-	}, ; 33
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1055594944834953507, ; hash 0xea63a027195e123, from name: aot-Microsoft.Win32.Primitives
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.70_name, ; name: libaot-Microsoft.Win32.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 36
-=======
-	}, ; 34
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1096321628016204463, ; hash 0xf36eab64d7bdaaf, from name: aot-System.Linq.Expressions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.Expressions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 37
-=======
-	}, ; 34
-	%struct.DSOCacheEntry {
-		i64 1096321628016204463, ; hash 0xf36eab64d7bdaaf, from name: aot-System.Linq.Expressions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 35
->>>>>>> main
-=======
-	}, ; 35
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1097501675994448902, ; hash 0xf3b1bf5a20b8406, from name: libaot-System.Collections
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.76_name, ; name: libaot-System.Collections.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 38
-=======
-	}, ; 36
->>>>>>> main
-=======
-	}, ; 36
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1135679001553794407, ; hash 0xfc2be08ea7bf567, from name: aot-Microsoft.Maui.Controls.Compatibility
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.25_name, ; name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 39
-=======
-	}, ; 37
->>>>>>> main
-=======
-	}, ; 37
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1136601720422326463, ; hash 0xfc6053e24dee0bf, from name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.68_name, ; name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 40
-=======
-	}, ; 38
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1146928578970395727, ; hash 0xfeab5774446244f, from name: aot-System.ComponentModel.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
+		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 41
-=======
-	}, ; 38
-	%struct.DSOCacheEntry {
-		i64 1146928578970395727, ; hash 0xfeab5774446244f, from name: aot-System.ComponentModel.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 39
->>>>>>> main
-=======
-	}, ; 39
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1151394494093259064, ; hash 0xffa933128c4f138, from name: aot-Xamarin.AndroidX.Collection
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.46_name, ; name: libaot-Xamarin.AndroidX.Collection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 42
-=======
-	}, ; 40
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1159483400534289526, ; hash 0x1017500273ceec76, from name: libaot-System.ComponentModel.EventBasedAsync.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 41
-	%struct.DSOCacheEntry {
-		i64 1181472735908652530, ; hash 0x10656f318fa4e5f2, from name: System.Runtime.Numerics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 42
-	%struct.DSOCacheEntry {
-		i64 1196280833168408863, ; hash 0x109a0b14609c811f, from name: libaot-System.Diagnostics.TraceSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 43
 	%struct.DSOCacheEntry {
-		i64 1200280967012175695, ; hash 0x10a8412e1d6c4f4f, from name: libaot-netstandard.dll.so
+		i64 1181472735908652530, ; hash 0x10656f318fa4e5f2, from name: System.Runtime.Numerics.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
+		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Numerics.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 44
 	%struct.DSOCacheEntry {
+		i64 1196280833168408863, ; hash 0x109a0b14609c811f, from name: libaot-System.Diagnostics.TraceSource
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 45
+	%struct.DSOCacheEntry {
+		i64 1200280967012175695, ; hash 0x10a8412e1d6c4f4f, from name: libaot-netstandard.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.135_name, ; name: libaot-netstandard.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 46
+	%struct.DSOCacheEntry {
 		i64 1234884336330527393, ; hash 0x112330c2ddacd2a1, from name: aot-System.Security.Claims.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
+		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Claims.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 47
-=======
-	}, ; 40
-	%struct.DSOCacheEntry {
-		i64 1159483400534289526, ; hash 0x1017500273ceec76, from name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 41
-	%struct.DSOCacheEntry {
-		i64 1181472735908652530, ; hash 0x10656f318fa4e5f2, from name: System.Runtime.Numerics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 42
-	%struct.DSOCacheEntry {
-		i64 1196280833168408863, ; hash 0x109a0b14609c811f, from name: libaot-System.Diagnostics.TraceSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 43
-	%struct.DSOCacheEntry {
-		i64 1200280967012175695, ; hash 0x10a8412e1d6c4f4f, from name: libaot-netstandard.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 44
-	%struct.DSOCacheEntry {
-		i64 1234884336330527393, ; hash 0x112330c2ddacd2a1, from name: aot-System.Security.Claims.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 45
->>>>>>> main
-=======
-	}, ; 45
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1288830572241085177, ; hash 0x11e2d893b217e2f9, from name: aot-_Microsoft.Android.Resource.Designer.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.10_name, ; name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 48
-=======
-	}, ; 46
->>>>>>> main
-=======
-	}, ; 46
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1310390983169450822, ; hash 0x122f71a80cb0a346, from name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.65_name, ; name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 49
-=======
-	}, ; 47
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1336414576634453616, ; hash 0x128be5fa10f35e70, from name: aot-System.Runtime.CompilerServices.Unsafe
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
+		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 50
-=======
-	}, ; 47
-	%struct.DSOCacheEntry {
-		i64 1336414576634453616, ; hash 0x128be5fa10f35e70, from name: aot-System.Runtime.CompilerServices.Unsafe
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 48
->>>>>>> main
-=======
-	}, ; 48
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1347602760944503386, ; hash 0x12b3a592386eca5a, from name: libaot-Xamarin.AndroidX.AppCompat
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.43_name, ; name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 51
-=======
-	}, ; 49
->>>>>>> main
-=======
-	}, ; 49
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1408308371658705060, ; hash 0x138b5100a2ed08a4, from name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.10_name, ; name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 52
-=======
-	}, ; 50
->>>>>>> main
-=======
-	}, ; 50
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1499327756876432029, ; hash 0x14ceaea6ae80c29d, from name: libSystem.Security.Cryptography.Native.Android
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.2_name, ; name: libSystem.Security.Cryptography.Native.Android.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 53
-=======
-	}, ; 51
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1513467482682125403, ; hash 0x1500eaa8245f6c5b, from name: Mono.Android.Runtime
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
+		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 54
-=======
-	}, ; 51
-	%struct.DSOCacheEntry {
-		i64 1513467482682125403, ; hash 0x1500eaa8245f6c5b, from name: Mono.Android.Runtime
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 52
->>>>>>> main
-=======
-	}, ; 52
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1560574748131067758, ; hash 0x15a8467713cc076e, from name: System.Collections.NonGeneric.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.74_name, ; name: libaot-System.Collections.NonGeneric.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 55
-=======
-	}, ; 53
->>>>>>> main
-=======
-	}, ; 53
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1690700643259123969, ; hash 0x17769346fefc0901, from name: libaot-Xamarin.AndroidX.ViewPager2
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.66_name, ; name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 56
-=======
-	}, ; 54
->>>>>>> main
-=======
-	}, ; 54
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1709477469831854591, ; hash 0x17b948b39cdc79ff, from name: aot-Microsoft.Extensions.Configuration.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.17_name, ; name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 57
-=======
-	}, ; 55
->>>>>>> main
-=======
-	}, ; 55
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1721188000629361194, ; hash 0x17e2e35e092d8a2a, from name: aot-MimeKit.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.31_name, ; name: libaot-MimeKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 58
-=======
-	}, ; 56
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1730900776029750156, ; hash 0x18056515c8b3838c, from name: aot-System.Runtime.Numerics.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
+		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Numerics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 59
-=======
-	}, ; 56
-	%struct.DSOCacheEntry {
-		i64 1730900776029750156, ; hash 0x18056515c8b3838c, from name: aot-System.Runtime.Numerics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 57
->>>>>>> main
-=======
-	}, ; 57
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1792597406847876242, ; hash 0x18e095d80c743c92, from name: libaot-SkiaSharp.Extended
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.34_name, ; name: libaot-SkiaSharp.Extended.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 60
-=======
-	}, ; 58
->>>>>>> main
-=======
-	}, ; 58
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1836611346387731153, ; hash 0x197cf449ebe482d1, from name: Xamarin.AndroidX.SavedState
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.63_name, ; name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 61
-=======
-	}, ; 59
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1875417405349196092, ; hash 0x1a06d2319b6c713c, from name: System.Drawing.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
+		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 62
-=======
-	}, ; 59
-	%struct.DSOCacheEntry {
-		i64 1875417405349196092, ; hash 0x1a06d2319b6c713c, from name: System.Drawing.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 60
->>>>>>> main
-=======
-	}, ; 60
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1893652335120276468, ; hash 0x1a479ac40aeedbf4, from name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.54_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 63
-=======
-	}, ; 61
->>>>>>> main
-=======
-	}, ; 61
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1920760634179481754, ; hash 0x1aa7e99ec2d2709a, from name: Microsoft.Maui.Controls.Xaml
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.27_name, ; name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 64
-=======
-	}, ; 62
->>>>>>> main
-=======
-	}, ; 62
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1944135226823170461, ; hash 0x1afaf4b0361e599d, from name: aot-Microsoft.Extensions.Primitives.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.24_name, ; name: libaot-Microsoft.Extensions.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 65
-=======
-	}, ; 63
->>>>>>> main
-=======
-	}, ; 63
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1963507636676687784, ; hash 0x1b3fc7cadde177a8, from name: MimeKit
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.31_name, ; name: libaot-MimeKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 66
-=======
-	}, ; 64
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 1972385128188460614, ; hash 0x1b5f51d2edefbe46, from name: System.Security.Cryptography.Algorithms
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 65
-	%struct.DSOCacheEntry {
-		i64 1998496697131023285, ; hash 0x1bbc162855493bb5, from name: aot-System.Runtime.CompilerServices.Unsafe.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 66
-	%struct.DSOCacheEntry {
-		i64 2010011812825262371, ; hash 0x1be4ff1821c9e923, from name: System.ComponentModel.TypeConverter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
+		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 67
 	%struct.DSOCacheEntry {
-		i64 2019051625445060944, ; hash 0x1c051cc185d3f150, from name: libaot-System.Data.Common.dll.so
+		i64 1998496697131023285, ; hash 0x1bbc162855493bb5, from name: aot-System.Runtime.CompilerServices.Unsafe.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
+		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 68
 	%struct.DSOCacheEntry {
+		i64 2010011812825262371, ; hash 0x1be4ff1821c9e923, from name: System.ComponentModel.TypeConverter.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 69
+	%struct.DSOCacheEntry {
+		i64 2019051625445060944, ; hash 0x1c051cc185d3f150, from name: libaot-System.Data.Common.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Data.Common.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 70
+	%struct.DSOCacheEntry {
 		i64 2024202821639637893, ; hash 0x1c1769bdd92c8b85, from name: aot-System.IO.Compression
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Compression.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 71
-=======
-	}, ; 64
-	%struct.DSOCacheEntry {
-		i64 1972385128188460614, ; hash 0x1b5f51d2edefbe46, from name: System.Security.Cryptography.Algorithms
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 65
-	%struct.DSOCacheEntry {
-		i64 1998496697131023285, ; hash 0x1bbc162855493bb5, from name: aot-System.Runtime.CompilerServices.Unsafe.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 66
-	%struct.DSOCacheEntry {
-		i64 2010011812825262371, ; hash 0x1be4ff1821c9e923, from name: System.ComponentModel.TypeConverter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 67
-	%struct.DSOCacheEntry {
-		i64 2019051625445060944, ; hash 0x1c051cc185d3f150, from name: libaot-System.Data.Common.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 68
-	%struct.DSOCacheEntry {
-		i64 2024202821639637893, ; hash 0x1c1769bdd92c8b85, from name: aot-System.IO.Compression
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 69
->>>>>>> main
-=======
-	}, ; 69
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2034246700143554471, ; hash 0x1c3b18988b912fa7, from name: libaot-Xamarin.AndroidX.Navigation.Runtime
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.60_name, ; name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 72
-=======
-	}, ; 70
->>>>>>> main
-=======
-	}, ; 70
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2054529855940994150, ; hash 0x1c832804c3cc2466, from name: aot-Xamarin.AndroidX.AppCompat
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.43_name, ; name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 73
-=======
-	}, ; 71
->>>>>>> main
-=======
-	}, ; 71
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2081794811402477991, ; hash 0x1ce40559e4e561a7, from name: Microsoft.Extensions.Options.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.23_name, ; name: libaot-Microsoft.Extensions.Options.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 74
-=======
-	}, ; 72
->>>>>>> main
-=======
-	}, ; 72
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2151863900041073625, ; hash 0x1ddcf4d0e6ef53d9, from name: SkiaSharp.Extended.UI.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.35_name, ; name: libaot-SkiaSharp.Extended.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 75
-=======
-	}, ; 73
->>>>>>> main
-=======
-	}, ; 73
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2169143264332568652, ; hash 0x1e1a584e6979584c, from name: aot-System.Collections.Concurrent.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.72_name, ; name: libaot-System.Collections.Concurrent.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 76
-=======
-	}, ; 74
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2178726392135891111, ; hash 0x1e3c641c3a0738a7, from name: System.Diagnostics.DiagnosticSource.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
+		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 77
-=======
-	}, ; 74
-	%struct.DSOCacheEntry {
-		i64 2178726392135891111, ; hash 0x1e3c641c3a0738a7, from name: System.Diagnostics.DiagnosticSource.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 75
->>>>>>> main
-=======
-	}, ; 75
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2188053935818705699, ; hash 0x1e5d877639de8b23, from name: aot-Xamarin.AndroidX.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.48_name, ; name: libaot-Xamarin.AndroidX.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 78
-=======
-	}, ; 76
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2204262165896919438, ; hash 0x1e971cc2de1e798e, from name: Mono.Android.Runtime.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
+		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.Runtime.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 77
+	}, ; 79
 	%struct.DSOCacheEntry {
 		i64 2213385277651629120, ; hash 0x1eb7862ed9813440, from name: aot-System.Transactions.Local.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
+		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Transactions.Local.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 80
-=======
-	}, ; 76
-	%struct.DSOCacheEntry {
-		i64 2204262165896919438, ; hash 0x1e971cc2de1e798e, from name: Mono.Android.Runtime.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 77
-	%struct.DSOCacheEntry {
-		i64 2213385277651629120, ; hash 0x1eb7862ed9813440, from name: aot-System.Transactions.Local.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 78
->>>>>>> main
-=======
-	}, ; 78
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2224048179339183696, ; hash 0x1edd68091cddc650, from name: libaot-Microsoft.Extensions.DependencyInjection.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.18_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 81
-=======
-	}, ; 79
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2278942814095671648, ; hash 0x1fa06e6a419a0160, from name: System.ObjectModel.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
+		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.ObjectModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 82
-=======
-	}, ; 79
-	%struct.DSOCacheEntry {
-		i64 2278942814095671648, ; hash 0x1fa06e6a419a0160, from name: System.ObjectModel.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 80
->>>>>>> main
-=======
-	}, ; 80
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2287834202362508563, ; hash 0x1fc00515e8ce7513, from name: System.Collections.Concurrent
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.72_name, ; name: libaot-System.Collections.Concurrent.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 83
-=======
-	}, ; 81
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2308032427487440447, ; hash 0x2007c743aa78ae3f, from name: libaot-System.Linq.Expressions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.Expressions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 84
-=======
-	}, ; 81
-	%struct.DSOCacheEntry {
-		i64 2308032427487440447, ; hash 0x2007c743aa78ae3f, from name: libaot-System.Linq.Expressions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 82
->>>>>>> main
-=======
-	}, ; 82
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2331926070505433189, ; hash 0x205caa67f2f2e865, from name: aot-Xamarin.Kotlin.StdLib
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.68_name, ; name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 85
-=======
-	}, ; 83
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2335503487726329082, ; hash 0x2069600c4d9d1cfa, from name: System.Text.Encodings.Web
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
+		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Encodings.Web.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 84
+	}, ; 86
 	%struct.DSOCacheEntry {
 		i64 2337758774805907496, ; hash 0x207163383edbc828, from name: System.Runtime.CompilerServices.Unsafe
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
+		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 85
+	}, ; 87
 	%struct.DSOCacheEntry {
 		i64 2383056933276923752, ; hash 0x211251a7a380b768, from name: System.Memory.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
+		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Memory.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 88
-=======
-	}, ; 83
-	%struct.DSOCacheEntry {
-		i64 2335503487726329082, ; hash 0x2069600c4d9d1cfa, from name: System.Text.Encodings.Web
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 84
-	%struct.DSOCacheEntry {
-		i64 2337758774805907496, ; hash 0x207163383edbc828, from name: System.Runtime.CompilerServices.Unsafe
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 85
-	%struct.DSOCacheEntry {
-		i64 2383056933276923752, ; hash 0x211251a7a380b768, from name: System.Memory.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 86
->>>>>>> main
-=======
-	}, ; 86
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2470498323731680442, ; hash 0x2248f922dc398cba, from name: Xamarin.AndroidX.CoordinatorLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.47_name, ; name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 89
-=======
-	}, ; 87
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2476879673203463353, ; hash 0x225fa4f090ad94b9, from name: libaot-System.Runtime.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
+		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Runtime.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 88
+	}, ; 90
 	%struct.DSOCacheEntry {
 		i64 2497223385847772520, ; hash 0x22a7eb7046413568, from name: System.Runtime
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
+		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 91
-=======
-	}, ; 87
-	%struct.DSOCacheEntry {
-		i64 2476879673203463353, ; hash 0x225fa4f090ad94b9, from name: libaot-System.Runtime.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 88
-	%struct.DSOCacheEntry {
-		i64 2497223385847772520, ; hash 0x22a7eb7046413568, from name: System.Runtime
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 89
->>>>>>> main
-=======
-	}, ; 89
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2516268783161295760, ; hash 0x22eb952063bbc390, from name: _Microsoft.Android.Resource.Designer.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.10_name, ; name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 92
-=======
-	}, ; 90
->>>>>>> main
-=======
-	}, ; 90
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2522582145975789087, ; hash 0x23020318b7a1261f, from name: Xamarin.AndroidX.AppCompat.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.43_name, ; name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 93
-=======
-	}, ; 91
->>>>>>> main
-=======
-	}, ; 91
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2538554391237297494, ; hash 0x233ac1c4dcb50556, from name: SkiaSharp.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.9_name, ; name: libSkiaSharp.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 94
-=======
-	}, ; 92
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2543609594401387459, ; hash 0x234cb7731191f3c3, from name: aot-System.Threading.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
+		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Threading.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 95
-=======
-	}, ; 92
-	%struct.DSOCacheEntry {
-		i64 2543609594401387459, ; hash 0x234cb7731191f3c3, from name: aot-System.Threading.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 93
->>>>>>> main
-=======
-	}, ; 93
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2556159811586177091, ; hash 0x23794dce36b93843, from name: libaot-CommunityToolkit.Maui.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.14_name, ; name: libaot-CommunityToolkit.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 96
-=======
-	}, ; 94
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2556787638847292301, ; hash 0x237b88cfa39a438d, from name: libaot-Mono.Android.Runtime
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
+		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 97
-=======
-	}, ; 94
-	%struct.DSOCacheEntry {
-		i64 2556787638847292301, ; hash 0x237b88cfa39a438d, from name: libaot-Mono.Android.Runtime
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 95
->>>>>>> main
-=======
-	}, ; 95
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2564867392456424521, ; hash 0x23983d4ddf58fc49, from name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.64_name, ; name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 98
-=======
-	}, ; 96
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2632269733008246987, ; hash 0x2487b36034f808cb, from name: System.Net.NameResolution
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
+		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NameResolution.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 99
-=======
-	}, ; 96
-	%struct.DSOCacheEntry {
-		i64 2632269733008246987, ; hash 0x2487b36034f808cb, from name: System.Net.NameResolution
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 97
->>>>>>> main
-=======
-	}, ; 97
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2656907746661064104, ; hash 0x24df3b84c8b75da8, from name: Microsoft.Extensions.DependencyInjection
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.18_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 100
-=======
-	}, ; 98
->>>>>>> main
-=======
-	}, ; 98
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2668219604630665034, ; hash 0x25076b97f4be774a, from name: aot-Xamarin.AndroidX.Navigation.Fragment
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.59_name, ; name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 101
-=======
-	}, ; 99
->>>>>>> main
-=======
-	}, ; 99
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2676598929141056664, ; hash 0x2525308b79a4c498, from name: xamarin-debug-app-helper.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.8_name, ; name: libxamarin-debug-app-helper.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 102
-=======
-	}, ; 100
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2680228656536905837, ; hash 0x253215c33db4686d, from name: libaot-System.Numerics.Vectors
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
+		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.Numerics.Vectors.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 101
+	}, ; 103
 	%struct.DSOCacheEntry {
 		i64 2696149129426007350, ; hash 0x256aa55930ea7536, from name: libaot-System.Net.NetworkInformation.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
+		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.NetworkInformation.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 102
+	}, ; 104
 	%struct.DSOCacheEntry {
 		i64 2720835231062098223, ; hash 0x25c2593a1fd3012f, from name: libaot-System.Security.Cryptography.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 105
-=======
-	}, ; 100
-	%struct.DSOCacheEntry {
-		i64 2680228656536905837, ; hash 0x253215c33db4686d, from name: libaot-System.Numerics.Vectors
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 101
-	%struct.DSOCacheEntry {
-		i64 2696149129426007350, ; hash 0x256aa55930ea7536, from name: libaot-System.Net.NetworkInformation.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 102
-	%struct.DSOCacheEntry {
-		i64 2720835231062098223, ; hash 0x25c2593a1fd3012f, from name: libaot-System.Security.Cryptography.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 103
->>>>>>> main
-=======
-	}, ; 103
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2773071091502822988, ; hash 0x267bed7721ee364c, from name: libaot-MailKit.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.15_name, ; name: libaot-MailKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 106
-=======
-	}, ; 104
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2794448935210026949, ; hash 0x26c7e0803e2987c5, from name: aot-System.Net.ServicePoint
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.ServicePoint.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 107
-=======
-	}, ; 104
-	%struct.DSOCacheEntry {
-		i64 2794448935210026949, ; hash 0x26c7e0803e2987c5, from name: aot-System.Net.ServicePoint
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 105
->>>>>>> main
-=======
-	}, ; 105
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2834374838958460508, ; hash 0x2755b8e61c6c8e5c, from name: Microsoft.Maui.Graphics.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.30_name, ; name: libaot-Microsoft.Maui.Graphics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 108
-=======
-	}, ; 106
->>>>>>> main
-=======
-	}, ; 106
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2837562181765940674, ; hash 0x27610bc5303dc5c2, from name: libaot-_Microsoft.Android.Resource.Designer
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.10_name, ; name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 109
-=======
-	}, ; 107
->>>>>>> main
-=======
-	}, ; 107
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2864889642192985433, ; hash 0x27c221f3639bdd59, from name: aot-Microsoft.Maui
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.28_name, ; name: libaot-Microsoft.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 110
-=======
-	}, ; 108
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2865936624365190494, ; hash 0x27c5da2cec11bd5e, from name: aot-System.ComponentModel.TypeConverter.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
+		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 109
+	}, ; 111
 	%struct.DSOCacheEntry {
 		i64 2895224535127013735, ; hash 0x282de760093db967, from name: libaot-System.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
+		ptr @.DSOCacheEntry.134_name, ; name: libaot-System.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 112
-=======
-	}, ; 108
-	%struct.DSOCacheEntry {
-		i64 2865936624365190494, ; hash 0x27c5da2cec11bd5e, from name: aot-System.ComponentModel.TypeConverter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 109
-	%struct.DSOCacheEntry {
-		i64 2895224535127013735, ; hash 0x282de760093db967, from name: libaot-System.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 110
->>>>>>> main
-=======
-	}, ; 110
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2978076563348721961, ; hash 0x295440db18511129, from name: libaot-System.Collections.Specialized
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.75_name, ; name: libaot-System.Collections.Specialized.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 113
-=======
-	}, ; 111
->>>>>>> main
-=======
-	}, ; 111
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2989949944888112425, ; hash 0x297e6fa229413529, from name: libaot-BouncyCastle.Cryptography
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.12_name, ; name: libaot-BouncyCastle.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 114
-=======
-	}, ; 112
->>>>>>> main
-=======
-	}, ; 112
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 2996975132847928734, ; hash 0x299765013214759e, from name: aot-Podbor.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.11_name, ; name: libaot-Podbor.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 115
-=======
-	}, ; 113
->>>>>>> main
-=======
-	}, ; 113
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3017704767998173186, ; hash 0x29e10a7f7d88a002, from name: Xamarin.Google.Android.Material
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.67_name, ; name: libaot-Xamarin.Google.Android.Material.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 116
-=======
-	}, ; 114
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3023023456770706911, ; hash 0x29f3efd1387dcddf, from name: System.Runtime.Serialization.Formatters.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 117
-=======
-	}, ; 114
-	%struct.DSOCacheEntry {
-		i64 3023023456770706911, ; hash 0x29f3efd1387dcddf, from name: System.Runtime.Serialization.Formatters.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 115
->>>>>>> main
-=======
-	}, ; 115
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3038175307180388234, ; hash 0x2a29c4584dd9af8a, from name: aot-Xamarin.AndroidX.CoordinatorLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.47_name, ; name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 118
-=======
-	}, ; 116
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3077311767976570318, ; hash 0x2ab4cebfa95f6dce, from name: aot-System.Security.Cryptography.Encoding.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
+		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 119
-=======
-	}, ; 116
-	%struct.DSOCacheEntry {
-		i64 3077311767976570318, ; hash 0x2ab4cebfa95f6dce, from name: aot-System.Security.Cryptography.Encoding.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 117
->>>>>>> main
-=======
-	}, ; 117
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3108167353802057239, ; hash 0x2b226dbd91d66617, from name: libaot-Xamarin.AndroidX.SavedState
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.63_name, ; name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 120
-=======
-	}, ; 118
->>>>>>> main
-=======
-	}, ; 118
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3116659788444322944, ; hash 0x2b40999097f7cc80, from name: aot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.17_name, ; name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 121
-=======
-	}, ; 119
->>>>>>> main
-=======
-	}, ; 119
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3127604348072465164, ; hash 0x2b677b9574d3930c, from name: aot-SkiaSharp.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.33_name, ; name: libaot-SkiaSharp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 122
-=======
-	}, ; 120
->>>>>>> main
-=======
-	}, ; 120
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3142558996668056863, ; hash 0x2b9c9cc1ea1b851f, from name: libaot-Microsoft.Maui.Controls.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.26_name, ; name: libaot-Microsoft.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 123
-=======
-	}, ; 121
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3159715243761782120, ; hash 0x2bd99045f7cecd68, from name: aot-System.Linq.Expressions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.Expressions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 122
+	}, ; 124
 	%struct.DSOCacheEntry {
 		i64 3188209531010000695, ; hash 0x2c3ecbad355da737, from name: System.Text.Encodings.Web.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
+		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Encodings.Web.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 125
-=======
-	}, ; 121
-	%struct.DSOCacheEntry {
-		i64 3159715243761782120, ; hash 0x2bd99045f7cecd68, from name: aot-System.Linq.Expressions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 122
-	%struct.DSOCacheEntry {
-		i64 3188209531010000695, ; hash 0x2c3ecbad355da737, from name: System.Text.Encodings.Web.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 123
->>>>>>> main
-=======
-	}, ; 123
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3212929659899216373, ; hash 0x2c969e80ba9c01f5, from name: aot-SkiaSharp.Skottie.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.37_name, ; name: libaot-SkiaSharp.Skottie.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 126
-=======
-	}, ; 124
->>>>>>> main
-=======
-	}, ; 124
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3213825704128684980, ; hash 0x2c99cd73489c23b4, from name: libaot-MimeKit
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.31_name, ; name: libaot-MimeKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 127
-=======
-	}, ; 125
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3215847190090144585, ; hash 0x2ca0fbfb2942db49, from name: libaot-System.Security.Cryptography.Algorithms.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 126
-	%struct.DSOCacheEntry {
-		i64 3228004203549710724, ; hash 0x2ccc2cb86e0c5984, from name: aot-System.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 127
-	%struct.DSOCacheEntry {
-		i64 3243810660761008057, ; hash 0x2d04549c0948f7b9, from name: aot-System.Xml.XmlSerializer
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
+		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 128
 	%struct.DSOCacheEntry {
+		i64 3228004203549710724, ; hash 0x2ccc2cb86e0c5984, from name: aot-System.Xml.Linq
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.Linq.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 129
+	%struct.DSOCacheEntry {
 		i64 3260817401620729492, ; hash 0x2d40c02675040e94, from name: libaot-System.Memory
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
+		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Memory.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 130
-=======
-	}, ; 125
-	%struct.DSOCacheEntry {
-		i64 3215847190090144585, ; hash 0x2ca0fbfb2942db49, from name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 126
-	%struct.DSOCacheEntry {
-		i64 3228004203549710724, ; hash 0x2ccc2cb86e0c5984, from name: aot-System.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 127
-	%struct.DSOCacheEntry {
-		i64 3243810660761008057, ; hash 0x2d04549c0948f7b9, from name: aot-System.Xml.XmlSerializer
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 128
-	%struct.DSOCacheEntry {
-		i64 3260817401620729492, ; hash 0x2d40c02675040e94, from name: libaot-System.Memory
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 129
->>>>>>> main
-=======
-	}, ; 129
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3282577833136852042, ; hash 0x2d8e0f25bbb18c4a, from name: aot-Xamarin.AndroidX.Lifecycle.Common
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.53_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 131
-=======
-	}, ; 130
->>>>>>> main
-=======
-	}, ; 130
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3289520064315143713, ; hash 0x2da6b911e3063621, from name: Xamarin.AndroidX.Lifecycle.Common
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.53_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 132
-=======
-	}, ; 131
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3325875462027654285, ; hash 0x2e27e21c8958b48d, from name: System.Runtime.Numerics
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
+		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Numerics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 133
-=======
-	}, ; 131
-	%struct.DSOCacheEntry {
-		i64 3325875462027654285, ; hash 0x2e27e21c8958b48d, from name: System.Runtime.Numerics
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 132
->>>>>>> main
-=======
-	}, ; 132
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3344514922410554693, ; hash 0x2e6a1a9a18463545, from name: Xamarin.KotlinX.Coroutines.Core.Jvm
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.69_name, ; name: libaot-Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 134
-=======
-	}, ; 133
->>>>>>> main
-=======
-	}, ; 133
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3364105986321300450, ; hash 0x2eafb4921d723be2, from name: libaot-SkiaSharp
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.33_name, ; name: libaot-SkiaSharp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 135
-=======
-	}, ; 134
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3371443586592544017, ; hash 0x2ec9c6144f1e1511, from name: libaot-System.ComponentModel.EventBasedAsync
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
+		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 136
-=======
-	}, ; 134
-	%struct.DSOCacheEntry {
-		i64 3371443586592544017, ; hash 0x2ec9c6144f1e1511, from name: libaot-System.ComponentModel.EventBasedAsync
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 135
->>>>>>> main
-=======
-	}, ; 135
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3379278180018875679, ; hash 0x2ee59b99bd40ed1f, from name: libaot-Microsoft.Maui.Essentials.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.29_name, ; name: libaot-Microsoft.Maui.Essentials.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 137
-=======
-	}, ; 136
->>>>>>> main
-=======
-	}, ; 136
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3387343871458221356, ; hash 0x2f02434dde5d1d2c, from name: Xamarin.AndroidX.CoordinatorLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.47_name, ; name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 138
-=======
-	}, ; 137
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3413847582085635339, ; hash 0x2f606c49df8a5d0b, from name: aot-System.Text.Encoding.Extensions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
+		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 139
-=======
-	}, ; 137
-	%struct.DSOCacheEntry {
-		i64 3413847582085635339, ; hash 0x2f606c49df8a5d0b, from name: aot-System.Text.Encoding.Extensions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 138
->>>>>>> main
-=======
-	}, ; 138
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3414639567687375782, ; hash 0x2f633c9863ffdba6, from name: SkiaSharp.Views.Maui.Controls
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.39_name, ; name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 140
-=======
-	}, ; 139
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3415134081241495173, ; hash 0x2f64fe5a4cbab685, from name: libaot-System.Runtime.Serialization.Formatters.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 141
-=======
-	}, ; 139
-	%struct.DSOCacheEntry {
-		i64 3415134081241495173, ; hash 0x2f64fe5a4cbab685, from name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 140
->>>>>>> main
-=======
-	}, ; 140
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3429672777697402584, ; hash 0x2f98a5385a7b1ed8, from name: Microsoft.Maui.Essentials
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.29_name, ; name: libaot-Microsoft.Maui.Essentials.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 142
-=======
-	}, ; 141
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3491308886800479652, ; hash 0x30739eef4ee835a4, from name: System.Net.Sockets.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
+		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Net.Sockets.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 143
-=======
-	}, ; 141
-	%struct.DSOCacheEntry {
-		i64 3491308886800479652, ; hash 0x30739eef4ee835a4, from name: System.Net.Sockets.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 142
->>>>>>> main
-=======
-	}, ; 142
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3494946837667399002, ; hash 0x30808ba1c00a455a, from name: Microsoft.Extensions.Configuration
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.16_name, ; name: libaot-Microsoft.Extensions.Configuration.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 144
-=======
-	}, ; 143
->>>>>>> main
-=======
-	}, ; 143
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3504968395820649747, ; hash 0x30a4262f95dc4d13, from name: Microsoft.Maui.Controls.Xaml.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.27_name, ; name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 145
-=======
-	}, ; 144
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3519863767463074839, ; hash 0x30d911728d679c17, from name: libaot-System.IO.Compression.Brotli
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 146
-=======
-	}, ; 144
-	%struct.DSOCacheEntry {
-		i64 3519863767463074839, ; hash 0x30d911728d679c17, from name: libaot-System.IO.Compression.Brotli
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 145
->>>>>>> main
-=======
-	}, ; 145
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3522470458906976663, ; hash 0x30e2543832f52197, from name: Xamarin.AndroidX.SwipeRefreshLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.64_name, ; name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 147
-=======
-	}, ; 146
->>>>>>> main
-=======
-	}, ; 146
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3534503520749001150, ; hash 0x310d1439bb9c99be, from name: aot-Microsoft.Maui.Controls.Xaml.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.27_name, ; name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 148
-=======
-	}, ; 147
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3565908020027737498, ; hash 0x317ca6738378459a, from name: libaot-System.Security.Cryptography.X509Certificates.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 149
-=======
-	}, ; 147
-	%struct.DSOCacheEntry {
-		i64 3565908020027737498, ; hash 0x317ca6738378459a, from name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 148
->>>>>>> main
-=======
-	}, ; 148
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3569692625789698928, ; hash 0x318a1887b586c370, from name: libmono-component-hot_reload
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.4_name, ; name: libmono-component-hot_reload.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 150
-=======
-	}, ; 149
->>>>>>> main
-=======
-	}, ; 149
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3577153083746314324, ; hash 0x31a499c6efe46854, from name: libaot-System.Collections.Immutable.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.73_name, ; name: libaot-System.Collections.Immutable.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 151
-=======
-	}, ; 150
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3584501248261514691, ; hash 0x31beb4e4cf9265c3, from name: libaot-System.Xml.ReaderWriter
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
+		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 152
-=======
-	}, ; 150
-	%struct.DSOCacheEntry {
-		i64 3584501248261514691, ; hash 0x31beb4e4cf9265c3, from name: libaot-System.Xml.ReaderWriter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 151
->>>>>>> main
-=======
-	}, ; 151
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3638003163729360188, ; hash 0x327cc89a39d5f53c, from name: Microsoft.Extensions.Configuration.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.17_name, ; name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 153
-=======
-	}, ; 152
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3647754201059316852, ; hash 0x329f6d1e86145474, from name: System.Xml.ReaderWriter
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
+		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 153
+	}, ; 154
 	%struct.DSOCacheEntry {
 		i64 3657389980202273675, ; hash 0x32c1a8cf2f078b8b, from name: libaot-System.Private.CoreLib
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
+		ptr @.DSOCacheEntry.139_name, ; name: libaot-System.Private.CoreLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 155
-=======
-	}, ; 152
-	%struct.DSOCacheEntry {
-		i64 3647754201059316852, ; hash 0x329f6d1e86145474, from name: System.Xml.ReaderWriter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 153
-	%struct.DSOCacheEntry {
-		i64 3657389980202273675, ; hash 0x32c1a8cf2f078b8b, from name: libaot-System.Private.CoreLib
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 154
->>>>>>> main
-=======
-	}, ; 154
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3658695102439602850, ; hash 0x32c64bcfa25fbaa2, from name: aot-CommunityToolkit.Maui
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.13_name, ; name: libaot-CommunityToolkit.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 156
-=======
-	}, ; 155
->>>>>>> main
-=======
-	}, ; 155
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3682807869886927031, ; hash 0x331bf63ecc9f90b7, from name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.60_name, ; name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 157
-=======
-	}, ; 156
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3683086715764323178, ; hash 0x331cf3daaa17b36a, from name: aot-System.Net.NameResolution
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
+		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NameResolution.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 157
+	}, ; 158
 	%struct.DSOCacheEntry {
 		i64 3703096612151080118, ; hash 0x33640abfb837b4b6, from name: libaot-System.Net.Requests
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
+		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Requests.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 159
-=======
-	}, ; 156
-	%struct.DSOCacheEntry {
-		i64 3683086715764323178, ; hash 0x331cf3daaa17b36a, from name: aot-System.Net.NameResolution
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 157
-	%struct.DSOCacheEntry {
-		i64 3703096612151080118, ; hash 0x33640abfb837b4b6, from name: libaot-System.Net.Requests
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 158
->>>>>>> main
-=======
-	}, ; 158
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3707216742628388692, ; hash 0x3372adfc59beef54, from name: aot-Xamarin.AndroidX.CardView.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.45_name, ; name: libaot-Xamarin.AndroidX.CardView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 160
-=======
-	}, ; 159
->>>>>>> main
-=======
-	}, ; 159
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3727469159507183293, ; hash 0x33baa1739ba646bd, from name: Xamarin.AndroidX.RecyclerView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.62_name, ; name: libaot-Xamarin.AndroidX.RecyclerView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 161
-=======
-	}, ; 160
->>>>>>> main
-=======
-	}, ; 160
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3766788760912740873, ; hash 0x3446526bb6234209, from name: aot-System.Collections.Immutable.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.73_name, ; name: libaot-System.Collections.Immutable.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 162
-=======
-	}, ; 161
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3778015232232666774, ; hash 0x346e34d6413e3696, from name: libaot-System.Security.Claims.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
+		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Claims.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 163
-=======
-	}, ; 161
-	%struct.DSOCacheEntry {
-		i64 3778015232232666774, ; hash 0x346e34d6413e3696, from name: libaot-System.Security.Claims.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 162
->>>>>>> main
-=======
-	}, ; 162
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3844000936989450018, ; hash 0x3558a27c5d865f22, from name: SkiaSharp.SceneGraph.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.36_name, ; name: libaot-SkiaSharp.SceneGraph.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 164
-=======
-	}, ; 163
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3919223565570527920, ; hash 0x3663e111652bd2b0, from name: System.Security.Cryptography.Encoding
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
+		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 165
-=======
-	}, ; 163
-	%struct.DSOCacheEntry {
-		i64 3919223565570527920, ; hash 0x3663e111652bd2b0, from name: System.Security.Cryptography.Encoding
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 164
->>>>>>> main
-=======
-	}, ; 164
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3926486732424186854, ; hash 0x367daee1356d8be6, from name: aot-Xamarin.AndroidX.DrawerLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.51_name, ; name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 166
-=======
-	}, ; 165
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3933965368022646939, ; hash 0x369840a8bfadc09b, from name: System.Net.Requests
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
+		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Requests.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 166
+	}, ; 167
 	%struct.DSOCacheEntry {
 		i64 3943677120668259164, ; hash 0x36bac1725e44535c, from name: aot-System.ObjectModel.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
+		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.ObjectModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 168
-=======
-	}, ; 165
-	%struct.DSOCacheEntry {
-		i64 3933965368022646939, ; hash 0x369840a8bfadc09b, from name: System.Net.Requests
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 166
-	%struct.DSOCacheEntry {
-		i64 3943677120668259164, ; hash 0x36bac1725e44535c, from name: aot-System.ObjectModel.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 167
->>>>>>> main
-=======
-	}, ; 167
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3957370724036626130, ; hash 0x36eb67b4dabbc6d2, from name: aot-SkiaSharp.Views.Maui.Controls
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.39_name, ; name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 169
-=======
-	}, ; 168
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3966267475168208030, ; hash 0x370b03412596249e, from name: System.Memory
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
+		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Memory.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 170
-=======
-	}, ; 168
-	%struct.DSOCacheEntry {
-		i64 3966267475168208030, ; hash 0x370b03412596249e, from name: System.Memory
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 169
->>>>>>> main
-=======
-	}, ; 169
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 3988459618209551099, ; hash 0x3759dae4185ed2fb, from name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.40_name, ; name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 171
-=======
-	}, ; 170
->>>>>>> main
-=======
-	}, ; 170
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4051663015955853467, ; hash 0x383a660bdfa2f09b, from name: System.Security.Cryptography.Pkcs.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.41_name, ; name: libaot-System.Security.Cryptography.Pkcs.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 172
-=======
-	}, ; 171
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4074682551133317578, ; hash 0x388c2e3110c8a9ca, from name: libaot-System.Security.Cryptography.Csp.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
+		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 173
-=======
-	}, ; 171
-	%struct.DSOCacheEntry {
-		i64 4074682551133317578, ; hash 0x388c2e3110c8a9ca, from name: libaot-System.Security.Cryptography.Csp.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 172
->>>>>>> main
-=======
-	}, ; 172
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4095418721340757718, ; hash 0x38d5d9a0ec0016d6, from name: aot-Microsoft.Maui.Essentials
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.29_name, ; name: libaot-Microsoft.Maui.Essentials.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 174
-=======
-	}, ; 173
->>>>>>> main
-=======
-	}, ; 173
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4115927144641244248, ; hash 0x391eb5ee51baac58, from name: Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.54_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 175
-=======
-	}, ; 174
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4137384516858186512, ; hash 0x396af14c1a888b10, from name: System.Security.Cryptography.Encoding.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 175
-	%struct.DSOCacheEntry {
-		i64 4154383907710350974, ; hash 0x39a7562737acb67e, from name: System.ComponentModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
+		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 176
 	%struct.DSOCacheEntry {
-		i64 4187479170553454871, ; hash 0x3a1cea1e912fa117, from name: System.Linq.Expressions
+		i64 4154383907710350974, ; hash 0x39a7562737acb67e, from name: System.ComponentModel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.ComponentModel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 177
 	%struct.DSOCacheEntry {
+		i64 4187479170553454871, ; hash 0x3a1cea1e912fa117, from name: System.Linq.Expressions
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 178
+	%struct.DSOCacheEntry {
 		i64 4205801962323029395, ; hash 0x3a5e0299f7e7ad93, from name: System.ComponentModel.TypeConverter
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
+		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 179
-=======
-	}, ; 174
-	%struct.DSOCacheEntry {
-		i64 4137384516858186512, ; hash 0x396af14c1a888b10, from name: System.Security.Cryptography.Encoding.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 175
-	%struct.DSOCacheEntry {
-		i64 4154383907710350974, ; hash 0x39a7562737acb67e, from name: System.ComponentModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 176
-	%struct.DSOCacheEntry {
-		i64 4187479170553454871, ; hash 0x3a1cea1e912fa117, from name: System.Linq.Expressions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 177
-	%struct.DSOCacheEntry {
-		i64 4205801962323029395, ; hash 0x3a5e0299f7e7ad93, from name: System.ComponentModel.TypeConverter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 178
->>>>>>> main
-=======
-	}, ; 178
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4243001330476888824, ; hash 0x3ae22b3acc95b2f8, from name: aot-Xamarin.AndroidX.Lifecycle.ViewModel
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.55_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 180
-=======
-	}, ; 179
->>>>>>> main
-=======
-	}, ; 179
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 4244996295783171795, ; hash 0x3ae941a3db0146d3, from name: aot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.59_name, ; name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
-	}, ; 180
-	%struct.DSOCacheEntry {
-		i64 4348972226440319252, ; hash 0x3c5aa732b703d114, from name: aot-System.Xml.XmlSerializer.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
-		ptr null; void* handle (0x0)
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	}, ; 181
 	%struct.DSOCacheEntry {
 		i64 4364864446463818253, ; hash 0x3c931d1688353a0d, from name: aot-System.Security.Cryptography.Encoding
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-=======
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 182
 	%struct.DSOCacheEntry {
 		i64 4411920538413871651, ; hash 0x3d3a4a5ab568b223, from name: aot-netstandard
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.135_name, ; name: libaot-netstandard.dll.so
-=======
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 183
 	%struct.DSOCacheEntry {
@@ -2661,15 +1236,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 4433889062591767415, ; hash 0x3d88569c5545a377, from name: aot-System.IO.Pipes.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.IO.Pipes.dll.so
-=======
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 185
 	%struct.DSOCacheEntry {
@@ -2681,29 +1248,13 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 4485509010103122468, ; hash 0x3e3fbaadf002ba24, from name: aot-System.Memory.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Memory.dll.so
-=======
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 187
 	%struct.DSOCacheEntry {
 		i64 4511511353632409648, ; hash 0x3e9c1bac5166c830, from name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-=======
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 188
 	%struct.DSOCacheEntry {
@@ -2715,43 +1266,19 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 4533637005954432954, ; hash 0x3eeab6d6307abfba, from name: System.Text.RegularExpressions.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Text.RegularExpressions.dll.so
-=======
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 190
 	%struct.DSOCacheEntry {
 		i64 4562889186705488620, ; hash 0x3f52a38a430d3aec, from name: libaot-System.Memory.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Memory.dll.so
-=======
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 191
 	%struct.DSOCacheEntry {
 		i64 4600564633383719664, ; hash 0x3fd87d28c30fd2f0, from name: aot-System.Net.NetworkInformation.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.NetworkInformation.dll.so
-=======
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 192
 	%struct.DSOCacheEntry {
@@ -2763,73 +1290,31 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 4619841365973187374, ; hash 0x401cf93ed17cbb2e, from name: libaot-System.Private.Xml.Linq.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.Linq.dll.so
-=======
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 194
 	%struct.DSOCacheEntry {
 		i64 4624036676708874426, ; hash 0x402be0dbb79c38ba, from name: aot-Mono.Android.Runtime.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.Runtime.dll.so
-=======
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 195
 	%struct.DSOCacheEntry {
 		i64 4676011426420077172, ; hash 0x40e4879e256fb274, from name: System.Drawing.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Drawing.dll.so
-=======
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 196
 	%struct.DSOCacheEntry {
-		i64 4716677666592453464, ; hash 0x417501590542f358, from name: System.Xml.XmlSerializer
+		i64 4743821336939966868, ; hash 0x41d5705f4239b194, from name: System.ComponentModel.Annotations
 		i8 0, ; bool ignore
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.Annotations.dll.so
-=======
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 196
-	%struct.DSOCacheEntry {
-		i64 4716677666592453464, ; hash 0x417501590542f358, from name: System.Xml.XmlSerializer
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 197
 	%struct.DSOCacheEntry {
 		i64 4778132833905139113, ; hash 0x424f567f2e8bdda9, from name: libaot-System.Runtime.InteropServices.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.InteropServices.dll.so
-=======
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 198
 	%struct.DSOCacheEntry {
@@ -2841,29 +1326,13 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 4809057822547766521, ; hash 0x42bd349c3145ecf9, from name: System.Drawing
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Drawing.dll.so
-=======
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 200
 	%struct.DSOCacheEntry {
 		i64 4821796847100292949, ; hash 0x42ea76af7a82ef55, from name: System.Private.Xml.Linq.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.Linq.dll.so
-=======
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 201
 	%struct.DSOCacheEntry {
@@ -2875,15 +1344,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 4936802805617500442, ; hash 0x44830bfed2fba11a, from name: System.Security.Cryptography.Algorithms.dll.so
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-=======
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 203
 	%struct.DSOCacheEntry {
@@ -2907,15 +1368,7 @@ target triple = "x86_64-unknown-linux-android21"
 	%struct.DSOCacheEntry {
 		i64 5109692736403029004, ; hash 0x46e94678b0b23c0c, from name: libaot-System.Text.Encodings.Web
 		i8 0, ; bool ignore
-<<<<<<< HEAD
-<<<<<<< HEAD
 		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Encodings.Web.dll.so
-=======
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
->>>>>>> main
-=======
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		ptr null; void* handle (0x0)
 	}, ; 207
 	%struct.DSOCacheEntry {
@@ -2931,383 +1384,184 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr null; void* handle (0x0)
 	}, ; 209
 	%struct.DSOCacheEntry {
-<<<<<<< HEAD
-<<<<<<< HEAD
 		i64 5185404252742227183, ; hash 0x47f641b1c58014ef, from name: libaot-System.ComponentModel.Annotations
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.Annotations.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 210
 	%struct.DSOCacheEntry {
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 		i64 5232730255288553603, ; hash 0x489e647167e9d083, from name: aot-System.ComponentModel.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
+		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.ComponentModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 211
-=======
-		i64 5232730255288553603, ; hash 0x489e647167e9d083, from name: aot-System.ComponentModel.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 210
->>>>>>> main
-=======
-	}, ; 210
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5255546469364035812, ; hash 0x48ef73ab370070e4, from name: aot-Xamarin.AndroidX.Activity.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.42_name, ; name: libaot-Xamarin.AndroidX.Activity.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 212
-=======
-	}, ; 211
->>>>>>> main
-=======
-	}, ; 211
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5266401548478623734, ; hash 0x4916044e45a2aff6, from name: aot-Xamarin.Google.Android.Material
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.67_name, ; name: libaot-Xamarin.Google.Android.Material.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 213
-=======
-	}, ; 212
->>>>>>> main
-=======
-	}, ; 212
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5266659643402539735, ; hash 0x4916ef0aade4d2d7, from name: Microsoft.Maui.Essentials.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.29_name, ; name: libaot-Microsoft.Maui.Essentials.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 214
-=======
-	}, ; 213
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5290786973231294105, ; hash 0x496ca6b869b72699, from name: System.Runtime.Loader
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 214
-	%struct.DSOCacheEntry {
-		i64 5308663384316065149, ; hash 0x49ac2938b648357d, from name: aot-System.Net.ServicePoint.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Loader.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 215
 	%struct.DSOCacheEntry {
+		i64 5308663384316065149, ; hash 0x49ac2938b648357d, from name: aot-System.Net.ServicePoint.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 216
+	%struct.DSOCacheEntry {
 		i64 5334205502128732672, ; hash 0x4a06e7a471513a00, from name: aot-System.Runtime
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
+		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 217
-=======
-	}, ; 213
-	%struct.DSOCacheEntry {
-		i64 5290786973231294105, ; hash 0x496ca6b869b72699, from name: System.Runtime.Loader
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 214
-	%struct.DSOCacheEntry {
-		i64 5308663384316065149, ; hash 0x49ac2938b648357d, from name: aot-System.Net.ServicePoint.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 215
-	%struct.DSOCacheEntry {
-		i64 5334205502128732672, ; hash 0x4a06e7a471513a00, from name: aot-System.Runtime
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 216
->>>>>>> main
-=======
-	}, ; 216
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5366974786996218887, ; hash 0x4a7b532221632c07, from name: libaot-Microsoft.Maui.Essentials
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.29_name, ; name: libaot-Microsoft.Maui.Essentials.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 218
-=======
-	}, ; 217
->>>>>>> main
-=======
-	}, ; 217
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5424839895336899168, ; hash 0x4b48e7248cec5260, from name: libaot-MySqlConnector
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.32_name, ; name: libaot-MySqlConnector.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 219
-=======
-	}, ; 218
->>>>>>> main
-=======
-	}, ; 218
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5428475970428150530, ; hash 0x4b55d222411d2302, from name: System.Buffers.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.71_name, ; name: libaot-System.Buffers.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 220
-=======
-	}, ; 219
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5438005991099355802, ; hash 0x4b77ada319ec529a, from name: aot-System.Web.HttpUtility.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 220
-	%struct.DSOCacheEntry {
-		i64 5440481460344582099, ; hash 0x4b80791032efefd3, from name: libaot-System.Numerics.Vectors.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
+		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Web.HttpUtility.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 221
 	%struct.DSOCacheEntry {
-		i64 5479418050698653789, ; hash 0x4c0acdaf97c1b05d, from name: libaot-System.ComponentModel.Primitives
+		i64 5440481460344582099, ; hash 0x4b80791032efefd3, from name: libaot-System.Numerics.Vectors.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
+		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.Numerics.Vectors.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 222
 	%struct.DSOCacheEntry {
-		i64 5554419957827635904, ; hash 0x4d154385e7a80ac0, from name: libaot-System.Net.Sockets
+		i64 5479418050698653789, ; hash 0x4c0acdaf97c1b05d, from name: libaot-System.ComponentModel.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
+		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 223
 	%struct.DSOCacheEntry {
-		i64 5570799893513421663, ; hash 0x4d4f74fcdfa6c35f, from name: System.IO.Compression.Brotli
+		i64 5554419957827635904, ; hash 0x4d154385e7a80ac0, from name: libaot-System.Net.Sockets
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Net.Sockets.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 224
 	%struct.DSOCacheEntry {
+		i64 5570799893513421663, ; hash 0x4d4f74fcdfa6c35f, from name: System.IO.Compression.Brotli
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 225
+	%struct.DSOCacheEntry {
 		i64 5641232295354610839, ; hash 0x4e49aee25412b497, from name: aot-System.Net.Mail
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
+		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.Mail.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 226
-=======
-	}, ; 219
-	%struct.DSOCacheEntry {
-		i64 5438005991099355802, ; hash 0x4b77ada319ec529a, from name: aot-System.Web.HttpUtility.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 220
-	%struct.DSOCacheEntry {
-		i64 5440481460344582099, ; hash 0x4b80791032efefd3, from name: libaot-System.Numerics.Vectors.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 221
-	%struct.DSOCacheEntry {
-		i64 5479418050698653789, ; hash 0x4c0acdaf97c1b05d, from name: libaot-System.ComponentModel.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 222
-	%struct.DSOCacheEntry {
-		i64 5554419957827635904, ; hash 0x4d154385e7a80ac0, from name: libaot-System.Net.Sockets
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 223
-	%struct.DSOCacheEntry {
-		i64 5570799893513421663, ; hash 0x4d4f74fcdfa6c35f, from name: System.IO.Compression.Brotli
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 224
-	%struct.DSOCacheEntry {
-		i64 5641232295354610839, ; hash 0x4e49aee25412b497, from name: aot-System.Net.Mail
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 225
->>>>>>> main
-=======
-	}, ; 225
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5642869431399447073, ; hash 0x4e4f7fd9c4797a21, from name: libmono-component-hot_reload.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.4_name, ; name: libmono-component-hot_reload.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 227
-=======
-	}, ; 226
->>>>>>> main
-=======
-	}, ; 226
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5678506072386041620, ; hash 0x4ece1b2fd377f714, from name: aot-System.Buffers
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.71_name, ; name: libaot-System.Buffers.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 228
-=======
-	}, ; 227
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5753633696766002394, ; hash 0x4fd9035cf77484da, from name: libaot-System.Drawing
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
+		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Drawing.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 229
-=======
-	}, ; 227
-	%struct.DSOCacheEntry {
-		i64 5753633696766002394, ; hash 0x4fd9035cf77484da, from name: libaot-System.Drawing
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 228
->>>>>>> main
-=======
-	}, ; 228
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5759268217942071081, ; hash 0x4fed07ee28a25729, from name: aot-Xamarin.AndroidX.AppCompat.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.43_name, ; name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 230
-=======
-	}, ; 229
->>>>>>> main
-=======
-	}, ; 229
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5900900230463535802, ; hash 0x51e4357ecbccbaba, from name: System.Security.Cryptography.Native.Android.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.2_name, ; name: libSystem.Security.Cryptography.Native.Android.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 231
-=======
-	}, ; 230
->>>>>>> main
-=======
-	}, ; 230
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5909909704445417470, ; hash 0x520437906c1a57fe, from name: aot-MailKit.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.15_name, ; name: libaot-MailKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 232
-=======
-	}, ; 231
->>>>>>> main
-=======
-	}, ; 231
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5922633786079695787, ; hash 0x52316c0c8a01d3ab, from name: aot-BouncyCastle.Cryptography.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.12_name, ; name: libaot-BouncyCastle.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 233
-=======
-	}, ; 232
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5947628580774689620, ; hash 0x528a38aead093b54, from name: System.Runtime.Intrinsics.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
+		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 234
-=======
-	}, ; 232
-	%struct.DSOCacheEntry {
-		i64 5947628580774689620, ; hash 0x528a38aead093b54, from name: System.Runtime.Intrinsics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 233
->>>>>>> main
-=======
-	}, ; 233
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5948985717485083712, ; hash 0x528f0afdb0921c40, from name: libSystem.Native.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.1_name, ; name: libSystem.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 235
-=======
-	}, ; 234
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 5958220530006169673, ; hash 0x52afda0108751849, from name: System.Net.Requests.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 235
-	%struct.DSOCacheEntry {
-		i64 5979151488806146654, ; hash 0x52fa3699a489d25e, from name: System.Formats.Asn1
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
+		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Requests.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 236
 	%struct.DSOCacheEntry {
-		i64 5984759512290286505, ; hash 0x530e23115c33dba9, from name: System.Security.Cryptography.Primitives
+		i64 5979151488806146654, ; hash 0x52fa3699a489d25e, from name: System.Formats.Asn1
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.Formats.Asn1.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 237
 	%struct.DSOCacheEntry {
+		i64 5984759512290286505, ; hash 0x530e23115c33dba9, from name: System.Security.Cryptography.Primitives
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 238
+	%struct.DSOCacheEntry {
 		i64 6022984298749388524, ; hash 0x5395f04efeb666ec, from name: System.Net.Mail.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
+		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.Mail.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 239
 	%struct.DSOCacheEntry {
 		i64 6037857494324318918, ; hash 0x53cac766b1a192c6, from name: System.Threading.Tasks.Parallel.dll.so
@@ -3315,671 +1569,275 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.Tasks.Parallel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 240
-=======
-	}, ; 234
-	%struct.DSOCacheEntry {
-		i64 5958220530006169673, ; hash 0x52afda0108751849, from name: System.Net.Requests.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 235
-	%struct.DSOCacheEntry {
-		i64 5979151488806146654, ; hash 0x52fa3699a489d25e, from name: System.Formats.Asn1
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 236
-	%struct.DSOCacheEntry {
-		i64 5984759512290286505, ; hash 0x530e23115c33dba9, from name: System.Security.Cryptography.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 237
-	%struct.DSOCacheEntry {
-		i64 6022984298749388524, ; hash 0x5395f04efeb666ec, from name: System.Net.Mail.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 238
->>>>>>> main
-=======
-	}, ; 238
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6069444521208265984, ; hash 0x543affa27e8f3d00, from name: aot-Microsoft.Extensions.DependencyInjection.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.19_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 241
-=======
-	}, ; 239
->>>>>>> main
-=======
-	}, ; 239
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6073268355799849528, ; hash 0x544895645d121a38, from name: libmono-component-debugger
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.3_name, ; name: libmono-component-debugger.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 242
-=======
-	}, ; 240
->>>>>>> main
-=======
-	}, ; 240
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6100191696541033961, ; hash 0x54a83c071e1da5e9, from name: aot-SkiaSharp.Extended
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.34_name, ; name: libaot-SkiaSharp.Extended.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 243
-=======
-	}, ; 241
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6153263910407647837, ; hash 0x5564c8ecd514325d, from name: aot-System.Security.Cryptography.Algorithms.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
+		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 244
-=======
-	}, ; 241
-	%struct.DSOCacheEntry {
-		i64 6153263910407647837, ; hash 0x5564c8ecd514325d, from name: aot-System.Security.Cryptography.Algorithms.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 242
->>>>>>> main
-=======
-	}, ; 242
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6198196371300036003, ; hash 0x56046ac29f742da3, from name: libaot-Microsoft.Extensions.Configuration.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.17_name, ; name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 245
-=======
-	}, ; 243
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6251033168959842974, ; hash 0x56c0218c3b092a9e, from name: libaot-System.Web.HttpUtility.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
+		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Web.HttpUtility.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 244
+	}, ; 246
 	%struct.DSOCacheEntry {
 		i64 6251069312384999852, ; hash 0x56c0426b870da1ac, from name: System.Transactions.Local
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
+		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Transactions.Local.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 247
-=======
-	}, ; 243
-	%struct.DSOCacheEntry {
-		i64 6251033168959842974, ; hash 0x56c0218c3b092a9e, from name: libaot-System.Web.HttpUtility.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 244
-	%struct.DSOCacheEntry {
-		i64 6251069312384999852, ; hash 0x56c0426b870da1ac, from name: System.Transactions.Local
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 245
->>>>>>> main
-=======
-	}, ; 245
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6268464631992009879, ; hash 0x56fe0f5efcfbc497, from name: SkiaSharp.Skottie
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.37_name, ; name: libaot-SkiaSharp.Skottie.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 248
-=======
-	}, ; 246
->>>>>>> main
-=======
-	}, ; 246
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6308061292769401015, ; hash 0x578abc5300e958b7, from name: libSystem.Native
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.1_name, ; name: libSystem.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 249
-=======
-	}, ; 247
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6309031637591895059, ; hash 0x578e2ed9035dac13, from name: aot-System.ComponentModel.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
+		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 250
-=======
-	}, ; 247
-	%struct.DSOCacheEntry {
-		i64 6309031637591895059, ; hash 0x578e2ed9035dac13, from name: aot-System.ComponentModel.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 248
->>>>>>> main
-=======
-	}, ; 248
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6342692645518226948, ; hash 0x5805c55b2798b604, from name: Xamarin.AndroidX.CursorAdapter.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.49_name, ; name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 251
-=======
-	}, ; 249
->>>>>>> main
-=======
-	}, ; 249
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6352489697598145066, ; hash 0x582893b918aa822a, from name: Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.64_name, ; name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 252
-=======
-	}, ; 250
->>>>>>> main
-=======
-	}, ; 250
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6357457916754632952, ; hash 0x583a3a4ac2a7a0f8, from name: _Microsoft.Android.Resource.Designer
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.10_name, ; name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 253
-=======
-	}, ; 251
->>>>>>> main
-=======
-	}, ; 251
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6385611344971160469, ; hash 0x589e3faf92b5db95, from name: Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.56_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 254
-=======
-	}, ; 252
->>>>>>> main
-=======
-	}, ; 252
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6401687960814735282, ; hash 0x58d75d486341cfb2, from name: Xamarin.AndroidX.Lifecycle.LiveData.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.54_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 255
-=======
-	}, ; 253
->>>>>>> main
-=======
-	}, ; 253
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6432822801959998162, ; hash 0x5945fa417ddbd2d2, from name: CommunityToolkit.Maui.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.14_name, ; name: libaot-CommunityToolkit.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 256
-=======
-	}, ; 254
->>>>>>> main
-=======
-	}, ; 254
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6488258789742214262, ; hash 0x5a0aecfe3563fc76, from name: aot-System.Collections.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.76_name, ; name: libaot-System.Collections.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 257
-=======
-	}, ; 255
->>>>>>> main
-=======
-	}, ; 255
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6514812647210677179, ; hash 0x5a694395ef36f3bb, from name: aot-SkiaSharp.Extended.UI
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.35_name, ; name: libaot-SkiaSharp.Extended.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 258
-=======
-	}, ; 256
->>>>>>> main
-=======
-	}, ; 256
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6558713382764477133, ; hash 0x5b053b127346facd, from name: mono-component-marshal-ilgen.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.5_name, ; name: libmono-component-marshal-ilgen.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 259
-=======
-	}, ; 257
->>>>>>> main
-=======
-	}, ; 257
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6559284950270745483, ; hash 0x5b0742e8e1741b8b, from name: libaot-Podbor
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.11_name, ; name: libaot-Podbor.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 260
-=======
-	}, ; 258
->>>>>>> main
-=======
-	}, ; 258
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6560151584539558821, ; hash 0x5b0a571be53243a5, from name: Microsoft.Extensions.Options
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.23_name, ; name: libaot-Microsoft.Extensions.Options.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 261
-=======
-	}, ; 259
->>>>>>> main
-=======
-	}, ; 259
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6560588458386133218, ; hash 0x5b0be47183a210e2, from name: libaot-Xamarin.AndroidX.RecyclerView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.62_name, ; name: libaot-Xamarin.AndroidX.RecyclerView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 262
-=======
-	}, ; 260
->>>>>>> main
-=======
-	}, ; 260
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6635387966917840004, ; hash 0x5c15a2333b0a0c84, from name: libxamarin-debug-app-helper.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.8_name, ; name: libxamarin-debug-app-helper.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 263
-=======
-	}, ; 261
->>>>>>> main
-=======
-	}, ; 261
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6671798237668743565, ; hash 0x5c96fd260152998d, from name: SkiaSharp
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.33_name, ; name: libaot-SkiaSharp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 264
-=======
-	}, ; 262
->>>>>>> main
-=======
-	}, ; 262
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6671798237668743565, ; hash 0x5c96fd260152998d, from name: SkiaSharp
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.9_name, ; name: libSkiaSharp.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 265
-=======
-	}, ; 263
->>>>>>> main
-=======
-	}, ; 263
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6672263946731405092, ; hash 0x5c98a4b558923f24, from name: aot-Xamarin.AndroidX.ViewPager2.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.66_name, ; name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 266
-=======
-	}, ; 264
->>>>>>> main
-=======
-	}, ; 264
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6679219254897596376, ; hash 0x5cb15a86391ed7d8, from name: Microsoft.Maui.Controls.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.26_name, ; name: libaot-Microsoft.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 267
-=======
-	}, ; 265
->>>>>>> main
-=======
-	}, ; 265
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6704907064679518435, ; hash 0x5d0c9d73823ad0e3, from name: aot-Microsoft.Extensions.Logging.Debug.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.22_name, ; name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 268
-=======
-	}, ; 266
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6786606130239981554, ; hash 0x5e2ede51877147f2, from name: System.Diagnostics.TraceSource
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 269
-=======
-	}, ; 266
-	%struct.DSOCacheEntry {
-		i64 6786606130239981554, ; hash 0x5e2ede51877147f2, from name: System.Diagnostics.TraceSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 267
->>>>>>> main
-=======
-	}, ; 267
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6811092106988893788, ; hash 0x5e85dc2f418a365c, from name: aot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.64_name, ; name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 270
-=======
-	}, ; 268
->>>>>>> main
-=======
-	}, ; 268
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6836385375498469829, ; hash 0x5edfb8473e4301c5, from name: Xamarin.AndroidX.RecyclerView.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.62_name, ; name: libaot-Xamarin.AndroidX.RecyclerView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 271
-=======
-	}, ; 269
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6876862101832370452, ; hash 0x5f6f85a57d108914, from name: System.Xml.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 272
-=======
-	}, ; 269
-	%struct.DSOCacheEntry {
-		i64 6876862101832370452, ; hash 0x5f6f85a57d108914, from name: System.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 270
->>>>>>> main
-=======
-	}, ; 270
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6879679050593672945, ; hash 0x5f7987a57b551ef1, from name: libaot-Xamarin.AndroidX.CardView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.45_name, ; name: libaot-Xamarin.AndroidX.CardView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 273
-=======
-	}, ; 271
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6894844156784520562, ; hash 0x5faf683aead1ad72, from name: System.Numerics.Vectors
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
+		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.Numerics.Vectors.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 274
-=======
-	}, ; 271
-	%struct.DSOCacheEntry {
-		i64 6894844156784520562, ; hash 0x5faf683aead1ad72, from name: System.Numerics.Vectors
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 272
->>>>>>> main
-=======
-	}, ; 272
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6913716284728566067, ; hash 0x5ff274549d146133, from name: System.IO.Compression.Native.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.0_name, ; name: libSystem.IO.Compression.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 275
-=======
-	}, ; 273
->>>>>>> main
-=======
-	}, ; 273
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6917769210764326931, ; hash 0x6000da71fdbdf813, from name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.25_name, ; name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 276
-=======
-	}, ; 274
->>>>>>> main
-=======
-	}, ; 274
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 6993628010754849192, ; hash 0x610e5b9f3843b9a8, from name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.27_name, ; name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 277
-=======
-	}, ; 275
->>>>>>> main
-=======
-	}, ; 275
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7005231924406374519, ; hash 0x61379551e777d077, from name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.54_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 278
-=======
-	}, ; 276
->>>>>>> main
-=======
-	}, ; 276
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7026076528261849631, ; hash 0x6181a3606fc1e21f, from name: libaot-Xamarin.Kotlin.StdLib
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.68_name, ; name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 279
-=======
-	}, ; 277
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7032820184502538532, ; hash 0x619998b242789124, from name: libaot-System.Net.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
+		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 278
+	}, ; 280
 	%struct.DSOCacheEntry {
 		i64 7078790046120101683, ; hash 0x623cea0aba8f4733, from name: libaot-System.Data.Common
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
+		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Data.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 281
-=======
-	}, ; 277
-	%struct.DSOCacheEntry {
-		i64 7032820184502538532, ; hash 0x619998b242789124, from name: libaot-System.Net.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 278
-	%struct.DSOCacheEntry {
-		i64 7078790046120101683, ; hash 0x623cea0aba8f4733, from name: libaot-System.Data.Common
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 279
->>>>>>> main
-=======
-	}, ; 279
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7086827931071621775, ; hash 0x62597874a7d72a8f, from name: aot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.53_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 282
-=======
-	}, ; 280
->>>>>>> main
-=======
-	}, ; 280
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7105430439328552570, ; hash 0x629b8f56a06d167a, from name: System.Security.Cryptography.Pkcs
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.41_name, ; name: libaot-System.Security.Cryptography.Pkcs.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 283
-=======
-	}, ; 281
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7114095377846552088, ; hash 0x62ba580dd6cac618, from name: aot-System.Net.Mail.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
+		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.Mail.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 284
-=======
-	}, ; 281
-	%struct.DSOCacheEntry {
-		i64 7114095377846552088, ; hash 0x62ba580dd6cac618, from name: aot-System.Net.Mail.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 282
->>>>>>> main
-=======
-	}, ; 282
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7115462216925655511, ; hash 0x62bf332fdc9131d7, from name: aot-Microsoft.Extensions.Logging.Debug
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.22_name, ; name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 285
 	%struct.DSOCacheEntry {
 		i64 7149762907828324447, ; hash 0x63390f7bcd5f085f, from name: System.ComponentModel.Annotations.dll.so
@@ -3987,2055 +1845,887 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.Annotations.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 286
-=======
-	}, ; 283
->>>>>>> main
-=======
-	}, ; 283
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7198932752074671326, ; hash 0x63e7bf32495604de, from name: libaot-Xamarin.AndroidX.Collection
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.46_name, ; name: libaot-Xamarin.AndroidX.Collection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 287
-=======
-	}, ; 284
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7252784626773793767, ; hash 0x64a71130ef441be7, from name: System.Drawing.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
+		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 288
-=======
-	}, ; 284
-	%struct.DSOCacheEntry {
-		i64 7252784626773793767, ; hash 0x64a71130ef441be7, from name: System.Drawing.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 285
->>>>>>> main
-=======
-	}, ; 285
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7259603768097681859, ; hash 0x64bf4b29ff8cb1c3, from name: libaot-SkiaSharp.Skottie.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.37_name, ; name: libaot-SkiaSharp.Skottie.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 289
-=======
-	}, ; 286
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7260863994773921465, ; hash 0x64c3c55562ec5eb9, from name: libaot-System.Security.Claims
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
+		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Claims.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 287
+	}, ; 290
 	%struct.DSOCacheEntry {
 		i64 7270811800166795866, ; hash 0x64e71ccf51a90a5a, from name: System.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
+		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 288
+	}, ; 291
 	%struct.DSOCacheEntry {
 		i64 7286834274487352090, ; hash 0x6520092a53f5bb1a, from name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
+		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 292
-=======
-	}, ; 286
-	%struct.DSOCacheEntry {
-		i64 7260863994773921465, ; hash 0x64c3c55562ec5eb9, from name: libaot-System.Security.Claims
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 287
-	%struct.DSOCacheEntry {
-		i64 7270811800166795866, ; hash 0x64e71ccf51a90a5a, from name: System.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 288
-	%struct.DSOCacheEntry {
-		i64 7286834274487352090, ; hash 0x6520092a53f5bb1a, from name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 289
->>>>>>> main
-=======
-	}, ; 289
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7289396155428031695, ; hash 0x6529232eb762cccf, from name: Xamarin.AndroidX.Navigation.Runtime.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.60_name, ; name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 293
-=======
-	}, ; 290
->>>>>>> main
-=======
-	}, ; 290
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7293199643205339005, ; hash 0x6536a66f3942877d, from name: aot-Xamarin.AndroidX.CustomView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.50_name, ; name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 294
-=======
-	}, ; 291
->>>>>>> main
-=======
-	}, ; 291
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7316205155833392065, ; hash 0x658861d38954abc1, from name: Microsoft.Win32.Primitives
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.70_name, ; name: libaot-Microsoft.Win32.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 295
-=======
-	}, ; 292
->>>>>>> main
-=======
-	}, ; 292
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7333261945001751217, ; hash 0x65c4fae2bcb832b1, from name: aot-System.Security.Cryptography.Pkcs
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.41_name, ; name: libaot-System.Security.Cryptography.Pkcs.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 296
-=======
-	}, ; 293
->>>>>>> main
-=======
-	}, ; 293
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7338982286544642983, ; hash 0x65d94d818a60a3a7, from name: monodroid.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.7_name, ; name: libmonodroid.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 297
-=======
-	}, ; 294
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7357705307462257638, ; hash 0x661bd1fe8d4b4be6, from name: aot-Mono.Android.Runtime
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
+		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.Runtime.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 295
+	}, ; 298
 	%struct.DSOCacheEntry {
 		i64 7360049220918255826, ; hash 0x662425c56e3920d2, from name: System.Data.Common.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
+		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Data.Common.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 296
+	}, ; 299
 	%struct.DSOCacheEntry {
 		i64 7381472336305914060, ; hash 0x667041fb2ce300cc, from name: aot-System.Security.Cryptography.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 300
-=======
-	}, ; 294
-	%struct.DSOCacheEntry {
-		i64 7357705307462257638, ; hash 0x661bd1fe8d4b4be6, from name: aot-Mono.Android.Runtime
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 295
-	%struct.DSOCacheEntry {
-		i64 7360049220918255826, ; hash 0x662425c56e3920d2, from name: System.Data.Common.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 296
-	%struct.DSOCacheEntry {
-		i64 7381472336305914060, ; hash 0x667041fb2ce300cc, from name: aot-System.Security.Cryptography.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 297
->>>>>>> main
-=======
-	}, ; 297
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7415347135721941512, ; hash 0x66e89aee86eaaa08, from name: libmono-component-marshal-ilgen
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.5_name, ; name: libmono-component-marshal-ilgen.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 301
-=======
-	}, ; 298
->>>>>>> main
-=======
-	}, ; 298
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7447924280570395180, ; hash 0x675c57ac2167ba2c, from name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.44_name, ; name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 302
-=======
-	}, ; 299
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7465578309990517956, ; hash 0x679b0feb29d88cc4, from name: aot-System.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
+		ptr @.DSOCacheEntry.134_name, ; name: libaot-System.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 303
-=======
-	}, ; 299
-	%struct.DSOCacheEntry {
-		i64 7465578309990517956, ; hash 0x679b0feb29d88cc4, from name: aot-System.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 300
->>>>>>> main
-=======
-	}, ; 300
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7477302391979602800, ; hash 0x67c4b6e8b81f7370, from name: Xamarin.AndroidX.CardView.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.45_name, ; name: libaot-Xamarin.AndroidX.CardView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 304
-=======
-	}, ; 301
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7484096333359613774, ; hash 0x67dcd9f676b4074e, from name: libaot-System.Net.Security
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
+		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.Security.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 302
+	}, ; 305
 	%struct.DSOCacheEntry {
 		i64 7489048572193775167, ; hash 0x67ee71ff6b419e3f, from name: System.ObjectModel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
+		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.ObjectModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 306
-=======
-	}, ; 301
-	%struct.DSOCacheEntry {
-		i64 7484096333359613774, ; hash 0x67dcd9f676b4074e, from name: libaot-System.Net.Security
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 302
-	%struct.DSOCacheEntry {
-		i64 7489048572193775167, ; hash 0x67ee71ff6b419e3f, from name: System.ObjectModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 303
->>>>>>> main
-=======
-	}, ; 303
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7515511324144895830, ; hash 0x684c75bafd150756, from name: System.Collections.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.76_name, ; name: libaot-System.Collections.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 307
-=======
-	}, ; 304
->>>>>>> main
-=======
-	}, ; 304
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7532437531913037246, ; hash 0x68889806d67f25be, from name: libaot-Xamarin.AndroidX.Navigation.Common
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.58_name, ; name: libaot-Xamarin.AndroidX.Navigation.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 308
-=======
-	}, ; 305
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7535601351437907993, ; hash 0x6893d580f968f819, from name: System.Net.Http.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
+		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Http.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 306
+	}, ; 309
 	%struct.DSOCacheEntry {
 		i64 7540556024932143097, ; hash 0x68a56fc0cb030ff9, from name: aot-System.Drawing.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
+		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 310
-=======
-	}, ; 305
-	%struct.DSOCacheEntry {
-		i64 7535601351437907993, ; hash 0x6893d580f968f819, from name: System.Net.Http.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 306
-	%struct.DSOCacheEntry {
-		i64 7540556024932143097, ; hash 0x68a56fc0cb030ff9, from name: aot-System.Drawing.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 307
->>>>>>> main
-=======
-	}, ; 307
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7564660874610836040, ; hash 0x68fb12fc75798248, from name: Xamarin.AndroidX.CustomView.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.50_name, ; name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 311
-=======
-	}, ; 308
->>>>>>> main
-=======
-	}, ; 308
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7603299711682212348, ; hash 0x698458cdc3a5f1fc, from name: aot-System.Collections.NonGeneric.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.74_name, ; name: libaot-System.Collections.NonGeneric.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 312
-=======
-	}, ; 309
->>>>>>> main
-=======
-	}, ; 309
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7639941140308737920, ; hash 0x6a0685fd2cfebf80, from name: libSystem.IO.Compression.Native.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.0_name, ; name: libSystem.IO.Compression.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 313
-=======
-	}, ; 310
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7654504624184590948, ; hash 0x6a3a4366801b8264, from name: System.Net.Http
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
+		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Http.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 314
-=======
-	}, ; 310
-	%struct.DSOCacheEntry {
-		i64 7654504624184590948, ; hash 0x6a3a4366801b8264, from name: System.Net.Http
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 311
->>>>>>> main
-=======
-	}, ; 311
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7658328537957887241, ; hash 0x6a47d93ace376d09, from name: libaot-Xamarin.Google.Android.Material
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.67_name, ; name: libaot-Xamarin.Google.Android.Material.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 315
-=======
-	}, ; 312
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7675303261932883976, ; hash 0x6a8427a6b6e81008, from name: aot-System.Runtime.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
+		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Runtime.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 313
+	}, ; 316
 	%struct.DSOCacheEntry {
 		i64 7694700312542370399, ; hash 0x6ac9112a7e2cda5f, from name: System.Net.Mail
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
+		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.Mail.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 314
+	}, ; 317
 	%struct.DSOCacheEntry {
 		i64 7695876457946633523, ; hash 0x6acd3edd2f335533, from name: aot-System.Text.Json.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
+		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.Json.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 318
-=======
-	}, ; 312
-	%struct.DSOCacheEntry {
-		i64 7675303261932883976, ; hash 0x6a8427a6b6e81008, from name: aot-System.Runtime.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 313
-	%struct.DSOCacheEntry {
-		i64 7694700312542370399, ; hash 0x6ac9112a7e2cda5f, from name: System.Net.Mail
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 314
-	%struct.DSOCacheEntry {
-		i64 7695876457946633523, ; hash 0x6acd3edd2f335533, from name: aot-System.Text.Json.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 315
->>>>>>> main
-=======
-	}, ; 315
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7702918024138448955, ; hash 0x6ae6432192b9e03b, from name: MySqlConnector
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.32_name, ; name: libaot-MySqlConnector.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 319
-=======
-	}, ; 316
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7714652370974252055, ; hash 0x6b0ff375198b9c17, from name: System.Private.CoreLib
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
+		ptr @.DSOCacheEntry.139_name, ; name: libaot-System.Private.CoreLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 320
-=======
-	}, ; 316
-	%struct.DSOCacheEntry {
-		i64 7714652370974252055, ; hash 0x6b0ff375198b9c17, from name: System.Private.CoreLib
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 317
->>>>>>> main
-=======
-	}, ; 317
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7740286304433625072, ; hash 0x6b6b0562539657f0, from name: libmonosgen-2.0
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.6_name, ; name: libmonosgen-2.0.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 321
-=======
-	}, ; 318
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7756672559804613692, ; hash 0x6ba53c98b62c843c, from name: libaot-System.Runtime.Intrinsics.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
+		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 322
-=======
-	}, ; 318
-	%struct.DSOCacheEntry {
-		i64 7756672559804613692, ; hash 0x6ba53c98b62c843c, from name: libaot-System.Runtime.Intrinsics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 319
->>>>>>> main
-=======
-	}, ; 319
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7759661773326470811, ; hash 0x6bafdb45384d4e9b, from name: aot-Microsoft.Maui.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.28_name, ; name: libaot-Microsoft.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 323
-=======
-	}, ; 320
->>>>>>> main
-=======
-	}, ; 320
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7775464348757467397, ; hash 0x6be7ffa107672105, from name: libaot-Xamarin.AndroidX.CustomView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.50_name, ; name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 324
-=======
-	}, ; 321
->>>>>>> main
-=======
-	}, ; 321
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7836164640616011524, ; hash 0x6cbfa6390d64d704, from name: Xamarin.AndroidX.AppCompat.AppCompatResources
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.44_name, ; name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 325
-=======
-	}, ; 322
->>>>>>> main
-=======
-	}, ; 322
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7852346557833039773, ; hash 0x6cf9239740e64f9d, from name: libxamarin-debug-app-helper
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.8_name, ; name: libxamarin-debug-app-helper.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 326
-=======
-	}, ; 323
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7855888427540559711, ; hash 0x6d05b8e70ea8375f, from name: System.Console.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
+		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Console.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 327
-=======
-	}, ; 323
-	%struct.DSOCacheEntry {
-		i64 7855888427540559711, ; hash 0x6d05b8e70ea8375f, from name: System.Console.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 324
->>>>>>> main
-=======
-	}, ; 324
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7897713672933564717, ; hash 0x6d9a50bddcf3612d, from name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.19_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 328
-=======
-	}, ; 325
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7948127817007369596, ; hash 0x6e4d6c237a200d7c, from name: aot-System.Private.Xml.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
+		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Private.Xml.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 326
+	}, ; 329
 	%struct.DSOCacheEntry {
 		i64 7968925550521657015, ; hash 0x6e974f912860a6b7, from name: aot-System.Net.Sockets
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
+		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Net.Sockets.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 327
+	}, ; 330
 	%struct.DSOCacheEntry {
 		i64 7974095695751206426, ; hash 0x6ea9adc96638d61a, from name: libaot-System.Text.Json.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
+		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.Json.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 331
-=======
-	}, ; 325
-	%struct.DSOCacheEntry {
-		i64 7948127817007369596, ; hash 0x6e4d6c237a200d7c, from name: aot-System.Private.Xml.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 326
-	%struct.DSOCacheEntry {
-		i64 7968925550521657015, ; hash 0x6e974f912860a6b7, from name: aot-System.Net.Sockets
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 327
-	%struct.DSOCacheEntry {
-		i64 7974095695751206426, ; hash 0x6ea9adc96638d61a, from name: libaot-System.Text.Json.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 328
->>>>>>> main
-=======
-	}, ; 328
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 7997434560692396994, ; hash 0x6efc985c5880a3c2, from name: libaot-MySqlConnector.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.32_name, ; name: libaot-MySqlConnector.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 332
-=======
-	}, ; 329
->>>>>>> main
-=======
-	}, ; 329
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8046460106795142811, ; hash 0x6faac4d5cce04e9b, from name: aot-Microsoft.Maui.Controls
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.26_name, ; name: libaot-Microsoft.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 333
-=======
-	}, ; 330
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8069027220385562465, ; hash 0x6ffaf1816209ff61, from name: aot-System.Text.Encodings.Web
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
+		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Encodings.Web.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 331
+	}, ; 334
 	%struct.DSOCacheEntry {
 		i64 8087206902342787202, ; hash 0x703b87d46f3aa082, from name: System.Diagnostics.DiagnosticSource
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
+		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 335
-=======
-	}, ; 330
-	%struct.DSOCacheEntry {
-		i64 8069027220385562465, ; hash 0x6ffaf1816209ff61, from name: aot-System.Text.Encodings.Web
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 331
-	%struct.DSOCacheEntry {
-		i64 8087206902342787202, ; hash 0x703b87d46f3aa082, from name: System.Diagnostics.DiagnosticSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 332
->>>>>>> main
-=======
-	}, ; 332
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8092331298404567383, ; hash 0x704dbc70de2e0957, from name: aot-_Microsoft.Android.Resource.Designer
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.10_name, ; name: libaot-_Microsoft.Android.Resource.Designer.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 336
-=======
-	}, ; 333
->>>>>>> main
-=======
-	}, ; 333
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8129154283138605531, ; hash 0x70d08ec01ad261db, from name: mono-component-marshal-ilgen
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.5_name, ; name: libmono-component-marshal-ilgen.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 337
-=======
-	}, ; 334
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8150551902651424003, ; hash 0x711c93c5a0ec1d03, from name: aot-System.Xml.ReaderWriter.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
+		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 338
-=======
-	}, ; 334
-	%struct.DSOCacheEntry {
-		i64 8150551902651424003, ; hash 0x711c93c5a0ec1d03, from name: aot-System.Xml.ReaderWriter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 335
->>>>>>> main
-=======
-	}, ; 335
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8185542183669246576, ; hash 0x7198e33f4794aa70, from name: System.Collections
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.76_name, ; name: libaot-System.Collections.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 339
-=======
-	}, ; 336
->>>>>>> main
-=======
-	}, ; 336
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8189823481260868218, ; hash 0x71a819108db5027a, from name: libaot-System.Collections.Concurrent
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.72_name, ; name: libaot-System.Collections.Concurrent.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 340
-=======
-	}, ; 337
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8228747456654734221, ; hash 0x72326236cc4df38d, from name: libaot-System.Security.Cryptography.Encoding.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
+		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 338
+	}, ; 341
 	%struct.DSOCacheEntry {
 		i64 8298665547085841745, ; hash 0x732ac858cbd30551, from name: aot-System.Text.Encodings.Web.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
+		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Encodings.Web.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 339
+	}, ; 342
 	%struct.DSOCacheEntry {
 		i64 8313797594473349417, ; hash 0x73608add2114c129, from name: aot-System.Data.Common
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
+		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Data.Common.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 340
+	}, ; 343
 	%struct.DSOCacheEntry {
 		i64 8335746768722831773, ; hash 0x73ae85857f55a99d, from name: aot-System.Runtime.Numerics
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
+		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Numerics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 344
-=======
-	}, ; 337
-	%struct.DSOCacheEntry {
-		i64 8228747456654734221, ; hash 0x72326236cc4df38d, from name: libaot-System.Security.Cryptography.Encoding.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 338
-	%struct.DSOCacheEntry {
-		i64 8298665547085841745, ; hash 0x732ac858cbd30551, from name: aot-System.Text.Encodings.Web.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 339
-	%struct.DSOCacheEntry {
-		i64 8313797594473349417, ; hash 0x73608add2114c129, from name: aot-System.Data.Common
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 340
-	%struct.DSOCacheEntry {
-		i64 8335746768722831773, ; hash 0x73ae85857f55a99d, from name: aot-System.Runtime.Numerics
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 341
->>>>>>> main
-=======
-	}, ; 341
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8336567361463961013, ; hash 0x73b16fd8a22cc5b5, from name: libaot-Microsoft.Extensions.Primitives
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.24_name, ; name: libaot-Microsoft.Extensions.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 345
-=======
-	}, ; 342
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8362087432769215690, ; hash 0x740c1a3742f79cca, from name: System.Private.Xml.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
+		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Private.Xml.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 343
+	}, ; 346
 	%struct.DSOCacheEntry {
 		i64 8368701292315763008, ; hash 0x7423997c6fd56140, from name: System.Security.Cryptography
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
+		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Security.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 344
+	}, ; 347
 	%struct.DSOCacheEntry {
 		i64 8375722837974120975, ; hash 0x743c8b8b6e92fa0f, from name: aot-System.Runtime.Serialization.Formatters.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 348
-=======
-	}, ; 342
-	%struct.DSOCacheEntry {
-		i64 8362087432769215690, ; hash 0x740c1a3742f79cca, from name: System.Private.Xml.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 343
-	%struct.DSOCacheEntry {
-		i64 8368701292315763008, ; hash 0x7423997c6fd56140, from name: System.Security.Cryptography
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 344
-	%struct.DSOCacheEntry {
-		i64 8375722837974120975, ; hash 0x743c8b8b6e92fa0f, from name: aot-System.Runtime.Serialization.Formatters.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 345
->>>>>>> main
-=======
-	}, ; 345
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8382924305585776176, ; hash 0x7456213dc56da630, from name: Xamarin.AndroidX.ViewPager2.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.66_name, ; name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 349
-=======
-	}, ; 346
->>>>>>> main
-=======
-	}, ; 346
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8392333777418328833, ; hash 0x74778f1b27881b01, from name: libmonodroid.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.7_name, ; name: libmonodroid.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 350
-=======
-	}, ; 347
->>>>>>> main
-=======
-	}, ; 347
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8449389097357568100, ; hash 0x7542429e050e6864, from name: libaot-SkiaSharp.Extended.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.34_name, ; name: libaot-SkiaSharp.Extended.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 351
-=======
-	}, ; 348
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8466993038139643024, ; hash 0x7580cd4ee204d490, from name: System.Xml.ReaderWriter.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
+		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 352
-=======
-	}, ; 348
-	%struct.DSOCacheEntry {
-		i64 8466993038139643024, ; hash 0x7580cd4ee204d490, from name: System.Xml.ReaderWriter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 349
->>>>>>> main
-=======
-	}, ; 349
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8478719509125675648, ; hash 0x75aa7678ab9c3a80, from name: aot-Microsoft.Extensions.Options
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.23_name, ; name: libaot-Microsoft.Extensions.Options.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 353
-=======
-	}, ; 350
->>>>>>> main
-=======
-	}, ; 350
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8518412311883997971, ; hash 0x76377add7c28e313, from name: System.Collections.Immutable
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.73_name, ; name: libaot-System.Collections.Immutable.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 354
-=======
-	}, ; 351
->>>>>>> main
-=======
-	}, ; 351
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8521847989133051245, ; hash 0x7643af986e27056d, from name: aot-SkiaSharp.Extended.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.34_name, ; name: libaot-SkiaSharp.Extended.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 355
-=======
-	}, ; 352
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8522025752637549819, ; hash 0x7644514538b12cfb, from name: aot-Mono.Android.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
+		ptr @.DSOCacheEntry.138_name, ; name: libaot-Mono.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 356
-=======
-	}, ; 352
-	%struct.DSOCacheEntry {
-		i64 8522025752637549819, ; hash 0x7644514538b12cfb, from name: aot-Mono.Android.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 353
->>>>>>> main
-=======
-	}, ; 353
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8539930972764622299, ; hash 0x7683edf925fdcddb, from name: aot-Xamarin.AndroidX.Navigation.UI.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.61_name, ; name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 357
-=======
-	}, ; 354
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8563666267364444763, ; hash 0x76d841191140ca5b, from name: System.Private.Uri
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
+		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Uri.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 355
+	}, ; 358
+	%struct.DSOCacheEntry {
+		i64 8572732944665407299, ; hash 0x76f877316111ef43, from name: aot-System.ComponentModel.Annotations.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.Annotations.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 359
 	%struct.DSOCacheEntry {
 		i64 8579148903550987409, ; hash 0x770f42793756ac91, from name: aot-System.Net.Security.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
+		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.Security.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 360
-=======
-	}, ; 354
-	%struct.DSOCacheEntry {
-		i64 8563666267364444763, ; hash 0x76d841191140ca5b, from name: System.Private.Uri
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 355
-	%struct.DSOCacheEntry {
-		i64 8579148903550987409, ; hash 0x770f42793756ac91, from name: aot-System.Net.Security.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 356
->>>>>>> main
-=======
-	}, ; 356
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8593232652642194380, ; hash 0x77414b91950693cc, from name: aot-CommunityToolkit.Maui.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.14_name, ; name: libaot-CommunityToolkit.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 361
-=======
-	}, ; 357
->>>>>>> main
-=======
-	}, ; 357
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8599632406834268464, ; hash 0x7758081c784b4930, from name: CommunityToolkit.Maui
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.13_name, ; name: libaot-CommunityToolkit.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 362
-=======
-	}, ; 358
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8612207396229290788, ; hash 0x7784b4ff583d1b24, from name: aot-System.Net.Http.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
+		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Http.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 359
+	}, ; 363
 	%struct.DSOCacheEntry {
 		i64 8623099412595258045, ; hash 0x77ab673a869eb2bd, from name: libaot-System.Text.Encodings.Web.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
+		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Encodings.Web.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 360
+	}, ; 364
 	%struct.DSOCacheEntry {
 		i64 8626175481042262068, ; hash 0x77b654e585b55834, from name: Java.Interop
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
+		ptr @.DSOCacheEntry.136_name, ; name: libaot-Java.Interop.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 365
-=======
-	}, ; 358
-	%struct.DSOCacheEntry {
-		i64 8612207396229290788, ; hash 0x7784b4ff583d1b24, from name: aot-System.Net.Http.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 359
-	%struct.DSOCacheEntry {
-		i64 8623099412595258045, ; hash 0x77ab673a869eb2bd, from name: libaot-System.Text.Encodings.Web.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encodings.Web.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 360
-	%struct.DSOCacheEntry {
-		i64 8626175481042262068, ; hash 0x77b654e585b55834, from name: Java.Interop
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 361
->>>>>>> main
-=======
-	}, ; 361
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8626645781824515032, ; hash 0x77b800a1f4c5abd8, from name: System.Native
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.1_name, ; name: libSystem.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 366
-=======
-	}, ; 362
->>>>>>> main
-=======
-	}, ; 362
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8628664141348535547, ; hash 0x77bf2c51e73afcfb, from name: Xamarin.AndroidX.Fragment.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.52_name, ; name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 367
-=======
-	}, ; 363
->>>>>>> main
-=======
-	}, ; 363
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8639588376636138208, ; hash 0x77e5fbdaa2fda2e0, from name: Xamarin.AndroidX.Navigation.Runtime
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.60_name, ; name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 368
-=======
-	}, ; 364
->>>>>>> main
-=======
-	}, ; 364
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8658236679209272073, ; hash 0x78283c62ed86c309, from name: libaot-Xamarin.AndroidX.ViewPager
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.65_name, ; name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 369
-=======
-	}, ; 365
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8659486139845940425, ; hash 0x782cacc3a6ef94c9, from name: System.Runtime.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
+		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 370
-=======
-	}, ; 365
-	%struct.DSOCacheEntry {
-		i64 8659486139845940425, ; hash 0x782cacc3a6ef94c9, from name: System.Runtime.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 366
->>>>>>> main
-=======
-	}, ; 366
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8675679368629535568, ; hash 0x7866346b88594350, from name: libaot-CommunityToolkit.Maui.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.13_name, ; name: libaot-CommunityToolkit.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 371
-=======
-	}, ; 367
->>>>>>> main
-=======
-	}, ; 367
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8678798904678110092, ; hash 0x7871499f1e63538c, from name: SkiaSharp.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.33_name, ; name: libaot-SkiaSharp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 372
-=======
-	}, ; 368
->>>>>>> main
-=======
-	}, ; 368
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8730145678495508517, ; hash 0x7927b53d8422e825, from name: Xamarin.AndroidX.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.48_name, ; name: libaot-Xamarin.AndroidX.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 373
-=======
-	}, ; 369
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8747763348793017252, ; hash 0x79664c6b07fd43a4, from name: libaot-System.Private.CoreLib.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
+		ptr @.DSOCacheEntry.139_name, ; name: libaot-System.Private.CoreLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 374
-=======
-	}, ; 369
-	%struct.DSOCacheEntry {
-		i64 8747763348793017252, ; hash 0x79664c6b07fd43a4, from name: libaot-System.Private.CoreLib.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 370
->>>>>>> main
-=======
-	}, ; 370
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8754665938746098151, ; hash 0x797ed2497e2c41e7, from name: aot-SkiaSharp.Extended.UI.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.35_name, ; name: libaot-SkiaSharp.Extended.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 375
-=======
-	}, ; 371
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8760858219412156768, ; hash 0x7994d2222f9f7160, from name: System.Linq.Expressions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.Expressions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 372
+	}, ; 376
 	%struct.DSOCacheEntry {
 		i64 8761982123773840073, ; hash 0x7998d0518fdccac9, from name: aot-System.Text.RegularExpressions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
+		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Text.RegularExpressions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 373
+	}, ; 377
 	%struct.DSOCacheEntry {
 		i64 8772604801161716260, ; hash 0x79be8d9660216224, from name: aot-Mono.Android
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
+		ptr @.DSOCacheEntry.138_name, ; name: libaot-Mono.Android.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 374
+	}, ; 378
 	%struct.DSOCacheEntry {
 		i64 8812786412666749070, ; hash 0x7a4d4e8cd864008e, from name: aot-System.Diagnostics.DiagnosticSource
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
+		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 375
+	}, ; 379
 	%struct.DSOCacheEntry {
 		i64 8824907823227734965, ; hash 0x7a785ee8ab0e0bb5, from name: aot-System.Private.Uri
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
+		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Uri.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 380
-=======
-	}, ; 371
-	%struct.DSOCacheEntry {
-		i64 8760858219412156768, ; hash 0x7994d2222f9f7160, from name: System.Linq.Expressions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 372
-	%struct.DSOCacheEntry {
-		i64 8761982123773840073, ; hash 0x7998d0518fdccac9, from name: aot-System.Text.RegularExpressions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 373
-	%struct.DSOCacheEntry {
-		i64 8772604801161716260, ; hash 0x79be8d9660216224, from name: aot-Mono.Android
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 374
-	%struct.DSOCacheEntry {
-		i64 8812786412666749070, ; hash 0x7a4d4e8cd864008e, from name: aot-System.Diagnostics.DiagnosticSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 375
-	%struct.DSOCacheEntry {
-		i64 8824907823227734965, ; hash 0x7a785ee8ab0e0bb5, from name: aot-System.Private.Uri
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 376
->>>>>>> main
-=======
-	}, ; 376
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8879040545617680294, ; hash 0x7b38b05543d517a6, from name: libaot-Xamarin.AndroidX.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.48_name, ; name: libaot-Xamarin.AndroidX.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 381
-=======
-	}, ; 377
->>>>>>> main
-=======
-	}, ; 377
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8879340544350621822, ; hash 0x7b39c12e29be107e, from name: aot-Microsoft.Extensions.Configuration.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.16_name, ; name: libaot-Microsoft.Extensions.Configuration.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 382
-=======
-	}, ; 378
->>>>>>> main
-=======
-	}, ; 378
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8934906610293113664, ; hash 0x7bff2a390fcf8340, from name: aot-Xamarin.AndroidX.ViewPager2
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.66_name, ; name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 383
-=======
-	}, ; 379
->>>>>>> main
-=======
-	}, ; 379
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8949786918460740537, ; hash 0x7c3407c8ca4a53b9, from name: libaot-SkiaSharp.SceneGraph
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.36_name, ; name: libaot-SkiaSharp.SceneGraph.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 384
-=======
-	}, ; 380
->>>>>>> main
-=======
-	}, ; 380
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8952423777767276343, ; hash 0x7c3d65fe70943f37, from name: libaot-SkiaSharp.Views.Android.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.38_name, ; name: libaot-SkiaSharp.Views.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 385
-=======
-	}, ; 381
->>>>>>> main
-=======
-	}, ; 381
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8959200230209785136, ; hash 0x7c55792439408d30, from name: aot-Xamarin.AndroidX.Fragment.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.52_name, ; name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 386
-=======
-	}, ; 382
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 8967164847000689438, ; hash 0x7c71c4eb13d89b1e, from name: libaot-System.Private.Uri.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
+		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Uri.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 383
+	}, ; 387
 	%struct.DSOCacheEntry {
 		i64 9032777207089403703, ; hash 0x7d5adf031bcf1737, from name: libaot-System.ObjectModel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
+		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.ObjectModel.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 384
+	}, ; 388
 	%struct.DSOCacheEntry {
 		i64 9049979032622352945, ; hash 0x7d97fbfb38304a31, from name: libaot-System.IO.Compression
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Compression.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 389
-=======
-	}, ; 382
-	%struct.DSOCacheEntry {
-		i64 8967164847000689438, ; hash 0x7c71c4eb13d89b1e, from name: libaot-System.Private.Uri.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 383
-	%struct.DSOCacheEntry {
-		i64 9032777207089403703, ; hash 0x7d5adf031bcf1737, from name: libaot-System.ObjectModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 384
-	%struct.DSOCacheEntry {
-		i64 9049979032622352945, ; hash 0x7d97fbfb38304a31, from name: libaot-System.IO.Compression
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 385
->>>>>>> main
-=======
-	}, ; 385
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9055317871244365271, ; hash 0x7daaf3a073c44dd7, from name: monodroid
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.7_name, ; name: libmonodroid.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 390
-=======
-	}, ; 386
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9088245146908530154, ; hash 0x7e1feecf3d2695ea, from name: aot-System.Security.Cryptography.Csp
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
+		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 391
-=======
-	}, ; 386
-	%struct.DSOCacheEntry {
-		i64 9088245146908530154, ; hash 0x7e1feecf3d2695ea, from name: aot-System.Security.Cryptography.Csp
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 387
->>>>>>> main
-=======
-	}, ; 387
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9089904904477581872, ; hash 0x7e25d459a977a230, from name: aot-Xamarin.AndroidX.Collection.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.46_name, ; name: libaot-Xamarin.AndroidX.Collection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 392
-=======
-	}, ; 388
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9138683372487561558, ; hash 0x7ed3201bc3e3d156, from name: System.Security.Cryptography.Csp
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
+		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 393
-=======
-	}, ; 388
-	%struct.DSOCacheEntry {
-		i64 9138683372487561558, ; hash 0x7ed3201bc3e3d156, from name: System.Security.Cryptography.Csp
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 389
->>>>>>> main
-=======
-	}, ; 389
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9184990959724848206, ; hash 0x7f77a49d1b92e44e, from name: aot-Xamarin.AndroidX.AppCompat.AppCompatResources
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.44_name, ; name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 394
-=======
-	}, ; 390
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9202553973257348394, ; hash 0x7fb60a14da5d252a, from name: libaot-System.Net.Security.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
+		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.Security.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 395
-=======
-	}, ; 390
-	%struct.DSOCacheEntry {
-		i64 9202553973257348394, ; hash 0x7fb60a14da5d252a, from name: libaot-System.Net.Security.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 391
->>>>>>> main
-=======
-	}, ; 391
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9203450558564540929, ; hash 0x7fb93985631c2201, from name: libaot-Microsoft.Maui.Controls.Compatibility
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.25_name, ; name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 396
-=======
-	}, ; 392
->>>>>>> main
-=======
-	}, ; 392
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9210016998156649811, ; hash 0x7fd08da9be6fc553, from name: libaot-SkiaSharp.Views.Maui.Controls
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.39_name, ; name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 397
-=======
-	}, ; 393
->>>>>>> main
-=======
-	}, ; 393
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9219236770475081177, ; hash 0x7ff14eff4462fdd9, from name: aot-Xamarin.AndroidX.ViewPager
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.65_name, ; name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 398
-=======
-	}, ; 394
->>>>>>> main
-=======
-	}, ; 394
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9225652551807385394, ; hash 0x80081a1dc3a7bf32, from name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.47_name, ; name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 399
-=======
-	}, ; 395
->>>>>>> main
-=======
-	}, ; 395
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9286073997824813334, ; hash 0x80dec319ee56e916, from name: BouncyCastle.Cryptography
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.12_name, ; name: libaot-BouncyCastle.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 400
-=======
-	}, ; 396
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9293571162334492259, ; hash 0x80f965bb91c2f663, from name: libaot-System.Formats.Asn1.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
+		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.Formats.Asn1.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 401
-=======
-	}, ; 396
-	%struct.DSOCacheEntry {
-		i64 9293571162334492259, ; hash 0x80f965bb91c2f663, from name: libaot-System.Formats.Asn1.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 397
->>>>>>> main
-=======
-	}, ; 397
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9312692141327339315, ; hash 0x813d54296a634f33, from name: Xamarin.AndroidX.ViewPager2
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.66_name, ; name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 402
-=======
-	}, ; 398
->>>>>>> main
-=======
-	}, ; 398
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9324707631942237306, ; hash 0x8168042fd44a7c7a, from name: Xamarin.AndroidX.AppCompat
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.43_name, ; name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 403
-=======
-	}, ; 399
->>>>>>> main
-=======
-	}, ; 399
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9334813198578103615, ; hash 0x818beb2569e0353f, from name: SkiaSharp.Extended.UI
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.35_name, ; name: libaot-SkiaSharp.Extended.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 404
-=======
-	}, ; 400
->>>>>>> main
-=======
-	}, ; 400
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9354788225964247547, ; hash 0x81d2e253e59b09fb, from name: aot-Microsoft.Maui.Graphics
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.30_name, ; name: libaot-Microsoft.Maui.Graphics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 405
-=======
-	}, ; 401
->>>>>>> main
-=======
-	}, ; 401
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9367239634153719299, ; hash 0x81ff1ed147b14603, from name: libaot-SkiaSharp.Views.Android
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.38_name, ; name: libaot-SkiaSharp.Views.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 406
-=======
-	}, ; 402
->>>>>>> main
-=======
-	}, ; 402
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9442737846252524779, ; hash 0x830b580a9904d4eb, from name: libaot-CommunityToolkit.Maui
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.13_name, ; name: libaot-CommunityToolkit.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 407
-=======
-	}, ; 403
->>>>>>> main
-=======
-	}, ; 403
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9486299778194654718, ; hash 0x83a61b634028c5fe, from name: aot-Xamarin.AndroidX.Navigation.Common
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.58_name, ; name: libaot-Xamarin.AndroidX.Navigation.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 408
-=======
-	}, ; 404
->>>>>>> main
-=======
-	}, ; 404
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9519127451472829141, ; hash 0x841abbfb8cb51ad5, from name: Microsoft.Maui.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.28_name, ; name: libaot-Microsoft.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 409
-=======
-	}, ; 405
->>>>>>> main
-=======
-	}, ; 405
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9551046264236990507, ; hash 0x848c21f9452ae02b, from name: aot-SkiaSharp.SceneGraph
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.36_name, ; name: libaot-SkiaSharp.SceneGraph.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 410
-=======
-	}, ; 406
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9584802165301184279, ; hash 0x85040ec9712c0717, from name: System.Private.Uri.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
+		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Uri.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 407
+	}, ; 411
 	%struct.DSOCacheEntry {
 		i64 9616196441223773743, ; hash 0x857397b6e984be2f, from name: libaot-System.Runtime.Intrinsics
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
+		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 408
+	}, ; 412
 	%struct.DSOCacheEntry {
 		i64 9641796949223436837, ; hash 0x85ce8b3daae87225, from name: libaot-Java.Interop.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
+		ptr @.DSOCacheEntry.136_name, ; name: libaot-Java.Interop.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 409
+	}, ; 413
 	%struct.DSOCacheEntry {
 		i64 9659729154652888475, ; hash 0x860e407c9991dd9b, from name: System.Text.RegularExpressions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
+		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Text.RegularExpressions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 414
-=======
-	}, ; 406
-	%struct.DSOCacheEntry {
-		i64 9584802165301184279, ; hash 0x85040ec9712c0717, from name: System.Private.Uri.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 407
-	%struct.DSOCacheEntry {
-		i64 9616196441223773743, ; hash 0x857397b6e984be2f, from name: libaot-System.Runtime.Intrinsics
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 408
-	%struct.DSOCacheEntry {
-		i64 9641796949223436837, ; hash 0x85ce8b3daae87225, from name: libaot-Java.Interop.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 409
-	%struct.DSOCacheEntry {
-		i64 9659729154652888475, ; hash 0x860e407c9991dd9b, from name: System.Text.RegularExpressions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 410
->>>>>>> main
-=======
-	}, ; 410
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9696160737625190202, ; hash 0x868faed1833d2f3a, from name: aot-MailKit
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.15_name, ; name: libaot-MailKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 415
-=======
-	}, ; 411
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9700644217508604131, ; hash 0x869f9c85050c28e3, from name: System.Numerics.Vectors.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
+		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.Numerics.Vectors.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 416
-=======
-	}, ; 411
-	%struct.DSOCacheEntry {
-		i64 9700644217508604131, ; hash 0x869f9c85050c28e3, from name: System.Numerics.Vectors.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 412
->>>>>>> main
-=======
-	}, ; 412
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9723757432752603539, ; hash 0x86f1b9ddcd488193, from name: libaot-Microsoft.Extensions.Logging.Debug
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.22_name, ; name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 417
-=======
-	}, ; 413
->>>>>>> main
-=======
-	}, ; 413
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9730585375023143521, ; hash 0x8709fbd7fedd9a61, from name: aot-System.Collections.Immutable
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.73_name, ; name: libaot-System.Collections.Immutable.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 418
-=======
-	}, ; 414
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9783785228567974479, ; hash 0x87c6fcd42382124f, from name: libaot-System.Threading.Thread
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
+		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Threading.Thread.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 419
-=======
-	}, ; 414
-	%struct.DSOCacheEntry {
-		i64 9783785228567974479, ; hash 0x87c6fcd42382124f, from name: libaot-System.Threading.Thread
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 415
->>>>>>> main
-=======
-	}, ; 415
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9803047054801588640, ; hash 0x880b6b5b89e351a0, from name: Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.55_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 420
-=======
-	}, ; 416
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9808040346124881443, ; hash 0x881d28bac5790e23, from name: aot-System.Runtime.Loader.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
+		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 421
-=======
-	}, ; 416
-	%struct.DSOCacheEntry {
-		i64 9808040346124881443, ; hash 0x881d28bac5790e23, from name: aot-System.Runtime.Loader.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 417
->>>>>>> main
-=======
-	}, ; 417
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9832710287420804642, ; hash 0x8874cde9150bce22, from name: aot-CommunityToolkit.Maui.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.13_name, ; name: libaot-CommunityToolkit.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 422
-=======
-	}, ; 418
->>>>>>> main
-=======
-	}, ; 418
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9872301298376226842, ; hash 0x890175b9a557b81a, from name: libaot-Microsoft.Extensions.Logging.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.20_name, ; name: libaot-Microsoft.Extensions.Logging.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 423
-=======
-	}, ; 419
->>>>>>> main
-=======
-	}, ; 419
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9878540403917854255, ; hash 0x8917a0289ade162f, from name: Xamarin.Kotlin.StdLib.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.68_name, ; name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 424
-=======
-	}, ; 420
->>>>>>> main
-=======
-	}, ; 420
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 9956195530459977388, ; hash 0x8a2b8315b36616ac, from name: Microsoft.Maui
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.28_name, ; name: libaot-Microsoft.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 425
-=======
-	}, ; 421
->>>>>>> main
-=======
-	}, ; 421
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10011149440696954273, ; hash 0x8aeebf5ffe17ada1, from name: MySqlConnector.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.32_name, ; name: libaot-MySqlConnector.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 426
-=======
-	}, ; 422
->>>>>>> main
-=======
-	}, ; 422
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10015320022696718808, ; hash 0x8afd907f48b1f1d8, from name: aot-Xamarin.Kotlin.StdLib.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.68_name, ; name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 427
-=======
-	}, ; 423
->>>>>>> main
-=======
-	}, ; 423
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10017511394021241210, ; hash 0x8b055989ae10717a, from name: Microsoft.Extensions.Logging.Debug
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.22_name, ; name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 428
-=======
-	}, ; 424
->>>>>>> main
-=======
-	}, ; 424
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10038591806013433352, ; hash 0x8b503e0f9293e608, from name: libaot-Microsoft.Extensions.Logging
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.20_name, ; name: libaot-Microsoft.Extensions.Logging.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 429
-=======
-	}, ; 425
->>>>>>> main
-=======
-	}, ; 425
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10038658769320066207, ; hash 0x8b507af6aeaebc9f, from name: libaot-System.Security.Cryptography.Pkcs.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.41_name, ; name: libaot-System.Security.Cryptography.Pkcs.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 430
-=======
-	}, ; 426
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10051358222726253779, ; hash 0x8b7d990c97ccccd3, from name: System.Private.Xml
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
+		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Private.Xml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 431
-=======
-	}, ; 426
-	%struct.DSOCacheEntry {
-		i64 10051358222726253779, ; hash 0x8b7d990c97ccccd3, from name: System.Private.Xml
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 427
->>>>>>> main
-=======
-	}, ; 427
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10092835686693276772, ; hash 0x8c10f49539bd0c64, from name: Microsoft.Maui.Controls
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.26_name, ; name: libaot-Microsoft.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 432
-=======
-	}, ; 428
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10100633424984079765, ; hash 0x8c2ca895a69cfd95, from name: libaot-System.Runtime
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
+		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 433
 	%struct.DSOCacheEntry {
 		i64 10105485790837105934, ; hash 0x8c3de5c91d9a650e, from name: System.Threading.Tasks.Parallel
@@ -6043,2603 +2733,1139 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.Tasks.Parallel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 434
-=======
-	}, ; 428
-	%struct.DSOCacheEntry {
-		i64 10100633424984079765, ; hash 0x8c2ca895a69cfd95, from name: libaot-System.Runtime
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 429
->>>>>>> main
-=======
-	}, ; 429
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10117538216423255955, ; hash 0x8c68b7671f58ef93, from name: System.Collections.Specialized.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.75_name, ; name: libaot-System.Collections.Specialized.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 435
-=======
-	}, ; 430
->>>>>>> main
-=======
-	}, ; 430
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10125640814986396946, ; hash 0x8c8580ac5c760512, from name: aot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.19_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 436
-=======
-	}, ; 431
->>>>>>> main
-=======
-	}, ; 431
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10163870945634802459, ; hash 0x8d0d52c64979db1b, from name: aot-SkiaSharp.Views.Maui.Controls.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.39_name, ; name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 437
-=======
-	}, ; 432
->>>>>>> main
-=======
-	}, ; 432
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10192342983628983250, ; hash 0x8d7279f138268bd2, from name: aot-Podbor
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.11_name, ; name: libaot-Podbor.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 438
-=======
-	}, ; 433
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10202443004866537339, ; hash 0x8d965bdbaa3d277b, from name: aot-System.Security.Cryptography
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
+		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Security.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 439
-=======
-	}, ; 433
-	%struct.DSOCacheEntry {
-		i64 10202443004866537339, ; hash 0x8d965bdbaa3d277b, from name: aot-System.Security.Cryptography
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 434
->>>>>>> main
-=======
-	}, ; 434
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10204715141328800175, ; hash 0x8d9e6e5aa8f409af, from name: BouncyCastle.Cryptography.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.12_name, ; name: libaot-BouncyCastle.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 440
-=======
-	}, ; 435
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10224492561641212282, ; hash 0x8de4b1d0293f897a, from name: aot-System.Private.Xml.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 436
+	}, ; 441
 	%struct.DSOCacheEntry {
 		i64 10228817684246477515, ; hash 0x8df40f7d3dbebacb, from name: System.IO.Pipes.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
+		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.IO.Pipes.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 442
-=======
-	}, ; 435
-	%struct.DSOCacheEntry {
-		i64 10224492561641212282, ; hash 0x8de4b1d0293f897a, from name: aot-System.Private.Xml.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 436
-	%struct.DSOCacheEntry {
-		i64 10228817684246477515, ; hash 0x8df40f7d3dbebacb, from name: System.IO.Pipes.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 437
->>>>>>> main
-=======
-	}, ; 437
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10229024438826829339, ; hash 0x8df4cb880b10061b, from name: Xamarin.AndroidX.CustomView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.50_name, ; name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 443
-=======
-	}, ; 438
->>>>>>> main
-=======
-	}, ; 438
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10260953053122380416, ; hash 0x8e663a6fdc51c280, from name: libaot-SkiaSharp.Views.Maui.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.40_name, ; name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 444
-=======
-	}, ; 439
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10273345953350871244, ; hash 0x8e9241b6cc2ce8cc, from name: netstandard.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
+		ptr @.DSOCacheEntry.135_name, ; name: libaot-netstandard.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 445
-=======
-	}, ; 439
-	%struct.DSOCacheEntry {
-		i64 10273345953350871244, ; hash 0x8e9241b6cc2ce8cc, from name: netstandard.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 440
->>>>>>> main
-=======
-	}, ; 440
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10284344054184125450, ; hash 0x8eb9546db18ba40a, from name: libaot-Microsoft.Win32.Primitives
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.70_name, ; name: libaot-Microsoft.Win32.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 446
-=======
-	}, ; 441
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10291981562957691400, ; hash 0x8ed476b3c6f67a08, from name: aot-System.ComponentModel.TypeConverter
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 442
-	%struct.DSOCacheEntry {
-		i64 10318218263549127400, ; hash 0x8f31acd7a9cb2ae8, from name: aot-System.Formats.Asn1
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 443
-	%struct.DSOCacheEntry {
-		i64 10356807666685550219, ; hash 0x8fbac5b33bd59e8b, from name: libaot-System.Net.Http
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 444
-	%struct.DSOCacheEntry {
-		i64 10360315726388337145, ; hash 0x8fc73c43084519f9, from name: libaot-System.Drawing.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 445
-	%struct.DSOCacheEntry {
-		i64 10385124814576326370, ; hash 0x901f5fff00ea96e2, from name: libaot-System.Private.Xml.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 446
-	%struct.DSOCacheEntry {
-		i64 10387475612650146223, ; hash 0x9027ba08d50b89af, from name: libaot-System.Runtime.Serialization.Formatters
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 447
 	%struct.DSOCacheEntry {
+		i64 10318218263549127400, ; hash 0x8f31acd7a9cb2ae8, from name: aot-System.Formats.Asn1
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.Formats.Asn1.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 448
+	%struct.DSOCacheEntry {
+		i64 10356807666685550219, ; hash 0x8fbac5b33bd59e8b, from name: libaot-System.Net.Http
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Http.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 449
+	%struct.DSOCacheEntry {
+		i64 10360315726388337145, ; hash 0x8fc73c43084519f9, from name: libaot-System.Drawing.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Drawing.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 450
+	%struct.DSOCacheEntry {
+		i64 10385124814576326370, ; hash 0x901f5fff00ea96e2, from name: libaot-System.Private.Xml.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Private.Xml.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 451
+	%struct.DSOCacheEntry {
+		i64 10387475612650146223, ; hash 0x9027ba08d50b89af, from name: libaot-System.Runtime.Serialization.Formatters
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 452
+	%struct.DSOCacheEntry {
 		i64 10392419804969934685, ; hash 0x90394ac04ff79f5d, from name: libaot-System.Runtime.Loader
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
+		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 453
-=======
-	}, ; 441
-	%struct.DSOCacheEntry {
-		i64 10291981562957691400, ; hash 0x8ed476b3c6f67a08, from name: aot-System.ComponentModel.TypeConverter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 442
-	%struct.DSOCacheEntry {
-		i64 10318218263549127400, ; hash 0x8f31acd7a9cb2ae8, from name: aot-System.Formats.Asn1
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 443
-	%struct.DSOCacheEntry {
-		i64 10356807666685550219, ; hash 0x8fbac5b33bd59e8b, from name: libaot-System.Net.Http
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 444
-	%struct.DSOCacheEntry {
-		i64 10360315726388337145, ; hash 0x8fc73c43084519f9, from name: libaot-System.Drawing.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 445
-	%struct.DSOCacheEntry {
-		i64 10385124814576326370, ; hash 0x901f5fff00ea96e2, from name: libaot-System.Private.Xml.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 446
-	%struct.DSOCacheEntry {
-		i64 10387475612650146223, ; hash 0x9027ba08d50b89af, from name: libaot-System.Runtime.Serialization.Formatters
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 447
-	%struct.DSOCacheEntry {
-		i64 10392419804969934685, ; hash 0x90394ac04ff79f5d, from name: libaot-System.Runtime.Loader
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 448
->>>>>>> main
-=======
-	}, ; 448
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10403090626863083606, ; hash 0x905f33cea45eb056, from name: mono-component-debugger.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.3_name, ; name: libmono-component-debugger.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 454
-=======
-	}, ; 449
->>>>>>> main
-=======
-	}, ; 449
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10430153318873392755, ; hash 0x90bf592ea44f6673, from name: Xamarin.AndroidX.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.48_name, ; name: libaot-Xamarin.AndroidX.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 455
-=======
-	}, ; 450
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10431089073467423858, ; hash 0x90c2ac3efc7bfc72, from name: libaot-System.Private.Xml
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
+		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Private.Xml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 456
-=======
-	}, ; 450
-	%struct.DSOCacheEntry {
-		i64 10431089073467423858, ; hash 0x90c2ac3efc7bfc72, from name: libaot-System.Private.Xml
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 451
->>>>>>> main
-=======
-	}, ; 451
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10445573484590211502, ; hash 0x90f621bdc03d21ae, from name: aot-Xamarin.AndroidX.Activity
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.42_name, ; name: libaot-Xamarin.AndroidX.Activity.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 457
-=======
-	}, ; 452
->>>>>>> main
-=======
-	}, ; 452
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10450659953307598403, ; hash 0x910833db894cbe43, from name: aot-SkiaSharp.Views.Android.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.38_name, ; name: libaot-SkiaSharp.Views.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 458
-=======
-	}, ; 453
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10450970453325464374, ; hash 0x91094e4174914336, from name: aot-System.Runtime.Serialization.Formatters
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 454
+	}, ; 459
 	%struct.DSOCacheEntry {
 		i64 10462325736163448418, ; hash 0x9131a5d344731662, from name: libaot-System.Text.Json
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
+		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.Json.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 455
+	}, ; 460
 	%struct.DSOCacheEntry {
 		i64 10484059796581909322, ; hash 0x917edcd68b38034a, from name: libaot-System.Net.Mail
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
+		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.Mail.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 461
-=======
-	}, ; 453
-	%struct.DSOCacheEntry {
-		i64 10450970453325464374, ; hash 0x91094e4174914336, from name: aot-System.Runtime.Serialization.Formatters
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 454
-	%struct.DSOCacheEntry {
-		i64 10462325736163448418, ; hash 0x9131a5d344731662, from name: libaot-System.Text.Json
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 455
-	%struct.DSOCacheEntry {
-		i64 10484059796581909322, ; hash 0x917edcd68b38034a, from name: libaot-System.Net.Mail
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 456
->>>>>>> main
-=======
-	}, ; 456
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10484826484908863027, ; hash 0x918196231499ae33, from name: xamarin-debug-app-helper
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.8_name, ; name: libxamarin-debug-app-helper.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 462
-=======
-	}, ; 457
->>>>>>> main
-=======
-	}, ; 457
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10512098364414578010, ; hash 0x91e279c456e54d5a, from name: libaot-Xamarin.AndroidX.CursorAdapter
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.49_name, ; name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 463
-=======
-	}, ; 458
->>>>>>> main
-=======
-	}, ; 458
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10527144991337776086, ; hash 0x9217ee982bb883d6, from name: CommunityToolkit.Maui.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.13_name, ; name: libaot-CommunityToolkit.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 464
-=======
-	}, ; 459
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10657322552275964462, ; hash 0x93e66a65792b122e, from name: aot-System.Runtime.InteropServices
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
+		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.InteropServices.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 460
+	}, ; 465
 	%struct.DSOCacheEntry {
 		i64 10686502423950929984, ; hash 0x944e1555c6f23040, from name: libaot-netstandard
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
+		ptr @.DSOCacheEntry.135_name, ; name: libaot-netstandard.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 461
+	}, ; 466
 	%struct.DSOCacheEntry {
 		i64 10738576877450676954, ; hash 0x950716c64dabcada, from name: aot-System.Security.Cryptography.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
+		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Security.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 467
-=======
-	}, ; 459
-	%struct.DSOCacheEntry {
-		i64 10657322552275964462, ; hash 0x93e66a65792b122e, from name: aot-System.Runtime.InteropServices
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 460
-	%struct.DSOCacheEntry {
-		i64 10686502423950929984, ; hash 0x944e1555c6f23040, from name: libaot-netstandard
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 461
-	%struct.DSOCacheEntry {
-		i64 10738576877450676954, ; hash 0x950716c64dabcada, from name: aot-System.Security.Cryptography.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 462
->>>>>>> main
-=======
-	}, ; 462
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10769655153368559797, ; hash 0x9575804d49fcf0b5, from name: libaot-Microsoft.Maui.Graphics.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.30_name, ; name: libaot-Microsoft.Maui.Graphics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 468
-=======
-	}, ; 463
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10785150219063592792, ; hash 0x95ac8cfb68830758, from name: System.Net.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
+		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 469
-=======
-	}, ; 463
-	%struct.DSOCacheEntry {
-		i64 10785150219063592792, ; hash 0x95ac8cfb68830758, from name: System.Net.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 464
->>>>>>> main
-=======
-	}, ; 464
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10827433220396269482, ; hash 0x9642c525d2fbbfaa, from name: aot-Xamarin.AndroidX.SavedState
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.63_name, ; name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 470
-=======
-	}, ; 465
->>>>>>> main
-=======
-	}, ; 465
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10891427439346915915, ; hash 0x97261f8d03371a4b, from name: Xamarin.AndroidX.Navigation.UI.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.61_name, ; name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 471
-=======
-	}, ; 466
->>>>>>> main
-=======
-	}, ; 466
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10924302013488348491, ; hash 0x979aeacd450ebd4b, from name: aot-SkiaSharp.Skottie
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.37_name, ; name: libaot-SkiaSharp.Skottie.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 472
-=======
-	}, ; 467
->>>>>>> main
-=======
-	}, ; 467
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10959662263064203642, ; hash 0x98188ac2f032117a, from name: aot-Xamarin.AndroidX.Fragment
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.52_name, ; name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 473
-=======
-	}, ; 468
->>>>>>> main
-=======
-	}, ; 468
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10980007583825662638, ; hash 0x9860d2b9110612ae, from name: Microsoft.Extensions.Configuration.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.16_name, ; name: libaot-Microsoft.Extensions.Configuration.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 474
-=======
-	}, ; 469
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 10999199133474082697, ; hash 0x98a50155ec81cf89, from name: aot-System.Runtime.Intrinsics
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
+		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 475
-=======
-	}, ; 469
-	%struct.DSOCacheEntry {
-		i64 10999199133474082697, ; hash 0x98a50155ec81cf89, from name: aot-System.Runtime.Intrinsics
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 470
->>>>>>> main
-=======
-	}, ; 470
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11002576679268595294, ; hash 0x98b1013215cd365e, from name: Microsoft.Extensions.Logging.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.21_name, ; name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 476
-=======
-	}, ; 471
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11043797956829943227, ; hash 0x994373baac0895bb, from name: aot-System.Diagnostics.TraceSource
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 472
+	}, ; 477
 	%struct.DSOCacheEntry {
 		i64 11058657390679514429, ; hash 0x99783e4e38335d3d, from name: aot-System.Net.NetworkInformation
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
+		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.NetworkInformation.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 478
-=======
-	}, ; 471
-	%struct.DSOCacheEntry {
-		i64 11043797956829943227, ; hash 0x994373baac0895bb, from name: aot-System.Diagnostics.TraceSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 472
-	%struct.DSOCacheEntry {
-		i64 11058657390679514429, ; hash 0x99783e4e38335d3d, from name: aot-System.Net.NetworkInformation
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 473
->>>>>>> main
-=======
-	}, ; 473
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11090768353599813002, ; hash 0x99ea530e6275f58a, from name: Podbor
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.11_name, ; name: libaot-Podbor.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 479
-=======
-	}, ; 474
->>>>>>> main
-=======
-	}, ; 474
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11155155660125070409, ; hash 0x9acf12f867f16449, from name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.21_name, ; name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 480
-=======
-	}, ; 475
->>>>>>> main
-=======
-	}, ; 475
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11162124722117608902, ; hash 0x9ae7d54b986d05c6, from name: Xamarin.AndroidX.ViewPager
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.65_name, ; name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 481
-=======
-	}, ; 476
->>>>>>> main
-=======
-	}, ; 476
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11164818937994912957, ; hash 0x9af167ab9cbda4bd, from name: System.Security.Cryptography.Native.Android
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.2_name, ; name: libSystem.Security.Cryptography.Native.Android.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 482
-=======
-	}, ; 477
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11171214345979581187, ; hash 0x9b08204291dc5303, from name: libaot-System.Text.RegularExpressions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
+		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Text.RegularExpressions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 478
+	}, ; 483
 	%struct.DSOCacheEntry {
 		i64 11245267750673177240, ; hash 0x9c0f37707307da98, from name: aot-System.Numerics.Vectors.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
+		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.Numerics.Vectors.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 484
-=======
-	}, ; 477
-	%struct.DSOCacheEntry {
-		i64 11171214345979581187, ; hash 0x9b08204291dc5303, from name: libaot-System.Text.RegularExpressions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 478
-	%struct.DSOCacheEntry {
-		i64 11245267750673177240, ; hash 0x9c0f37707307da98, from name: aot-System.Numerics.Vectors.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 479
->>>>>>> main
-=======
-	}, ; 479
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11263951250740447317, ; hash 0x9c5197fbcbb38855, from name: aot-Xamarin.AndroidX.Navigation.Runtime
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.60_name, ; name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 485
-=======
-	}, ; 480
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11270596618290860596, ; hash 0x9c6933e8fff21234, from name: libaot-System.Net.Http.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
+		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Http.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 481
+	}, ; 486
 	%struct.DSOCacheEntry {
 		i64 11277712621019035171, ; hash 0x9c827be07ec77623, from name: aot-System.Web.HttpUtility
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
+		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Web.HttpUtility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 487
-=======
-	}, ; 480
-	%struct.DSOCacheEntry {
-		i64 11270596618290860596, ; hash 0x9c6933e8fff21234, from name: libaot-System.Net.Http.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 481
-	%struct.DSOCacheEntry {
-		i64 11277712621019035171, ; hash 0x9c827be07ec77623, from name: aot-System.Web.HttpUtility
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 482
->>>>>>> main
-=======
-	}, ; 482
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11289590263997382263, ; hash 0x9cacae87c145be77, from name: SkiaSharp.Views.Maui.Controls.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.39_name, ; name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 488
-=======
-	}, ; 483
->>>>>>> main
-=======
-	}, ; 483
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11291180088318843420, ; hash 0x9cb2547793355a1c, from name: libaot-SkiaSharp.Extended.UI.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.35_name, ; name: libaot-SkiaSharp.Extended.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 489
-=======
-	}, ; 484
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11297620656358036086, ; hash 0x9cc936212d561276, from name: libaot-System.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
+		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 485
+	}, ; 490
 	%struct.DSOCacheEntry {
 		i64 11327873123841536301, ; hash 0x9d34b096a744f12d, from name: aot-netstandard.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
+		ptr @.DSOCacheEntry.135_name, ; name: libaot-netstandard.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 486
+	}, ; 491
 	%struct.DSOCacheEntry {
 		i64 11329407233932627207, ; hash 0x9d3a23da7e4b8d07, from name: aot-System.IO.Compression.Brotli
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 492
-=======
-	}, ; 484
-	%struct.DSOCacheEntry {
-		i64 11297620656358036086, ; hash 0x9cc936212d561276, from name: libaot-System.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 485
-	%struct.DSOCacheEntry {
-		i64 11327873123841536301, ; hash 0x9d34b096a744f12d, from name: aot-netstandard.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 486
-	%struct.DSOCacheEntry {
-		i64 11329407233932627207, ; hash 0x9d3a23da7e4b8d07, from name: aot-System.IO.Compression.Brotli
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 487
->>>>>>> main
-=======
-	}, ; 487
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11339684046580168751, ; hash 0x9d5ea68f6593382f, from name: aot-Microsoft.Maui.Controls.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.26_name, ; name: libaot-Microsoft.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 493
-=======
-	}, ; 488
->>>>>>> main
-=======
-	}, ; 488
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11340910727871153756, ; hash 0x9d630238642d465c, from name: Xamarin.AndroidX.CursorAdapter
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.49_name, ; name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 494
-=======
-	}, ; 489
->>>>>>> main
-=======
-	}, ; 489
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11352045248519547303, ; hash 0x9d8a9102002b29a7, from name: aot-Microsoft.Maui.Controls.Compatibility.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.25_name, ; name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 495
-=======
-	}, ; 490
->>>>>>> main
-=======
-	}, ; 490
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11369008813813839762, ; hash 0x9dc6d547d3a8b792, from name: aot-Xamarin.AndroidX.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.48_name, ; name: libaot-Xamarin.AndroidX.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 496
-=======
-	}, ; 491
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11413153824783247973, ; hash 0x9e63aaef2518aa65, from name: aot-System.Net.NameResolution.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
+		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NameResolution.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 492
+	}, ; 497
 	%struct.DSOCacheEntry {
 		i64 11418345596566047934, ; hash 0x9e761cd2b5f70cbe, from name: System.Runtime.CompilerServices.Unsafe.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
+		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 498
-=======
-	}, ; 491
-	%struct.DSOCacheEntry {
-		i64 11413153824783247973, ; hash 0x9e63aaef2518aa65, from name: aot-System.Net.NameResolution.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 492
-	%struct.DSOCacheEntry {
-		i64 11418345596566047934, ; hash 0x9e761cd2b5f70cbe, from name: System.Runtime.CompilerServices.Unsafe.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 493
->>>>>>> main
-=======
-	}, ; 493
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11437608939786898104, ; hash 0x9eba8cbb4fd48ab8, from name: aot-Microsoft.Extensions.Options.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.23_name, ; name: libaot-Microsoft.Extensions.Options.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 499
-=======
-	}, ; 494
->>>>>>> main
-=======
-	}, ; 494
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11454522132406759586, ; hash 0x9ef6a330d5f470a2, from name: aot-SkiaSharp
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.33_name, ; name: libaot-SkiaSharp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 500
-=======
-	}, ; 495
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11459687736992758643, ; hash 0x9f08fd47e05a7b73, from name: libaot-System.Diagnostics.DiagnosticSource
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
+		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 501
-=======
-	}, ; 495
-	%struct.DSOCacheEntry {
-		i64 11459687736992758643, ; hash 0x9f08fd47e05a7b73, from name: libaot-System.Diagnostics.DiagnosticSource
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 496
->>>>>>> main
-=======
-	}, ; 496
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11465353776621081442, ; hash 0x9f1d1e8387aed362, from name: aot-System.Collections.Concurrent
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.72_name, ; name: libaot-System.Collections.Concurrent.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 502
-=======
-	}, ; 497
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11485890710487134646, ; hash 0x9f6614bf0f8b71b6, from name: System.Runtime.InteropServices
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
+		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.InteropServices.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 503
-=======
-	}, ; 497
-	%struct.DSOCacheEntry {
-		i64 11485890710487134646, ; hash 0x9f6614bf0f8b71b6, from name: System.Runtime.InteropServices
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 498
->>>>>>> main
-=======
-	}, ; 498
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11495032816624096970, ; hash 0x9f868f71845656ca, from name: aot-System.Collections.Specialized
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.75_name, ; name: libaot-System.Collections.Specialized.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 504
-=======
-	}, ; 499
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11501523568478995397, ; hash 0x9f9d9ebf72f943c5, from name: libaot-System.Xml.ReaderWriter.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
+		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 505
-=======
-	}, ; 499
-	%struct.DSOCacheEntry {
-		i64 11501523568478995397, ; hash 0x9f9d9ebf72f943c5, from name: libaot-System.Xml.ReaderWriter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 500
->>>>>>> main
-=======
-	}, ; 500
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11521729796983092563, ; hash 0x9fe56834a335f553, from name: libmonodroid
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.7_name, ; name: libmonodroid.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 506
-=======
-	}, ; 501
->>>>>>> main
-=======
-	}, ; 501
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11530571088791430846, ; hash 0xa004d1504ccd66be, from name: Microsoft.Extensions.Logging
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.20_name, ; name: libaot-Microsoft.Extensions.Logging.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 507
-=======
-	}, ; 502
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11530669335547299986, ; hash 0xa0052aab27c94892, from name: System.Diagnostics.TraceSource.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 503
+	}, ; 508
 	%struct.DSOCacheEntry {
 		i64 11543093801659331803, ; hash 0xa0314ea798eaf4db, from name: aot-System.Memory
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
+		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Memory.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 509
-=======
-	}, ; 502
-	%struct.DSOCacheEntry {
-		i64 11530669335547299986, ; hash 0xa0052aab27c94892, from name: System.Diagnostics.TraceSource.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 503
-	%struct.DSOCacheEntry {
-		i64 11543093801659331803, ; hash 0xa0314ea798eaf4db, from name: aot-System.Memory
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Memory.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 504
->>>>>>> main
-=======
-	}, ; 504
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11581332126085780304, ; hash 0xa0b9283549299350, from name: aot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.56_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 510
-=======
-	}, ; 505
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11597940890313164233, ; hash 0xa0f429ca8d1805c9, from name: netstandard
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
+		ptr @.DSOCacheEntry.135_name, ; name: libaot-netstandard.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 506
+	}, ; 511
 	%struct.DSOCacheEntry {
 		i64 11622665325505776179, ; hash 0xa14c0088b6058a33, from name: libaot-System.Runtime.InteropServices
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
+		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.InteropServices.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 507
+	}, ; 512
 	%struct.DSOCacheEntry {
 		i64 11637972874768420528, ; hash 0xa18262ab42340eb0, from name: aot-System.Diagnostics.DiagnosticSource.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
+		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 513
-=======
-	}, ; 505
-	%struct.DSOCacheEntry {
-		i64 11597940890313164233, ; hash 0xa0f429ca8d1805c9, from name: netstandard
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.134_name, ; name: libaot-netstandard.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 506
-	%struct.DSOCacheEntry {
-		i64 11622665325505776179, ; hash 0xa14c0088b6058a33, from name: libaot-System.Runtime.InteropServices
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 507
-	%struct.DSOCacheEntry {
-		i64 11637972874768420528, ; hash 0xa18262ab42340eb0, from name: aot-System.Diagnostics.DiagnosticSource.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Diagnostics.DiagnosticSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 508
->>>>>>> main
-=======
-	}, ; 508
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11683831507672655290, ; hash 0xa2254eda465865ba, from name: aot-System.Security.Cryptography.Pkcs.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.41_name, ; name: libaot-System.Security.Cryptography.Pkcs.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 514
-=======
-	}, ; 509
->>>>>>> main
-=======
-	}, ; 509
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11726767579735462479, ; hash 0xa2bdd8fb91b3124f, from name: MimeKit.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.31_name, ; name: libaot-MimeKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 515
-=======
-	}, ; 510
->>>>>>> main
-=======
-	}, ; 510
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11764213056097819061, ; hash 0xa342e171eeb919b5, from name: libaot-System.Collections.Specialized.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.75_name, ; name: libaot-System.Collections.Specialized.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 516
-=======
-	}, ; 511
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11775896168281936811, ; hash 0xa36c632c765413ab, from name: aot-System.Private.CoreLib.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
+		ptr @.DSOCacheEntry.139_name, ; name: libaot-System.Private.CoreLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 517
-=======
-	}, ; 511
-	%struct.DSOCacheEntry {
-		i64 11775896168281936811, ; hash 0xa36c632c765413ab, from name: aot-System.Private.CoreLib.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 512
->>>>>>> main
-=======
-	}, ; 512
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11782443198922974530, ; hash 0xa383a5a9d2056542, from name: aot-System.Collections.NonGeneric
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.74_name, ; name: libaot-System.Collections.NonGeneric.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 518
-=======
-	}, ; 513
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11799183892646765925, ; hash 0xa3bf1f3c50b8a565, from name: aot-System.Net.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
+		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 519
-=======
-	}, ; 513
-	%struct.DSOCacheEntry {
-		i64 11799183892646765925, ; hash 0xa3bf1f3c50b8a565, from name: aot-System.Net.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 514
->>>>>>> main
-=======
-	}, ; 514
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11822727113666714038, ; hash 0xa412c3ab9e7bd9b6, from name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.66_name, ; name: libaot-Xamarin.AndroidX.ViewPager2.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 520
-=======
-	}, ; 515
->>>>>>> main
-=======
-	}, ; 515
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11848514669829470329, ; hash 0xa46e6150eb30b879, from name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.61_name, ; name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 521
-=======
-	}, ; 516
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11878431249347270648, ; hash 0xa4d8aa49623e57f8, from name: libaot-System.Text.Encoding.Extensions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
+		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 517
+	}, ; 522
 	%struct.DSOCacheEntry {
 		i64 11896613629761995876, ; hash 0xa5194310b808c464, from name: System.Runtime.Loader.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
+		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Loader.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 518
+	}, ; 523
 	%struct.DSOCacheEntry {
 		i64 11905546682503808667, ; hash 0xa538ffa12378469b, from name: aot-System.Xml.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 519
+	}, ; 524
 	%struct.DSOCacheEntry {
 		i64 11925868684967371445, ; hash 0xa58132620d6f62b5, from name: aot-System.Net.Sockets.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
+		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Net.Sockets.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 525
-=======
-	}, ; 516
-	%struct.DSOCacheEntry {
-		i64 11878431249347270648, ; hash 0xa4d8aa49623e57f8, from name: libaot-System.Text.Encoding.Extensions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 517
-	%struct.DSOCacheEntry {
-		i64 11896613629761995876, ; hash 0xa5194310b808c464, from name: System.Runtime.Loader.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 518
-	%struct.DSOCacheEntry {
-		i64 11905546682503808667, ; hash 0xa538ffa12378469b, from name: aot-System.Xml.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 519
-	%struct.DSOCacheEntry {
-		i64 11925868684967371445, ; hash 0xa58132620d6f62b5, from name: aot-System.Net.Sockets.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 520
->>>>>>> main
-=======
-	}, ; 520
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11946511331825732781, ; hash 0xa5ca88c2cea6ccad, from name: libaot-Xamarin.AndroidX.Navigation.Fragment
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.59_name, ; name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 526
-=======
-	}, ; 521
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 11949219802464515130, ; hash 0xa5d42819c4f5f43a, from name: aot-System
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
+		ptr @.DSOCacheEntry.134_name, ; name: libaot-System.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 527
-=======
-	}, ; 521
-	%struct.DSOCacheEntry {
-		i64 11949219802464515130, ; hash 0xa5d42819c4f5f43a, from name: aot-System
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 522
->>>>>>> main
-=======
-	}, ; 522
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12025475895945156578, ; hash 0xa6e3129d18d557e2, from name: Xamarin.AndroidX.Loader.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.57_name, ; name: libaot-Xamarin.AndroidX.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 528
-=======
-	}, ; 523
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12040886584167504988, ; hash 0xa719d28d8e121c5c, from name: System.Net.ServicePoint
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.ServicePoint.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 524
+	}, ; 529
 	%struct.DSOCacheEntry {
 		i64 12050631976567110376, ; hash 0xa73c71ef8a3efae8, from name: aot-System.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
+		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 525
+	}, ; 530
 	%struct.DSOCacheEntry {
 		i64 12051765732457062039, ; hash 0xa7407914a7541e97, from name: aot-System.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
+		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 526
+	}, ; 531
 	%struct.DSOCacheEntry {
 		i64 12052751833701477691, ; hash 0xa743f9ef3db6ed3b, from name: System.Net.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
+		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 532
-=======
-	}, ; 523
-	%struct.DSOCacheEntry {
-		i64 12040886584167504988, ; hash 0xa719d28d8e121c5c, from name: System.Net.ServicePoint
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 524
-	%struct.DSOCacheEntry {
-		i64 12050631976567110376, ; hash 0xa73c71ef8a3efae8, from name: aot-System.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 525
-	%struct.DSOCacheEntry {
-		i64 12051765732457062039, ; hash 0xa7407914a7541e97, from name: aot-System.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 526
-	%struct.DSOCacheEntry {
-		i64 12052751833701477691, ; hash 0xa743f9ef3db6ed3b, from name: System.Net.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 527
->>>>>>> main
-=======
-	}, ; 527
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12102847907131387746, ; hash 0xa7f5f40c43256f62, from name: System.Buffers
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.71_name, ; name: libaot-System.Buffers.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 533
-=======
-	}, ; 528
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12118598155788291684, ; hash 0xa82de8d0cb770e64, from name: aot-System.IO.Pipes
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
+		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.IO.Pipes.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 529
+	}, ; 534
 	%struct.DSOCacheEntry {
 		i64 12145679461940342714, ; hash 0xa88e1f1ebcb62fba, from name: System.Text.Json
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
+		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.Json.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 535
-=======
-	}, ; 528
-	%struct.DSOCacheEntry {
-		i64 12118598155788291684, ; hash 0xa82de8d0cb770e64, from name: aot-System.IO.Pipes
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 529
-	%struct.DSOCacheEntry {
-		i64 12145679461940342714, ; hash 0xa88e1f1ebcb62fba, from name: System.Text.Json
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
-		ptr null; void* handle (0x0)
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
-	}, ; 530
-	%struct.DSOCacheEntry {
-		i64 12187578714954394028, ; hash 0xa922fa44c8f7e9ac, from name: System.Xml.XmlSerializer.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 531
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12192045520349597797, ; hash 0xa932d8cdf5d49065, from name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.63_name, ; name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 536
-=======
-	}, ; 532
->>>>>>> main
-=======
-	}, ; 532
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12196119803066310016, ; hash 0xa9415257d3dfdd80, from name: Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.19_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 537
-=======
-	}, ; 533
->>>>>>> main
-=======
-	}, ; 533
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12200030640715187753, ; hash 0xa94f373aacb5c629, from name: libaot-SkiaSharp.Skottie
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.37_name, ; name: libaot-SkiaSharp.Skottie.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 538
-=======
-	}, ; 534
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12278824155482493573, ; hash 0xaa6725836f051285, from name: libaot-System.Threading.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
+		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Threading.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 535
+	}, ; 539
 	%struct.DSOCacheEntry {
 		i64 12278928371408744993, ; hash 0xaa67844c1848b221, from name: System.Runtime.InteropServices.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
+		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.InteropServices.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 540
-=======
-	}, ; 534
-	%struct.DSOCacheEntry {
-		i64 12278824155482493573, ; hash 0xaa6725836f051285, from name: libaot-System.Threading.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 535
-	%struct.DSOCacheEntry {
-		i64 12278928371408744993, ; hash 0xaa67844c1848b221, from name: System.Runtime.InteropServices.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 536
->>>>>>> main
-=======
-	}, ; 536
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12290938384773503399, ; hash 0xaa922f573ca359a7, from name: aot-Microsoft.Maui.Graphics.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.30_name, ; name: libaot-Microsoft.Maui.Graphics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 541
-=======
-	}, ; 537
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12299321273609848463, ; hash 0xaaaff788a3eb868f, from name: libaot-System.Xml.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 542
-=======
-	}, ; 537
-	%struct.DSOCacheEntry {
-		i64 12299321273609848463, ; hash 0xaaaff788a3eb868f, from name: libaot-System.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 538
->>>>>>> main
-=======
-	}, ; 538
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12315876021774320129, ; hash 0xaaeac7fd4f9c0201, from name: Microsoft.Extensions.Configuration.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.17_name, ; name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 543
-=======
-	}, ; 539
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12319133490348723861, ; hash 0xaaf65aa3d0da8e95, from name: libaot-System.Drawing.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
+		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 540
+	}, ; 544
 	%struct.DSOCacheEntry {
 		i64 12338163837237862793, ; hash 0xab39f6a3bb222189, from name: libaot-Mono.Android.Runtime.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
+		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.Runtime.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 541
+	}, ; 545
+	%struct.DSOCacheEntry {
+		i64 12361725300599080333, ; hash 0xab8dabaa692ac58d, from name: aot-System.Threading.Tasks.Parallel.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.Tasks.Parallel.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 546
 	%struct.DSOCacheEntry {
 		i64 12362395135250488461, ; hash 0xab900ce0719f5c8d, from name: aot-System.Drawing
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
+		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Drawing.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 542
+	}, ; 547
 	%struct.DSOCacheEntry {
 		i64 12363533800711166636, ; hash 0xab94187ca7ec9aac, from name: libaot-System.Transactions.Local.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
+		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Transactions.Local.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 548
-=======
-	}, ; 539
-	%struct.DSOCacheEntry {
-		i64 12319133490348723861, ; hash 0xaaf65aa3d0da8e95, from name: libaot-System.Drawing.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 540
-	%struct.DSOCacheEntry {
-		i64 12338163837237862793, ; hash 0xab39f6a3bb222189, from name: libaot-Mono.Android.Runtime.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.136_name, ; name: libaot-Mono.Android.Runtime.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 541
-	%struct.DSOCacheEntry {
-		i64 12362395135250488461, ; hash 0xab900ce0719f5c8d, from name: aot-System.Drawing
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 542
-	%struct.DSOCacheEntry {
-		i64 12363533800711166636, ; hash 0xab94187ca7ec9aac, from name: libaot-System.Transactions.Local.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 543
->>>>>>> main
-=======
-	}, ; 543
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12405317157449198374, ; hash 0xac288a3a7fd16b26, from name: libaot-Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.69_name, ; name: libaot-Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 549
-=======
-	}, ; 544
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12439793764729580087, ; hash 0xaca3068529d36a37, from name: libaot-System.ComponentModel.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
+		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 550
-=======
-	}, ; 544
-	%struct.DSOCacheEntry {
-		i64 12439793764729580087, ; hash 0xaca3068529d36a37, from name: libaot-System.ComponentModel.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 545
->>>>>>> main
-=======
-	}, ; 545
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12445696648541593156, ; hash 0xacb7ff2966975e44, from name: libaot-MimeKit.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.31_name, ; name: libaot-MimeKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 551
-=======
-	}, ; 546
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12450626906808540265, ; hash 0xacc983349b3e5c69, from name: libaot-System.Net.ServicePoint.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.ServicePoint.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 547
+	}, ; 552
 	%struct.DSOCacheEntry {
 		i64 12466529513160295733, ; hash 0xad02028aadd7c535, from name: libaot-System.IO.Pipes.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
+		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.IO.Pipes.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 548
+	}, ; 553
 	%struct.DSOCacheEntry {
 		i64 12479103209920401597, ; hash 0xad2eae4096be10bd, from name: libaot-System.Net.NameResolution.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
+		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NameResolution.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 554
-=======
-	}, ; 546
-	%struct.DSOCacheEntry {
-		i64 12450626906808540265, ; hash 0xacc983349b3e5c69, from name: libaot-System.Net.ServicePoint.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 547
-	%struct.DSOCacheEntry {
-		i64 12466529513160295733, ; hash 0xad02028aadd7c535, from name: libaot-System.IO.Pipes.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 548
-	%struct.DSOCacheEntry {
-		i64 12479103209920401597, ; hash 0xad2eae4096be10bd, from name: libaot-System.Net.NameResolution.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 549
->>>>>>> main
-=======
-	}, ; 549
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12531980697337323275, ; hash 0xadea8a0c04d7df0b, from name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.43_name, ; name: libaot-Xamarin.AndroidX.AppCompat.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 555
-=======
-	}, ; 550
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12550732019250633519, ; hash 0xae2d28465e8e1b2f, from name: System.IO.Compression
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Compression.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 556
-=======
-	}, ; 550
-	%struct.DSOCacheEntry {
-		i64 12550732019250633519, ; hash 0xae2d28465e8e1b2f, from name: System.IO.Compression
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 551
->>>>>>> main
-=======
-	}, ; 551
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12590519508742077906, ; hash 0xaeba82c928327dd2, from name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.56_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 557
-=======
-	}, ; 552
->>>>>>> main
-=======
-	}, ; 552
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12648537676456605650, ; hash 0xaf88a2007d5737d2, from name: aot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.56_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 558
-=======
-	}, ; 553
->>>>>>> main
-=======
-	}, ; 553
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12674035147592014371, ; hash 0xafe337d11b099a23, from name: aot-Microsoft.Extensions.Logging.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.20_name, ; name: libaot-Microsoft.Extensions.Logging.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 559
-=======
-	}, ; 554
->>>>>>> main
-=======
-	}, ; 554
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12674984561979589840, ; hash 0xafe6974dde5a84d0, from name: Xamarin.AndroidX.Activity.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.42_name, ; name: libaot-Xamarin.AndroidX.Activity.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 560
-=======
-	}, ; 555
->>>>>>> main
-=======
-	}, ; 555
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12685934069698623289, ; hash 0xb00d7dd2cc697739, from name: aot-Microsoft.Win32.Primitives.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.70_name, ; name: libaot-Microsoft.Win32.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 561
-=======
-	}, ; 556
->>>>>>> main
-=======
-	}, ; 556
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12700543734426720211, ; hash 0xb041653c70d157d3, from name: Xamarin.AndroidX.Collection
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.46_name, ; name: libaot-Xamarin.AndroidX.Collection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 562
-=======
-	}, ; 557
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12708922737231849740, ; hash 0xb05f29e50e96e90c, from name: System.Text.Encoding.Extensions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
+		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 563
-=======
-	}, ; 557
-	%struct.DSOCacheEntry {
-		i64 12708922737231849740, ; hash 0xb05f29e50e96e90c, from name: System.Text.Encoding.Extensions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 558
->>>>>>> main
-=======
-	}, ; 558
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12727750515385895548, ; hash 0xb0a20da8c35f0a7c, from name: libaot-Microsoft.Extensions.DependencyInjection
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.18_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 564
-=======
-	}, ; 559
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12835242264250840079, ; hash 0xb21ff0d5d6c0740f, from name: System.IO.Pipes
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
+		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.IO.Pipes.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 560
+	}, ; 565
 	%struct.DSOCacheEntry {
 		i64 12842431879475601171, ; hash 0xb2397bc0944b9f13, from name: System.Security.Claims.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
+		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Claims.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 566
-=======
-	}, ; 559
-	%struct.DSOCacheEntry {
-		i64 12835242264250840079, ; hash 0xb21ff0d5d6c0740f, from name: System.IO.Pipes
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 560
-	%struct.DSOCacheEntry {
-		i64 12842431879475601171, ; hash 0xb2397bc0944b9f13, from name: System.Security.Claims.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 561
->>>>>>> main
-=======
-	}, ; 561
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12843321153144804894, ; hash 0xb23ca48abd74d61e, from name: Microsoft.Extensions.Primitives
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.24_name, ; name: libaot-Microsoft.Extensions.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 567
-=======
-	}, ; 562
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12857960540543662497, ; hash 0xb270a6fcbb1839a1, from name: aot-System.Transactions.Local
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
+		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Transactions.Local.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 568
-=======
-	}, ; 562
-	%struct.DSOCacheEntry {
-		i64 12857960540543662497, ; hash 0xb270a6fcbb1839a1, from name: aot-System.Transactions.Local
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 563
->>>>>>> main
-=======
-	}, ; 563
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12872620911514443596, ; hash 0xb2a4bc8457155f4c, from name: aot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.47_name, ; name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 569
-=======
-	}, ; 564
->>>>>>> main
-=======
-	}, ; 564
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12875951528938057945, ; hash 0xb2b091b2238030d9, from name: Xamarin.AndroidX.DrawerLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.51_name, ; name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 570
-=======
-	}, ; 565
->>>>>>> main
-=======
-	}, ; 565
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12903149379311849700, ; hash 0xb31131ff25af50e4, from name: libaot-SkiaSharp.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.33_name, ; name: libaot-SkiaSharp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 571
-=======
-	}, ; 566
->>>>>>> main
-=======
-	}, ; 566
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12937319369933575792, ; hash 0xb38a976c0eabd670, from name: aot-Xamarin.Google.Android.Material.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.67_name, ; name: libaot-Xamarin.Google.Android.Material.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 572
-=======
-	}, ; 567
->>>>>>> main
-=======
-	}, ; 567
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12941098956319990056, ; hash 0xb39804ef96a1a128, from name: Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.44_name, ; name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 573
-=======
-	}, ; 568
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 12996638905122625135, ; hash 0xb45d56399ddb166f, from name: System.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
+		ptr @.DSOCacheEntry.134_name, ; name: libaot-System.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 574
-=======
-	}, ; 568
-	%struct.DSOCacheEntry {
-		i64 12996638905122625135, ; hash 0xb45d56399ddb166f, from name: System.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 569
->>>>>>> main
-=======
-	}, ; 569
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13006425725023322809, ; hash 0xb4801b49318482b9, from name: libaot-Xamarin.AndroidX.DrawerLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.51_name, ; name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 575
-=======
-	}, ; 570
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13068061340980117689, ; hash 0xb55b148d542280b9, from name: libaot-System.Security.Cryptography.Encoding
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
+		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 576
-=======
-	}, ; 570
-	%struct.DSOCacheEntry {
-		i64 13068061340980117689, ; hash 0xb55b148d542280b9, from name: libaot-System.Security.Cryptography.Encoding
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Encoding.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 571
->>>>>>> main
-=======
-	}, ; 571
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13073566528136159500, ; hash 0xb56ea37d98fe210c, from name: aot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.44_name, ; name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 577
-=======
-	}, ; 572
->>>>>>> main
-=======
-	}, ; 572
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13087390844131920673, ; hash 0xb59fc0a1fd2ecb21, from name: aot-Microsoft.Extensions.Logging.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.21_name, ; name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 578
-=======
-	}, ; 573
->>>>>>> main
-=======
-	}, ; 573
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13101809809254258831, ; hash 0xb5d2fa9aeb54188f, from name: aot-Xamarin.AndroidX.DrawerLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.51_name, ; name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 579
-=======
-	}, ; 574
->>>>>>> main
-=======
-	}, ; 574
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13114936752209646297, ; hash 0xb6019d7d7f2bd2d9, from name: Xamarin.Google.Android.Material.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.67_name, ; name: libaot-Xamarin.Google.Android.Material.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 580
-=======
-	}, ; 575
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13116315589229894972, ; hash 0xb606838901f75d3c, from name: aot-System.Net.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
+		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 581
-=======
-	}, ; 575
-	%struct.DSOCacheEntry {
-		i64 13116315589229894972, ; hash 0xb606838901f75d3c, from name: aot-System.Net.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 576
->>>>>>> main
-=======
-	}, ; 576
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13161955518152598171, ; hash 0xb6a8a8cf08fa629b, from name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.56_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 582
-=======
-	}, ; 577
->>>>>>> main
-=======
-	}, ; 577
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13195302980748307708, ; hash 0xb71f22263727ecfc, from name: Xamarin.AndroidX.Navigation.Common.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.58_name, ; name: libaot-Xamarin.AndroidX.Navigation.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 583
-=======
-	}, ; 578
->>>>>>> main
-=======
-	}, ; 578
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13195559036815000021, ; hash 0xb7200b07ea0dc1d5, from name: MailKit.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.15_name, ; name: libaot-MailKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 584
-=======
-	}, ; 579
->>>>>>> main
-=======
-	}, ; 579
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13222957746497227746, ; hash 0xb78162031ff78be2, from name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.52_name, ; name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 585
-=======
-	}, ; 580
->>>>>>> main
-=======
-	}, ; 580
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13285640494417243250, ; hash 0xb86013a3ab48ec72, from name: libaot-Microsoft.Maui.Controls.Xaml
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.27_name, ; name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 586
-=======
-	}, ; 581
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13314286428381311703, ; hash 0xb8c5d8f6e978f2d7, from name: libaot-System.Console
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
+		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Console.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 587
-=======
-	}, ; 581
-	%struct.DSOCacheEntry {
-		i64 13314286428381311703, ; hash 0xb8c5d8f6e978f2d7, from name: libaot-System.Console
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 582
->>>>>>> main
-=======
-	}, ; 582
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13323148484643576660, ; hash 0xb8e554f52cf6db54, from name: libaot-Xamarin.AndroidX.Navigation.Common.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.58_name, ; name: libaot-Xamarin.AndroidX.Navigation.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 588
-=======
-	}, ; 583
->>>>>>> main
-=======
-	}, ; 583
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13352871532007464144, ; hash 0xb94eede96cbb1cd0, from name: libaot-Xamarin.AndroidX.Activity
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.42_name, ; name: libaot-Xamarin.AndroidX.Activity.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 589
-=======
-	}, ; 584
->>>>>>> main
-=======
-	}, ; 584
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13384594276806126840, ; hash 0xb9bfa19483c16cf8, from name: aot-Xamarin.AndroidX.ViewPager.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.65_name, ; name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 590
-=======
-	}, ; 585
->>>>>>> main
-=======
-	}, ; 585
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13465488254036897740, ; hash 0xbadf06394d106fcc, from name: Xamarin.Kotlin.StdLib
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.68_name, ; name: libaot-Xamarin.Kotlin.StdLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 591
-=======
-	}, ; 586
->>>>>>> main
-=======
-	}, ; 586
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13483581387200759472, ; hash 0xbb1f4dd5242b86b0, from name: aot-Microsoft.Maui.Controls.Xaml
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.27_name, ; name: libaot-Microsoft.Maui.Controls.Xaml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 592
-=======
-	}, ; 587
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13488491921086969402, ; hash 0xbb30bfefe81d763a, from name: aot-System.ComponentModel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
+		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.ComponentModel.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 588
+	}, ; 593
 	%struct.DSOCacheEntry {
 		i64 13546874730744599821, ; hash 0xbc002acb0ebf550d, from name: System.Threading.Thread.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
+		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Threading.Thread.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 594
-=======
-	}, ; 587
-	%struct.DSOCacheEntry {
-		i64 13488491921086969402, ; hash 0xbb30bfefe81d763a, from name: aot-System.ComponentModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 588
-	%struct.DSOCacheEntry {
-		i64 13546874730744599821, ; hash 0xbc002acb0ebf550d, from name: System.Threading.Thread.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 589
->>>>>>> main
-=======
-	}, ; 589
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13561164473356879580, ; hash 0xbc32ef3d071586dc, from name: aot-SkiaSharp.Views.Maui.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.40_name, ; name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 595
-=======
-	}, ; 590
->>>>>>> main
-=======
-	}, ; 590
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13589927487757454067, ; hash 0xbc991f0c2f198af3, from name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.51_name, ; name: libaot-Xamarin.AndroidX.DrawerLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 596
-=======
-	}, ; 591
->>>>>>> main
-=======
-	}, ; 591
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13603500654432575449, ; hash 0xbcc957c5513f5fd9, from name: System.Collections.Immutable.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.73_name, ; name: libaot-System.Collections.Immutable.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 597
-=======
-	}, ; 592
->>>>>>> main
-=======
-	}, ; 592
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13699603031714047885, ; hash 0xbe1ec45fad2e278d, from name: libaot-Xamarin.AndroidX.Loader
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.57_name, ; name: libaot-Xamarin.AndroidX.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 598
-=======
-	}, ; 593
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13717233136797750441, ; hash 0xbe5d66dc640c14a9, from name: aot-System.Text.Json
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
+		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.Json.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 599
-=======
-	}, ; 593
-	%struct.DSOCacheEntry {
-		i64 13717233136797750441, ; hash 0xbe5d66dc640c14a9, from name: aot-System.Text.Json
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 594
->>>>>>> main
-=======
-	}, ; 594
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13757055220050775219, ; hash 0xbeeae0d5aa8f4cb3, from name: libaot-Microsoft.Maui.Controls
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.26_name, ; name: libaot-Microsoft.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 600
-=======
-	}, ; 595
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13768113933372556022, ; hash 0xbf122aad01c702f6, from name: libaot-System.Security.Cryptography
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
+		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Security.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 596
+	}, ; 601
 	%struct.DSOCacheEntry {
 		i64 13780240838949801592, ; hash 0xbf3d40083cef0e78, from name: System.Text.Encoding.Extensions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
+		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 602
-=======
-	}, ; 595
-	%struct.DSOCacheEntry {
-		i64 13768113933372556022, ; hash 0xbf122aad01c702f6, from name: libaot-System.Security.Cryptography
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 596
-	%struct.DSOCacheEntry {
-		i64 13780240838949801592, ; hash 0xbf3d40083cef0e78, from name: System.Text.Encoding.Extensions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 597
->>>>>>> main
-=======
-	}, ; 597
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13786269793005612187, ; hash 0xbf52ab557dcc2c9b, from name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.44_name, ; name: libaot-Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 603
-=======
-	}, ; 598
->>>>>>> main
-=======
-	}, ; 598
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13807487031629930123, ; hash 0xbf9e0c4cd11d5e8b, from name: libaot-Xamarin.AndroidX.Fragment
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.52_name, ; name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 604
-=======
-	}, ; 599
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13842731643823728203, ; hash 0xc01b43168f2c264b, from name: libaot-System.Xml.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 600
+	}, ; 605
 	%struct.DSOCacheEntry {
 		i64 13888993854737701709, ; hash 0xc0bf9e52e7395b4d, from name: System.Formats.Asn1.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
+		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.Formats.Asn1.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 606
-=======
-	}, ; 599
-	%struct.DSOCacheEntry {
-		i64 13842731643823728203, ; hash 0xc01b43168f2c264b, from name: libaot-System.Xml.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 600
-	%struct.DSOCacheEntry {
-		i64 13888993854737701709, ; hash 0xc0bf9e52e7395b4d, from name: System.Formats.Asn1.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 601
->>>>>>> main
-=======
-	}, ; 601
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13900452450741477987, ; hash 0xc0e853db2fa76263, from name: Xamarin.AndroidX.ViewPager.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.65_name, ; name: libaot-Xamarin.AndroidX.ViewPager.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 607
-=======
-	}, ; 602
->>>>>>> main
-=======
-	}, ; 602
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13904753614831582715, ; hash 0xc0f79bbdfd5d7dfb, from name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.55_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 608
-=======
-	}, ; 603
->>>>>>> main
-=======
-	}, ; 603
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13917396180688427187, ; hash 0xc1248616bc4fd8b3, from name: Microsoft.Extensions.Logging.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.20_name, ; name: libaot-Microsoft.Extensions.Logging.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 609
-=======
-	}, ; 604
->>>>>>> main
-=======
-	}, ; 604
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13918643515869505000, ; hash 0xc128f48896b225e8, from name: aot-Xamarin.AndroidX.CustomView.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.50_name, ; name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 610
-=======
-	}, ; 605
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13927427627500361954, ; hash 0xc14829a2f41ed8e2, from name: aot-System.Private.Uri.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
+		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Uri.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 611
-=======
-	}, ; 605
-	%struct.DSOCacheEntry {
-		i64 13927427627500361954, ; hash 0xc14829a2f41ed8e2, from name: aot-System.Private.Uri.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 606
->>>>>>> main
-=======
-	}, ; 606
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13934622921725558032, ; hash 0xc161b9b7f077bd10, from name: aot-Xamarin.AndroidX.RecyclerView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.62_name, ; name: libaot-Xamarin.AndroidX.RecyclerView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 612
-=======
-	}, ; 607
->>>>>>> main
-=======
-	}, ; 607
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13959074834287824816, ; hash 0xc1b8989a7ad20fb0, from name: Xamarin.AndroidX.Fragment
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.52_name, ; name: libaot-Xamarin.AndroidX.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 613
-=======
-	}, ; 608
->>>>>>> main
-=======
-	}, ; 608
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13961013029440053076, ; hash 0xc1bf7b61b45fdf54, from name: MailKit
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.15_name, ; name: libaot-MailKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 614
-=======
-	}, ; 609
->>>>>>> main
-=======
-	}, ; 609
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13963744846780922848, ; hash 0xc1c92ff47e917be0, from name: libaot-System.Buffers.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.71_name, ; name: libaot-System.Buffers.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 615
-=======
-	}, ; 610
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 13972136905349029688, ; hash 0xc1e7007ce4745f38, from name: libaot-System.Net.Sockets.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 611
-	%struct.DSOCacheEntry {
-		i64 13988737722900018756, ; hash 0xc221fad7ed8ff644, from name: aot-System.ComponentModel.EventBasedAsync
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 612
-	%struct.DSOCacheEntry {
-		i64 14024723203617446143, ; hash 0xc2a1d37290cbd8ff, from name: libaot-System.ComponentModel.TypeConverter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 613
-	%struct.DSOCacheEntry {
-		i64 14037761671920318323, ; hash 0xc2d025dd88677773, from name: aot-System.Threading
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 614
-	%struct.DSOCacheEntry {
-		i64 14044858527140495619, ; hash 0xc2e95c6ae6d34103, from name: aot-System.Runtime.Loader
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 615
-	%struct.DSOCacheEntry {
-		i64 14058709349301150578, ; hash 0xc31a91aabd8ee372, from name: System.IO.Compression.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Net.Sockets.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 616
 	%struct.DSOCacheEntry {
-		i64 14059049780117520506, ; hash 0xc31bc7497770407a, from name: aot-System.Security.Cryptography.X509Certificates.dll.so
+		i64 13988737722900018756, ; hash 0xc221fad7ed8ff644, from name: aot-System.ComponentModel.EventBasedAsync
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 617
 	%struct.DSOCacheEntry {
+		i64 14024723203617446143, ; hash 0xc2a1d37290cbd8ff, from name: libaot-System.ComponentModel.TypeConverter
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 618
+	%struct.DSOCacheEntry {
+		i64 14037761671920318323, ; hash 0xc2d025dd88677773, from name: aot-System.Threading
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Threading.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 619
+	%struct.DSOCacheEntry {
+		i64 14044858527140495619, ; hash 0xc2e95c6ae6d34103, from name: aot-System.Runtime.Loader
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Loader.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 620
+	%struct.DSOCacheEntry {
+		i64 14058709349301150578, ; hash 0xc31a91aabd8ee372, from name: System.IO.Compression.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 621
+	%struct.DSOCacheEntry {
+		i64 14059049780117520506, ; hash 0xc31bc7497770407a, from name: aot-System.Security.Cryptography.X509Certificates.dll.so
+		i8 0, ; bool ignore
+		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr null; void* handle (0x0)
+	}, ; 622
+	%struct.DSOCacheEntry {
 		i64 14064151877224080280, ; hash 0xc32de79e0515a398, from name: aot-System.Formats.Asn1.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
+		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.Formats.Asn1.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 623
 	%struct.DSOCacheEntry {
 		i64 14085224268007237774, ; hash 0xc378c4d85448688e, from name: aot-System.ComponentModel.Annotations
@@ -8647,727 +3873,287 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.Annotations.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 624
-=======
-	}, ; 610
-	%struct.DSOCacheEntry {
-		i64 13972136905349029688, ; hash 0xc1e7007ce4745f38, from name: libaot-System.Net.Sockets.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 611
-	%struct.DSOCacheEntry {
-		i64 13988737722900018756, ; hash 0xc221fad7ed8ff644, from name: aot-System.ComponentModel.EventBasedAsync
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 612
-	%struct.DSOCacheEntry {
-		i64 14024723203617446143, ; hash 0xc2a1d37290cbd8ff, from name: libaot-System.ComponentModel.TypeConverter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 613
-	%struct.DSOCacheEntry {
-		i64 14037761671920318323, ; hash 0xc2d025dd88677773, from name: aot-System.Threading
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 614
-	%struct.DSOCacheEntry {
-		i64 14044858527140495619, ; hash 0xc2e95c6ae6d34103, from name: aot-System.Runtime.Loader
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 615
-	%struct.DSOCacheEntry {
-		i64 14058709349301150578, ; hash 0xc31a91aabd8ee372, from name: System.IO.Compression.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 616
-	%struct.DSOCacheEntry {
-		i64 14059049780117520506, ; hash 0xc31bc7497770407a, from name: aot-System.Security.Cryptography.X509Certificates.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 617
-	%struct.DSOCacheEntry {
-		i64 14064151877224080280, ; hash 0xc32de79e0515a398, from name: aot-System.Formats.Asn1.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 618
->>>>>>> main
-=======
-	}, ; 618
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14124974489674258913, ; hash 0xc405fd76067d19e1, from name: Xamarin.AndroidX.CardView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.45_name, ; name: libaot-Xamarin.AndroidX.CardView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 625
-=======
-	}, ; 619
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14143988164198918098, ; hash 0xc4498a4c1a67e7d2, from name: System.Threading.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
+		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Threading.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 626
-=======
-	}, ; 619
-	%struct.DSOCacheEntry {
-		i64 14143988164198918098, ; hash 0xc4498a4c1a67e7d2, from name: System.Threading.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 620
->>>>>>> main
-=======
-	}, ; 620
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14152660198772281192, ; hash 0xc46859777ea18f68, from name: libaot-System.Collections.Concurrent.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.72_name, ; name: libaot-System.Collections.Concurrent.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 627
-=======
-	}, ; 621
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14159110086036678642, ; hash 0xc47f439ae5dde7f2, from name: aot-System.Text.Encoding.Extensions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
+		ptr @.DSOCacheEntry.123_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 622
+	}, ; 628
 	%struct.DSOCacheEntry {
 		i64 14174671189317472550, ; hash 0xc4b68c58973b5126, from name: libaot-System.Text.RegularExpressions.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
+		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Text.RegularExpressions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 623
+	}, ; 629
 	%struct.DSOCacheEntry {
 		i64 14182888721008485466, ; hash 0xc4d3be25c89ae45a, from name: aot-System.Console
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
+		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Console.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 630
-=======
-	}, ; 621
-	%struct.DSOCacheEntry {
-		i64 14159110086036678642, ; hash 0xc47f439ae5dde7f2, from name: aot-System.Text.Encoding.Extensions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Text.Encoding.Extensions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 622
-	%struct.DSOCacheEntry {
-		i64 14174671189317472550, ; hash 0xc4b68c58973b5126, from name: libaot-System.Text.RegularExpressions.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.RegularExpressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 623
-	%struct.DSOCacheEntry {
-		i64 14182888721008485466, ; hash 0xc4d3be25c89ae45a, from name: aot-System.Console
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 624
->>>>>>> main
-=======
-	}, ; 624
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14230396410514008665, ; hash 0xc57c8623b5ae6a59, from name: aot-System.Collections
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.76_name, ; name: libaot-System.Collections.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 631
-=======
-	}, ; 625
->>>>>>> main
-=======
-	}, ; 625
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14317997431913345095, ; hash 0xc6b3becde8267047, from name: aot-System.Collections.Specialized.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.75_name, ; name: libaot-System.Collections.Specialized.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 632
-=======
-	}, ; 626
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14319327830875434373, ; hash 0xc6b878cb8db1ed85, from name: System.Text.Json.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
+		ptr @.DSOCacheEntry.125_name, ; name: libaot-System.Text.Json.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 627
+	}, ; 633
 	%struct.DSOCacheEntry {
 		i64 14327709162229390963, ; hash 0xc6d63f9253cade73, from name: System.Security.Cryptography.X509Certificates
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 634
-=======
-	}, ; 626
-	%struct.DSOCacheEntry {
-		i64 14319327830875434373, ; hash 0xc6b878cb8db1ed85, from name: System.Text.Json.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.124_name, ; name: libaot-System.Text.Json.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 627
-	%struct.DSOCacheEntry {
-		i64 14327709162229390963, ; hash 0xc6d63f9253cade73, from name: System.Security.Cryptography.X509Certificates
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 628
->>>>>>> main
-=======
-	}, ; 628
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14337652136568443136, ; hash 0xc6f992a771485100, from name: SkiaSharp.Skottie.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.37_name, ; name: libaot-SkiaSharp.Skottie.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 635
-=======
-	}, ; 629
->>>>>>> main
-=======
-	}, ; 629
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14343351667264400691, ; hash 0xc70dd258d7cd2d33, from name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.53_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 636
-=======
-	}, ; 630
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14343849879592858025, ; hash 0xc70f9777f0a971a9, from name: System.Xml.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 631
+	}, ; 637
 	%struct.DSOCacheEntry {
 		i64 14351510784141839845, ; hash 0xc72acf0546f64de5, from name: aot-Java.Interop
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
+		ptr @.DSOCacheEntry.136_name, ; name: libaot-Java.Interop.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 638
-=======
-	}, ; 630
-	%struct.DSOCacheEntry {
-		i64 14343849879592858025, ; hash 0xc70f9777f0a971a9, from name: System.Xml.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 631
-	%struct.DSOCacheEntry {
-		i64 14351510784141839845, ; hash 0xc72acf0546f64de5, from name: aot-Java.Interop
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 632
->>>>>>> main
-=======
-	}, ; 632
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14359415624548725430, ; hash 0xc746e46e5b6bb2b6, from name: SkiaSharp.Views.Android.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.38_name, ; name: libaot-SkiaSharp.Views.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 639
-=======
-	}, ; 633
->>>>>>> main
-=======
-	}, ; 633
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14360875924539294536, ; hash 0xc74c1490f19fc348, from name: Xamarin.AndroidX.Lifecycle.Common.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.53_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 640
-=======
-	}, ; 634
->>>>>>> main
-=======
-	}, ; 634
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14424844866220670826, ; hash 0xc82f57facf333f6a, from name: monosgen-2.0.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.6_name, ; name: libmonosgen-2.0.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 641
-=======
-	}, ; 635
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14429843176364016121, ; hash 0xc84119ea93c581f9, from name: libaot-System.Runtime.CompilerServices.Unsafe
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
+		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 642
-=======
-	}, ; 635
-	%struct.DSOCacheEntry {
-		i64 14429843176364016121, ; hash 0xc84119ea93c581f9, from name: libaot-System.Runtime.CompilerServices.Unsafe
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Runtime.CompilerServices.Unsafe.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 636
->>>>>>> main
-=======
-	}, ; 636
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14552901170081803662, ; hash 0xc9f64a827617ad8e, from name: SkiaSharp.Views.Maui.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.40_name, ; name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 643
-=======
-	}, ; 637
->>>>>>> main
-=======
-	}, ; 637
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14556034074661724008, ; hash 0xca016bdea6b19f68, from name: CommunityToolkit.Maui.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.14_name, ; name: libaot-CommunityToolkit.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 644
-=======
-	}, ; 638
->>>>>>> main
-=======
-	}, ; 638
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14562678984415238708, ; hash 0xca190761441dda34, from name: aot-Xamarin.AndroidX.SwipeRefreshLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.64_name, ; name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 645
-=======
-	}, ; 639
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14604015534980822382, ; hash 0xcaabe2c0f0d1756e, from name: aot-System.Net.Http
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
+		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Http.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 640
+	}, ; 646
 	%struct.DSOCacheEntry {
 		i64 14611435504614518872, ; hash 0xcac63f2d3f143058, from name: System.Net.NetworkInformation.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
+		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.NetworkInformation.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 641
+	}, ; 647
 	%struct.DSOCacheEntry {
 		i64 14622043554576106986, ; hash 0xcaebef2458cc85ea, from name: System.Runtime.Serialization.Formatters
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
+		ptr @.DSOCacheEntry.114_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 648
-=======
-	}, ; 639
-	%struct.DSOCacheEntry {
-		i64 14604015534980822382, ; hash 0xcaabe2c0f0d1756e, from name: aot-System.Net.Http
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.94_name, ; name: libaot-System.Net.Http.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 640
-	%struct.DSOCacheEntry {
-		i64 14611435504614518872, ; hash 0xcac63f2d3f143058, from name: System.Net.NetworkInformation.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 641
-	%struct.DSOCacheEntry {
-		i64 14622043554576106986, ; hash 0xcaebef2458cc85ea, from name: System.Runtime.Serialization.Formatters
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Serialization.Formatters.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 642
->>>>>>> main
-=======
-	}, ; 642
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14622545051571116118, ; hash 0xcaedb740370ad856, from name: aot-SkiaSharp.Views.Android
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.38_name, ; name: libaot-SkiaSharp.Views.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 649
-=======
-	}, ; 643
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14690985099581930927, ; hash 0xcbe0dd1ca5233daf, from name: System.Web.HttpUtility
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
+		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Web.HttpUtility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 650
-=======
-	}, ; 643
-	%struct.DSOCacheEntry {
-		i64 14690985099581930927, ; hash 0xcbe0dd1ca5233daf, from name: System.Web.HttpUtility
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 644
->>>>>>> main
-=======
-	}, ; 644
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14713405421650509891, ; hash 0xcc308446a9c90043, from name: libaot-System.Collections.NonGeneric.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.74_name, ; name: libaot-System.Collections.NonGeneric.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 651
-=======
-	}, ; 645
->>>>>>> main
-=======
-	}, ; 645
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14726144688497773647, ; hash 0xcc5dc6925cea4c4f, from name: libaot-Xamarin.AndroidX.Loader.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.57_name, ; name: libaot-Xamarin.AndroidX.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 652
-=======
-	}, ; 646
->>>>>>> main
-=======
-	}, ; 646
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14749613074536373161, ; hash 0xccb126f1ca329ba9, from name: aot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.55_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 653
-=======
-	}, ; 647
->>>>>>> main
-=======
-	}, ; 647
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14761658010069183920, ; hash 0xccdbf1bfe1f92db0, from name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.55_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 654
-=======
-	}, ; 648
->>>>>>> main
-=======
-	}, ; 648
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14783105725698854274, ; hash 0xcd2824555152cd82, from name: libaot-Microsoft.Maui.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.28_name, ; name: libaot-Microsoft.Maui.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 655
-=======
-	}, ; 649
->>>>>>> main
-=======
-	}, ; 649
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14793308678264731746, ; hash 0xcd4c63dd54ac3862, from name: libaot-System.Collections.Immutable
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.73_name, ; name: libaot-System.Collections.Immutable.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 656
-=======
-	}, ; 650
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14797884060996115029, ; hash 0xcd5ca526a3169a55, from name: aot-System.Net.Requests
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
+		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Requests.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 651
+	}, ; 657
 	%struct.DSOCacheEntry {
 		i64 14832630590065248058, ; hash 0xcdd816ef5d6e873a, from name: System.Security.Claims
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
+		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Claims.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 658
-=======
-	}, ; 650
-	%struct.DSOCacheEntry {
-		i64 14797884060996115029, ; hash 0xcd5ca526a3169a55, from name: aot-System.Net.Requests
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 651
-	%struct.DSOCacheEntry {
-		i64 14832630590065248058, ; hash 0xcdd816ef5d6e873a, from name: System.Security.Claims
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 652
->>>>>>> main
-=======
-	}, ; 652
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14848298015145851925, ; hash 0xce0fc06007e7fc15, from name: aot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.54_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 659
-=======
-	}, ; 653
->>>>>>> main
-=======
-	}, ; 653
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14852025521463078876, ; hash 0xce1cfe85b9d7afdc, from name: aot-Xamarin.AndroidX.Loader.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.57_name, ; name: libaot-Xamarin.AndroidX.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 660
-=======
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
-	}, ; 654
-	%struct.DSOCacheEntry {
-		i64 14861939854077530687, ; hash 0xce40378e2b83123f, from name: libaot-System.Xml.XmlSerializer
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 655
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14896568121329360884, ; hash 0xcebb3dc7ec3e9ff4, from name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.22_name, ; name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 661
-=======
-	}, ; 656
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14929951904236909252, ; hash 0xcf31d82795b532c4, from name: aot-System.Numerics.Vectors
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
+		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.Numerics.Vectors.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 662
-=======
-	}, ; 656
-	%struct.DSOCacheEntry {
-		i64 14929951904236909252, ; hash 0xcf31d82795b532c4, from name: aot-System.Numerics.Vectors
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Numerics.Vectors.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 657
->>>>>>> main
-=======
-	}, ; 657
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14937857240486681905, ; hash 0xcf4dee041cb49d31, from name: aot-Microsoft.Extensions.Configuration
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.16_name, ; name: libaot-Microsoft.Extensions.Configuration.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 663
-=======
-	}, ; 658
->>>>>>> main
-=======
-	}, ; 658
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14939551082710594120, ; hash 0xcf53f28e7cc47248, from name: mono-component-hot_reload
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.4_name, ; name: libmono-component-hot_reload.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 664
-=======
-	}, ; 659
->>>>>>> main
-=======
-	}, ; 659
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14956178634283043352, ; hash 0xcf8f053a05ba4a18, from name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.17_name, ; name: libaot-Microsoft.Extensions.Configuration.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 665
-=======
-	}, ; 660
->>>>>>> main
-=======
-	}, ; 660
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14961060616915621838, ; hash 0xcfa05d5d2e5797ce, from name: libaot-BouncyCastle.Cryptography.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.12_name, ; name: libaot-BouncyCastle.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 666
-=======
-	}, ; 661
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 14991793843564863672, ; hash 0xd00d8d121f9260b8, from name: libaot-System.Security.Cryptography.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 667
-=======
-	}, ; 661
-	%struct.DSOCacheEntry {
-		i64 14991793843564863672, ; hash 0xd00d8d121f9260b8, from name: libaot-System.Security.Cryptography.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 662
->>>>>>> main
-=======
-	}, ; 662
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15036676938210766038, ; hash 0xd0ad0201f05c6cd6, from name: Xamarin.AndroidX.Navigation.Fragment.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.59_name, ; name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 668
-=======
-	}, ; 663
->>>>>>> main
-=======
-	}, ; 663
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15101927338945785474, ; hash 0xd194d2e6bd9fae82, from name: SkiaSharp.SceneGraph
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.36_name, ; name: libaot-SkiaSharp.SceneGraph.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 669
-=======
-	}, ; 664
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15169277521300507936, ; hash 0xd28419890c6f4d20, from name: aot-System.Threading.Thread.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
+		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Threading.Thread.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 670
-=======
-	}, ; 664
-	%struct.DSOCacheEntry {
-		i64 15169277521300507936, ; hash 0xd28419890c6f4d20, from name: aot-System.Threading.Thread.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 665
->>>>>>> main
-=======
-	}, ; 665
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15176211282047358104, ; hash 0xd29cbbc106b55498, from name: libaot-Podbor.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.11_name, ; name: libaot-Podbor.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 671
 	%struct.DSOCacheEntry {
 		i64 15178188182332606664, ; hash 0xd2a3c1bbfdf788c8, from name: aot-System.Threading.Tasks.Parallel
@@ -9375,363 +4161,161 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.Tasks.Parallel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 672
-=======
-	}, ; 666
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15209665098310826992, ; hash 0xd31395d299793bf0, from name: libaot-System.Security.Cryptography.Csp
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
+		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 667
+	}, ; 673
 	%struct.DSOCacheEntry {
 		i64 15212030046956336817, ; hash 0xd31bfcbb1d66b6b1, from name: libaot-System.Runtime.Loader.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
+		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Loader.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 668
+	}, ; 674
 	%struct.DSOCacheEntry {
 		i64 15287759098695794728, ; hash 0xd42907e6f9824028, from name: System.IO.Compression.Brotli.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 675
-=======
-	}, ; 666
-	%struct.DSOCacheEntry {
-		i64 15209665098310826992, ; hash 0xd31395d299793bf0, from name: libaot-System.Security.Cryptography.Csp
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 667
-	%struct.DSOCacheEntry {
-		i64 15212030046956336817, ; hash 0xd31bfcbb1d66b6b1, from name: libaot-System.Runtime.Loader.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Loader.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 668
-	%struct.DSOCacheEntry {
-		i64 15287759098695794728, ; hash 0xd42907e6f9824028, from name: System.IO.Compression.Brotli.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 669
->>>>>>> main
-=======
-	}, ; 669
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15336335058859734039, ; hash 0xd4d59b7b0bb43417, from name: libaot-Microsoft.Win32.Primitives.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.70_name, ; name: libaot-Microsoft.Win32.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 676
-=======
-	}, ; 670
->>>>>>> main
-=======
-	}, ; 670
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15361183609531804313, ; hash 0xd52de31b17b22a99, from name: System.Collections.Concurrent.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.72_name, ; name: libaot-System.Collections.Concurrent.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 677
-=======
-	}, ; 671
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15371816955219117674, ; hash 0xd553aa13d029866a, from name: libaot-System.ComponentModel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
+		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.ComponentModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 678
-=======
-	}, ; 671
-	%struct.DSOCacheEntry {
-		i64 15371816955219117674, ; hash 0xd553aa13d029866a, from name: libaot-System.ComponentModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 672
->>>>>>> main
-=======
-	}, ; 672
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15385617065962309506, ; hash 0xd584b1347adf0782, from name: libaot-Xamarin.AndroidX.Navigation.UI
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.61_name, ; name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 679
-=======
-	}, ; 673
->>>>>>> main
-=======
-	}, ; 673
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15391712275433856905, ; hash 0xd59a58c406411f89, from name: Microsoft.Extensions.DependencyInjection.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.19_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 680
-=======
-	}, ; 674
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15394198501530322172, ; hash 0xd5a32df9a590c4fc, from name: libaot-Mono.Android
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
+		ptr @.DSOCacheEntry.138_name, ; name: libaot-Mono.Android.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 675
+	}, ; 681
 	%struct.DSOCacheEntry {
 		i64 15422501938551467493, ; hash 0xd607bbcd1b222de5, from name: System.ComponentModel.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
+		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.ComponentModel.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 676
+	}, ; 682
 	%struct.DSOCacheEntry {
 		i64 15441728228412085485, ; hash 0xd64c0a028c9fd4ed, from name: libaot-System.Runtime.Numerics
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
+		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Numerics.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 677
+	}, ; 683
 	%struct.DSOCacheEntry {
 		i64 15465553130743477305, ; hash 0xd6a0aea1e4e53439, from name: System.Net.NameResolution.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
+		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NameResolution.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 684
-=======
-	}, ; 674
-	%struct.DSOCacheEntry {
-		i64 15394198501530322172, ; hash 0xd5a32df9a590c4fc, from name: libaot-Mono.Android
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 675
-	%struct.DSOCacheEntry {
-		i64 15422501938551467493, ; hash 0xd607bbcd1b222de5, from name: System.ComponentModel.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 676
-	%struct.DSOCacheEntry {
-		i64 15441728228412085485, ; hash 0xd64c0a028c9fd4ed, from name: libaot-System.Runtime.Numerics
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 677
-	%struct.DSOCacheEntry {
-		i64 15465553130743477305, ; hash 0xd6a0aea1e4e53439, from name: System.Net.NameResolution.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.NameResolution.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 678
->>>>>>> main
-=======
-	}, ; 678
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15476609812571688208, ; hash 0xd6c7f6a03da90d10, from name: libaot-Microsoft.Extensions.Configuration
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.16_name, ; name: libaot-Microsoft.Extensions.Configuration.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 685
-=======
-	}, ; 679
->>>>>>> main
-=======
-	}, ; 679
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15489493229072521270, ; hash 0xd6f5bc0665af9836, from name: aot-Xamarin.AndroidX.CursorAdapter
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.49_name, ; name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 686
-=======
-	}, ; 680
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15503723175688157554, ; hash 0xd7284a1606e23972, from name: aot-System.Private.CoreLib
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
+		ptr @.DSOCacheEntry.139_name, ; name: libaot-System.Private.CoreLib.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 681
+	}, ; 687
 	%struct.DSOCacheEntry {
 		i64 15527772828719725935, ; hash 0xd77dbb1e38cd3d6f, from name: System.Console
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
+		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Console.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 682
+	}, ; 688
 	%struct.DSOCacheEntry {
 		i64 15557562860424774966, ; hash 0xd7e790fe7a6dc536, from name: System.Net.Sockets
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
+		ptr @.DSOCacheEntry.103_name, ; name: libaot-System.Net.Sockets.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 689
-=======
-	}, ; 680
-	%struct.DSOCacheEntry {
-		i64 15503723175688157554, ; hash 0xd7284a1606e23972, from name: aot-System.Private.CoreLib
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 681
-	%struct.DSOCacheEntry {
-		i64 15527772828719725935, ; hash 0xd77dbb1e38cd3d6f, from name: System.Console
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 682
-	%struct.DSOCacheEntry {
-		i64 15557562860424774966, ; hash 0xd7e790fe7a6dc536, from name: System.Net.Sockets
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.Sockets.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 683
->>>>>>> main
-=======
-	}, ; 683
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15582737692548360875, ; hash 0xd841015ed86f6aab, from name: Xamarin.AndroidX.Lifecycle.ViewModelSavedState
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.56_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 690
-=======
-	}, ; 684
->>>>>>> main
-=======
-	}, ; 684
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15602862011767004647, ; hash 0xd88880550acf1de7, from name: aot-Xamarin.AndroidX.Lifecycle.LiveData.Core
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.54_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 691
-=======
-	}, ; 685
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15617887668700861200, ; hash 0xd8bde2166ade5310, from name: aot-System.Net.Requests.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
+		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Requests.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 686
+	}, ; 692
 	%struct.DSOCacheEntry {
 		i64 15619787930512100580, ; hash 0xd8c4a25d991b8ce4, from name: libaot-System.Diagnostics.TraceSource.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 693
-=======
-	}, ; 685
-	%struct.DSOCacheEntry {
-		i64 15617887668700861200, ; hash 0xd8bde2166ade5310, from name: aot-System.Net.Requests.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 686
-	%struct.DSOCacheEntry {
-		i64 15619787930512100580, ; hash 0xd8c4a25d991b8ce4, from name: libaot-System.Diagnostics.TraceSource.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 687
->>>>>>> main
-=======
-	}, ; 687
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15629871849537238105, ; hash 0xd8e875a2f48b7459, from name: aot-SkiaSharp.Views.Maui.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.40_name, ; name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 694
-=======
-	}, ; 688
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15637181376593849944, ; hash 0xd9026d9cd83aee58, from name: aot-System.Security.Claims
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
+		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Claims.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 689
+	}, ; 695
 	%struct.DSOCacheEntry {
 		i64 15659595283356337508, ; hash 0xd9520ef12ed64564, from name: aot-System.Net.Security
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
+		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.Security.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 696
-=======
-	}, ; 688
-	%struct.DSOCacheEntry {
-		i64 15637181376593849944, ; hash 0xd9026d9cd83aee58, from name: aot-System.Security.Claims
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.115_name, ; name: libaot-System.Security.Claims.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 689
-	%struct.DSOCacheEntry {
-		i64 15659595283356337508, ; hash 0xd9520ef12ed64564, from name: aot-System.Net.Security
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 690
->>>>>>> main
-=======
-	}, ; 690
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15698603800568418653, ; hash 0xd9dca4fb5a7a515d, from name: aot-MySqlConnector.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.32_name, ; name: libaot-MySqlConnector.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 697
-=======
-	}, ; 691
->>>>>>> main
-=======
-	}, ; 691
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15712039776084801819, ; hash 0xda0c60ee2e57b91b, from name: aot-Microsoft.Maui.Essentials.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.29_name, ; name: libaot-Microsoft.Maui.Essentials.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 698
 	%struct.DSOCacheEntry {
 		i64 15715135426312951253, ; hash 0xda1760686a8a55d5, from name: libaot-System.Threading.Tasks.Parallel.dll.so
@@ -9739,1688 +4323,726 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.Tasks.Parallel.dll.so
 		ptr null; void* handle (0x0)
 	}, ; 699
-=======
-	}, ; 692
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15734978453794313066, ; hash 0xda5ddf8946d5d36a, from name: aot-System.Security.Cryptography.X509Certificates
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 693
+	}, ; 700
 	%struct.DSOCacheEntry {
 		i64 15742342285542832975, ; hash 0xda7808e6f6643b4f, from name: libaot-System.ComponentModel.TypeConverter.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
+		ptr @.DSOCacheEntry.80_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 694
+	}, ; 701
 	%struct.DSOCacheEntry {
 		i64 15743850336609555076, ; hash 0xda7d64777686d284, from name: aot-System.Security.Cryptography.Csp.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
+		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 702
-=======
-	}, ; 692
-	%struct.DSOCacheEntry {
-		i64 15734978453794313066, ; hash 0xda5ddf8946d5d36a, from name: aot-System.Security.Cryptography.X509Certificates
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 693
-	%struct.DSOCacheEntry {
-		i64 15742342285542832975, ; hash 0xda7808e6f6643b4f, from name: libaot-System.ComponentModel.TypeConverter.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.TypeConverter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 694
-	%struct.DSOCacheEntry {
-		i64 15743850336609555076, ; hash 0xda7d64777686d284, from name: aot-System.Security.Cryptography.Csp.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 695
->>>>>>> main
-=======
-	}, ; 695
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15763336660331019481, ; hash 0xdac29f2cc1ec3cd9, from name: libSkiaSharp.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.9_name, ; name: libSkiaSharp.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 703
-=======
-	}, ; 696
->>>>>>> main
-=======
-	}, ; 696
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15814129912579445024, ; hash 0xdb77135e5f2d5120, from name: libaot-SkiaSharp.SceneGraph.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.36_name, ; name: libaot-SkiaSharp.SceneGraph.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 704
-=======
-	}, ; 697
->>>>>>> main
-=======
-	}, ; 697
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15847727014260307913, ; hash 0xdbee6fc12e58f7c9, from name: aot-Xamarin.AndroidX.SavedState.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.63_name, ; name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 705
-=======
-	}, ; 698
->>>>>>> main
-=======
-	}, ; 698
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15869986477656553338, ; hash 0xdc3d849e5ef8b77a, from name: libaot-System.Collections.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.76_name, ; name: libaot-System.Collections.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 706
-=======
-	}, ; 699
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15904398121613806925, ; hash 0xdcb7c5d3952e4d4d, from name: libaot-System.Transactions.Local
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
+		ptr @.DSOCacheEntry.130_name, ; name: libaot-System.Transactions.Local.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 707
-=======
-	}, ; 699
-	%struct.DSOCacheEntry {
-		i64 15904398121613806925, ; hash 0xdcb7c5d3952e4d4d, from name: libaot-System.Transactions.Local
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Transactions.Local.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 700
->>>>>>> main
-=======
-	}, ; 700
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15908591910761673656, ; hash 0xdcc6ac0e359a33b8, from name: aot-Xamarin.KotlinX.Coroutines.Core.Jvm
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.69_name, ; name: libaot-Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 708
-=======
-	}, ; 701
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15920910109220503623, ; hash 0xdcf26f6449038047, from name: System.Private.CoreLib.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
+		ptr @.DSOCacheEntry.139_name, ; name: libaot-System.Private.CoreLib.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 709
-=======
-	}, ; 701
-	%struct.DSOCacheEntry {
-		i64 15920910109220503623, ; hash 0xdcf26f6449038047, from name: System.Private.CoreLib.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.138_name, ; name: libaot-System.Private.CoreLib.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 702
->>>>>>> main
-=======
-	}, ; 702
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15928521404965645318, ; hash 0xdd0d79d32c2eec06, from name: Microsoft.Maui.Controls.Compatibility
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.25_name, ; name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 710
-=======
-	}, ; 703
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15958977808799221818, ; hash 0xdd79adc347d1c83a, from name: System.Net.Security.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
+		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.Security.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 711
-=======
-	}, ; 703
-	%struct.DSOCacheEntry {
-		i64 15958977808799221818, ; hash 0xdd79adc347d1c83a, from name: System.Net.Security.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 704
->>>>>>> main
-=======
-	}, ; 704
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 15964641699753034279, ; hash 0xdd8dcd0aa82b0227, from name: libaot-Xamarin.AndroidX.SwipeRefreshLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.64_name, ; name: libaot-Xamarin.AndroidX.SwipeRefreshLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 712
-=======
-	}, ; 705
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16011614235295386646, ; hash 0xde34ae50575e8c16, from name: System.Net.ServicePoint.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.ServicePoint.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 713
-=======
-	}, ; 705
-	%struct.DSOCacheEntry {
-		i64 16011614235295386646, ; hash 0xde34ae50575e8c16, from name: System.Net.ServicePoint.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 706
->>>>>>> main
-=======
-	}, ; 706
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16016540575068241660, ; hash 0xde462ecb3392befc, from name: libaot-CommunityToolkit.Maui.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.14_name, ; name: libaot-CommunityToolkit.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 714
-=======
-	}, ; 707
->>>>>>> main
-=======
-	}, ; 707
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16034513218355378781, ; hash 0xde8608d14e60ba5d, from name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.59_name, ; name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 715
-=======
-	}, ; 708
->>>>>>> main
-=======
-	}, ; 708
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16140149539819930312, ; hash 0xdffd547e06a6c2c8, from name: libaot-Xamarin.AndroidX.CoordinatorLayout
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.47_name, ; name: libaot-Xamarin.AndroidX.CoordinatorLayout.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 716
-=======
-	}, ; 709
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16154507427712707110, ; hash 0xe03056ea4e39aa26, from name: System
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
+		ptr @.DSOCacheEntry.134_name, ; name: libaot-System.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 717
-=======
-	}, ; 709
-	%struct.DSOCacheEntry {
-		i64 16154507427712707110, ; hash 0xe03056ea4e39aa26, from name: System
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 710
->>>>>>> main
-=======
-	}, ; 710
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16186580156264869966, ; hash 0xe0a248e4568df04e, from name: libaot-Microsoft.Extensions.Options
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.23_name, ; name: libaot-Microsoft.Extensions.Options.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 718
-=======
-	}, ; 711
->>>>>>> main
-=======
-	}, ; 711
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16215129991522364183, ; hash 0xe107b6d0db792b17, from name: libaot-Xamarin.AndroidX.Activity.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.42_name, ; name: libaot-Xamarin.AndroidX.Activity.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 719
-=======
-	}, ; 712
->>>>>>> main
-=======
-	}, ; 712
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16217712076265891113, ; hash 0xe110e3354f642529, from name: libmono-component-marshal-ilgen.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.5_name, ; name: libmono-component-marshal-ilgen.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 720
-=======
-	}, ; 713
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16219561732052121626, ; hash 0xe1177575db7c781a, from name: System.Net.Security
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
+		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.Security.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 714
-	%struct.DSOCacheEntry {
-		i64 16225652972018057753, ; hash 0xe12d19692de5c219, from name: libaot-System.Xml.XmlSerializer.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 715
+	}, ; 721
 	%struct.DSOCacheEntry {
 		i64 16244479869324760570, ; hash 0xe16ffc5fcc1615fa, from name: aot-System.Security.Cryptography.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 716
+	}, ; 722
 	%struct.DSOCacheEntry {
 		i64 16253390427661688581, ; hash 0xe18fa47ad4825f05, from name: libaot-System.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
+		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Linq.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 723
-=======
-	}, ; 713
-	%struct.DSOCacheEntry {
-		i64 16219561732052121626, ; hash 0xe1177575db7c781a, from name: System.Net.Security
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Security.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 714
-	%struct.DSOCacheEntry {
-		i64 16225652972018057753, ; hash 0xe12d19692de5c219, from name: libaot-System.Xml.XmlSerializer.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.132_name, ; name: libaot-System.Xml.XmlSerializer.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 715
-	%struct.DSOCacheEntry {
-		i64 16244479869324760570, ; hash 0xe16ffc5fcc1615fa, from name: aot-System.Security.Cryptography.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 716
-	%struct.DSOCacheEntry {
-		i64 16253390427661688581, ; hash 0xe18fa47ad4825f05, from name: libaot-System.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 717
->>>>>>> main
-=======
-	}, ; 717
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16254491453283163162, ; hash 0xe1938ddb5590dc1a, from name: Microsoft.Extensions.Logging.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.21_name, ; name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 724
-=======
-	}, ; 718
->>>>>>> main
-=======
-	}, ; 718
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16273606707797624453, ; hash 0xe1d7771458b10685, from name: System.Native.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.1_name, ; name: libSystem.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 725
-=======
-	}, ; 719
->>>>>>> main
-=======
-	}, ; 719
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16329114974302298891, ; hash 0xe29cab8dc3cce30b, from name: aot-Microsoft.Extensions.Primitives
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.24_name, ; name: libaot-Microsoft.Extensions.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 726
-=======
-	}, ; 720
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16354813168604688526, ; hash 0xe2f7f7ece290308e, from name: aot-System.Drawing.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
+		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 721
+	}, ; 727
 	%struct.DSOCacheEntry {
 		i64 16370340268830916137, ; hash 0xe32f21bd9ff07e29, from name: System.Linq.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
+		ptr @.DSOCacheEntry.93_name, ; name: libaot-System.Linq.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 728
-=======
-	}, ; 720
-	%struct.DSOCacheEntry {
-		i64 16354813168604688526, ; hash 0xe2f7f7ece290308e, from name: aot-System.Drawing.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 721
-	%struct.DSOCacheEntry {
-		i64 16370340268830916137, ; hash 0xe32f21bd9ff07e29, from name: System.Linq.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 722
->>>>>>> main
-=======
-	}, ; 722
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16377177043440272539, ; hash 0xe3476bc041f0849b, from name: aot-SkiaSharp.SceneGraph.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.36_name, ; name: libaot-SkiaSharp.SceneGraph.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 729
-=======
-	}, ; 723
->>>>>>> main
-=======
-	}, ; 723
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16401469675541401665, ; hash 0xe39db9c56cfc9041, from name: libaot-MailKit
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.15_name, ; name: libaot-MailKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 730
-=======
-	}, ; 724
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16411908373586787849, ; hash 0xe3c2cfb635e63e09, from name: libaot-System.Drawing.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
+		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 725
+	}, ; 731
 	%struct.DSOCacheEntry {
 		i64 16413721059704043258, ; hash 0xe3c940571601f6fa, from name: aot-System.Console.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
+		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Console.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 726
+	}, ; 732
 	%struct.DSOCacheEntry {
 		i64 16454459195343277943, ; hash 0xe459fb756d988f77, from name: System.Net.NetworkInformation
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
+		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.NetworkInformation.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 733
-=======
-	}, ; 724
-	%struct.DSOCacheEntry {
-		i64 16411908373586787849, ; hash 0xe3c2cfb635e63e09, from name: libaot-System.Drawing.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Drawing.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 725
-	%struct.DSOCacheEntry {
-		i64 16413721059704043258, ; hash 0xe3c940571601f6fa, from name: aot-System.Console.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.81_name, ; name: libaot-System.Console.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 726
-	%struct.DSOCacheEntry {
-		i64 16454459195343277943, ; hash 0xe459fb756d988f77, from name: System.Net.NetworkInformation
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 727
->>>>>>> main
-=======
-	}, ; 727
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16477862173331498088, ; hash 0xe4ad2057db452468, from name: Xamarin.AndroidX.SavedState.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.63_name, ; name: libaot-Xamarin.AndroidX.SavedState.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 734
-=======
-	}, ; 728
->>>>>>> main
-=======
-	}, ; 728
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16481900306254799575, ; hash 0xe4bb7900f1b822d7, from name: aot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.21_name, ; name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 735
-=======
-	}, ; 729
->>>>>>> main
-=======
-	}, ; 729
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16577343910374837510, ; hash 0xe60e8e74b9608d06, from name: libSkiaSharp
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.9_name, ; name: libSkiaSharp.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 736
-=======
-	}, ; 730
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16616675818235817923, ; hash 0xe69a4a9e25c4efc3, from name: aot-System.Runtime.Intrinsics.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
+		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 737
-=======
-	}, ; 730
-	%struct.DSOCacheEntry {
-		i64 16616675818235817923, ; hash 0xe69a4a9e25c4efc3, from name: aot-System.Runtime.Intrinsics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 731
->>>>>>> main
-=======
-	}, ; 731
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16649148416072044166, ; hash 0xe70da84600bb4e86, from name: Microsoft.Maui.Graphics
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.30_name, ; name: libaot-Microsoft.Maui.Graphics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 738
-=======
-	}, ; 732
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16666876093969079408, ; hash 0xe74ca380a87a1c70, from name: aot-System.ComponentModel.EventBasedAsync.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
+		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 739
-=======
-	}, ; 732
-	%struct.DSOCacheEntry {
-		i64 16666876093969079408, ; hash 0xe74ca380a87a1c70, from name: aot-System.ComponentModel.EventBasedAsync.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 733
->>>>>>> main
-=======
-	}, ; 733
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16677317093839702854, ; hash 0xe771bb8960dd8b46, from name: Xamarin.AndroidX.Navigation.UI
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.61_name, ; name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 740
-=======
-	}, ; 734
->>>>>>> main
-=======
-	}, ; 734
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16717189724135467099, ; hash 0xe7ff637b8de7a85b, from name: libmonosgen-2.0.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.6_name, ; name: libmonosgen-2.0.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 741
-=======
-	}, ; 735
->>>>>>> main
-=======
-	}, ; 735
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16730696072636839813, ; hash 0xe82f5f6f5e8ab785, from name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.49_name, ; name: libaot-Xamarin.AndroidX.CursorAdapter.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 742
-=======
-	}, ; 736
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16733100980842614628, ; hash 0xe837eaafb1dd4f64, from name: libaot-System.IO.Compression.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
+		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Compression.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 737
+	}, ; 743
 	%struct.DSOCacheEntry {
 		i64 16737807731308835127, ; hash 0xe848a3736f733137, from name: System.Runtime.Intrinsics
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
+		ptr @.DSOCacheEntry.111_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 738
+	}, ; 744
 	%struct.DSOCacheEntry {
 		i64 16765175234154577062, ; hash 0xe8a9de0cbcf5bca6, from name: libaot-System.Security.Cryptography.Algorithms
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
+		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 739
+	}, ; 745
 	%struct.DSOCacheEntry {
 		i64 16768067971893542065, ; hash 0xe8b424faba51bcb1, from name: libaot-Mono.Android.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
+		ptr @.DSOCacheEntry.138_name, ; name: libaot-Mono.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 746
-=======
-	}, ; 736
-	%struct.DSOCacheEntry {
-		i64 16733100980842614628, ; hash 0xe837eaafb1dd4f64, from name: libaot-System.IO.Compression.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 737
-	%struct.DSOCacheEntry {
-		i64 16737807731308835127, ; hash 0xe848a3736f733137, from name: System.Runtime.Intrinsics
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.Intrinsics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 738
-	%struct.DSOCacheEntry {
-		i64 16765175234154577062, ; hash 0xe8a9de0cbcf5bca6, from name: libaot-System.Security.Cryptography.Algorithms
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.116_name, ; name: libaot-System.Security.Cryptography.Algorithms.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 739
-	%struct.DSOCacheEntry {
-		i64 16768067971893542065, ; hash 0xe8b424faba51bcb1, from name: libaot-Mono.Android.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 740
->>>>>>> main
-=======
-	}, ; 740
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16778162983708529344, ; hash 0xe8d80256d38e12c0, from name: libaot-Microsoft.Extensions.Options.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.23_name, ; name: libaot-Microsoft.Extensions.Options.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 747
-=======
-	}, ; 741
->>>>>>> main
-=======
-	}, ; 741
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16804602679676381986, ; hash 0xe935f11a41b02b22, from name: monosgen-2.0
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.6_name, ; name: libmonosgen-2.0.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 748
-=======
-	}, ; 742
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16812641203226435415, ; hash 0xe9528018de685f57, from name: libaot-System.Private.Xml.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 743
+	}, ; 749
 	%struct.DSOCacheEntry {
 		i64 16818814240165112060, ; hash 0xe9686e710852a8fc, from name: aot-System.Private.Xml
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
+		ptr @.DSOCacheEntry.108_name, ; name: libaot-System.Private.Xml.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 750
-=======
-	}, ; 742
-	%struct.DSOCacheEntry {
-		i64 16812641203226435415, ; hash 0xe9528018de685f57, from name: libaot-System.Private.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 743
-	%struct.DSOCacheEntry {
-		i64 16818814240165112060, ; hash 0xe9686e710852a8fc, from name: aot-System.Private.Xml
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 744
->>>>>>> main
-=======
-	}, ; 744
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16831427098943474553, ; hash 0xe9953dc50f68cb79, from name: aot-Microsoft.Extensions.Logging
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.20_name, ; name: libaot-Microsoft.Extensions.Logging.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 751
-=======
-	}, ; 745
->>>>>>> main
-=======
-	}, ; 745
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16854702061219997075, ; hash 0xe9e7ee39820fe593, from name: aot-MimeKit
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.31_name, ; name: libaot-MimeKit.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 752
-=======
-	}, ; 746
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16924802110373038789, ; hash 0xeae0f9d912910ac5, from name: libaot-System.IO.Compression.Brotli.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 747
+	}, ; 753
 	%struct.DSOCacheEntry {
 		i64 16926798323237543726, ; hash 0xeae8116499405f2e, from name: libaot-System.Formats.Asn1
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
+		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.Formats.Asn1.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 748
+	}, ; 754
 	%struct.DSOCacheEntry {
 		i64 16948040093346346617, ; hash 0xeb3388ab9afcb679, from name: System.ComponentModel.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
+		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 755
-=======
-	}, ; 746
-	%struct.DSOCacheEntry {
-		i64 16924802110373038789, ; hash 0xeae0f9d912910ac5, from name: libaot-System.IO.Compression.Brotli.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 747
-	%struct.DSOCacheEntry {
-		i64 16926798323237543726, ; hash 0xeae8116499405f2e, from name: libaot-System.Formats.Asn1
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Formats.Asn1.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 748
-	%struct.DSOCacheEntry {
-		i64 16948040093346346617, ; hash 0xeb3388ab9afcb679, from name: System.ComponentModel.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 749
->>>>>>> main
-=======
-	}, ; 749
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16961387572093531548, ; hash 0xeb62f421ac5c359c, from name: SkiaSharp.Extended
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.34_name, ; name: libaot-SkiaSharp.Extended.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 756
-=======
-	}, ; 750
->>>>>>> main
-=======
-	}, ; 750
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16968141143656383738, ; hash 0xeb7af278165444fa, from name: aot-BouncyCastle.Cryptography
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.12_name, ; name: libaot-BouncyCastle.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 757
-=======
-	}, ; 751
->>>>>>> main
-=======
-	}, ; 751
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 16998075588627545693, ; hash 0xebe54bb02d623e5d, from name: Xamarin.AndroidX.Navigation.Fragment
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.59_name, ; name: libaot-Xamarin.AndroidX.Navigation.Fragment.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 758
-=======
-	}, ; 752
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17006494245921786209, ; hash 0xec03346992e48961, from name: libaot-System.Security.Cryptography.X509Certificates
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 759
-=======
-	}, ; 752
-	%struct.DSOCacheEntry {
-		i64 17006494245921786209, ; hash 0xec03346992e48961, from name: libaot-System.Security.Cryptography.X509Certificates
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 753
->>>>>>> main
-=======
-	}, ; 753
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17008137082415910100, ; hash 0xec090a90408c8cd4, from name: System.Collections.NonGeneric
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.74_name, ; name: libaot-System.Collections.NonGeneric.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 760
-=======
-	}, ; 754
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17055547629728291761, ; hash 0xecb17a347fb5dbb1, from name: aot-System.Xml.ReaderWriter
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
+		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 755
+	}, ; 761
 	%struct.DSOCacheEntry {
 		i64 17062143951396181894, ; hash 0xecc8e986518c9786, from name: System.ComponentModel.Primitives
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
+		ptr @.DSOCacheEntry.79_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 756
+	}, ; 762
 	%struct.DSOCacheEntry {
 		i64 17201328579425343169, ; hash 0xeeb76534d96c16c1, from name: System.ComponentModel.EventBasedAsync
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
+		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 757
+	}, ; 763
 	%struct.DSOCacheEntry {
 		i64 17230721278011714856, ; hash 0xef1fd1b5c7a72d28, from name: System.Private.Xml.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 764
-=======
-	}, ; 754
-	%struct.DSOCacheEntry {
-		i64 17055547629728291761, ; hash 0xecb17a347fb5dbb1, from name: aot-System.Xml.ReaderWriter
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Xml.ReaderWriter.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 755
-	%struct.DSOCacheEntry {
-		i64 17062143951396181894, ; hash 0xecc8e986518c9786, from name: System.ComponentModel.Primitives
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.78_name, ; name: libaot-System.ComponentModel.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 756
-	%struct.DSOCacheEntry {
-		i64 17201328579425343169, ; hash 0xeeb76534d96c16c1, from name: System.ComponentModel.EventBasedAsync
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.77_name, ; name: libaot-System.ComponentModel.EventBasedAsync.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 757
-	%struct.DSOCacheEntry {
-		i64 17230721278011714856, ; hash 0xef1fd1b5c7a72d28, from name: System.Private.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 758
->>>>>>> main
-=======
-	}, ; 758
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17252806954862991943, ; hash 0xef6e488422ff5a47, from name: libaot-Xamarin.AndroidX.Collection.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.46_name, ; name: libaot-Xamarin.AndroidX.Collection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 765
-=======
-	}, ; 759
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17260702271250283638, ; hash 0xef8a5543bba6bc76, from name: System.Data.Common
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
+		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Data.Common.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 760
+	}, ; 766
 	%struct.DSOCacheEntry {
 		i64 17307240838015558791, ; hash 0xf02fabd8300d2487, from name: libaot-System.Net.NetworkInformation
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
+		ptr @.DSOCacheEntry.98_name, ; name: libaot-System.Net.NetworkInformation.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 761
+	}, ; 767
 	%struct.DSOCacheEntry {
 		i64 17309541862275468045, ; hash 0xf037d89d25aecb0d, from name: Mono.Android.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
+		ptr @.DSOCacheEntry.138_name, ; name: libaot-Mono.Android.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 762
+	}, ; 768
 	%struct.DSOCacheEntry {
 		i64 17317630548055557570, ; hash 0xf054953b104e05c2, from name: aot-System.Data.Common.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
+		ptr @.DSOCacheEntry.83_name, ; name: libaot-System.Data.Common.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 763
+	}, ; 769
 	%struct.DSOCacheEntry {
 		i64 17321896332601854532, ; hash 0xf063bcf06ce00a44, from name: System.Security.Cryptography.Csp.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
+		ptr @.DSOCacheEntry.118_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 764
+	}, ; 770
 	%struct.DSOCacheEntry {
 		i64 17402366034782696113, ; hash 0xf1819fb4fa8bb2b1, from name: System.Security.Cryptography.Primitives.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
+		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 765
+	}, ; 771
 	%struct.DSOCacheEntry {
 		i64 17409515122893045457, ; hash 0xf19b05c3c3d4bed1, from name: libaot-System.Net.Mail.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
+		ptr @.DSOCacheEntry.96_name, ; name: libaot-System.Net.Mail.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 772
-=======
-	}, ; 759
-	%struct.DSOCacheEntry {
-		i64 17260702271250283638, ; hash 0xef8a5543bba6bc76, from name: System.Data.Common
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 760
-	%struct.DSOCacheEntry {
-		i64 17307240838015558791, ; hash 0xf02fabd8300d2487, from name: libaot-System.Net.NetworkInformation
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.97_name, ; name: libaot-System.Net.NetworkInformation.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 761
-	%struct.DSOCacheEntry {
-		i64 17309541862275468045, ; hash 0xf037d89d25aecb0d, from name: Mono.Android.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.137_name, ; name: libaot-Mono.Android.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 762
-	%struct.DSOCacheEntry {
-		i64 17317630548055557570, ; hash 0xf054953b104e05c2, from name: aot-System.Data.Common.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.82_name, ; name: libaot-System.Data.Common.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 763
-	%struct.DSOCacheEntry {
-		i64 17321896332601854532, ; hash 0xf063bcf06ce00a44, from name: System.Security.Cryptography.Csp.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.117_name, ; name: libaot-System.Security.Cryptography.Csp.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 764
-	%struct.DSOCacheEntry {
-		i64 17402366034782696113, ; hash 0xf1819fb4fa8bb2b1, from name: System.Security.Cryptography.Primitives.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.119_name, ; name: libaot-System.Security.Cryptography.Primitives.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 765
-	%struct.DSOCacheEntry {
-		i64 17409515122893045457, ; hash 0xf19b05c3c3d4bed1, from name: libaot-System.Net.Mail.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.95_name, ; name: libaot-System.Net.Mail.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 766
->>>>>>> main
-=======
-	}, ; 766
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17425765212163931422, ; hash 0xf1d4c1228263fd1e, from name: aot-MySqlConnector
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.32_name, ; name: libaot-MySqlConnector.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 773
-=======
-	}, ; 767
->>>>>>> main
-=======
-	}, ; 767
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17443869089298213871, ; hash 0xf2151283e0096bef, from name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.39_name, ; name: libaot-SkiaSharp.Views.Maui.Controls.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 774
-=======
-	}, ; 768
->>>>>>> main
-=======
-	}, ; 768
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17451386204284126469, ; hash 0xf22fc74a98820505, from name: aot-Xamarin.AndroidX.Navigation.UI
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.61_name, ; name: libaot-Xamarin.AndroidX.Navigation.UI.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 775
-=======
-	}, ; 769
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17453504965091914764, ; hash 0xf2374e4b09d1f40c, from name: libaot-System.IO.Pipes
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
+		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.IO.Pipes.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 770
+	}, ; 776
 	%struct.DSOCacheEntry {
 		i64 17474527379847198219, ; hash 0xf281fe1165a1360b, from name: libaot-System
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
+		ptr @.DSOCacheEntry.134_name, ; name: libaot-System.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 771
+	}, ; 777
 	%struct.DSOCacheEntry {
 		i64 17501557440705411739, ; hash 0xf2e205c3dd573a9b, from name: libaot-System.Net.Requests.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
+		ptr @.DSOCacheEntry.100_name, ; name: libaot-System.Net.Requests.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 778
-=======
-	}, ; 769
-	%struct.DSOCacheEntry {
-		i64 17453504965091914764, ; hash 0xf2374e4b09d1f40c, from name: libaot-System.IO.Pipes
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.90_name, ; name: libaot-System.IO.Pipes.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 770
-	%struct.DSOCacheEntry {
-		i64 17474527379847198219, ; hash 0xf281fe1165a1360b, from name: libaot-System
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.133_name, ; name: libaot-System.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 771
-	%struct.DSOCacheEntry {
-		i64 17501557440705411739, ; hash 0xf2e205c3dd573a9b, from name: libaot-System.Net.Requests.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.99_name, ; name: libaot-System.Net.Requests.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 772
->>>>>>> main
-=======
-	}, ; 772
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17577202782581072989, ; hash 0xf3eec4cd80c0a45d, from name: System.IO.Compression.Native
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.0_name, ; name: libSystem.IO.Compression.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 779
-=======
-	}, ; 773
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17621652644066257425, ; hash 0xf48cafb75ce46a11, from name: libaot-System.Threading
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
+		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Threading.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 774
+	}, ; 780
 	%struct.DSOCacheEntry {
 		i64 17623318455445168472, ; hash 0xf4929ac34c652158, from name: libaot-System.Linq.Expressions
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
+		ptr @.DSOCacheEntry.92_name, ; name: libaot-System.Linq.Expressions.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 775
+	}, ; 781
 	%struct.DSOCacheEntry {
 		i64 17634962315631480230, ; hash 0xf4bbf8cac29d4da6, from name: aot-System.Drawing.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
+		ptr @.DSOCacheEntry.87_name, ; name: libaot-System.Drawing.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 782
-=======
-	}, ; 773
-	%struct.DSOCacheEntry {
-		i64 17621652644066257425, ; hash 0xf48cafb75ce46a11, from name: libaot-System.Threading
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 774
-	%struct.DSOCacheEntry {
-		i64 17623318455445168472, ; hash 0xf4929ac34c652158, from name: libaot-System.Linq.Expressions
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.91_name, ; name: libaot-System.Linq.Expressions.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 775
-	%struct.DSOCacheEntry {
-		i64 17634962315631480230, ; hash 0xf4bbf8cac29d4da6, from name: aot-System.Drawing.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.86_name, ; name: libaot-System.Drawing.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 776
->>>>>>> main
-=======
-	}, ; 776
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17671790519499593115, ; hash 0xf53ecfd92be3959b, from name: SkiaSharp.Views.Android
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.38_name, ; name: libaot-SkiaSharp.Views.Android.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 783
-=======
-	}, ; 777
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17678238194885447556, ; hash 0xf555b7f994e3cf84, from name: aot-System.Diagnostics.TraceSource.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
+		ptr @.DSOCacheEntry.85_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 778
+	}, ; 784
 	%struct.DSOCacheEntry {
 		i64 17694752640166504414, ; hash 0xf59063c68187a7de, from name: libaot-System.Net.ServicePoint
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
+		ptr @.DSOCacheEntry.102_name, ; name: libaot-System.Net.ServicePoint.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 785
-=======
-	}, ; 777
-	%struct.DSOCacheEntry {
-		i64 17678238194885447556, ; hash 0xf555b7f994e3cf84, from name: aot-System.Diagnostics.TraceSource.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.84_name, ; name: libaot-System.Diagnostics.TraceSource.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 778
-	%struct.DSOCacheEntry {
-		i64 17694752640166504414, ; hash 0xf59063c68187a7de, from name: libaot-System.Net.ServicePoint
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.101_name, ; name: libaot-System.Net.ServicePoint.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 779
->>>>>>> main
-=======
-	}, ; 779
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17704177640604968747, ; hash 0xf5b1dfc36cac272b, from name: Xamarin.AndroidX.Loader
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.57_name, ; name: libaot-Xamarin.AndroidX.Loader.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 786
-=======
-	}, ; 780
->>>>>>> main
-=======
-	}, ; 780
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17710060891934109755, ; hash 0xf5c6c68c9e45303b, from name: Xamarin.AndroidX.Lifecycle.ViewModel
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.55_name, ; name: libaot-Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 787
-=======
-	}, ; 781
->>>>>>> main
-=======
-	}, ; 781
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17722155445280353776, ; hash 0xf5f1be7b4230adf0, from name: SkiaSharp.Views.Maui.Core.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.40_name, ; name: libaot-SkiaSharp.Views.Maui.Core.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 788
-=======
-	}, ; 782
->>>>>>> main
-=======
-	}, ; 782
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17743242089888636773, ; hash 0xf63ca8ac4b925f65, from name: aot-Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.69_name, ; name: libaot-Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 789
-=======
-	}, ; 783
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17798155118191535816, ; hash 0xf6ffbfc8051b66c8, from name: Java.Interop.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
+		ptr @.DSOCacheEntry.136_name, ; name: libaot-Java.Interop.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 784
+	}, ; 790
 	%struct.DSOCacheEntry {
 		i64 17935984482491575587, ; hash 0xf8e96adb9fd42d23, from name: aot-System.Threading.Thread
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
+		ptr @.DSOCacheEntry.128_name, ; name: libaot-System.Threading.Thread.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 785
+	}, ; 791
 	%struct.DSOCacheEntry {
 		i64 17936373173282875089, ; hash 0xf8eacc5ec05f26d1, from name: libaot-System.Runtime.Numerics.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
+		ptr @.DSOCacheEntry.113_name, ; name: libaot-System.Runtime.Numerics.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 792
-=======
-	}, ; 783
-	%struct.DSOCacheEntry {
-		i64 17798155118191535816, ; hash 0xf6ffbfc8051b66c8, from name: Java.Interop.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 784
-	%struct.DSOCacheEntry {
-		i64 17935984482491575587, ; hash 0xf8e96adb9fd42d23, from name: aot-System.Threading.Thread
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.126_name, ; name: libaot-System.Threading.Thread.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 785
-	%struct.DSOCacheEntry {
-		i64 17936373173282875089, ; hash 0xf8eacc5ec05f26d1, from name: libaot-System.Runtime.Numerics.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.112_name, ; name: libaot-System.Runtime.Numerics.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 786
->>>>>>> main
-=======
-	}, ; 786
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17966837238658391933, ; hash 0xf9570746b37e5f7d, from name: libaot-System.Collections.NonGeneric
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.74_name, ; name: libaot-System.Collections.NonGeneric.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 793
-=======
-	}, ; 787
->>>>>>> main
-=======
-	}, ; 787
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 17993787845989681834, ; hash 0xf9b6c6b5f3f4caaa, from name: Microsoft.Extensions.Logging.Debug.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.22_name, ; name: libaot-Microsoft.Extensions.Logging.Debug.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 794
-=======
-	}, ; 788
->>>>>>> main
-=======
-	}, ; 788
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18001227312549183156, ; hash 0xf9d134ddbd8dbeb4, from name: mono-component-hot_reload.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.4_name, ; name: libmono-component-hot_reload.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 795
-=======
-	}, ; 789
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18025913125965088385, ; hash 0xfa28e87b91334681, from name: System.Threading
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
+		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Threading.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 790
+	}, ; 796
 	%struct.DSOCacheEntry {
 		i64 18035209221645796007, ; hash 0xfa49ef3b820c02a7, from name: System.Security.Cryptography.X509Certificates.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
+		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 797
-=======
-	}, ; 789
-	%struct.DSOCacheEntry {
-		i64 18025913125965088385, ; hash 0xfa28e87b91334681, from name: System.Threading
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.127_name, ; name: libaot-System.Threading.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 790
-	%struct.DSOCacheEntry {
-		i64 18035209221645796007, ; hash 0xfa49ef3b820c02a7, from name: System.Security.Cryptography.X509Certificates.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.120_name, ; name: libaot-System.Security.Cryptography.X509Certificates.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 791
->>>>>>> main
-=======
-	}, ; 791
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18037761627775429063, ; hash 0xfa5300a1deb9e9c7, from name: libmono-component-debugger.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.3_name, ; name: libmono-component-debugger.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 798
-=======
-	}, ; 792
->>>>>>> main
-=======
-	}, ; 792
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18040554133168495475, ; hash 0xfa5cec66b2b69b73, from name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.19_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 799
-=======
-	}, ; 793
->>>>>>> main
-=======
-	}, ; 793
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18047428238759735039, ; hash 0xfa75585d20a0aeff, from name: libaot-Microsoft.Extensions.Logging.Abstractions
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.21_name, ; name: libaot-Microsoft.Extensions.Logging.Abstractions.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 800
-=======
-	}, ; 794
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18057033459698909374, ; hash 0xfa977842e6b240be, from name: libaot-System.Web.HttpUtility
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
+		ptr @.DSOCacheEntry.131_name, ; name: libaot-System.Web.HttpUtility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 801
-=======
-	}, ; 794
-	%struct.DSOCacheEntry {
-		i64 18057033459698909374, ; hash 0xfa977842e6b240be, from name: libaot-System.Web.HttpUtility
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.129_name, ; name: libaot-System.Web.HttpUtility.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 795
->>>>>>> main
-=======
-	}, ; 795
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18066658939550349411, ; hash 0xfab9aa959208b863, from name: libaot-Microsoft.Extensions.Primitives.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.24_name, ; name: libaot-Microsoft.Extensions.Primitives.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 802
-=======
-	}, ; 796
->>>>>>> main
-=======
-	}, ; 796
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18078848640603812512, ; hash 0xfae4f90d833e72a0, from name: Microsoft.Maui.Controls.Compatibility.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.25_name, ; name: libaot-Microsoft.Maui.Controls.Compatibility.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 803
-=======
-	}, ; 797
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18086360900563295465, ; hash 0xfaffa969d596dce9, from name: aot-System.ObjectModel
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
+		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.ObjectModel.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 804
-=======
-	}, ; 797
-	%struct.DSOCacheEntry {
-		i64 18086360900563295465, ; hash 0xfaffa969d596dce9, from name: aot-System.ObjectModel
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.104_name, ; name: libaot-System.ObjectModel.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 798
->>>>>>> main
-=======
-	}, ; 798
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18121036031235206392, ; hash 0xfb7ada42d3d42cf8, from name: Xamarin.AndroidX.Navigation.Common
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.58_name, ; name: libaot-Xamarin.AndroidX.Navigation.Common.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 805
-=======
-	}, ; 799
->>>>>>> main
-=======
-	}, ; 799
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18122114450755693480, ; hash 0xfb7eaf13f0442ba8, from name: libaot-System.Buffers
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.71_name, ; name: libaot-System.Buffers.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 806
-=======
-	}, ; 800
->>>>>>> main
-=======
-	}, ; 800
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18145848498878603418, ; hash 0xfbd30111a3b6e09a, from name: libSystem.IO.Compression.Native
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.0_name, ; name: libSystem.IO.Compression.Native.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 807
-=======
-	}, ; 801
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18226465753896977720, ; hash 0xfcf16a0903da0538, from name: libaot-System.Private.Uri
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
+		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Uri.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 808
-=======
-	}, ; 801
-	%struct.DSOCacheEntry {
-		i64 18226465753896977720, ; hash 0xfcf16a0903da0538, from name: libaot-System.Private.Uri
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.105_name, ; name: libaot-System.Private.Uri.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 802
->>>>>>> main
-=======
-	}, ; 802
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18252036729645089111, ; hash 0xfd4c42b3c1e0c157, from name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.50_name, ; name: libaot-Xamarin.AndroidX.CustomView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 809
-=======
-	}, ; 803
->>>>>>> main
-=======
-	}, ; 803
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18253685954460439423, ; hash 0xfd521ea9d526d37f, from name: aot-Xamarin.AndroidX.CardView
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.45_name, ; name: libaot-Xamarin.AndroidX.CardView.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 810
-=======
-	}, ; 804
->>>>>>> main
-=======
-	}, ; 804
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18257096356770733190, ; hash 0xfd5e3c67ff65dc86, from name: libSystem.Security.Cryptography.Native.Android.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.2_name, ; name: libSystem.Security.Cryptography.Native.Android.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 811
-=======
-	}, ; 805
->>>>>>> main
-=======
-	}, ; 805
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18278807071731653235, ; hash 0xfdab5e2fbc769a73, from name: aot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.60_name, ; name: libaot-Xamarin.AndroidX.Navigation.Runtime.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 812
-=======
-	}, ; 806
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18292328407895211277, ; hash 0xfddb67c523617d0d, from name: aot-System.IO.Compression.Brotli.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
+		ptr @.DSOCacheEntry.89_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 807
+	}, ; 813
 	%struct.DSOCacheEntry {
 		i64 18309516218928916979, ; hash 0xfe1877fe3e82e9f3, from name: libaot-System.Security.Cryptography.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
+		ptr @.DSOCacheEntry.122_name, ; name: libaot-System.Security.Cryptography.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 808
+	}, ; 814
 	%struct.DSOCacheEntry {
 		i64 18327710550568384473, ; hash 0xfe591ba430ceb7d9, from name: libaot-Java.Interop
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
+		ptr @.DSOCacheEntry.136_name, ; name: libaot-Java.Interop.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 809
+	}, ; 815
 	%struct.DSOCacheEntry {
 		i64 18347920244245135731, ; hash 0xfea0e8402d6e0173, from name: aot-System.Runtime.InteropServices.dll.so
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
+		ptr @.DSOCacheEntry.110_name, ; name: libaot-System.Runtime.InteropServices.dll.so
 		ptr null; void* handle (0x0)
-	}, ; 810
+	}, ; 816
 	%struct.DSOCacheEntry {
 		i64 18377348929170574574, ; hash 0xff09757bd49e0cee, from name: aot-System.Private.Xml.Linq
 		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
+		ptr @.DSOCacheEntry.107_name, ; name: libaot-System.Private.Xml.Linq.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
 	}, ; 817
-=======
-	}, ; 806
-	%struct.DSOCacheEntry {
-		i64 18292328407895211277, ; hash 0xfddb67c523617d0d, from name: aot-System.IO.Compression.Brotli.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.88_name, ; name: libaot-System.IO.Compression.Brotli.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 807
-	%struct.DSOCacheEntry {
-		i64 18309516218928916979, ; hash 0xfe1877fe3e82e9f3, from name: libaot-System.Security.Cryptography.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.121_name, ; name: libaot-System.Security.Cryptography.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 808
-	%struct.DSOCacheEntry {
-		i64 18327710550568384473, ; hash 0xfe591ba430ceb7d9, from name: libaot-Java.Interop
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.135_name, ; name: libaot-Java.Interop.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 809
-	%struct.DSOCacheEntry {
-		i64 18347920244245135731, ; hash 0xfea0e8402d6e0173, from name: aot-System.Runtime.InteropServices.dll.so
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.109_name, ; name: libaot-System.Runtime.InteropServices.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 810
-	%struct.DSOCacheEntry {
-		i64 18377348929170574574, ; hash 0xff09757bd49e0cee, from name: aot-System.Private.Xml.Linq
-		i8 0, ; bool ignore
-		ptr @.DSOCacheEntry.106_name, ; name: libaot-System.Private.Xml.Linq.dll.so
-		ptr null; void* handle (0x0)
-	}, ; 811
->>>>>>> main
-=======
-	}, ; 811
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18400295460575378824, ; hash 0xff5afb3b81d3fd88, from name: aot-Microsoft.Extensions.DependencyInjection.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.18_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 818
-=======
-	}, ; 812
->>>>>>> main
-=======
-	}, ; 812
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.DSOCacheEntry {
 		i64 18441817052021859583, ; hash 0xffee7ee65e8124ff, from name: Microsoft.Extensions.DependencyInjection.dll.so
 		i8 0, ; bool ignore
 		ptr @.DSOCacheEntry.18_name, ; name: libaot-Microsoft.Extensions.DependencyInjection.dll.so
 		ptr null; void* handle (0x0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	} ; 819
-=======
-	} ; 813
->>>>>>> main
-=======
-	} ; 813
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 ], align 16
 
 @_XamarinAndroidBundledAssembly_name_0_0 = internal dso_local global [65 x i8] zeroinitializer, align 16
@@ -11586,22 +5208,10 @@ target triple = "x86_64-unknown-linux-android21"
 @_XamarinAndroidBundledAssembly_name_a0_a0 = internal dso_local global [65 x i8] zeroinitializer, align 16
 @_XamarinAndroidBundledAssembly_name_a1_a1 = internal dso_local global [65 x i8] zeroinitializer, align 16
 @_XamarinAndroidBundledAssembly_name_a2_a2 = internal dso_local global [65 x i8] zeroinitializer, align 16
-<<<<<<< HEAD
-<<<<<<< HEAD
 @_XamarinAndroidBundledAssembly_name_a3_a3 = internal dso_local global [65 x i8] zeroinitializer, align 16
 
 ; Bundled assembly name buffers, all 65 bytes long
 @bundled_assemblies = dso_local local_unnamed_addr global [164 x %struct.XamarinAndroidBundledAssembly] [
-=======
-
-; Bundled assembly name buffers, all 65 bytes long
-@bundled_assemblies = dso_local local_unnamed_addr global [163 x %struct.XamarinAndroidBundledAssembly] [
->>>>>>> main
-=======
-
-; Bundled assembly name buffers, all 65 bytes long
-@bundled_assemblies = dso_local local_unnamed_addr global [163 x %struct.XamarinAndroidBundledAssembly] [
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 	%struct.XamarinAndroidBundledAssembly {
 		i32 -1, ; int32_t apk_fd (0xffffffff)
 		i32 0, ; uint32_t data_offset (0x0)
@@ -12905,8 +6515,6 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr null, ; uint8_t* data (0x0)
 		i32 65, ; uint32_t name_length (0x41)
 		ptr @_XamarinAndroidBundledAssembly_name_a2_a2; char* name
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}, ; 162
 	%struct.XamarinAndroidBundledAssembly {
 		i32 -1, ; int32_t apk_fd (0xffffffff)
@@ -12916,12 +6524,6 @@ target triple = "x86_64-unknown-linux-android21"
 		i32 65, ; uint32_t name_length (0x41)
 		ptr @_XamarinAndroidBundledAssembly_name_a3_a3; char* name
 	} ; 163
-=======
-	} ; 162
->>>>>>> main
-=======
-	} ; 162
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 ], align 16
 
 @assembly_store_bundled_assemblies = dso_local local_unnamed_addr global [0 x %struct.AssemblyStoreSingleAssemblyRuntimeData] zeroinitializer, align 8
@@ -12939,15 +6541,7 @@ target triple = "x86_64-unknown-linux-android21"
 @.env.4 = private unnamed_addr constant [15 x i8] c"MONO_LOG_LEVEL\00", align 1
 @.env.5 = private unnamed_addr constant [5 x i8] c"info\00", align 1
 @.env.6 = private unnamed_addr constant [17 x i8] c"XAMARIN_BUILD_ID\00", align 16
-<<<<<<< HEAD
-<<<<<<< HEAD
 @.env.7 = private unnamed_addr constant [37 x i8] c"546b5b72-7911-47a6-bd93-cd692289e48c\00", align 16
-=======
-@.env.7 = private unnamed_addr constant [37 x i8] c"af35b6b3-e607-4f78-afe7-c62022412c97\00", align 16
->>>>>>> main
-=======
-@.env.7 = private unnamed_addr constant [37 x i8] c"af35b6b3-e607-4f78-afe7-c62022412c97\00", align 16
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 @.env.8 = private unnamed_addr constant [28 x i8] c"XA_HTTP_CLIENT_HANDLER_TYPE\00", align 16
 @.env.9 = private unnamed_addr constant [42 x i8] c"Xamarin.Android.Net.AndroidMessageHandler\00", align 16
 @.env.10 = private unnamed_addr constant [29 x i8] c"__XA_PACKAGE_NAMING_POLICY__\00", align 16
@@ -13034,8 +6628,6 @@ target triple = "x86_64-unknown-linux-android21"
 @.DSOCacheEntry.74_name = private unnamed_addr constant [44 x i8] c"libaot-System.Collections.NonGeneric.dll.so\00", align 16
 @.DSOCacheEntry.75_name = private unnamed_addr constant [45 x i8] c"libaot-System.Collections.Specialized.dll.so\00", align 16
 @.DSOCacheEntry.76_name = private unnamed_addr constant [33 x i8] c"libaot-System.Collections.dll.so\00", align 16
-<<<<<<< HEAD
-<<<<<<< HEAD
 @.DSOCacheEntry.77_name = private unnamed_addr constant [48 x i8] c"libaot-System.ComponentModel.Annotations.dll.so\00", align 16
 @.DSOCacheEntry.78_name = private unnamed_addr constant [52 x i8] c"libaot-System.ComponentModel.EventBasedAsync.dll.so\00", align 16
 @.DSOCacheEntry.79_name = private unnamed_addr constant [47 x i8] c"libaot-System.ComponentModel.Primitives.dll.so\00", align 16
@@ -13099,75 +6691,6 @@ target triple = "x86_64-unknown-linux-android21"
 @.DSOCacheEntry.137_name = private unnamed_addr constant [35 x i8] c"libaot-Mono.Android.Runtime.dll.so\00", align 16
 @.DSOCacheEntry.138_name = private unnamed_addr constant [27 x i8] c"libaot-Mono.Android.dll.so\00", align 16
 @.DSOCacheEntry.139_name = private unnamed_addr constant [37 x i8] c"libaot-System.Private.CoreLib.dll.so\00", align 16
-=======
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
-@.DSOCacheEntry.77_name = private unnamed_addr constant [52 x i8] c"libaot-System.ComponentModel.EventBasedAsync.dll.so\00", align 16
-@.DSOCacheEntry.78_name = private unnamed_addr constant [47 x i8] c"libaot-System.ComponentModel.Primitives.dll.so\00", align 16
-@.DSOCacheEntry.79_name = private unnamed_addr constant [50 x i8] c"libaot-System.ComponentModel.TypeConverter.dll.so\00", align 16
-@.DSOCacheEntry.80_name = private unnamed_addr constant [36 x i8] c"libaot-System.ComponentModel.dll.so\00", align 16
-@.DSOCacheEntry.81_name = private unnamed_addr constant [29 x i8] c"libaot-System.Console.dll.so\00", align 16
-@.DSOCacheEntry.82_name = private unnamed_addr constant [33 x i8] c"libaot-System.Data.Common.dll.so\00", align 16
-@.DSOCacheEntry.83_name = private unnamed_addr constant [50 x i8] c"libaot-System.Diagnostics.DiagnosticSource.dll.so\00", align 16
-@.DSOCacheEntry.84_name = private unnamed_addr constant [45 x i8] c"libaot-System.Diagnostics.TraceSource.dll.so\00", align 16
-@.DSOCacheEntry.85_name = private unnamed_addr constant [40 x i8] c"libaot-System.Drawing.Primitives.dll.so\00", align 16
-@.DSOCacheEntry.86_name = private unnamed_addr constant [29 x i8] c"libaot-System.Drawing.dll.so\00", align 16
-@.DSOCacheEntry.87_name = private unnamed_addr constant [34 x i8] c"libaot-System.Formats.Asn1.dll.so\00", align 16
-@.DSOCacheEntry.88_name = private unnamed_addr constant [43 x i8] c"libaot-System.IO.Compression.Brotli.dll.so\00", align 16
-@.DSOCacheEntry.89_name = private unnamed_addr constant [36 x i8] c"libaot-System.IO.Compression.dll.so\00", align 16
-@.DSOCacheEntry.90_name = private unnamed_addr constant [30 x i8] c"libaot-System.IO.Pipes.dll.so\00", align 16
-@.DSOCacheEntry.91_name = private unnamed_addr constant [38 x i8] c"libaot-System.Linq.Expressions.dll.so\00", align 16
-@.DSOCacheEntry.92_name = private unnamed_addr constant [26 x i8] c"libaot-System.Linq.dll.so\00", align 16
-@.DSOCacheEntry.93_name = private unnamed_addr constant [28 x i8] c"libaot-System.Memory.dll.so\00", align 16
-@.DSOCacheEntry.94_name = private unnamed_addr constant [30 x i8] c"libaot-System.Net.Http.dll.so\00", align 16
-@.DSOCacheEntry.95_name = private unnamed_addr constant [30 x i8] c"libaot-System.Net.Mail.dll.so\00", align 16
-@.DSOCacheEntry.96_name = private unnamed_addr constant [40 x i8] c"libaot-System.Net.NameResolution.dll.so\00", align 16
-@.DSOCacheEntry.97_name = private unnamed_addr constant [44 x i8] c"libaot-System.Net.NetworkInformation.dll.so\00", align 16
-@.DSOCacheEntry.98_name = private unnamed_addr constant [36 x i8] c"libaot-System.Net.Primitives.dll.so\00", align 16
-@.DSOCacheEntry.99_name = private unnamed_addr constant [34 x i8] c"libaot-System.Net.Requests.dll.so\00", align 16
-@.DSOCacheEntry.100_name = private unnamed_addr constant [34 x i8] c"libaot-System.Net.Security.dll.so\00", align 16
-@.DSOCacheEntry.101_name = private unnamed_addr constant [38 x i8] c"libaot-System.Net.ServicePoint.dll.so\00", align 16
-@.DSOCacheEntry.102_name = private unnamed_addr constant [33 x i8] c"libaot-System.Net.Sockets.dll.so\00", align 16
-@.DSOCacheEntry.103_name = private unnamed_addr constant [38 x i8] c"libaot-System.Numerics.Vectors.dll.so\00", align 16
-@.DSOCacheEntry.104_name = private unnamed_addr constant [33 x i8] c"libaot-System.ObjectModel.dll.so\00", align 16
-@.DSOCacheEntry.105_name = private unnamed_addr constant [33 x i8] c"libaot-System.Private.Uri.dll.so\00", align 16
-@.DSOCacheEntry.106_name = private unnamed_addr constant [38 x i8] c"libaot-System.Private.Xml.Linq.dll.so\00", align 16
-@.DSOCacheEntry.107_name = private unnamed_addr constant [33 x i8] c"libaot-System.Private.Xml.dll.so\00", align 16
-@.DSOCacheEntry.108_name = private unnamed_addr constant [53 x i8] c"libaot-System.Runtime.CompilerServices.Unsafe.dll.so\00", align 16
-@.DSOCacheEntry.109_name = private unnamed_addr constant [45 x i8] c"libaot-System.Runtime.InteropServices.dll.so\00", align 16
-@.DSOCacheEntry.110_name = private unnamed_addr constant [40 x i8] c"libaot-System.Runtime.Intrinsics.dll.so\00", align 16
-@.DSOCacheEntry.111_name = private unnamed_addr constant [36 x i8] c"libaot-System.Runtime.Loader.dll.so\00", align 16
-@.DSOCacheEntry.112_name = private unnamed_addr constant [38 x i8] c"libaot-System.Runtime.Numerics.dll.so\00", align 16
-@.DSOCacheEntry.113_name = private unnamed_addr constant [54 x i8] c"libaot-System.Runtime.Serialization.Formatters.dll.so\00", align 16
-@.DSOCacheEntry.114_name = private unnamed_addr constant [29 x i8] c"libaot-System.Runtime.dll.so\00", align 16
-@.DSOCacheEntry.115_name = private unnamed_addr constant [37 x i8] c"libaot-System.Security.Claims.dll.so\00", align 16
-@.DSOCacheEntry.116_name = private unnamed_addr constant [54 x i8] c"libaot-System.Security.Cryptography.Algorithms.dll.so\00", align 16
-@.DSOCacheEntry.117_name = private unnamed_addr constant [47 x i8] c"libaot-System.Security.Cryptography.Csp.dll.so\00", align 16
-@.DSOCacheEntry.118_name = private unnamed_addr constant [52 x i8] c"libaot-System.Security.Cryptography.Encoding.dll.so\00", align 16
-@.DSOCacheEntry.119_name = private unnamed_addr constant [54 x i8] c"libaot-System.Security.Cryptography.Primitives.dll.so\00", align 16
-@.DSOCacheEntry.120_name = private unnamed_addr constant [60 x i8] c"libaot-System.Security.Cryptography.X509Certificates.dll.so\00", align 16
-@.DSOCacheEntry.121_name = private unnamed_addr constant [43 x i8] c"libaot-System.Security.Cryptography.dll.so\00", align 16
-@.DSOCacheEntry.122_name = private unnamed_addr constant [46 x i8] c"libaot-System.Text.Encoding.Extensions.dll.so\00", align 16
-@.DSOCacheEntry.123_name = private unnamed_addr constant [40 x i8] c"libaot-System.Text.Encodings.Web.dll.so\00", align 16
-@.DSOCacheEntry.124_name = private unnamed_addr constant [31 x i8] c"libaot-System.Text.Json.dll.so\00", align 16
-@.DSOCacheEntry.125_name = private unnamed_addr constant [45 x i8] c"libaot-System.Text.RegularExpressions.dll.so\00", align 16
-@.DSOCacheEntry.126_name = private unnamed_addr constant [38 x i8] c"libaot-System.Threading.Thread.dll.so\00", align 16
-@.DSOCacheEntry.127_name = private unnamed_addr constant [31 x i8] c"libaot-System.Threading.dll.so\00", align 16
-@.DSOCacheEntry.128_name = private unnamed_addr constant [40 x i8] c"libaot-System.Transactions.Local.dll.so\00", align 16
-@.DSOCacheEntry.129_name = private unnamed_addr constant [37 x i8] c"libaot-System.Web.HttpUtility.dll.so\00", align 16
-@.DSOCacheEntry.130_name = private unnamed_addr constant [30 x i8] c"libaot-System.Xml.Linq.dll.so\00", align 16
-@.DSOCacheEntry.131_name = private unnamed_addr constant [38 x i8] c"libaot-System.Xml.ReaderWriter.dll.so\00", align 16
-@.DSOCacheEntry.132_name = private unnamed_addr constant [39 x i8] c"libaot-System.Xml.XmlSerializer.dll.so\00", align 16
-@.DSOCacheEntry.133_name = private unnamed_addr constant [21 x i8] c"libaot-System.dll.so\00", align 16
-@.DSOCacheEntry.134_name = private unnamed_addr constant [26 x i8] c"libaot-netstandard.dll.so\00", align 16
-@.DSOCacheEntry.135_name = private unnamed_addr constant [27 x i8] c"libaot-Java.Interop.dll.so\00", align 16
-@.DSOCacheEntry.136_name = private unnamed_addr constant [35 x i8] c"libaot-Mono.Android.Runtime.dll.so\00", align 16
-@.DSOCacheEntry.137_name = private unnamed_addr constant [27 x i8] c"libaot-Mono.Android.dll.so\00", align 16
-@.DSOCacheEntry.138_name = private unnamed_addr constant [37 x i8] c"libaot-System.Private.CoreLib.dll.so\00", align 16
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 
 ; Metadata
 !llvm.module.flags = !{!0, !1}

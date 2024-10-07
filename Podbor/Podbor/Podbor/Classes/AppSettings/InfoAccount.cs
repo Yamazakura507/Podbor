@@ -19,11 +19,16 @@ namespace Podbor.Classes.AppSettings
             }
             set 
             {
-                User = DBModel.GetModel<Users>(value);
+                var RstristionUsers = DBModel.GetCollectionModel<RestrictionsUser>(new Dictionary<string, object>() { { "IdUser", value } });
+
+                User = RstristionUsers.FirstOrDefault().User;
+                IsAdmin = RstristionUsers.Any(i => i.IdRestrictions == 2);
                 idUser = value;
             }
         }
 
         public static Users User { get; set; }
+
+        public static bool IsAdmin { get; set; } = false;
     }
 }

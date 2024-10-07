@@ -1058,86 +1058,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\mauisplash.inputs
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\mauisplash.stamp
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\mauifont.stamp
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\Angeme-Bold.ttf
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\Angeme-Regular.ttf
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_no_active.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\future_payments.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_add.png
->>>>>>> main
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\finance.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\registration.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_test.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\support.png
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_add.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\autorizate.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_no_active.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account_admin.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\planing.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\non_group.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\time.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\time.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\support.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_test.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\back.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\autorizate.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account_admin.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\planing.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_no_active.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_add.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\registration.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\finance.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\save.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\non_group.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png
->>>>>>> main
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account_admin.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\autorizate.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\back.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_add.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_no_active.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\credit_test.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\finance.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\registration.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
@@ -1151,43 +1071,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\planing.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\non_group.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\time.png
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account_admin.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_time.png
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
->>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
-=======
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_round.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_round.png
@@ -1209,19 +1094,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\mauiimage.stamp
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\mauiimage.outputs
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\libraryprojectimports.cache
@@ -1293,13 +1165,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.AssemblyInfo.cs
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.csproj.CoreCompileInputs.cache
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.sourcelink.json
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\XamlC.stamp
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.pdb
@@ -1312,14 +1177,10 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\res\values\colors.xml
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\uploadflags.txt
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resolvedassemblies.hash
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Java.Interop.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Java.Interop.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Microsoft.Maui.Controls.Compatibility.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Microsoft.Maui.Controls.Compatibility.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Microsoft.Maui.Essentials.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Microsoft.Maui.Essentials.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Mono.Android.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Mono.Android.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\SkiaSharp.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\SkiaSharp.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\SkiaSharp.SceneGraph.dll
@@ -1331,109 +1192,28 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Collections.Concurrent.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Collections.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Collections.Immutable.dll
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Linq.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Net.Sockets.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Runtime.Numerics.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Text.Encodings.Web.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Text.Json.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Text.RegularExpressions.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Threading.Tasks.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Activity.pdb
->>>>>>> main
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Activity.pdb
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.AppCompat.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.AppCompat.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CardView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CardView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Collection.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Collection.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CoordinatorLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CoordinatorLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Core.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CursorAdapter.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CursorAdapter.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CustomView.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.CustomView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.DrawerLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.DrawerLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.LiveData.Core.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.ViewModel.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.ViewModel.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Loader.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Loader.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.Runtime.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.Runtime.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.UI.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Navigation.UI.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.RecyclerView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.RecyclerView.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.SavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.SavedState.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.SwipeRefreshLayout.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.SwipeRefreshLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.ViewPager.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.ViewPager.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.ViewPager2.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.ViewPager2.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.Google.Android.Material.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.Google.Android.Material.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Java.Interop.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Java.Interop.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Microsoft.Maui.Controls.Compatibility.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Microsoft.Maui.Controls.Compatibility.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Microsoft.Maui.Essentials.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Microsoft.Maui.Essentials.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Mono.Android.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Mono.Android.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\SkiaSharp.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\SkiaSharp.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\SkiaSharp.SceneGraph.dll
@@ -1445,101 +1225,24 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Collections.Concurrent.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Collections.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Collections.Immutable.dll
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Linq.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Net.Sockets.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Runtime.Numerics.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Text.Encodings.Web.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Text.Json.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Text.RegularExpressions.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Threading.Tasks.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Activity.pdb
->>>>>>> main
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Activity.pdb
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.AppCompat.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.AppCompat.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CardView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CardView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Collection.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Collection.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CoordinatorLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CoordinatorLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Core.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CursorAdapter.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CursorAdapter.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CustomView.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.CustomView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.DrawerLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.DrawerLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.LiveData.Core.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.ViewModel.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.ViewModel.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Loader.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Loader.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.Runtime.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.Runtime.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.UI.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Navigation.UI.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.RecyclerView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.RecyclerView.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.SavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.SavedState.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.SwipeRefreshLayout.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.SwipeRefreshLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.ViewPager.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.ViewPager.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.ViewPager2.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.ViewPager2.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.Google.Android.Material.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.Google.Android.Material.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\BouncyCastle.Cryptography.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
@@ -1607,22 +1310,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Buffers.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Collections.NonGeneric.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Collections.Specialized.dll
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Annotations.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.EventBasedAsync.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Primitives.dll
@@ -1675,292 +1362,65 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Web.HttpUtility.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.Linq.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.ReaderWriter.dll
-<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\th\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\tr\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Java.Interop.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Java.Interop.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Microsoft.Maui.Controls.Compatibility.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Microsoft.Maui.Controls.Compatibility.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Microsoft.Maui.Essentials.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Microsoft.Maui.Essentials.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Mono.Android.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Mono.Android.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.SceneGraph.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.SceneGraph.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Skottie.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Skottie.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Views.Android.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Views.Android.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.Concurrent.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.Immutable.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Linq.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Net.Sockets.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
->>>>>>> main
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.Concurrent.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.Immutable.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Net.Sockets.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Runtime.Numerics.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Text.Encodings.Web.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Text.Json.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Text.RegularExpressions.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Threading.Tasks.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Activity.pdb
->>>>>>> main
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Activity.pdb
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.AppCompat.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.AppCompat.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CardView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CardView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Collection.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Collection.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CoordinatorLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CoordinatorLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Core.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CursorAdapter.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CursorAdapter.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CustomView.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CustomView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.DrawerLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.DrawerLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.LiveData.Core.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.ViewModel.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.ViewModel.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Loader.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Loader.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.Runtime.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.Runtime.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.UI.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Navigation.UI.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.RecyclerView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.RecyclerView.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.SavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.SavedState.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.SwipeRefreshLayout.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.SwipeRefreshLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.ViewPager.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.ViewPager.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.ViewPager2.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.ViewPager2.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.Google.Android.Material.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.Google.Android.Material.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Java.Interop.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Java.Interop.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Compatibility.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Compatibility.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Microsoft.Maui.Essentials.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Microsoft.Maui.Essentials.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Mono.Android.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Mono.Android.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.SceneGraph.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.SceneGraph.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Skottie.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Skottie.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Views.Android.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Views.Android.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.Concurrent.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.Immutable.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Linq.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Net.Sockets.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
->>>>>>> main
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.Concurrent.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.Immutable.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Net.Sockets.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Runtime.Numerics.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Text.Encodings.Web.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Text.Json.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Text.RegularExpressions.dll
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Threading.Tasks.Parallel.dll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Activity.pdb
->>>>>>> main
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Activity.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Activity.pdb
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.AppCompat.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.AppCompat.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CardView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CardView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Collection.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Collection.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CoordinatorLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CoordinatorLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Core.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CursorAdapter.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CursorAdapter.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CustomView.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CustomView.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.DrawerLayout.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.DrawerLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.LiveData.Core.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.ViewModel.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.ViewModel.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Lifecycle.ViewModelSavedState.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Loader.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Loader.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.Common.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.Common.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.Fragment.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.Fragment.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.Runtime.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.Runtime.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.UI.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Navigation.UI.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.RecyclerView.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.RecyclerView.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.SavedState.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.SavedState.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.SwipeRefreshLayout.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.SwipeRefreshLayout.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.ViewPager.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.ViewPager.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.ViewPager2.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.ViewPager2.pdb
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.Google.Android.Material.dll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.Google.Android.Material.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Xamarin.Kotlin.StdLib.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\zh-Hans\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.x86.ll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\AndroidManifest.xml
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\AndroidManifest.xml
@@ -1971,18 +1431,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\static.flag
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\__environment__.txt
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\buildid.txt
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.x86.ll
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.x86_64.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
@@ -2281,39 +1729,12 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\bin\packaged_resources
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\src\com\companyname\podbor\R.java
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86.ll
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.x86_64.o
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.x86_64.o
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-<<<<<<< HEAD
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
-=======
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.x86_64.o
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.x86_64.o
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-<<<<<<< HEAD
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\bin\classes.dex
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\bin\classes2.dex
@@ -2325,16 +1746,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
-=======
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
->>>>>>> main
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Java.Interop.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Java.Interop.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Compatibility.dll
@@ -2414,8 +1825,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Xamarin.Google.Android.Material.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\back.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\save.png
-<<<<<<< HEAD
-<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_sum.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_time.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png
@@ -2423,11 +1832,3 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\future_payments.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Annotations.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Threading.Tasks.Parallel.dll
-=======
-<<<<<<< HEAD
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
->>>>>>> main
-=======
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)

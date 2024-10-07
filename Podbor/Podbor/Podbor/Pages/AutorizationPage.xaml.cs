@@ -77,7 +77,7 @@ public partial class AutorizationPage : ContentPage
                 errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
 
                 InfoAccount.IdUser = idUser;
-                App.Current.MainPage = new FlyautPage.PersonalAccountPage();
+                App.Current.MainPage = new NavigationPage(new FlyautPage.PersonalAccountPage());
             }
         }
         catch (Exception ex)

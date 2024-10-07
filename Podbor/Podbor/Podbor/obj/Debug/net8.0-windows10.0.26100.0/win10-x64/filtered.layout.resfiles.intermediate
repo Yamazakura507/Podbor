@@ -57,32 +57,12 @@ credit_add.scale-100.png
 credit_no_active.scale-100.png
 credit_test.scale-100.png
 debtors_credits.scale-100.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 debtors_sum.scale-100.png
 debtors_time.scale-100.png
 delete_credit.scale-100.png
 finance.scale-100.png
 future_debtors_credit.scale-100.png
 future_payments.scale-100.png
-=======
-finance.scale-100.png
->>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
-=======
-delete_credit.scale-100.png
-finance.scale-100.png
-futury_debtors_credit.scale-100.png
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
-delete_credit.scale-100.png
-finance.scale-100.png
-futury_debtors_credit.scale-100.png
->>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
-=======
-finance.scale-100.png
->>>>>>> parent of ea6dc0d1 (Востановление вида аккаунта)
 non_group.scale-100.png
 planing.scale-100.png
 registration.scale-100.png
@@ -99,6 +79,7 @@ Resources\Images\non_group.png
 AboutAssets.txt
 AlertProvader.json
 BlackHideLottie.json
+delete.json
 EmailBlackLottie.json
 EmailLottie.json
 ErrorProvaider.json
