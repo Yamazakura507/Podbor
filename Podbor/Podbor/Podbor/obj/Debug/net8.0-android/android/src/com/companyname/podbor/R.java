@@ -11508,6 +11508,7 @@ public final class R {
     public static final int credit_test=0x7f070088;
     public static final int debtors_credits=0x7f070089;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static final int design_fab_background=0x7f07008a;
     public static final int design_ic_visibility=0x7f07008b;
     public static final int design_ic_visibility_off=0x7f07008c;
@@ -11615,6 +11616,8 @@ public final class R {
     public static final int tooltip_frame_dark=0x7f0700f2;
     public static final int tooltip_frame_light=0x7f0700f3;
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
     public static final int debtors_sum=0x7f07008a;
     public static final int debtors_time=0x7f07008b;
     public static final int delete_credit=0x7f07008c;
@@ -11726,6 +11729,9 @@ public final class R {
     public static final int time=0x7f0700f6;
     public static final int tooltip_frame_dark=0x7f0700f7;
     public static final int tooltip_frame_light=0x7f0700f8;
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
   }
   public static final class id {

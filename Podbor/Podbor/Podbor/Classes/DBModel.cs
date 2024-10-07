@@ -1,5 +1,7 @@
 ﻿//using Java.Util.Logging;
 using MySqlConnector;
+using Podbor.Classes.AppSettings;
+using System;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Reflection;
@@ -12,6 +14,10 @@ namespace Podbor.Classes
     public class DBModel
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        private static bool isGet = false;
+>>>>>>> future/LoanPaimentsEditor
 =======
         private static bool isGet = false;
 >>>>>>> future/LoanPaimentsEditor
@@ -21,6 +27,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     ms.Insert(typeof(T).Name, parametrs);
@@ -36,6 +44,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     ms.Update(typeof(T).Name, parametrs, Id is null ? WhereCollection : new Dictionary<string, object>() { { "Id", Id } });
@@ -47,10 +57,12 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
+        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null) where T : new()
         {
             try
             {
+                CheckPolice(true, typeof(T));
+
                 ObservableCollection<T> collection = new ObservableCollection<T>();
 
                 using (var ms = new Mysql())
@@ -66,10 +78,14 @@ namespace Podbor.Classes
                     IsGet = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     foreach (DataRow dr in dt.Rows)
                     {
                         collection.Add(ToObject<T>(dr));
                     }
+=======
+                    Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
+>>>>>>> future/LoanPaimentsEditor
 =======
                     Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 >>>>>>> future/LoanPaimentsEditor
@@ -85,7 +101,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery)
+        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery) where T : new()
         {
             CheckPolice(true, typeof(T));
 
@@ -102,10 +118,14 @@ namespace Podbor.Classes
                     IsGet = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     foreach (DataRow dr in dt.Rows)
                     {
                         collection.Add(ToObject<T>(dr));
                     }
+=======
+                    Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
+>>>>>>> future/LoanPaimentsEditor
 =======
                     Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 >>>>>>> future/LoanPaimentsEditor
@@ -121,10 +141,12 @@ namespace Podbor.Classes
             }
         }
 
-        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1)
+        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1) where T : new()
         {
             try
             {
+                CheckPolice(true, typeof(T));
+
                 if (Id is null && proc_comm is null && errMess != null)
                     throw new Exception(errMess);
 
@@ -139,14 +161,18 @@ namespace Podbor.Classes
                     throw new Exception(errMess);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                isGet = IsGet;
+>>>>>>> future/LoanPaimentsEditor
 =======
                 isGet = IsGet;
 >>>>>>> future/LoanPaimentsEditor
                 IsGet = true;
 
-                T obj = ToObject<T>(dr);
+                T obj = dr.ToObject<T>(new T());
 
-                IsGet = false;
+                IsGet = isGet;
 
                 return obj;
             }
@@ -160,6 +186,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     ms.ExecSql(@$"DELETE FROM `{typeof(T).Name}`
@@ -177,6 +205,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(true, typeTb);
+
                 T obj = default(T);
 
                 using (var ms = new Mysql())
@@ -225,6 +255,8 @@ namespace Podbor.Classes
         {
             try
             {
+                CheckPolice(false, typeof(T));
+
                 using (var ms = new Mysql())
                 {
                     if (value.GetType() == typeof(DateTime))
@@ -278,6 +310,7 @@ namespace Podbor.Classes
         }
 
         private static string ToFirstUpper(string str) => char.ToUpper(str[0]) + str.Substring(1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -420,6 +453,8 @@ namespace Podbor.Classes
         }
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
     }

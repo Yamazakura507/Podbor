@@ -37,22 +37,11 @@ namespace Podbor.Models
             get => !IsGet ? GetParametrs<string>("Login", this.GetType()) : login;
             set
             {
-                if (value.Length > 100)
+                if (!IsGet)
                 {
-                    throw new Exception("Логин не должен превышать 100 символов!");
+                    SetParametrs<Users>("Login", value);
                 }
-                else if (String.IsNullOrEmpty(value))
-                {
-                    throw new Exception("Логин это обязательное поле для заполнения!");
-                }
-                else
-                {
-                    if (!IsGet)
-                    {
-                        SetParametrs<Users>("Login", value);
-                    }
-                    login = value;
-                }
+                login = value;
             }
         }
 
@@ -61,18 +50,11 @@ namespace Podbor.Models
             get => !IsGet ? GetParametrs<string>("Password", this.GetType()) : password;
             set
             {
-                if (value.Length > 100)
+                if (!IsGet)
                 {
-                    throw new Exception("Пароль не должен превышать 100 символов!");
+                    SetParametrs<Users>("Password", value);
                 }
-                else
-                {
-                    if (!IsGet)
-                    {
-                        SetParametrs<Users>("Password", value);
-                    }
-                    password = value;
-                }
+                password = value;
             }
         }
 
@@ -81,18 +63,11 @@ namespace Podbor.Models
             get => !IsGet ? GetParametrs<string>("Email", this.GetType()) : email;
             set
             {
-                if (value.Length > 100)
+                if (!IsGet)
                 {
-                    throw new Exception("Email не должен превышать 100 символов!");
+                    SetParametrs<Users>("Email", String.IsNullOrEmpty(value) ? DBNull.Value : value);
                 }
-                else
-                {
-                    if (!IsGet)
-                    {
-                        SetParametrs<Users>("Email", String.IsNullOrEmpty(value) ? DBNull.Value : value);
-                    }
-                    email = value;
-                }
+                email = value;
             }
         }
 

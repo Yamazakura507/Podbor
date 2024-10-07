@@ -14,6 +14,7 @@ target triple = "x86_64-unknown-linux-android21"
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @assembly_image_cache = dso_local local_unnamed_addr global [163 x ptr] zeroinitializer, align 16
 
 ; Each entry maps hash of an assembly name to an index into the `assembly_image_cache` array
@@ -23,6 +24,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 131669012237370309, ; 2: Microsoft.Maui.Essentials.dll => 0x1d3c844de55c3c5 => 52
 	i64 196720943101637631, ; 3: System.Linq.Expressions.dll => 0x2bae4a7cd73f3ff => 115
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 @assembly_image_cache = dso_local local_unnamed_addr global [164 x ptr] zeroinitializer, align 16
 
 ; Each entry maps hash of an assembly name to an index into the `assembly_image_cache` array
@@ -31,14 +34,22 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 120698629574877762, ; 1: Mono.Android => 0x1accec39cafe242 => 163
 	i64 131669012237370309, ; 2: Microsoft.Maui.Essentials.dll => 0x1d3c844de55c3c5 => 52
 	i64 196720943101637631, ; 3: System.Linq.Expressions.dll => 0x2bae4a7cd73f3ff => 116
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i64 210515253464952879, ; 4: Xamarin.AndroidX.Collection.dll => 0x2ebe681f694702f => 69
 	i64 232391251801502327, ; 5: Xamarin.AndroidX.SavedState.dll => 0x3399e9cbc897277 => 86
 	i64 308826992458506653, ; 6: SkiaSharp.Extended.dll => 0x4492c836e8aa19d => 57
 	i64 545109961164950392, ; 7: fi/Microsoft.Maui.Controls.resources.dll => 0x7909e9f1ec38b78 => 7
 <<<<<<< HEAD
+<<<<<<< HEAD
 	i64 750875890346172408, ; 8: System.Threading.Thread => 0xa6ba5a4da7d1ff8 => 150
 	i64 799765834175365804, ; 9: System.ComponentModel.dll => 0xb1956c9f18442ac => 104
+=======
+	i64 750875890346172408, ; 8: System.Threading.Thread => 0xa6ba5a4da7d1ff8 => 152
+	i64 799765834175365804, ; 9: System.ComponentModel.dll => 0xb1956c9f18442ac => 105
+>>>>>>> future/LoanPaimentsEditor
 =======
 	i64 750875890346172408, ; 8: System.Threading.Thread => 0xa6ba5a4da7d1ff8 => 152
 	i64 799765834175365804, ; 9: System.ComponentModel.dll => 0xb1956c9f18442ac => 105
@@ -47,6 +58,7 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 872800313462103108, ; 11: Xamarin.AndroidX.DrawerLayout => 0xc1ccf42c3c21c44 => 74
 	i64 1120440138749646132, ; 12: Xamarin.Google.Android.Material.dll => 0xf8c9a5eae431534 => 90
 	i64 1121665720830085036, ; 13: nb/Microsoft.Maui.Controls.resources.dll => 0xf90f507becf47ac => 18
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i64 1268860745194512059, ; 14: System.Drawing.dll => 0x119be62002c19ebb => 110
 	i64 1369545283391376210, ; 15: Xamarin.AndroidX.Navigation.Fragment.dll => 0x13019a2dd85acb52 => 82
@@ -66,6 +78,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 1836611346387731153, ; 29: Xamarin.AndroidX.SavedState => 0x197cf449ebe482d1 => 86
 	i64 1875417405349196092, ; 30: System.Drawing.Primitives => 0x1a06d2319b6c713c => 109
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i64 1268860745194512059, ; 14: System.Drawing.dll => 0x119be62002c19ebb => 111
 	i64 1369545283391376210, ; 15: Xamarin.AndroidX.Navigation.Fragment.dll => 0x13019a2dd85acb52 => 82
 	i64 1433520707554318520, ; 16: SkiaSharp.Extended.UI.dll => 0x13e4e37d07f118b8 => 58
@@ -83,11 +97,15 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 1835311033149317475, ; 28: es\Microsoft.Maui.Controls.resources => 0x197855a927386163 => 6
 	i64 1836611346387731153, ; 29: Xamarin.AndroidX.SavedState => 0x197cf449ebe482d1 => 86
 	i64 1875417405349196092, ; 30: System.Drawing.Primitives => 0x1a06d2319b6c713c => 110
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i64 1881198190668717030, ; 31: tr\Microsoft.Maui.Controls.resources => 0x1a1b5bc992ea9be6 => 28
 	i64 1920760634179481754, ; 32: Microsoft.Maui.Controls.Xaml => 0x1aa7e99ec2d2709a => 50
 	i64 1959996714666907089, ; 33: tr/Microsoft.Maui.Controls.resources.dll => 0x1b334ea0a2a755d1 => 28
 	i64 1963507636676687784, ; 34: MimeKit => 0x1b3fc7cadde177a8 => 54
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i64 1972385128188460614, ; 35: System.Security.Cryptography.Algorithms => 0x1b5f51d2edefbe46 => 140
 	i64 1981742497975770890, ; 36: Xamarin.AndroidX.Lifecycle.ViewModel.dll => 0x1b80904d5c241f0a => 78
@@ -95,17 +113,23 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 2019660174692588140, ; 38: pl/Microsoft.Maui.Controls.resources.dll => 0x1c07463a6f8e1a6c => 20
 	i64 2102659300918482391, ; 39: System.Drawing.Primitives.dll => 0x1d2e257e6aead5d7 => 109
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i64 1972385128188460614, ; 35: System.Security.Cryptography.Algorithms => 0x1b5f51d2edefbe46 => 141
 	i64 1981742497975770890, ; 36: Xamarin.AndroidX.Lifecycle.ViewModel.dll => 0x1b80904d5c241f0a => 78
 	i64 1983698669889758782, ; 37: cs/Microsoft.Maui.Controls.resources.dll => 0x1b87836e2031a63e => 2
 	i64 2019660174692588140, ; 38: pl/Microsoft.Maui.Controls.resources.dll => 0x1c07463a6f8e1a6c => 20
 	i64 2102659300918482391, ; 39: System.Drawing.Primitives.dll => 0x1d2e257e6aead5d7 => 110
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i64 2200176636225660136, ; 40: Microsoft.Extensions.Logging.Debug.dll => 0x1e8898fe5d5824e8 => 45
 	i64 2262844636196693701, ; 41: Xamarin.AndroidX.DrawerLayout.dll => 0x1f673d352266e6c5 => 74
 	i64 2287834202362508563, ; 42: System.Collections.Concurrent => 0x1fc00515e8ce7513 => 96
 	i64 2302323944321350744, ; 43: ru/Microsoft.Maui.Controls.resources.dll => 0x1ff37f6ddb267c58 => 24
 	i64 2329709569556905518, ; 44: Xamarin.AndroidX.Lifecycle.LiveData.Core.dll => 0x2054ca829b447e2e => 77
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i64 2335503487726329082, ; 45: System.Text.Encodings.Web => 0x2069600c4d9d1cfa => 147
 	i64 2337758774805907496, ; 46: System.Runtime.CompilerServices.Unsafe => 0x207163383edbc828 => 132
@@ -125,6 +149,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 3325875462027654285, ; 60: System.Runtime.Numerics => 0x2e27e21c8958b48d => 136
 	i64 3328853167529574890, ; 61: System.Net.Sockets.dll => 0x2e327651a008c1ea => 126
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i64 2335503487726329082, ; 45: System.Text.Encodings.Web => 0x2069600c4d9d1cfa => 148
 	i64 2337758774805907496, ; 46: System.Runtime.CompilerServices.Unsafe => 0x207163383edbc828 => 133
 	i64 2470498323731680442, ; 47: Xamarin.AndroidX.CoordinatorLayout => 0x2248f922dc398cba => 70
@@ -142,12 +168,16 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 3311221304742556517, ; 59: System.Numerics.Vectors.dll => 0x2df3d23ba9e2b365 => 128
 	i64 3325875462027654285, ; 60: System.Runtime.Numerics => 0x2e27e21c8958b48d => 137
 	i64 3328853167529574890, ; 61: System.Net.Sockets.dll => 0x2e327651a008c1ea => 127
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i64 3344514922410554693, ; 62: Xamarin.KotlinX.Coroutines.Core.Jvm => 0x2e6a1a9a18463545 => 92
 	i64 3414639567687375782, ; 63: SkiaSharp.Views.Maui.Controls => 0x2f633c9863ffdba6 => 62
 	i64 3429672777697402584, ; 64: Microsoft.Maui.Essentials => 0x2f98a5385a7b1ed8 => 52
 	i64 3494946837667399002, ; 65: Microsoft.Extensions.Configuration => 0x30808ba1c00a455a => 39
 	i64 3522470458906976663, ; 66: Xamarin.AndroidX.SwipeRefreshLayout => 0x30e2543832f52197 => 87
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i64 3551103847008531295, ; 67: System.Private.CoreLib.dll => 0x31480e226177735f => 159
 	i64 3567343442040498961, ; 68: pt\Microsoft.Maui.Controls.resources => 0x3181bff5bea4ab11 => 22
@@ -197,6 +227,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 6222399776351216807, ; 112: System.Text.Json.dll => 0x565a67a0ffe264a7 => 148
 	i64 6251069312384999852, ; 113: System.Transactions.Local => 0x56c0426b870da1ac => 152
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i64 3551103847008531295, ; 67: System.Private.CoreLib.dll => 0x31480e226177735f => 160
 	i64 3567343442040498961, ; 68: pt\Microsoft.Maui.Controls.resources => 0x3181bff5bea4ab11 => 22
 	i64 3571415421602489686, ; 69: System.Runtime.dll => 0x319037675df7e556 => 139
@@ -244,6 +276,9 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 6200764641006662125, ; 111: ro\Microsoft.Maui.Controls.resources => 0x560d8a96830131ed => 23
 	i64 6222399776351216807, ; 112: System.Text.Json.dll => 0x565a67a0ffe264a7 => 149
 	i64 6251069312384999852, ; 113: System.Transactions.Local => 0x56c0426b870da1ac => 154
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i64 6268464631992009879, ; 114: SkiaSharp.Skottie => 0x56fe0f5efcfbc497 => 60
 	i64 6357457916754632952, ; 115: _Microsoft.Android.Resource.Designer => 0x583a3a4ac2a7a0f8 => 34
@@ -255,6 +290,7 @@ target triple = "x86_64-unknown-linux-android21"
 	i64 6671798237668743565, ; 121: SkiaSharp => 0x5c96fd260152998d => 56
 	i64 6743165466166707109, ; 122: nl\Microsoft.Maui.Controls.resources => 0x5d948943c08c43a5 => 19
 	i64 6777482997383978746, ; 123: pt/Microsoft.Maui.Controls.resources.dll => 0x5e0e74e0a2525efa => 22
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i64 6786606130239981554, ; 124: System.Diagnostics.TraceSource => 0x5e2ede51877147f2 => 108
 	i64 6876862101832370452, ; 125: System.Xml.Linq => 0x5f6f85a57d108914 => 154
@@ -466,6 +502,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 52, ; 2
 	i32 115, ; 3
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i64 6786606130239981554, ; 124: System.Diagnostics.TraceSource => 0x5e2ede51877147f2 => 109
 	i64 6876862101832370452, ; 125: System.Xml.Linq => 0x5f6f85a57d108914 => 156
 	i64 6894844156784520562, ; 126: System.Numerics.Vectors => 0x5faf683aead1ad72 => 128
@@ -677,14 +715,22 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 163, ; 1
 	i32 52, ; 2
 	i32 116, ; 3
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i32 69, ; 4
 	i32 86, ; 5
 	i32 57, ; 6
 	i32 7, ; 7
 <<<<<<< HEAD
+<<<<<<< HEAD
 	i32 150, ; 8
 	i32 104, ; 9
+=======
+	i32 152, ; 8
+	i32 105, ; 9
+>>>>>>> future/LoanPaimentsEditor
 =======
 	i32 152, ; 8
 	i32 105, ; 9
@@ -693,6 +739,7 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 74, ; 11
 	i32 90, ; 12
 	i32 18, ; 13
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i32 110, ; 14
 	i32 82, ; 15
@@ -712,6 +759,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 86, ; 29
 	i32 109, ; 30
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i32 111, ; 14
 	i32 82, ; 15
 	i32 58, ; 16
@@ -729,11 +778,15 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 6, ; 28
 	i32 86, ; 29
 	i32 110, ; 30
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i32 28, ; 31
 	i32 50, ; 32
 	i32 28, ; 33
 	i32 54, ; 34
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i32 140, ; 35
 	i32 78, ; 36
@@ -741,17 +794,23 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 20, ; 38
 	i32 109, ; 39
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i32 141, ; 35
 	i32 78, ; 36
 	i32 2, ; 37
 	i32 20, ; 38
 	i32 110, ; 39
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i32 45, ; 40
 	i32 74, ; 41
 	i32 96, ; 42
 	i32 24, ; 43
 	i32 77, ; 44
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i32 147, ; 45
 	i32 132, ; 46
@@ -771,6 +830,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 136, ; 60
 	i32 126, ; 61
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i32 148, ; 45
 	i32 133, ; 46
 	i32 70, ; 47
@@ -788,12 +849,16 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 128, ; 59
 	i32 137, ; 60
 	i32 127, ; 61
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i32 92, ; 62
 	i32 62, ; 63
 	i32 52, ; 64
 	i32 39, ; 65
 	i32 87, ; 66
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i32 159, ; 67
 	i32 22, ; 68
@@ -843,6 +908,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 148, ; 112
 	i32 152, ; 113
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i32 160, ; 67
 	i32 22, ; 68
 	i32 139, ; 69
@@ -890,6 +957,9 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 23, ; 111
 	i32 149, ; 112
 	i32 154, ; 113
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	i32 60, ; 114
 	i32 34, ; 115
@@ -901,6 +971,7 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 56, ; 121
 	i32 19, ; 122
 	i32 22, ; 123
+<<<<<<< HEAD
 <<<<<<< HEAD
 	i32 108, ; 124
 	i32 154, ; 125
@@ -1105,6 +1176,8 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 83, ; 324
 	i32 14 ; 325
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 	i32 109, ; 124
 	i32 156, ; 125
 	i32 128, ; 126
@@ -1309,6 +1382,9 @@ target triple = "x86_64-unknown-linux-android21"
 	i32 96, ; 325
 	i32 83, ; 326
 	i32 14 ; 327
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 ], align 16
 

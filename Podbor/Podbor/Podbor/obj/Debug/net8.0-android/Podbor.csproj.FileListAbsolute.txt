@@ -1061,6 +1061,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\Angeme-Bold.ttf
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\Angeme-Regular.ttf
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
@@ -1138,6 +1139,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\finance.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\registration.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account.png
@@ -1151,43 +1154,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\planing.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\non_group.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\time.png
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
-<<<<<<< HEAD
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\account_admin.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_time.png
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_round.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
->>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
-=======
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
-=======
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_credits.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_round.png
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon_round.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_round.png
@@ -1213,6 +1181,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
@@ -1220,6 +1189,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\mauiimage.stamp
@@ -1293,13 +1264,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.AssemblyInfo.cs
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.csproj.CoreCompileInputs.cache
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.sourcelink.json
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
-=======
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\XamlC.stamp
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\Podbor.pdb
@@ -1332,6 +1296,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Linq.Parallel.dll
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
@@ -1343,12 +1308,15 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Net.Sockets.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Runtime.Numerics.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Text.Encodings.Web.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Text.Json.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Text.RegularExpressions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1333,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Activity.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.Activity.pdb
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\arm64-v8a\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
@@ -1399,6 +1369,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Linq.Parallel.dll
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
@@ -1410,12 +1381,15 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Net.Sockets.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Runtime.Numerics.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Text.Encodings.Web.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Text.Json.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Text.RegularExpressions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1432,6 +1406,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Activity.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.Activity.pdb
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\armeabi-v7a\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
@@ -1518,6 +1494,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Annotations.dll
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
@@ -1527,6 +1504,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.dll
@@ -1586,6 +1565,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
@@ -1598,6 +1578,9 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 =======
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
+>>>>>>> future/LoanPaimentsEditor
 =======
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Xml.XmlSerializer.dll
 >>>>>>> future/LoanPaimentsEditor
@@ -1615,6 +1598,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Skottie.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Views.Android.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\SkiaSharp.Views.Android.pdb
+<<<<<<< HEAD
 <<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.Concurrent.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Collections.dll
@@ -1656,6 +1640,10 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.Activity.pdb
 =======
 >>>>>>> future/LoanPaimentsEditor
+=======
+D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Runtime.Numerics.dll
+D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\System.Text.RegularExpressions.dll
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86\Xamarin.AndroidX.CursorAdapter.dll
@@ -1678,6 +1666,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Skottie.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Views.Android.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\SkiaSharp.Views.Android.pdb
+<<<<<<< HEAD
 <<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.Concurrent.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Collections.dll
@@ -1719,6 +1708,10 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.Activity.pdb
 =======
 >>>>>>> future/LoanPaimentsEditor
+=======
+D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Runtime.Numerics.dll
+D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\System.Text.RegularExpressions.dll
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\x86_64\Xamarin.AndroidX.CursorAdapter.dll
@@ -1740,6 +1733,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.armeabi-v7a.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.x86.ll
@@ -1747,6 +1741,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
@@ -1762,6 +1758,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.x86.ll
@@ -1769,6 +1766,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\environment.x86_64.ll
@@ -2072,9 +2071,12 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86.ll
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
@@ -2083,6 +2085,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+<<<<<<< HEAD
 <<<<<<< HEAD
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
@@ -2102,6 +2105,8 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\bin\classes.dex
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\bin\classes2.dex
@@ -2116,11 +2121,14 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
 =======
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\Java.Interop.dll
@@ -2204,10 +2212,13 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\save.png
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_sum.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\debtors_time.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png
@@ -2215,4 +2226,7 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\resizetizer\r\drawable\future_payments.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.ComponentModel.Annotations.dll
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-android\android\assets\System.Threading.Tasks.Parallel.dll
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor

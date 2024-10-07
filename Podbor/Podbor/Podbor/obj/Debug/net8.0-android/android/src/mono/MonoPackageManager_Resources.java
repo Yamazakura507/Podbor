@@ -56,6 +56,7 @@ public class MonoPackageManager_Resources {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		"Microsoft.Maui.Controls.Compatibility.dll",
 		"Microsoft.Maui.Controls.Compatibility.dll",
@@ -68,6 +69,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.Compatibility.dll",
 		"Microsoft.Maui.Controls.Compatibility.dll",
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 		"Microsoft.Maui.Controls.dll",
@@ -78,6 +81,7 @@ public class MonoPackageManager_Resources {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Essentials.dll",
@@ -90,6 +94,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Essentials.dll",
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 		"Microsoft.Maui.Graphics.dll",
@@ -100,8 +106,11 @@ public class MonoPackageManager_Resources {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 		"SkiaSharp.Extended.dll",
@@ -110,6 +119,7 @@ public class MonoPackageManager_Resources {
 		"SkiaSharp.Skottie.dll",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
@@ -135,6 +145,8 @@ public class MonoPackageManager_Resources {
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 		"SkiaSharp.Views.Android.dll",
@@ -146,8 +158,11 @@ public class MonoPackageManager_Resources {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 		"Xamarin.AndroidX.AppCompat.dll",
@@ -176,6 +191,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.ViewPager2.dll",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
@@ -287,6 +303,8 @@ public class MonoPackageManager_Resources {
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
 		"Xamarin.Google.Android.Material.dll",

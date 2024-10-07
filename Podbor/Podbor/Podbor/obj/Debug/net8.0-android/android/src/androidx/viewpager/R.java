@@ -56,6 +56,7 @@ public final class R {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		public static final int notification_action_background = 0x7f0700e4;
 		public static final int notification_bg = 0x7f0700e5;
 		public static final int notification_bg_low = 0x7f0700e6;
@@ -102,6 +103,8 @@ public final class R {
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
 		public static final int notification_action_background = 0x7f0700e5;
 		public static final int notification_bg = 0x7f0700e6;
 		public static final int notification_bg_low = 0x7f0700e7;
@@ -114,6 +117,9 @@ public final class R {
 		public static final int notification_template_icon_low_bg = 0x7f0700ee;
 		public static final int notification_tile_bg = 0x7f0700ef;
 		public static final int notify_panel_notification_icon_bg = 0x7f0700f0;
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 	}
 	public static final class id {

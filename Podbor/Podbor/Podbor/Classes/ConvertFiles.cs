@@ -1,4 +1,8 @@
-﻿namespace Podbor.Classes
+﻿using System.ComponentModel.DataAnnotations;
+using System.Data;
+using System.Reflection;
+
+namespace Podbor.Classes
 {
     public static class ConverFiles
     {
@@ -6,6 +10,7 @@
        
         public static byte[] ToByteConvert(string path) => File.ReadAllBytes(path);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         //public static byte[] Mp3ToWavConvert(byte[] mp3file)
         //{
@@ -41,6 +46,8 @@
         //    return fileName;
         //}
 =======
+=======
+>>>>>>> future/LoanPaimentsEditor
         public static T ToObject<T>(this DataRow dataRow, T obj)
         {
             T item = obj;
@@ -86,6 +93,9 @@
 
             return Convert.ChangeType(value, type);
         }
+<<<<<<< HEAD
+>>>>>>> future/LoanPaimentsEditor
+=======
 >>>>>>> future/LoanPaimentsEditor
 
     }
