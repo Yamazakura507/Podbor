@@ -1,20 +1,17 @@
 ﻿using Podbor.Classes;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Podbor.Models
 {
-    public class Users : DBModel
+    public class ObjectRestrict : DBModel
     {
         private int id;
-        private string email;
-        private string login;
-        private string password;
-        private bool isEducation;
+        private string name;
+        private string commit;
 
         public delegate void MessageEventHandler(string message);
         public static event MessageEventHandler ErrorEvent;
@@ -22,65 +19,39 @@ namespace Podbor.Models
         public int Id
         {
             get => !IsGet ? GetParametrs<int>("Id", this.GetType()) : id;
-            set 
+            set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Id", value);
+                    SetParametrs<ObjectRestrict>("Id", value);
                 }
                 id = value;
-            } 
-        }
-
-        public string Login
-        {
-            get => !IsGet ? GetParametrs<string>("Login", this.GetType()) : login;
-            set
-            {
-                if (!IsGet)
-                {
-                    SetParametrs<Users>("Login", value);
-                }
-                login = value;
             }
         }
 
-        public string Password
+        public string Name
         {
-            get => !IsGet ? GetParametrs<string>("Password", this.GetType()) : password;
+            get => !IsGet ? GetParametrs<string>("Name", this.GetType()) : name;
             set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Password", value);
+                    SetParametrs<ObjectRestrict>("Name", value);
                 }
-                password = value;
+                name = value;
             }
         }
 
-        public string Email
+        public string Commit
         {
-            get => !IsGet ? GetParametrs<string>("Email", this.GetType()) : email;
+            get => !IsGet ? GetParametrs<string>("Commit", this.GetType()) : commit;
             set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Email", String.IsNullOrEmpty(value) ? DBNull.Value : value);
+                    SetParametrs<ObjectRestrict>("Commit", value);
                 }
-                email = value;
-            }
-        }
-
-        public bool IsEducation
-        {
-            get => !IsGet ? GetParametrs<bool>("IsEducation", this.GetType()) : isEducation;
-            set
-            {
-                if (!IsGet)
-                {
-                    SetParametrs<Users>("IsEducation",value);
-                }
-                isEducation = value;
+                commit = value;
             }
         }
 
@@ -98,11 +69,11 @@ namespace Podbor.Models
         {
             if (Id is null && WhereCollection is null)
             {
-                base.DeleteModel<Users>(this.Id);
+                base.DeleteModel<ObjectRestrict>(this.Id);
             }
             else
             {
-                base.DeleteModel<Users>(Id, WhereCollection);
+                base.DeleteModel<ObjectRestrict>(Id, WhereCollection);
             }
         }
 
@@ -110,11 +81,11 @@ namespace Podbor.Models
         {
             if (Id is null && WhereCollection is null)
             {
-                base.UpdateModel<Users>(parametrs, this.Id);
+                base.UpdateModel<ObjectRestrict>(parametrs, this.Id);
             }
             else
             {
-                base.UpdateModel<Users>(parametrs, Id, WhereCollection);
+                base.UpdateModel<ObjectRestrict>(parametrs, Id, WhereCollection);
             }
         }
     }

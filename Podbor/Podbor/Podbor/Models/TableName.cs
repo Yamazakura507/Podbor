@@ -1,20 +1,19 @@
 ﻿using Podbor.Classes;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Podbor.Models
 {
-    public class Users : DBModel
+    public class TableName : DBModel
     {
         private int id;
-        private string email;
-        private string login;
-        private string password;
-        private bool isEducation;
+        private string name;
+        private string objectName;
+        private int idTypeObject;
 
         public delegate void MessageEventHandler(string message);
         public static event MessageEventHandler ErrorEvent;
@@ -22,67 +21,59 @@ namespace Podbor.Models
         public int Id
         {
             get => !IsGet ? GetParametrs<int>("Id", this.GetType()) : id;
-            set 
+            set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Id", value);
+                    SetParametrs< TableName> ("Id", value);
                 }
                 id = value;
-            } 
+            }
         }
 
-        public string Login
+        public string Name
         {
-            get => !IsGet ? GetParametrs<string>("Login", this.GetType()) : login;
+            get => !IsGet ? GetParametrs<string>("Name", this.GetType()) : name;
             set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Login", value);
+                    SetParametrs< TableName> ("Name", value);
                 }
-                login = value;
+                name = value;
             }
         }
 
-        public string Password
+        public string ObjectName
         {
-            get => !IsGet ? GetParametrs<string>("Password", this.GetType()) : password;
+            get => !IsGet ? GetParametrs<string>("ObjectName", this.GetType()) : objectName;
             set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Password", value);
+                    SetParametrs< TableName> ("ObjectName", value);
                 }
-                password = value;
+                objectName = value;
             }
         }
 
-        public string Email
+        public int IdTypeObject
         {
-            get => !IsGet ? GetParametrs<string>("Email", this.GetType()) : email;
+            get => !IsGet ? GetParametrs<int>("IdTypeObject", this.GetType()) : idTypeObject;
             set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<Users>("Email", String.IsNullOrEmpty(value) ? DBNull.Value : value);
+                    SetParametrs<TableName>("IdTypeObject", value);
                 }
-                email = value;
+
+                TypeObject = GetModel<TypeObject>(value);
+                idTypeObject = value;
             }
         }
 
-        public bool IsEducation
-        {
-            get => !IsGet ? GetParametrs<bool>("IsEducation", this.GetType()) : isEducation;
-            set
-            {
-                if (!IsGet)
-                {
-                    SetParametrs<Users>("IsEducation",value);
-                }
-                isEducation = value;
-            }
-        }
+        [XmlIgnore]
+        public TypeObject TypeObject { get; private set; }
 
         public override T GetParametrs<T>(string param, Type typeTb, int? Id = null)
         {
@@ -98,11 +89,11 @@ namespace Podbor.Models
         {
             if (Id is null && WhereCollection is null)
             {
-                base.DeleteModel<Users>(this.Id);
+                base.DeleteModel<TableName> (this.Id);
             }
             else
             {
-                base.DeleteModel<Users>(Id, WhereCollection);
+                base.DeleteModel<TableName> (Id, WhereCollection);
             }
         }
 
@@ -110,11 +101,11 @@ namespace Podbor.Models
         {
             if (Id is null && WhereCollection is null)
             {
-                base.UpdateModel<Users>(parametrs, this.Id);
+                base.UpdateModel<TableName>(parametrs, this.Id);
             }
             else
             {
-                base.UpdateModel<Users>(parametrs, Id, WhereCollection);
+                base.UpdateModel<TableName>(parametrs, Id, WhereCollection);
             }
         }
     }
