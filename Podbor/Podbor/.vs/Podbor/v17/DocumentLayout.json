@@ -1,6 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\",
+<<<<<<< HEAD
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\accountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,10 +32,14 @@
       "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\flyautpage\\personalaccountpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> main
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -134,6 +139,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> main
     }
   ]
 }
