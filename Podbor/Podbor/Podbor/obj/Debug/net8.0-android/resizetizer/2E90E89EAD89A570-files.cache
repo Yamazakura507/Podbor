@@ -20,6 +20,11 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\delete_credit.png
 =======
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
 obj\Debug\net8.0-android\resizetizer\r\drawable\finance.png
+<<<<<<< HEAD
+=======
+obj\Debug\net8.0-android\resizetizer\r\drawable\future_debtors_credit.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\future_payments.png
+>>>>>>> future/LoanPaimentsEditor
 obj\Debug\net8.0-android\resizetizer\r\drawable\non_group.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\planing.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\registration.png

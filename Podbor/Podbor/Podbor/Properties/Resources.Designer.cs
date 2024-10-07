@@ -450,6 +450,7 @@ namespace Podbor.Properties {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 		
@@ -484,5 +485,7 @@ namespace Podbor.Properties {
         }
 =======
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
+=======
+>>>>>>> future/LoanPaimentsEditor
     }
 }

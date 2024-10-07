@@ -11,6 +11,10 @@ namespace Podbor.Classes
 {
     public class DBModel
     {
+<<<<<<< HEAD
+=======
+        private static bool isGet = false;
+>>>>>>> future/LoanPaimentsEditor
         protected static bool IsGet { get; set; } = false;
 
         public static void InsertModel<T>(Dictionary<string, object> parametrs)
@@ -39,7 +43,6 @@ namespace Podbor.Classes
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
@@ -62,10 +65,14 @@ namespace Podbor.Classes
 
                     IsGet = true;
 
+<<<<<<< HEAD
                     foreach (DataRow dr in dt.Rows)
                     {
                         collection.Add(ToObject<T>(dr));
                     }
+=======
+                    Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
+>>>>>>> future/LoanPaimentsEditor
 
                     IsGet = false;
                 }
@@ -80,6 +87,8 @@ namespace Podbor.Classes
 
         public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery)
         {
+            CheckPolice(true, typeof(T));
+
             try
             {
                 ObservableCollection<T> collection = new ObservableCollection<T>();
@@ -92,10 +101,14 @@ namespace Podbor.Classes
 
                     IsGet = true;
 
+<<<<<<< HEAD
                     foreach (DataRow dr in dt.Rows)
                     {
                         collection.Add(ToObject<T>(dr));
                     }
+=======
+                    Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
+>>>>>>> future/LoanPaimentsEditor
 
                     IsGet = false;
                 }
@@ -125,6 +138,10 @@ namespace Podbor.Classes
                 if (dr is null)
                     throw new Exception(errMess);
 
+<<<<<<< HEAD
+=======
+                isGet = IsGet;
+>>>>>>> future/LoanPaimentsEditor
                 IsGet = true;
 
                 T obj = ToObject<T>(dr);
@@ -171,8 +188,37 @@ namespace Podbor.Classes
             }
             catch (Exception ex)
             {
+                GC.Collect();
                 throw ex;
             }
+        }
+
+        public static void CheckPolice(bool isRead, Type typeTb)
+        {
+            try
+            {
+                if (InfoAccount.IdUser > 0)
+                {
+                    DataTable dtPolice = new DataTable();
+
+                    using (var ms = new Mysql())
+                    {
+                        dtPolice = ms.GetTable($@"SELECT tn.`ObjectName`, tn.`Name`, obr.`Name` PoliceName FROM `RestrictionsUser` ru 
+                                                    INNER JOIN `GroupingRestriction` gr ON gr.`IdRestriction` = ru.`IdRestrictions` 
+                                                    INNER JOIN `ObjectRestrict` obr ON obr.`Id` = gr.`IdObjectRestriction` 
+                                                    INNER JOIN `GroupingObject` gro ON gr.`IdGroup` = gro.`IdGroup` 
+                                                    INNER JOIN `TableName` tn ON tn.`Id` = gro.`IdObject`
+                                                WHERE ru.`IdUser` = '{InfoAccount.IdUser}' AND tn.`ObjectName` = '{typeTb.Name}'", true);
+                    }
+
+                    if (dtPolice is null) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {typeTb.Name}!\nДля получения прав обратитесь в подержку");
+                    if (dtPolice.AsEnumerable().All(i => i["PoliceName"].ToString() == (isRead ? "W" : "R"))) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }    
         }
 
         public virtual void SetParametrs<T>(string param, object value, int? Id = null)
@@ -232,6 +278,7 @@ namespace Podbor.Classes
         }
 
         private static string ToFirstUpper(string str) => char.ToUpper(str[0]) + str.Substring(1);
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,5 +420,7 @@ namespace Podbor.Classes
         }
 =======
 >>>>>>> parent of 74cb767 (Добавление проверки доступа)
+=======
+>>>>>>> future/LoanPaimentsEditor
     }
 }

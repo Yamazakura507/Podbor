@@ -39,11 +39,11 @@ namespace Podbor.Models
             {
                 if (value.Length > 100)
                 {
-                    Users.ErrorEvent("Логин не должен превышать 100 символов!");
+                    throw new Exception("Логин не должен превышать 100 символов!");
                 }
                 else if (String.IsNullOrEmpty(value))
                 {
-                    Users.ErrorEvent("Логин это обязательное поле для заполнения!");
+                    throw new Exception("Логин это обязательное поле для заполнения!");
                 }
                 else
                 {
@@ -63,7 +63,7 @@ namespace Podbor.Models
             {
                 if (value.Length > 100)
                 {
-                    Users.ErrorEvent("Пароль не должен превышать 100 символов!");
+                    throw new Exception("Пароль не должен превышать 100 символов!");
                 }
                 else
                 {
@@ -83,7 +83,7 @@ namespace Podbor.Models
             {
                 if (value.Length > 100)
                 {
-                    Users.ErrorEvent("Email не должен превышать 100 символов!");
+                    throw new Exception("Email не должен превышать 100 символов!");
                 }
                 else
                 {

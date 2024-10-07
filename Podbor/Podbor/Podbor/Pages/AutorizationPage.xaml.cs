@@ -59,6 +59,7 @@ public partial class AutorizationPage : ContentPage
         try 
         {
             return Convert.ToBoolean(DBModel.ResultRequest($"SELECT COUNT(*) <> 0 FROM `Users` u WHERE u.`Id` = '{idUser}'"));
+            return true; //Результат проверки
         }
         catch (Exception ex) 
         {
@@ -76,7 +77,7 @@ public partial class AutorizationPage : ContentPage
                 errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
 
                 InfoAccount.IdUser = idUser;
-                App.Current.MainPage = new FlyautPage.PersonalAccountPage();
+                App.Current.MainPage = new NavigationPage(new FlyautPage.PersonalAccountPage());
             }
         }
         catch (Exception ex)

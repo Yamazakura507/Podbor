@@ -130,9 +130,6 @@
   <data name="InfoProvader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Raw\InfoProvader.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Raw\Loading.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Loading1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Raw\Loading.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -232,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <data name="debtors_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\debtors_time.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -255,4 +253,6 @@
   </data>
 =======
 >>>>>>> parent of 386dfdf (Добавление интерфейса удаления кредита и реализация логики удаления кредита)
+=======
+>>>>>>> future/LoanPaimentsEditor
 </root>

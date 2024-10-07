@@ -311,8 +311,16 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\finance.scale-100.png">
       <PackagePath>finance.scale-100.png</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\futury_debtors_credit.scale-100.png">
       <PackagePath>futury_debtors_credit.scale-100.png</PackagePath>
+=======
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\future_debtors_credit.scale-100.png">
+      <PackagePath>future_debtors_credit.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\future_payments.scale-100.png">
+      <PackagePath>future_payments.scale-100.png</PackagePath>
+>>>>>>> future/LoanPaimentsEditor
     </AppxPackagedFile>
 =======
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\finance.scale-100.png">
