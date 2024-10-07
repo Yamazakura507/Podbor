@@ -15,12 +15,15 @@ namespace Podbor.Classes
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private static bool isGet = false;
 >>>>>>> future/LoanPaimentsEditor
 =======
         private static bool isGet = false;
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
         protected static bool IsGet { get; set; } = false;
 
         public static void InsertModel<T>(Dictionary<string, object> parametrs)
@@ -57,7 +60,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null) where T : new()
+        public static ObservableCollection<T> GetCollectionModel<T>(Dictionary<string, object>? WhereCollection = null, int Limit = 0, int Offset = 0, Dictionary<string, bool>? OrderCollection = null)
         {
             try
             {
@@ -79,16 +82,22 @@ namespace Podbor.Classes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
                     foreach (DataRow dr in dt.Rows)
                     {
                         collection.Add(ToObject<T>(dr));
                     }
+<<<<<<< HEAD
 =======
                     Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 >>>>>>> future/LoanPaimentsEditor
 =======
                     Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
 
                     IsGet = false;
                 }
@@ -101,7 +110,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery) where T : new()
+        public static ObservableCollection<T> GetCollectionModel<T>(string sqlQuery)
         {
             CheckPolice(true, typeof(T));
 
@@ -119,16 +128,22 @@ namespace Podbor.Classes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
                     foreach (DataRow dr in dt.Rows)
                     {
                         collection.Add(ToObject<T>(dr));
                     }
+<<<<<<< HEAD
 =======
                     Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 >>>>>>> future/LoanPaimentsEditor
 =======
                     Parallel.ForEach(dt.AsEnumerable(), dr => collection.Add(dr.ToObject<T>(new T())));
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
 
                     IsGet = false;
                 }
@@ -141,7 +156,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1) where T : new()
+        public static T GetModel<T>(int? Id = null, string proc_comm = null,string errMess = null, int numRow = 1)
         {
             try
             {
@@ -162,17 +177,20 @@ namespace Podbor.Classes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 isGet = IsGet;
 >>>>>>> future/LoanPaimentsEditor
 =======
                 isGet = IsGet;
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
                 IsGet = true;
 
-                T obj = dr.ToObject<T>(new T());
+                T obj = ToObject<T>(dr);
 
-                IsGet = isGet;
+                IsGet = false;
 
                 return obj;
             }
@@ -316,9 +334,12 @@ namespace Podbor.Classes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
         private static T ToObject<T>(DataRow dataRow)
         {
             try
@@ -370,11 +391,15 @@ namespace Podbor.Classes
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
 =======
 
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
         public static void CheckPolice(bool isRead, Type typeTb)
         {
             try

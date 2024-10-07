@@ -1,8 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Data;
-using System.Reflection;
-
-namespace Podbor.Classes
+﻿namespace Podbor.Classes
 {
     public static class ConverFiles
     {
@@ -12,6 +8,9 @@ namespace Podbor.Classes
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
         //public static byte[] Mp3ToWavConvert(byte[] mp3file)
         //{
         //    using (var stream = new MemoryStream())
@@ -45,6 +44,7 @@ namespace Podbor.Classes
 
         //    return fileName;
         //}
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> future/LoanPaimentsEditor
@@ -97,6 +97,8 @@ namespace Podbor.Classes
 >>>>>>> future/LoanPaimentsEditor
 =======
 >>>>>>> future/LoanPaimentsEditor
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
 
     }
 }

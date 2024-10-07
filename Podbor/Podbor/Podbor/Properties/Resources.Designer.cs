@@ -452,8 +452,11 @@ namespace Podbor.Properties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
 		
 		/// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].

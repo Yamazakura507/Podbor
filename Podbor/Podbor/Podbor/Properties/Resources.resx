@@ -231,6 +231,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <data name="debtors_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\debtors_time.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -244,6 +245,9 @@
 =======
   <data name="delete_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
 >>>>>>> parent of 665239b (Merge branch 'future/LoanPaimentsEditor')
+=======
+  <data name="delete_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+>>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
     <value>..\Resources\Images\delete_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
     <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
