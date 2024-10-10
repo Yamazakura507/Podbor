@@ -1,11 +1,9 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\",
-<<<<<<< HEAD
-  "Documents": [],
-=======
   "Documents": [
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,20 +16,21 @@
       "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\autorizationpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\autorizationpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
 >>>>>>> origin/future/LoanPaimentsEditor
+=======
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\credit\\loanpaymentsinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\credit\\loanpaymentsinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> future/LoanPaimentsEditor
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\credit\\creditinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\credit\\creditinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\credit\\loanpaymentsinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\credit\\loanpaymentsinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\credit\\futurepaymentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\credit\\futurepaymentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
 <<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\tabbed\\creditinfotappedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\tabbed\\creditinfotappedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-=======
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\menupage\\personalaccountmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\menupage\\personalaccountmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -143,19 +142,20 @@
       "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
 >>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
+=======
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\credit\\futurepaymentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\credit\\futurepaymentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> future/LoanPaimentsEditor
     }
   ],
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< HEAD
-      "DocumentGroups": []
-=======
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +166,9 @@
 <<<<<<< HEAD
           "SelectedChildIndex": 0,
 >>>>>>> origin/future/LoanPaimentsEditor
+=======
+          "SelectedChildIndex": 6,
+>>>>>>> future/LoanPaimentsEditor
           "Children": [
             {
               "$type": "Bookmark",
@@ -189,6 +192,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "CreditInfoTappedPage.xaml",
               "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\Tabbed\\CreditInfoTappedPage.xaml",
@@ -466,20 +470,43 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
               "ViewState": "AgIAACUAAAAAAAAAAAAhwEQAAABYAAAAAAAAAA==",
+=======
+              "DocumentIndex": 3,
+              "Title": "FuturePaymentsPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml.cs",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml.cs",
+              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABYAAAAAAAAAA==",
+>>>>>>> future/LoanPaimentsEditor
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:32:53.217Z",
+              "WhenOpened": "2024-10-10T06:49:00.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreditInfoPage.xaml",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\CreditInfoPage.xaml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFEAAABCAAAAAAAAAA==",
+              "Title": "LoanPaymentsInfoPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml.cs",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml.cs*",
+              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml.cs*",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowHoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:42:36.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuturePaymentsPage.xaml",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml",
+              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Credit\\FuturePaymentsPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAADDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+<<<<<<< HEAD
               "WhenOpened": "2024-09-29T16:29:11.341Z",
 =======
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwFEAAAAFAAAAAAAAAA==",
@@ -502,10 +529,14 @@
 =======
               "WhenOpened": "2024-10-06T15:29:43.618Z",
 >>>>>>> future/LoanPaimentsEditor
+=======
+              "WhenOpened": "2024-10-09T14:50:59.866Z",
+>>>>>>> future/LoanPaimentsEditor
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "InfoAccount.cs",
               "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\AppSettings\\InfoAccount.cs",
@@ -553,12 +584,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T08:50:47.924Z",
 >>>>>>> parent of 665239bf (Merge branch 'future/LoanPaimentsEditor')
+=======
+              "DocumentIndex": 1,
+              "Title": "LoanPaymentsInfoPage.xaml",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml",
+              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Credit\\LoanPaymentsInfoPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-09T12:42:31.057Z",
+>>>>>>> future/LoanPaimentsEditor
               "EditorCaption": ""
             }
           ]
         }
       ]
->>>>>>> parent of 74cb767 (Добавление проверки доступа)
     }
   ]
 }

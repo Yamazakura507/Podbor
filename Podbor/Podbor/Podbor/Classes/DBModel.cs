@@ -13,7 +13,6 @@ namespace Podbor.Classes
 {
     public class DBModel
     {
-        private static bool isGet = false;
         protected static bool IsGet { get; set; } = false;
 
         public static void InsertModel<T>(Dictionary<string, object> parametrs)
@@ -131,7 +130,7 @@ namespace Podbor.Classes
                 if (dr is null)
                     throw new Exception(errMess);
 
-                isGet = IsGet;
+                bool isGet = IsGet;
                 IsGet = true;
 
                 T obj = dr.ToObject<T>(new T());
@@ -175,7 +174,8 @@ namespace Podbor.Classes
 
                 using (var ms = new Mysql())
                 {
-                    obj = (T)ms.GetValue($"SELECT `{param}` FROM `{typeTb.Name}` WHERE `Id` = '{Id}'");
+                    object ob = ms.GetValue($"SELECT `{param}` FROM `{typeTb.Name}` WHERE `Id` = '{Id}'");
+                    obj = (T)(ob == DBNull.Value ? null : ob);
                 }
 
                 return obj;
@@ -187,7 +187,7 @@ namespace Podbor.Classes
             }
         }
 
-        public static void CheckPolice(bool isRead, Type typeTb)
+        public static void CheckPolice(bool isRead, Type typeTb, bool isAdmin = false)
         {
             try
             {
@@ -206,7 +206,8 @@ namespace Podbor.Classes
                     }
 
                     if (dtPolice is null) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {typeTb.Name}!\nДля получения прав обратитесь в подержку");
-                    if (dtPolice.AsEnumerable().All(i => i["PoliceName"].ToString() == (isRead ? "W" : "R"))) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
+                    if (!dtPolice.AsEnumerable().All(i =>  (isRead ? "WRA" : "WA").Contains(i["PoliceName"].ToString()))) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
+                    if (isAdmin && dtPolice.AsEnumerable().All(i =>  i["PoliceName"].ToString().Contains("A"))) throw new Exception($"Увас нет прав администрирования объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
                 }
             }
             catch (Exception ex)
@@ -223,29 +224,7 @@ namespace Podbor.Classes
 
                 using (var ms = new Mysql())
                 {
-                    if (value.GetType() == typeof(DateTime))
-                    {
-                        value = Convert.ToDateTime(value).ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
-                    }
-
-                    if (value.GetType() == typeof(decimal) || value.GetType() == typeof(double))
-                    {
-                        value = value.ToString().Replace(",", ".");
-                    }
-
-                    if (value.GetType() == typeof(bool))
-                    {
-                        value = (bool)value ? "1" : "0";
-                    }
-
-                    if (value.GetType() != typeof(Byte[]))
-                    {
-                        ms.ExecSql($"UPDATE `{typeof(T).Name}` SET `{param}` = '{value}' WHERE `Id` = '{Id}'");
-                    }
-                    else
-                    {
-                        ms.UpdateBinaryColumn(typeof(T).Name, param, $"`Id` = '{Id}'", (byte[])value);
-                    }
+                    ms.ExecSql($"UPDATE `{typeof(T).Name}` SET `{param}` = @val WHERE `Id` = @id", new []{ new MySqlParameter("@val", value), new MySqlParameter("@id", Id) });
                 }
             }
             catch (Exception ex)
@@ -274,5 +253,9 @@ namespace Podbor.Classes
         }
 
         private static string ToFirstUpper(string str) => char.ToUpper(str[0]) + str.Substring(1);
+
+        public static string ConvertToMySqlDate(DateTime value) => value.ToString("yyyy-MM-dd HH:mm:ss").Replace(" ", "T");
+        public static string ConvertToMySqlDecimal(decimal value) => value.ToString().Replace(",", ".");
+        public static string ConvertToMySqlDecimal(string value) => value.Replace(",", ".");
     }
 }

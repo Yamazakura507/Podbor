@@ -27,7 +27,7 @@
                     <ColumnDefinition x:Name="colSPL"/>
                 </Grid.ColumnDefinitions>
 
-                <Entry x:Name="Login" Grid.Column="0" Margin="0,0,5,0" MaximumWidthRequest="400" HorizontalOptions="FillAndExpand"
+                <Entry x:Name="Login" Grid.Column="0" Margin="0,0,5,0" MaxLength="100" MaximumWidthRequest="400" HorizontalOptions="FillAndExpand"
    Placeholder="Логин"/>
 
                 <control:Provaider Grid.Column="1" x:Name="loginProvider" HorizontalOptions="Start" IsVisible="Collapse"/>
@@ -42,7 +42,7 @@
 
                 <Entry x:Name="Password" 
    IsPassword="True" Placeholder="Пароль" 
-   HorizontalOptions="FillAndExpand" 
+   HorizontalOptions="FillAndExpand" MaxLength="100"
     MaximumWidthRequest="350" Margin="0,0,5,0" Grid.Column="0"/>
 
                 <skia:SKLottieView x:Name="btlPass" Margin="0,0,5,0" Grid.Column="1" HorizontalOptions="Start"
@@ -118,7 +118,7 @@
                 <ColumnDefinition x:Name="colSPC"/>
             </Grid.ColumnDefinitions>
 
-            <Entry x:Name="CodeMail" Grid.Column="0" Margin="0,0,5,0" MaximumWidthRequest="300" HorizontalOptions="FillAndExpand"
+            <Entry x:Name="CodeMail" MaxLength="10" Grid.Column="0" Margin="0,0,5,0" MaximumWidthRequest="300" HorizontalOptions="FillAndExpand"
    Placeholder="Код подтверждения"/>
 
             <skia:SKLottieView x:Name="btlEmail" Margin="0,0,5,0" Grid.Column="1" HorizontalOptions="Start"
