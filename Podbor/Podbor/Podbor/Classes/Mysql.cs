@@ -329,10 +329,42 @@ namespace Podbor.Classes
             ExecSql(string.Format(Qerry, par));
         }
 
+        public void ExecSql(string Qerry, MySqlParameter[] parametrs, int cntWork = 1)
+        {
+            try
+            {
+                if (conn.State != ConnectionState.Open)
+                    Connect();
+
+                var cmd = new MySqlCommand(Qerry, conn);
+                cmd.Parameters.AddRange(parametrs);
+
+                for (int i = 0; i < cntWork; i++) cmd.ExecuteNonQuery();
+            }
+            catch (MySqlException ex)
+            {
+                if (Mysql.ErrorEvent != null)
+                    Mysql.ErrorEvent(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                if (Mysql.ErrorEvent != null)
+                    Mysql.ErrorEvent(ex.Message);
+            }
+        }
+
         public Task<bool> ExecSqlAsync(string Qerry, params object[] par)
         {
             return Task.Run(() => {
                 ExecSql(Qerry, par);
+                return true;
+            });
+        }
+
+        public Task<bool> ExecSqlAsync(string Qerry, MySqlParameter[] parametrs)
+        {
+            return Task.Run(() => {
+                ExecSql(Qerry, parametrs);
                 return true;
             });
         }

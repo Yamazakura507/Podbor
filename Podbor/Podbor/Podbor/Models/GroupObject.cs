@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Podbor.Models
 {
-    public class CreditStatus : DBModel
+    public class GroupObject : DBModel
     {
         private int id;
         private string name;
@@ -22,7 +22,7 @@ namespace Podbor.Models
             {
                 if (!IsGet)
                 {
-                    SetParametrs<CreditStatus>("Id", value);
+                    SetParametrs<GroupObject>("Id", value);
                 }
                 id = value;
             }
@@ -35,7 +35,7 @@ namespace Podbor.Models
             {       
                     if (!IsGet)
                     {
-                        SetParametrs<CreditStatus>("Name", value);
+                        SetParametrs<GroupObject>("Name", value is null ? DBNull.Value : value);
                     }
                     name = value;
             }
@@ -55,11 +55,11 @@ namespace Podbor.Models
         {
             if (Id is null && WhereCollection is null)
             {
-                base.DeleteModel<CreditStatus>(this.Id);
+                base.DeleteModel<GroupObject>(this.Id);
             }
             else
             {
-                base.DeleteModel<CreditStatus>(Id, WhereCollection);
+                base.DeleteModel<GroupObject>(Id, WhereCollection);
             }
         }
 
@@ -67,11 +67,11 @@ namespace Podbor.Models
         {
             if (Id is null && WhereCollection is null)
             {
-                base.UpdateModel<CreditStatus>(parametrs, this.Id);
+                base.UpdateModel<GroupObject>(parametrs, this.Id);
             }
             else
             {
-                base.UpdateModel<CreditStatus>(parametrs, Id, WhereCollection);
+                base.UpdateModel<GroupObject>(parametrs, Id, WhereCollection);
             }
         }
     }

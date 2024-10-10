@@ -13,7 +13,7 @@ namespace Podbor.Models
         private int id;
         private string name;
         private string objectName;
-        private int idTypeObject;
+        private int? idTypeObject;
 
         public delegate void MessageEventHandler(string message);
         public static event MessageEventHandler ErrorEvent;
@@ -57,17 +57,17 @@ namespace Podbor.Models
             }
         }
 
-        public int IdTypeObject
+        public int? IdTypeObject
         {
-            get => !IsGet ? GetParametrs<int>("IdTypeObject", this.GetType()) : idTypeObject;
+            get => !IsGet ? GetParametrs<int?>("IdTypeObject", this.GetType()) : idTypeObject;
             set
             {
                 if (!IsGet)
                 {
-                    SetParametrs<TableName>("IdTypeObject", value);
+                    SetParametrs<TableName>("IdTypeObject", value is null ? DBNull.Value : value);
                 }
 
-                TypeObject = GetModel<TypeObject>(value);
+                TypeObject = value is null ? null : GetModel<TypeObject>(value);
                 idTypeObject = value;
             }
         }

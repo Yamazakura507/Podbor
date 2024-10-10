@@ -7,7 +7,7 @@
              xmlns:page="clr-namespace:Podbor.Pages.WorkPage"
 			 xmlns:pageCredit="clr-namespace:Podbor.Pages.WorkPage.Credit"
              Title="PersonalAccountMenuPage">
-    <ScrollView>
+    <ScrollView Padding="5,50,0,0">
         <CollectionView x:Name="collectionView"
                     x:FieldModifier="public"
                     SelectionMode="Single" Margin="20,0,0,0">
@@ -28,7 +28,7 @@
                 <local:FlyautAccountModel Title="Планирование"
                                       IconSource="planing.png"
                                       TargetType="{x:Type page:AccountPage}" />
-                <local:FlyautAccountModel Title="Поддержака"
+                <local:FlyautAccountModel Title="Вопросы"
                                       IconSource="support.png"
                                       TargetType="{x:Type page:AccountPage}" />
             </x:Array>
@@ -41,8 +41,8 @@
                             <VisualState Name="Normal"></VisualState>
                             <VisualState Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={DynamicResource LightPrimary}, Dark={DynamicResource Gray900}}"></Setter>
-                                </VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={DynamicResource LightPrimary}, Dark={DynamicResource Gray900}}"/>
+                                    </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
                     </VisualStateManager.VisualStateGroups>

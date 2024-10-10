@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Podbor.Classes
 {
@@ -125,5 +126,7 @@ namespace Podbor.Classes
 
             return rand;
         }
+
+        public static void IsDecimalNumberEntry(Entry entry) => entry.Text = Regex.Replace(entry.Text, "[^\\d,.]", "");
     }
 }
