@@ -5,6 +5,7 @@
              xmlns:stat="clr-namespace:Podbor.Classes.AppSettings"
              xmlns:local="clr-namespace:Podbor.Pages.FlyautPage.FlyautModel"
              xmlns:page="clr-namespace:Podbor.Pages.WorkPage"
+             xmlns:pageSuport="clr-namespace:Podbor.Pages.WorkPage.Support"
 			 xmlns:pageCredit="clr-namespace:Podbor.Pages.WorkPage.Credit"
              Title="PersonalAccountMenuPage">
     <ScrollView Padding="5,50,0,0">
@@ -30,12 +31,27 @@
                                       TargetType="{x:Type page:AccountPage}" />
                 <local:FlyautAccountModel Title="Вопросы"
                                       IconSource="support.png"
-                                      TargetType="{x:Type page:AccountPage}" />
+                                      TargetType="{x:Type pageSuport:SupportPage}" />
             </x:Array>
         </CollectionView.ItemsSource>
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid Padding="0,0,0,10">
+                        <Grid.Style>
+                            <Style TargetType="Grid">
+                                <Style.Triggers>
+                                    <DataTrigger TargetType="Grid" Binding="{Binding Source={x:Static stat:InfoAccount.IsAdmin}}" Value="True">
+                                        <Setter Property="IsVisible" Value="False"/>
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Grid" Binding="{Binding Title}" Value="Акаунт">
+                                        <Setter Property="IsVisible" Value="True"/>
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Grid" Binding="{Binding Title}" Value="Вопросы">
+                                        <Setter Property="IsVisible" Value="True"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Grid.Style>
                     <VisualStateManager.VisualStateGroups>
                         <VisualStateGroup Name="CommonStates">
                             <VisualState Name="Normal"></VisualState>
@@ -76,7 +92,17 @@
                                     <DataTrigger TargetType="Label" Binding="{Binding Title}" Value="Акаунт">
                                         <Setter Property="Text" Value="{Binding Source={x:Static stat:InfoAccount.User},Path=Login, StringFormat='Акаунт {0}'}"/>
                                     </DataTrigger>
-                                </Style.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding Title}" Value="Вопросы">
+                                        <Setter Property="Text" Value="{Binding Source={x:Static stat:InfoAccount.CountSupport}, StringFormat='Вопросы({0})'}"/>
+                                    </DataTrigger>
+                                    <MultiTrigger TargetType="Label">
+                                    <MultiTrigger.Conditions>
+                                        <BindingCondition Binding="{Binding Source={x:Static stat:InfoAccount.CountSupport}}" Value="0"/>
+                                        <BindingCondition Binding="{Binding Title}" Value="Вопросы"/>
+                                    </MultiTrigger.Conditions>
+                                    <Setter Property="Text" Value="{Binding Source={x:Static stat:InfoAccount.User},Path=Login, StringFormat='Вопросы'}"/>
+                                </MultiTrigger>
+                            </Style.Triggers>
                             </Style>
                         </Label.Style>
                     </Label>

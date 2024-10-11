@@ -14,6 +14,9 @@
     <RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
       <SubType>Designer</SubType>
@@ -60,6 +63,12 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\Credit\LoanPaymentsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Support\SupportInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Support\SupportPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

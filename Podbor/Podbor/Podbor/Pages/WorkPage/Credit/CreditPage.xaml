@@ -21,7 +21,7 @@
             <FlexLayout BindableLayout.ItemsSource="{Binding ViewCredits}" x:Name="creditsList" Wrap="Wrap">
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
-                        <Border Stroke="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource Gray700}}" BackgroundColor="{AppThemeBinding Light={DynamicResource LightPrimary}, Dark={DynamicResource Gray800}}">
+                        <Border Margin="3" Stroke="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource Gray700}}" BackgroundColor="{AppThemeBinding Light={DynamicResource LightPrimary}, Dark={DynamicResource Gray800}}">
                             <Border.StrokeShape>
                                 <RoundRectangle CornerRadius="15"/>
                             </Border.StrokeShape>

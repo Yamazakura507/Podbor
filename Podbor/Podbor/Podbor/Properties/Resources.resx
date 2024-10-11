@@ -226,4 +226,16 @@
     <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+      <data name="future_debtors_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\future_debtors_credit.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+        <data name="support_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\support_in.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+          <data name="support_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\support_out.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+            <data name="delete_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\delete_support.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

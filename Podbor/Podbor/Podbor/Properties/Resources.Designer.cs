@@ -448,5 +448,45 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] future_debtors_credit {
+            get {
+                object obj = ResourceManager.GetObject("future_debtors_credit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] support_in {
+            get {
+                object obj = ResourceManager.GetObject("support_in", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+		/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] support_out {
+            get {
+                object obj = ResourceManager.GetObject("support_out", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+				/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] delete_support {
+            get {
+                object obj = ResourceManager.GetObject("delete_support", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

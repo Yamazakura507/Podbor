@@ -81,6 +81,7 @@ obj\Debug\net8.0-android\android-x64\aot\System.IO.Compression.Brotli.dll.so
 obj\Debug\net8.0-android\android-x64\aot\System.IO.Compression.dll.so
 obj\Debug\net8.0-android\android-x64\aot\System.IO.Pipes.dll.so
 obj\Debug\net8.0-android\android-x64\aot\System.Linq.Expressions.dll.so
+obj\Debug\net8.0-android\android-x64\aot\System.Linq.Parallel.dll.so
 obj\Debug\net8.0-android\android-x64\aot\System.Linq.dll.so
 obj\Debug\net8.0-android\android-x64\aot\System.Memory.dll.so
 obj\Debug\net8.0-android\android-x64\aot\System.Net.Http.dll.so

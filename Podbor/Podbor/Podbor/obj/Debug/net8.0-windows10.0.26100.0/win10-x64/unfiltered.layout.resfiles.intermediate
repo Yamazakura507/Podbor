@@ -60,6 +60,7 @@ debtors_credits.scale-100.png
 debtors_sum.scale-100.png
 debtors_time.scale-100.png
 delete_credit.scale-100.png
+delete_support.scale-100.png
 finance.scale-100.png
 future_debtors_credit.scale-100.png
 future_payments.scale-100.png
@@ -68,6 +69,8 @@ planing.scale-100.png
 registration.scale-100.png
 save.scale-100.png
 support.scale-100.png
+support_in.scale-100.png
+support_out.scale-100.png
 time.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
