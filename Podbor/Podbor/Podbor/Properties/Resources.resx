@@ -214,6 +214,9 @@
   <data name="SettingBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Raw\SettingBlack.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+    <data name="Check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raw\Check.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
     <data name="registration" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\registration.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -237,5 +240,26 @@
   </data>
             <data name="delete_support" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\delete_support.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+              <data name="assets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\assets.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+                <data name="pasive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\pasive.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+                  <data name="finance_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\finance_group.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+                    <data name="add_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\add_file.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+                      <data name="stability" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\stability.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+                      <data name="no_stability" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\no_stability.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+                        <data name="delete_cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\delete_cash.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

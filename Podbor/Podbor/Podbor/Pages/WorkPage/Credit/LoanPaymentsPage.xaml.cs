@@ -30,14 +30,11 @@ public partial class LoanPaymentsPage : ContentPage
                 var credit = (Models.Credit)this.BindingContext;
 
                 addBt.IsVisible = credit.Sum > 0;
-                ViewLoanPayments = DBModel.GetCollectionModel<View.LoanPayments>(new Dictionary<string, object>() { { "IdCredit", credit.Id } });
+                ViewLoanPayments = DBModel.GetCollectionModel<View.LoanPayments>(new Dictionary<string, object>() { { "IdCredit", credit.Id } }, default,default, new Dictionary<string, bool>() { { "DatePay", false } });
 
                 if (ViewLoanPayments is null || ViewLoanPayments.Count() == 0) throw new Exception("У вас отсутствуют платежи");
                 else
                 {
-                    try { ViewLoanPayments = new ObservableCollection<View.LoanPayments>(ViewLoanPayments.AsParallel().OrderByDescending(i => i.DatePay)); }
-                    catch (Exception) { }
-                    
                     MainThread.BeginInvokeOnMainThread(() => BindableLayout.SetItemsSource(loanVSL, ViewLoanPayments));
                 } 
             }

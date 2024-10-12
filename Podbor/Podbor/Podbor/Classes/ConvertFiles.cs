@@ -10,6 +10,15 @@ namespace Podbor.Classes
        
         public static byte[] ToByteConvert(string path) => File.ReadAllBytes(path);
 
+        public static async Task<byte[]> ConvertImageSourceToBytesAsync(ImageSource imageSource)
+        {
+            Stream stream = await ((StreamImageSource)imageSource).Stream(CancellationToken.None);
+            byte[] bytesAvailable = new byte[stream.Length];
+            stream.Read(bytesAvailable, 0, bytesAvailable.Length);
+
+            return bytesAvailable;
+        }
+
         public static T ToObject<T>(this DataRow dataRow, T obj)
         {
             T item = obj;

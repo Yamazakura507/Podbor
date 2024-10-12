@@ -94,15 +94,15 @@ namespace Podbor.Models
                 use = value;
             }
         }
-        public bool IsAssets
+        public bool IsAsset
         {
-            get => !IsGet ? GetParametrs<bool>("IsAssets", this.GetType()) : isAssets;
+            get => !IsGet ? GetParametrs<bool>("IsAsset", this.GetType()) : isAssets;
             set
             {
                 isAssets = value;
                 if (!IsGet)
                 {
-                    SetParametrs<Assets>("IsAssets", value);
+                    SetParametrs<Assets>("IsAsset", value);
                 }
             }
         }

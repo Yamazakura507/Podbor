@@ -4,6 +4,7 @@ OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
 account.scale-100.png
 account_admin.scale-100.png
+add_file.scale-100.png
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -50,6 +51,7 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+assets.scale-100.png
 autorizate.scale-100.png
 back.scale-100.png
 credit.scale-100.png
@@ -59,15 +61,20 @@ credit_test.scale-100.png
 debtors_credits.scale-100.png
 debtors_sum.scale-100.png
 debtors_time.scale-100.png
+delete_cash.scale-100.png
 delete_credit.scale-100.png
 delete_support.scale-100.png
 finance.scale-100.png
+finance_group.scale-100.png
 future_debtors_credit.scale-100.png
 future_payments.scale-100.png
+no_stability.scale-100.png
 non_group.scale-100.png
+pasive.scale-100.png
 planing.scale-100.png
 registration.scale-100.png
 save.scale-100.png
+stability.scale-100.png
 support.scale-100.png
 support_in.scale-100.png
 support_out.scale-100.png
@@ -82,6 +89,7 @@ Resources\Images\non_group.png
 AboutAssets.txt
 AlertProvader.json
 BlackHideLottie.json
+Check.json
 delete.json
 EmailBlackLottie.json
 EmailLottie.json

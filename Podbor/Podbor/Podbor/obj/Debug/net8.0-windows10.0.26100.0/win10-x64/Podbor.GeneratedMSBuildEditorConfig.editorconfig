@@ -42,17 +42,41 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.AutorizationP
 build_metadata.AdditionalFiles.TargetPath = Pages\AutorizationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AutorizationPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/FlyautPage/AssetGroupEditorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.AssetGroupEditorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\AssetGroupEditorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\AssetGroupEditorPage.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/FlyautPage/PersonalAccountPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.PersonalAccountPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\PersonalAccountPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\PersonalAccountPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/FlyautPage/TimeAssetsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.TimeAssetsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\TimeAssetsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\TimeAssetsPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/MenuPage/AssetsGroupEditorMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.MenuPage.AssetsGroupEditorMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage\AssetsGroupEditorMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage\AssetsGroupEditorMenu.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/MenuPage/PersonalAccountMenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.MenuPage.PersonalAccountMenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage\PersonalAccountMenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage\PersonalAccountMenuPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/MenuPage/TimeAssetsMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.MenuPage.TimeAssetsMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MenuPage\TimeAssetsMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MenuPage\TimeAssetsMenu.xaml
 
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -65,6 +89,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.CreditInfoTappedPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\CreditInfoTappedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\CreditInfoTappedPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/Tabbed/FinancePageTapped.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.FinancePageTapped.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\FinancePageTapped.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\FinancePageTapped.xaml
 
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/Tabbed/MainTabbedPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -107,6 +137,30 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Credit.LoanPaymentsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Credit\LoanPaymentsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Credit\LoanPaymentsPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/Assets/AssetsEditorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Assets.AssetsEditorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Assets\AssetsEditorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Assets\AssetsEditorPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/Assets/AssetsGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Assets.AssetsGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Assets\AssetsGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Assets\AssetsGroupPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/Assets/AssetsListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Assets.AssetsListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Assets\AssetsListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Assets\AssetsListPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/Assets/GroupAddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Assets.GroupAddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Assets\GroupAddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Assets\GroupAddPage.xaml
 
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Support/SupportInfoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Podbor.Pages.Tabbed.FinancePageTapped"
+            xmlns:financeAssetsPage="clr-namespace:Podbor.Pages.WorkPage.Finance.Assets" Title="Финансы"
+              UnselectedTabColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}"
+SelectedTabColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}"
+BarTextColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}" Loaded="TabbedPage_Loaded">
+    <financeAssetsPage:AssetsGroupPage Title="Активы/Пасивы" IconImageSource="assets.png"/>
+    <financeAssetsPage:AssetsGroupPage Title="Доходы/Расходы" IconImageSource="future_debtors_credit.png"/>
+    <financeAssetsPage:AssetsGroupPage Title="Движение денег" IconImageSource="finance.png"/>
+    <financeAssetsPage:AssetsGroupPage Title="Должники" IconImageSource="future_payments.png" />
+</TabbedPage>

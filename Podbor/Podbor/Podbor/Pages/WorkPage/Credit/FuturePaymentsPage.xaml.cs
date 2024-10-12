@@ -27,14 +27,11 @@ public partial class FuturePaymentsPage : ContentPage
         {
             try
             {
-                ViewLoanPayments = DBModel.GetCollectionModel<view_future_payments_tmp>($"CALL future_payments_auto_time('{((Models.Credit)this.BindingContext).Id}');SELECT * FROM `view_future_payments_tmp`;");
+                ViewLoanPayments = DBModel.GetCollectionModel<view_future_payments_tmp>($"CALL future_payments_auto_time('{((Models.Credit)this.BindingContext).Id}');SELECT * FROM `view_future_payments_tmp` vfpt ORDER BY vfpt.`DatePay`;");
 
                 if (ViewLoanPayments is null || ViewLoanPayments.Count() == 0) throw new Exception("У вас отсутствуют платежи");
                 else
                 {
-                    try { ViewLoanPayments = new ObservableCollection<view_future_payments_tmp>(ViewLoanPayments.AsParallel().OrderBy(i => i.DatePay)); }
-                    catch (Exception) { }
-                    
                     MainThread.BeginInvokeOnMainThread(() => BindableLayout.SetItemsSource(loanVSL, ViewLoanPayments));
                 }
             }

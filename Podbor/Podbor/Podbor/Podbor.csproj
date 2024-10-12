@@ -100,6 +100,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\FlyautPage\TimeAssetsPage.xaml.cs">
+	    <DependentUpon>TimeAssetsPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\FlyautPage\AssetGroupEditorPage.xaml.cs">
+	    <DependentUpon>AssetGroupEditorPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\MenuPage\TimeAssetsMenu.xaml.cs">
+	    <DependentUpon>TimeAssetsMenu.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\MenuPage\AssetsGroupEditorMenu.xaml.cs">
+	    <DependentUpon>AssetsGroupEditorMenu.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Finance\Assets\AssetsGroupPage.xaml.cs">
+	    <DependentUpon>AssetsGroupPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Finance\Assets\GroupAddPage.xaml.cs">
+	    <DependentUpon>GroupAddPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Properties\Resources.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
@@ -124,13 +142,25 @@
 	  <MauiXaml Update="Pages\AutorizationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\FlyautPage\TimeAssetsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\FlyautPage\AssetGroupEditorPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\FlyautPage\PersonalAccountPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\MenuPage\TimeAssetsMenu.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\MenuPage\MainPersanalAccountMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\MenuPage\AssetsGroupEditorMenu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\MenuPage\PersonalAccountMenuPage.xaml">
@@ -140,6 +170,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Tabbed\CreditTabbedPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Tabbed\FinancePageTapped.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Tabbed\MainTabbedPage.xaml">
@@ -170,6 +203,18 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Credit\LoanPaymentsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\Assets\AssetsEditorPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\Assets\AssetsGroupPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\Assets\AssetsListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\Assets\GroupAddPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\LoanPaymentsPage.xaml">

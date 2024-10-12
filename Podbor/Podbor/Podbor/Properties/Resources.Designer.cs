@@ -488,5 +488,85 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+		
+						/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] assets {
+            get {
+                object obj = ResourceManager.GetObject("assets", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+								/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] pasive {
+            get {
+                object obj = ResourceManager.GetObject("pasive", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+										/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] finance_group {
+            get {
+                object obj = ResourceManager.GetObject("finance_group", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+												/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] add_file {
+            get {
+                object obj = ResourceManager.GetObject("add_file", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+												/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] Check {
+            get {
+                object obj = ResourceManager.GetObject("Check", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+														/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] stability {
+            get {
+                object obj = ResourceManager.GetObject("stability", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+														/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] no_stability {
+            get {
+                object obj = ResourceManager.GetObject("no_stability", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+																/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] delete_cash {
+            get {
+                object obj = ResourceManager.GetObject("delete_cash", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

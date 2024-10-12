@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:Podbor.Pages.FlyautPage.FlyautModel"
              xmlns:page="clr-namespace:Podbor.Pages.WorkPage"
              xmlns:pageSuport="clr-namespace:Podbor.Pages.WorkPage.Support"
+             xmlns:pageTab="clr-namespace:Podbor.Pages.Tabbed"
 			 xmlns:pageCredit="clr-namespace:Podbor.Pages.WorkPage.Credit"
              Title="PersonalAccountMenuPage">
     <ScrollView Padding="5,50,0,0">
@@ -22,7 +23,7 @@
                                       TargetType="{x:Type pageCredit:CreditPage}" />
                 <local:FlyautAccountModel Title="Финансы"
                                       IconSource="finance.png"
-                                      TargetType="{x:Type page:AccountPage}" />
+                                      TargetType="{x:Type pageTab:FinancePageTapped}" />
                 <local:FlyautAccountModel Title="Время"
                                       IconSource="time.png"
                                       TargetType="{x:Type page:AccountPage}" />
