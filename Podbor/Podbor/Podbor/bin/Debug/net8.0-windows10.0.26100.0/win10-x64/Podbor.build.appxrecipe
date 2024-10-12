@@ -91,12 +91,6 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\RightLottie.json">
       <PackagePath>RightLottie.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\SettingBlack.json">
-      <PackagePath>SettingBlack.json</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\SettingWhite.json">
-      <PackagePath>SettingWhite.json</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\Resources\Raw\WhiteHideLottie.json">
       <PackagePath>WhiteHideLottie.json</PackagePath>
     </AppxPackagedFile>
@@ -319,6 +313,9 @@
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\delete_support.scale-100.png">
       <PackagePath>delete_support.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\exit.scale-100.png">
+      <PackagePath>exit.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\finance.scale-100.png">
       <PackagePath>finance.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -348,6 +345,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-100.png">
       <PackagePath>save.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\stability.scale-100.png">
       <PackagePath>stability.scale-100.png</PackagePath>

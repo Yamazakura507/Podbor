@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\support\\supportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\support\\supportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\autorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\autorizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\classes\\appsettings\\infoaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\classes\\appsettings\\infoaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\menupage\\personalaccountmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\menupage\\personalaccountmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\menupage\\personalaccountmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\menupage\\personalaccountmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,27 +47,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SupportPage.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Support\\SupportPage.xaml.cs",
-              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Support\\SupportPage.xaml.cs",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Support\\SupportPage.xaml.cs",
-              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Support\\SupportPage.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAC4AAAAAAAAAA==",
+              "Title": "AutorizationPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\AutorizationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\AutorizationPage.xaml.cs",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\AutorizationPage.xaml.cs",
+              "RelativeToolTip": "Podbor\\Pages\\AutorizationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T20:00:35.741Z",
+              "WhenOpened": "2024-10-12T20:46:13.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonalAccountMenuPage.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml.cs",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml.cs",
+              "RelativeToolTip": "Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T20:22:53.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InfoAccount.cs",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "RelativeDocumentMoniker": "Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "RelativeToolTip": "Podbor\\Classes\\AppSettings\\InfoAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:59:36.728Z",
+              "Title": "PersonalAccountMenuPage.xaml",
+              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml",
+              "RelativeDocumentMoniker": "Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml",
+              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml",
+              "RelativeToolTip": "Podbor\\Pages\\MenuPage\\PersonalAccountMenuPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-12T20:11:27.9Z",
               "EditorCaption": ""
             }
           ]

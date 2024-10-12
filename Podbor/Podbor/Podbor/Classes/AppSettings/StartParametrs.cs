@@ -8,7 +8,7 @@ namespace Podbor.Classes.AppSettings
 {
     public class StartParametrs
     {
-        private string FileName = Path.Combine(String.Join("\\",Environment.ProcessPath.Split('\\').SkipLast(1)), "temp.json");
+        private static string FileName = Path.Combine(String.Join("\\",Environment.ProcessPath.Split('\\').SkipLast(1)), "temp.json");
 
         private int idAutorizateUser;
         private bool isGet = false;
@@ -71,10 +71,12 @@ namespace Podbor.Classes.AppSettings
             }
             catch (IOException)
             {
+                isGet = false;
                 return (T)typeof(StartParametrs).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).ToArray().First(i => i.Name.Equals(fildsName, StringComparison.InvariantCultureIgnoreCase)).GetValue(this);
             }
             catch (Exception ex)
             {
+                isGet = false;
                 Save();
                 return (T)typeof(StartParametrs).GetFields(BindingFlags.Instance | BindingFlags.NonPublic).ToArray().First(i => i.Name.Equals(fildsName, StringComparison.InvariantCultureIgnoreCase)).GetValue(this);
             }
@@ -94,5 +96,7 @@ namespace Podbor.Classes.AppSettings
                 throw ex;
             }
         }
+
+        public static void ClearParametr() => File.Delete(FileName);
     }
 }

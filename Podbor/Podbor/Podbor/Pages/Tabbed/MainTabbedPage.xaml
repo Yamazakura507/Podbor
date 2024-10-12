@@ -4,7 +4,7 @@
              x:Class="Podbor.Pages.Tabbed.MainTabbedPage"
              xmlns:local="clr-namespace:Podbor.Pages" UnselectedTabColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}"
             SelectedTabColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}"
-            BarTextColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}">
+            BarTextColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}" Shell.NavBarIsVisible="False">
     <local:AutorizationPage Title="Вход" IconImageSource="autorizate.png"/>
     <local:RegistrationPage Title="Регистрация" IconImageSource="registration.png"/>
 </TabbedPage>

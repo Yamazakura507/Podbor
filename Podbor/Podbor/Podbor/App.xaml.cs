@@ -13,7 +13,7 @@ namespace Podbor
         {
             InitializeComponent();
 
-            MyAppShell = new MainTabbedPage();
+            MyAppShell = new NavigationPage(new MainTabbedPage());
             Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
             Connectivity_ConnectivityChanged(null, null);
             MainPage = MyAppShell;
@@ -26,7 +26,7 @@ namespace Podbor
             if (network != NetworkAccess.Internet) 
             {
                 var logingNoNetwork = new Loading(true);
-                ((MainTabbedPage)MyAppShell).CurrentPage.ShowPopup(logingNoNetwork);
+                ((NavigationPage)MyAppShell).CurrentPage.ShowPopup(logingNoNetwork);
 
                 logingNoNetwork.LoadingBackgorundWorker.RunWorkerAsync(new Thread(() =>
                  {

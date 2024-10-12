@@ -372,26 +372,6 @@ namespace Podbor.Properties {
 		/// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
-        internal static byte[] SettingWhite {
-            get {
-                object obj = ResourceManager.GetObject("SettingWhite", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-		
-		/// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] SettingBlack {
-            get {
-                object obj = ResourceManager.GetObject("SettingBlack", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-		
-		/// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
         internal static byte[] mailGoodRegistration {
             get {
                 object obj = ResourceManager.GetObject("mailGoodRegistration", resourceCulture);
@@ -584,6 +564,25 @@ namespace Podbor.Properties {
         internal static byte[] mailSupport {
             get {
                 object obj = ResourceManager.GetObject("mailSupport", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] settings {
+            get {
+                object obj = ResourceManager.GetObject("settings", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] exit {
+            get {
+                object obj = ResourceManager.GetObject("exit", resourceCulture);
                 return ((byte[])(obj));
             }
         }

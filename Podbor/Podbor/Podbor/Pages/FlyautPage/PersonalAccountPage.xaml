@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:page="clr-namespace:Podbor.Pages.WorkPage"
             xmlns:local="clr-namespace:Podbor.Pages.MenuPage"
-             x:Class="Podbor.Pages.FlyautPage.PersonalAccountPage" FlyoutLayoutBehavior="Split" Padding="20">
+             x:Class="Podbor.Pages.FlyautPage.PersonalAccountPage" FlyoutLayoutBehavior="Split" Padding="20" Shell.NavBarIsVisible="False">
     <FlyoutPage.Flyout>
         <local:PersonalAccountMenuPage x:Name="flyoutPage" />
     </FlyoutPage.Flyout>

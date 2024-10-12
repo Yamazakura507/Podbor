@@ -12,7 +12,7 @@ public partial class AutorizationPage : ContentPage
 {
     Loading loading;
 
-    StartParametrs parametrs = new StartParametrs();
+    StartParametrs parametrs;
     private string rand = null;
     private Users users = null;
 
@@ -25,6 +25,8 @@ public partial class AutorizationPage : ContentPage
     {
         try
         {
+            parametrs = new StartParametrs();
+
             #if ANDROID || IOS
                 colSA.Width = colSPL.Width = colSPP.Width = colSli.Width = colSPC.Width = GridLength.Auto;
             #else
@@ -67,7 +69,7 @@ public partial class AutorizationPage : ContentPage
         }
     }
 
-    public void Autorizate(int idUser)
+    async public void Autorizate(int idUser)
     {
         try
         {
@@ -77,7 +79,7 @@ public partial class AutorizationPage : ContentPage
                 errorProvider.WorkProvider(ProviderType.Info, "У вас имеется раняя авторизация");
 
                 InfoAccount.IdUser = idUser;
-                App.Current.MainPage = new FlyautPage.PersonalAccountPage();
+                await Navigation.PushAsync(new FlyautPage.PersonalAccountPage());
             }
         }
         catch (Exception ex)
