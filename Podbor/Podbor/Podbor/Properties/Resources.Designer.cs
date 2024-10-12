@@ -568,5 +568,24 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+		
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] mailSupportAnswer {
+            get {
+                object obj = ResourceManager.GetObject("mailSupportAnswer", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] mailSupport {
+            get {
+                object obj = ResourceManager.GetObject("mailSupport", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

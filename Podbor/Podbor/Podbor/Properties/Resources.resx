@@ -157,6 +157,12 @@
   <data name="mailGoodRegistration" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Files\mailGoodRegistration.tpl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="mailSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Files\mailSupport.tpl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mailSupportAnswer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Files\mailSupportAnswer.tpl;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="RebasePasswordWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Raw\RebasePasswordWhite.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

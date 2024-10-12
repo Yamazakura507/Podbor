@@ -1,4 +1,5 @@
 ﻿using Podbor.Classes;
+using Podbor.Classes.AppSettings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -93,6 +94,8 @@ namespace Podbor.Models
 
                     if (!String.IsNullOrEmpty(value))
                     {
+                        if (InfoAccount.IsAdmin && !isAnswer) App.MyAppShell.SupportAnswerMail(InfoAccount.User.Email, new Dictionary<string, string>() { { "@Login", InfoAccount.User.Login }, { "@SupportMessage", appealMessage }, { "@Answer", value } });
+
                         SetParametrs<Support>("IsAnswer", true);
                         SetParametrs<Support>("IsReadAnswer", false);
                         isAnswer = true;

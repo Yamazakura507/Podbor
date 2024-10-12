@@ -122,5 +122,13 @@ namespace Podbor.Classes
         {
             page.SendMessageMail(Encoding.UTF8.GetString(Properties.Resources.mailNewPass), "Новый пароль", new[] { email }, keyValuePairs, default);
         }
+        public static void SupportMail(this Page page, string email, Dictionary<string, string> keyValuePairs)
+        {
+            page.SendMessageMail(Encoding.UTF8.GetString(Properties.Resources.mailSupport), "Обращение", new[] { email }, keyValuePairs, default);
+        }
+        public static void SupportAnswerMail(this Page page, string email, Dictionary<string, string> keyValuePairs)
+        {
+            page.SendMessageMail(Encoding.UTF8.GetString(Properties.Resources.mailSupportAnswer), "Ответ на обращение", new[] { email }, keyValuePairs, default);
+        }
     }
 }

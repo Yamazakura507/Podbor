@@ -28,7 +28,7 @@ public partial class SupportPage : ContentPage
             try
             {
                 if (InfoAccount.IsAdmin)
-                    ViewSupport = DBModel.GetCollectionModel<View.Support>(default,default,default,new Dictionary<string, bool>() { { "DateOfAcess", false }, { "IsAnswer", false } });
+                    ViewSupport = DBModel.GetCollectionModel<View.Support>(default,default,default,new Dictionary<string, bool>() { { "DateOfAccess", false }, { "IsAnswer", false } });
                 else
                     ViewSupport = DBModel.GetCollectionModel<View.Support>(new Dictionary<string, object>() { { "IdUser", InfoAccount.IdUser } },default,default, new Dictionary<string, bool>() { { "DateOfAccess", false }, { "IsAnswer", true } });
 
@@ -58,6 +58,8 @@ public partial class SupportPage : ContentPage
 
                     await MainThread.InvokeOnMainThreadAsync(() => ViewSupport.Add(support));
                 }
+
+                this.SupportMail(InfoAccount.User.Email, new Dictionary<string, string>() { { "@Login", InfoAccount.User.Login }, { "@SupportMessage", NewSupport.Text } });
             }
             catch (Exception ex) { this.Messege("Не удалось отправить обращение",ProviderType.Error); }
         }));
