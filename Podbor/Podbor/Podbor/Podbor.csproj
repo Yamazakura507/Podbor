@@ -112,6 +112,9 @@
 	  <Compile Update="Pages\MenuPage\AssetsGroupEditorMenu.xaml.cs">
 	    <DependentUpon>AssetsGroupEditorMenu.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Pages\WorkPage\Finance\MoneTransferListPage.xaml.cs">
+	    <DependentUpon>MoneTransferListPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Pages\WorkPage\Finance\Assets\AssetsGroupPage.xaml.cs">
 	    <DependentUpon>AssetsGroupPage.xaml</DependentUpon>
 	  </Compile>
@@ -203,6 +206,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Credit\LoanPaymentsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\MoneTransferListPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Finance\Assets\AssetsEditorPage.xaml">

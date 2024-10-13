@@ -158,14 +158,19 @@ namespace Podbor.Models
 
         public override void DeleteModel<T>(int? Id = null, Dictionary<string, object>? WhereCollection = null)
         {
-            if (Id is null && WhereCollection is null)
+            using (var ms = new Mysql())
             {
-                base.DeleteModel<Assets>(this.Id);
+                if (Id is null && WhereCollection is null)
+                {
+                    ms.ExecSql($"CALL delete_assets('{id}')");
+                }
+                else
+                {
+                    ms.ExecSql($"CALL delete_assets('{Id}')");
+                }
             }
-            else
-            {
-                base.DeleteModel<Assets>(Id, WhereCollection);
-            }
+
+            
         }
 
         public override void UpdateModel<T>(Dictionary<string, object> parametrs, int? Id = null, Dictionary<string, object>? WhereCollection = null)

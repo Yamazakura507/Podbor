@@ -166,6 +166,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Fina
 build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Assets\GroupAddPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Assets\GroupAddPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/MoneTransferListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.MoneTransferListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\MoneTransferListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\MoneTransferListPage.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Support/SupportInfoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Support.SupportInfoPage.xaml

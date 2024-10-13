@@ -80,6 +80,9 @@
     <MauiXaml Update="Pages\WorkPage\Credit\LoanPaymentsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Finance\MoneTransferListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\Finance\Assets\AssetsEditorPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

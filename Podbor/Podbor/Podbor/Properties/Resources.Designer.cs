@@ -586,5 +586,34 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+		
+																			/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] in_cash {
+            get {
+                object obj = ResourceManager.GetObject("in_cash", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] translete_cash {
+            get {
+                object obj = ResourceManager.GetObject("translete_cash", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] pay {
+            get {
+                object obj = ResourceManager.GetObject("pay", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
