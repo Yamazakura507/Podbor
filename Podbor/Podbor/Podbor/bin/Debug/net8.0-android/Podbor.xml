@@ -165,16 +165,6 @@
               Поиск локализованного ресурса типа System.Byte[].
             </summary>
         </member>
-        <member name="P:Podbor.Properties.Resources.SettingWhite">
-            <summary>
-              Поиск локализованного ресурса типа System.Byte[].
-            </summary>
-        </member>
-        <member name="P:Podbor.Properties.Resources.SettingBlack">
-            <summary>
-              Поиск локализованного ресурса типа System.Byte[].
-            </summary>
-        </member>
         <member name="P:Podbor.Properties.Resources.mailGoodRegistration">
             <summary>
               Поиск локализованного ресурса типа System.Byte[].
@@ -231,6 +221,86 @@
             </summary>
         </member>
         <member name="P:Podbor.Properties.Resources.pasive">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.finance_group">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.add_file">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.Check">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.stability">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.no_stability">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.delete_cash">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.mailSupportAnswer">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.mailSupport">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.settings">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.exit">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.in_cash">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.translete_cash">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.pay">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.barter">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.no_debtor">
+            <summary>
+              Поиск локализованного ресурса типа System.Byte[].
+            </summary>
+        </member>
+        <member name="P:Podbor.Properties.Resources.debtor">
             <summary>
               Поиск локализованного ресурса типа System.Byte[].
             </summary>

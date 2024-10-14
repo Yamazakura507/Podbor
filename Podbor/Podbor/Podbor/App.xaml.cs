@@ -13,7 +13,7 @@ namespace Podbor
         {
             InitializeComponent();
 
-            MyAppShell = new NavigationPage(new MainTabbedPage());
+            MyAppShell = new MainTabbedPage();
             Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
             Connectivity_ConnectivityChanged(null, null);
             MainPage = MyAppShell;
