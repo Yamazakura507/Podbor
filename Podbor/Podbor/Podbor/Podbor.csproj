@@ -100,6 +100,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\FlyautPage\TimeIncomePage.xaml.cs">
+	    <DependentUpon>TimeIncomePage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Pages\FlyautPage\TimeAssetsPage.xaml.cs">
 	    <DependentUpon>TimeAssetsPage.xaml</DependentUpon>
 	  </Compile>
@@ -111,6 +114,9 @@
 	  </Compile>
 	  <Compile Update="Pages\MenuPage\AssetsGroupEditorMenu.xaml.cs">
 	    <DependentUpon>AssetsGroupEditorMenu.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Finance\Debtors\DebtorsListPage.xaml.cs">
+	    <DependentUpon>DebtorsListPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Pages\WorkPage\Finance\MoneTransferListPage.xaml.cs">
 	    <DependentUpon>MoneTransferListPage.xaml</DependentUpon>
@@ -143,6 +149,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\AutorizationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\FlyautPage\TimeIncomePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\FlyautPage\TimeAssetsPage.xaml">
@@ -206,6 +215,15 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Credit\LoanPaymentsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\Debtors\DebtorsListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\Debtors\EditorDebtor.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Finance\IncomeOrExpensesStaticPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Finance\MoneTransferListPage.xaml">

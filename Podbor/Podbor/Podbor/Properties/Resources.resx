@@ -277,4 +277,13 @@
         <data name="translete_cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\translete_cash.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+          <data name="no_debtor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\no_debtor.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+          <data name="barter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\barter.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+          <data name="debtor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\debtor.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

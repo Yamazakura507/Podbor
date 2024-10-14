@@ -4,11 +4,13 @@
              x:Class="Podbor.Pages.Tabbed.FinancePageTapped"
             xmlns:financeAssetsPage="clr-namespace:Podbor.Pages.WorkPage.Finance.Assets" 
             xmlns:financePage="clr-namespace:Podbor.Pages.WorkPage.Finance"
+            xmlns:financeIncPage="clr-namespace:Podbor.Pages.FlyautPage"
+            xmlns:financeDebtorPage="clr-namespace:Podbor.Pages.WorkPage.Finance.Debtors"
               UnselectedTabColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}"
 SelectedTabColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}"
 BarTextColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicResource TabDark}}" Title="Финансы" Loaded="TabbedPage_Loaded">
     <financeAssetsPage:AssetsGroupPage Title="Активы/Пасивы" IconImageSource="assets.png"/>
-    <financeAssetsPage:AssetsGroupPage Title="Доходы/Расходы" IconImageSource="future_debtors_credit.png"/>
+    <financeIncPage:TimeIncomePage Title="Доходы/Расходы" IconImageSource="future_debtors_credit.png"/>
     <financePage:MoneTransferListPage Title="Движение денег" IconImageSource="finance.png"/>
-    <financeAssetsPage:AssetsGroupPage Title="Должники" IconImageSource="future_payments.png" />
+    <financeDebtorPage:DebtorsListPage Title="Должники" IconImageSource="future_payments.png" />
 </TabbedPage>

@@ -60,6 +60,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.Ti
 build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\TimeAssetsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\TimeAssetsPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/FlyautPage/TimeIncomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.FlyautPage.TimeIncomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FlyautPage\TimeIncomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FlyautPage\TimeIncomePage.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/MenuPage/AssetsGroupEditorMenu.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.MenuPage.AssetsGroupEditorMenu.xaml
@@ -161,6 +167,24 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Assets.GroupAddPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Assets\GroupAddPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Assets\GroupAddPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/Debtors/DebtorsListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Debtors.DebtorsListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Debtors\DebtorsListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Debtors\DebtorsListPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/Debtors/EditorDebtor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.Debtors.EditorDebtor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\Debtors\EditorDebtor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\Debtors\EditorDebtor.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/IncomeOrExpensesStaticPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.IncomeOrExpensesStaticPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\IncomeOrExpensesStaticPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\IncomeOrExpensesStaticPage.xaml
 
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Finance/MoneTransferListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

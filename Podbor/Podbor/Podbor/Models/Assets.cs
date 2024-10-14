@@ -169,8 +169,6 @@ namespace Podbor.Models
                     ms.ExecSql($"CALL delete_assets('{Id}')");
                 }
             }
-
-            
         }
 
         public override void UpdateModel<T>(Dictionary<string, object> parametrs, int? Id = null, Dictionary<string, object>? WhereCollection = null)

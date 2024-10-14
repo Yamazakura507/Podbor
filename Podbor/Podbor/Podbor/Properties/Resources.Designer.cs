@@ -615,5 +615,34 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+		
+																					/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] barter {
+            get {
+                object obj = ResourceManager.GetObject("barter", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+		
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] no_debtor {
+            get {
+                object obj = ResourceManager.GetObject("no_debtor", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+																	/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] debtor {
+            get {
+                object obj = ResourceManager.GetObject("debtor", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

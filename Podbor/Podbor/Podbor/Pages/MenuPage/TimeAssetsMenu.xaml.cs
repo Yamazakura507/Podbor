@@ -30,7 +30,11 @@ public partial class TimeAssetsMenu : ContentPage
 
             if (ViewDate is null || ViewDate.Count == 0) return;
 
-            await MainThread.InvokeOnMainThreadAsync(()=> this.BindingContext = ViewDate);
+            await MainThread.InvokeOnMainThreadAsync(()=>
+            { 
+                this.BindingContext = ViewDate;
+                collectionView.SelectedItem = ViewDate[0];
+            });
         }));
     }
 }
