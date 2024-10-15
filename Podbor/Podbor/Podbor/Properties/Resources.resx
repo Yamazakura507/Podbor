@@ -179,10 +179,10 @@
     <value>..\Resources\Raw\RightLottie.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="non_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\non_group.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\Images\non_group.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="debtors_credits" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\debtors_credits.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\Images\debtors_credits.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
     <data name="account" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\account.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
