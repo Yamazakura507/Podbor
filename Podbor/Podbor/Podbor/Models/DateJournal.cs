@@ -10,7 +10,7 @@ namespace Podbor.Models
     public class DateJournal : DBModel
     {
         private int id;
-        private int year;
+        private int name;
         private int month;
         private bool isCreateData;
 
@@ -32,14 +32,14 @@ namespace Podbor.Models
 
         public int Year
         {
-            get => !IsGet ? GetParametrs<int>("Year", this.GetType()) : year;
+            get => !IsGet ? GetParametrs<int>("Year", this.GetType()) : name;
             set
             {       
                     if (!IsGet)
                     {
                         SetParametrs<DateJournal>("Year", value);
                     }
-                    year = value;
+                    name = value;
             }
         }
 

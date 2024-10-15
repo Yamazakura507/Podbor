@@ -118,6 +118,9 @@
 	  <Compile Update="Pages\WorkPage\Finance\Assets\GroupAddPage.xaml.cs">
 	    <DependentUpon>GroupAddPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Pages\WorkPage\Time\TimeCoastList.xaml.cs">
+	    <DependentUpon>TimeCoastList.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Properties\Resources.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
@@ -233,6 +236,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Support\SupportPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Time\TimeCoastList.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

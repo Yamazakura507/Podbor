@@ -31,8 +31,15 @@ public partial class IncomeOrExpensesStaticPage : ContentPage
 
             await MainThread.InvokeOnMainThreadAsync(() =>
             {
-                Income.BindingContext = revenues.FirstOrDefault(i => i.IsRevenues);
-                Expenses.BindingContext = revenues.FirstOrDefault(i => !i.IsRevenues);
+                try
+                {
+                    Income.BindingContext = revenues.FirstOrDefault(i => i.IsRevenues);
+                    Expenses.BindingContext = revenues.FirstOrDefault(i => !i.IsRevenues);
+                }
+                catch (Exception)
+                {
+                    return;
+                }
             });
         }));
     }

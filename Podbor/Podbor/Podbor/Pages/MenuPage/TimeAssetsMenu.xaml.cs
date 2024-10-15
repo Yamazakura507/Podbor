@@ -35,6 +35,22 @@ public partial class TimeAssetsMenu : ContentPage
                 this.BindingContext = ViewDate;
                 collectionView.SelectedItem = ViewDate[0];
             });
+
+            if (ViewDate.Last().DateJournal.Year == DateTime.Now.Year && ViewDate.Last().DateJournal.Month == DateTime.Now.Month)
+                await MainThread.InvokeOnMainThreadAsync(() => addDate.IsVisible = false);
         }));
+    }
+
+    private void AddTime_Pressed(object sender, EventArgs e)
+    {
+        loading.LoadingBackgorundWorker.RunWorkerAsync(new Thread(() =>
+        {
+            int idDate = Convert.ToInt32(DBModel.ResultRequest($"SELECT new_date()"));
+
+            var model = DBModel.GetModel<DateUser>(default, $"SELECT * FROM `DateUser` WHERE `IdUser` = '{InfoAccount.IdUser}' AND `IdDate` = '{idDate}'");
+            ViewDate.Add(model);
+        }));
+
+        addDate.IsVisible = false;
     }
 }

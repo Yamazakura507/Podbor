@@ -8,6 +8,7 @@
              xmlns:pageSuport="clr-namespace:Podbor.Pages.WorkPage.Support"
              xmlns:pageTab="clr-namespace:Podbor.Pages.Tabbed"
 			 xmlns:pageCredit="clr-namespace:Podbor.Pages.WorkPage.Credit"
+			 xmlns:pageTime="clr-namespace:Podbor.Pages.WorkPage.Time"
              Title="PersonalAccountMenuPage" Shell.NavBarIsVisible="False">
     <ScrollView Padding="5,50,0,0">
         <VerticalStackLayout>
@@ -27,7 +28,7 @@
                                   TargetType="{x:Type pageTab:FinancePageTapped}" />
                         <local:FlyautAccountModel Title="Время"
                                   IconSource="time.png"
-                                  TargetType="{x:Type page:AccountPage}" />
+                                  TargetType="{x:Type pageTime:TimeCoastList}" />
                         <local:FlyautAccountModel Title="Планирование"
                                   IconSource="planing.png"
                                   TargetType="{x:Type page:AccountPage}" />
