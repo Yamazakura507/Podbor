@@ -128,5 +128,6 @@ namespace Podbor.Classes
         }
 
         public static void IsDecimalNumberEntry(Entry entry) => entry.Text = Regex.Replace(entry.Text, "[^\\d,.]", "");
+        public static void IsIntNumberEntry(Entry entry) => entry.Text = Regex.Replace(entry.Text, "[^\\d]", "");
     }
 }

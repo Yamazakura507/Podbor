@@ -98,10 +98,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\autorizate.scale-200.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\autorizate.scale-400.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\back.scale-100.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\back.scale-125.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\back.scale-150.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\back.scale-200.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\back.scale-400.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\barter.scale-100.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\barter.scale-125.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\barter.scale-150.png
@@ -220,10 +216,6 @@ D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\registration.scale-200.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\registration.scale-400.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-100.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-125.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-150.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-200.png
-D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\save.scale-400.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\settings.scale-100.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\settings.scale-125.png
 D:\Users\danii\Downloads\AuvtoPodbor\Podbor\Podbor\Podbor\Podbor\obj\Debug\net8.0-windows10.0.26100.0\win10-x64\resizetizer\r\settings.scale-150.png

@@ -118,6 +118,12 @@
 	  <Compile Update="Pages\WorkPage\Finance\Assets\GroupAddPage.xaml.cs">
 	    <DependentUpon>GroupAddPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Pages\WorkPage\Time\TimeCoastInfo.xaml.cs">
+	    <DependentUpon>TimeCoastInfo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Time\TimeCoastList.xaml.cs">
+	    <DependentUpon>TimeCoastList.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Pages\WorkPage\Time\TimeCoastList.xaml.cs">
 	    <DependentUpon>TimeCoastList.xaml</DependentUpon>
 	  </Compile>
@@ -238,6 +244,12 @@
 	  <MauiXaml Update="Pages\WorkPage\Support\SupportPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Time\TimeCoastInfo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Time\TimeCoastList.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Time\TimeCoastList.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -250,10 +262,6 @@
 
 	<ItemGroup>
 	  <Resource Include="Resources\mailActiv.tpl" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Pages\WorkPage\Time\" />
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionPodborHideInfoBar="True" /></VisualStudio></ProjectExtensions>

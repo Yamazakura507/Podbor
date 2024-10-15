@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2145833a0b34f8a9766efc7fa7146fd6bb03c881")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c8d7226a1c915adb88ca86c7366e2433f6e5c64c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Podbor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

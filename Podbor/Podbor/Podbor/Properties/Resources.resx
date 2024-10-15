@@ -224,10 +224,10 @@
     <value>..\Resources\Images\autorizate.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\back.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\Images\back.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
     <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\Images\save.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
       <data name="future_debtors_credit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\future_debtors_credit.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
