@@ -664,5 +664,15 @@ namespace Podbor.Properties {
                 return ((byte[])(obj));
             }
         }
+																					/// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        internal static byte[] imuh {
+            get {
+                object obj = ResourceManager.GetObject("imuh", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
     }
 }

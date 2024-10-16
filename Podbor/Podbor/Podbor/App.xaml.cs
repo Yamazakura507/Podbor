@@ -26,7 +26,7 @@ namespace Podbor
             if (network != NetworkAccess.Internet) 
             {
                 var logingNoNetwork = new Loading(true);
-                ((NavigationPage)MyAppShell).CurrentPage.ShowPopup(logingNoNetwork);
+                MyAppShell.ShowPopup(logingNoNetwork);
 
                 logingNoNetwork.LoadingBackgorundWorker.RunWorkerAsync(new Thread(() =>
                  {

@@ -289,7 +289,11 @@
             <data name="add_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\add_time.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+              <data name="imuh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\imuh.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
               <data name="delete_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Images\delete_time.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+
 </root>

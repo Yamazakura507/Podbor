@@ -13,4 +13,5 @@ BarTextColor="{AppThemeBinding Light={DynamicResource Primary}, Dark={DynamicRes
     <financeIncPage:TimeIncomePage Title="Доходы/Расходы" IconImageSource="future_debtors_credit.png"/>
     <financePage:MoneTransferListPage Title="Движение денег" IconImageSource="finance.png"/>
     <financeDebtorPage:DebtorsListPage Title="Должники" IconImageSource="future_payments.png" />
+    <financeDebtorPage:DebtorsListPage Title="Имущество" IconImageSource="imuh.png" />
 </TabbedPage>

@@ -50,7 +50,7 @@ public partial class EditorDebtor : ContentPage
                 await MainThread.InvokeOnMainThreadAsync(() =>
                 {
                     StatusPicker.ItemsSource = ViewDebtorStatus;
-                    StatusPicker.SelectedIndex = 0;
+                    StatusPicker.SelectedIndex = this.BindingContext is null ? 0 : StatusPicker.Items.IndexOf(((Debtor)this.BindingContext).DebtorStatus.Name);
                 });
             }
             catch (Exception ex)
