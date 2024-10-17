@@ -26,6 +26,7 @@ public partial class IncomeOrExpensesStaticPage : ContentPage
         loading.LoadingBackgorundWorker.RunWorkerAsync(new Thread(async () =>
         {
             var revenues = DBModel.GetCollectionModel<Revenues>(new Dictionary<string, object>() { { "IdDate", IdDate }, { "IdUser", InfoAccount.IdUser } });
+            var result = DBModel.GetCollectionModel<Result>(new Dictionary<string, object>() { { "IdDate", IdDate }, { "IdUser", InfoAccount.IdUser } });
 
             if (revenues is null || revenues.Count == 0) return;
 
@@ -35,6 +36,7 @@ public partial class IncomeOrExpensesStaticPage : ContentPage
                 {
                     Income.BindingContext = revenues.FirstOrDefault(i => i.IsRevenues);
                     Expenses.BindingContext = revenues.FirstOrDefault(i => !i.IsRevenues);
+                    Itog.BindingContext = result.FirstOrDefault();
                 }
                 catch (Exception)
                 {
