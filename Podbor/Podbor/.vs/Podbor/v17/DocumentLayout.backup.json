@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\finance\\incomeorexpensesstaticpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\finance\\incomeorexpensesstaticpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\finance\\incomeorexpensesstaticpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\finance\\incomeorexpensesstaticpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|d:\\users\\danii\\downloads\\auvtopodbor\\podbor\\podbor\\podbor\\podbor\\pages\\workpage\\finance\\incomeorexpensesstaticpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDECB28D-F0F4-4BBE-8B8C-DFAC9C6D55AE}|Podbor\\Podbor.csproj|solutionrelative:podbor\\pages\\workpage\\finance\\incomeorexpensesstaticpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,9 @@
               "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml.cs",
               "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml.cs",
               "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvxwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T09:03:35.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IncomeOrExpensesStaticPage.xaml",
-              "DocumentMoniker": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml",
-              "RelativeDocumentMoniker": "Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml",
-              "ToolTip": "D:\\Users\\danii\\Downloads\\AuvtoPodbor\\Podbor\\Podbor\\Podbor\\Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml",
-              "RelativeToolTip": "Podbor\\Pages\\WorkPage\\Finance\\IncomeOrExpensesStaticPage.xaml",
-              "ViewState": "AgIAABoBAAAAAAAAAIAwwD0BAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-17T08:51:25.149Z",
+              "WhenOpened": "2024-10-17T09:35:40.295Z",
               "EditorCaption": ""
             }
           ]
