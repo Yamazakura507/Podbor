@@ -53,6 +53,12 @@
     <MauiXaml Update="Pages\MenuPage\PersonalAccountMenuPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\Tabbed\TaskInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Tabbed\PlaningInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\Tabbed\CreditInfoTappedPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -105,6 +111,24 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\Finance\Assets\GroupAddPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Planing\JobInfo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Planing\TaskInfo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Planing\PlanInfo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Planing\JobsListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Planing\TasksListPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\Planing\PlaningLisPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\Support\SupportInfoPage.xaml">

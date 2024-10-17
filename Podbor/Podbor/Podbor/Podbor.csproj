@@ -112,11 +112,35 @@
 	  <Compile Update="Pages\MenuPage\AssetsGroupEditorMenu.xaml.cs">
 	    <DependentUpon>AssetsGroupEditorMenu.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Pages\Tabbed\TaskInfoPage.xaml.cs">
+	    <DependentUpon>TaskInfoPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\Tabbed\PlaningInfoPage.xaml.cs">
+	    <DependentUpon>PlaningInfoPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Pages\WorkPage\Finance\Assets\AssetsGroupPage.xaml.cs">
 	    <DependentUpon>AssetsGroupPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Pages\WorkPage\Finance\Assets\GroupAddPage.xaml.cs">
 	    <DependentUpon>GroupAddPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Planing\JobInfo.xaml.cs">
+	    <DependentUpon>JobInfo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Planing\TaskInfo.xaml.cs">
+	    <DependentUpon>TaskInfo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Planing\PlanInfo.xaml.cs">
+	    <DependentUpon>PlanInfo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Planing\JobsListPage.xaml.cs">
+	    <DependentUpon>JobsListPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Planing\TasksListPage.xaml.cs">
+	    <DependentUpon>TasksListPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\WorkPage\Planing\PlaningLisPage.xaml.cs">
+	    <DependentUpon>PlaningLisPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Pages\WorkPage\Time\TimeCoastInfo.xaml.cs">
 	    <DependentUpon>TimeCoastInfo.xaml</DependentUpon>
@@ -173,6 +197,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\MenuPage\PersonalAccountMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Tabbed\TaskInfoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Tabbed\PlaningInfoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Tabbed\CreditInfoTappedPage.xaml">
@@ -236,6 +266,24 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\MainPersonalAccountPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Planing\JobInfo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Planing\TaskInfo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Planing\PlanInfo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Planing\JobsListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Planing\TasksListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WorkPage\Planing\PlaningLisPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\WorkPage\Support\SupportInfoPage.xaml">

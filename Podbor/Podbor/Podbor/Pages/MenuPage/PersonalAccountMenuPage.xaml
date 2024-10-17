@@ -9,6 +9,7 @@
              xmlns:pageTab="clr-namespace:Podbor.Pages.Tabbed"
 			 xmlns:pageCredit="clr-namespace:Podbor.Pages.WorkPage.Credit"
 			 xmlns:pageTime="clr-namespace:Podbor.Pages.WorkPage.Time"
+			 xmlns:pagePlan="clr-namespace:Podbor.Pages.WorkPage.Planing"
              Title="PersonalAccountMenuPage" Shell.NavBarIsVisible="False">
     <ScrollView Padding="5,50,0,0">
         <VerticalStackLayout>
@@ -31,7 +32,7 @@
                                   TargetType="{x:Type pageTime:TimeCoastList}" />
                         <local:FlyautAccountModel Title="Планирование"
                                   IconSource="planing.png"
-                                  TargetType="{x:Type page:AccountPage}" />
+                                  TargetType="{x:Type pagePlan:PlaningLisPage}" />
                         <local:FlyautAccountModel Title="Вопросы"
                                   IconSource="support.png"
                                   TargetType="{x:Type pageSuport:SupportPage}" />

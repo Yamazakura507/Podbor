@@ -108,6 +108,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.MainTa
 build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\MainTabbedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\MainTabbedPage.xaml
 
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/Tabbed/PlaningInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.PlaningInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\PlaningInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\PlaningInfoPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/Tabbed/TaskInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.Tabbed.TaskInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Tabbed\TaskInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Tabbed\TaskInfoPage.xaml
+
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/AccountPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.AccountPage.xaml
@@ -191,6 +203,42 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Finance.MoneTransferListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Finance\MoneTransferListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Finance\MoneTransferListPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Planing/JobInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Planing.JobInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Planing\JobInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Planing\JobInfo.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Planing/JobsListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Planing.JobsListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Planing\JobsListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Planing\JobsListPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Planing/PlanInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Planing.PlanInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Planing\PlanInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Planing\PlanInfo.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Planing/PlaningLisPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Planing.PlaningLisPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Planing\PlaningLisPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Planing\PlaningLisPage.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Planing/TaskInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Planing.TaskInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Planing\TaskInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Planing\TaskInfo.xaml
+
+[D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Planing/TasksListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Podbor.Pages.WorkPage.Planing.TasksListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkPage\Planing\TasksListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkPage\Planing\TasksListPage.xaml
 
 [D:/Users/danii/Downloads/AuvtoPodbor/Podbor/Podbor/Podbor/Podbor/Pages/WorkPage/Support/SupportInfoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
