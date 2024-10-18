@@ -4,7 +4,6 @@ using Podbor.Classes.AppSettings;
 using Podbor.Classes.Enums;
 using Podbor.CustomControl;
 using Podbor.Models;
-using SkiaSharp.Extended.UI.Controls;
 
 namespace Podbor.Pages;
 

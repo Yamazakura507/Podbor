@@ -96,6 +96,22 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -2623,6 +2639,22 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -5126,6 +5158,22 @@
         "runtime": {
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
+          }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -7635,6 +7683,22 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -10138,6 +10202,22 @@
         "runtime": {
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
+          }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -12647,6 +12727,22 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -15147,6 +15243,22 @@
         "runtime": {
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
+          }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -17653,6 +17765,22 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Microcharts.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20143,6 +20271,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20780,6 +20921,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20888,6 +21037,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21497,6 +21659,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -21601,6 +21771,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22210,6 +22393,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -22314,6 +22505,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22923,6 +23127,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -23027,6 +23239,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23638,6 +23863,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23738,6 +23971,19 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -24356,6 +24602,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24456,6 +24710,19 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -25074,6 +25341,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -25174,6 +25449,19 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios16.1/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -25787,6 +26075,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -25887,6 +26183,19 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -26506,6 +26815,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26614,6 +26931,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27223,6 +27553,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -27327,6 +27665,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27936,6 +28287,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -28040,6 +28399,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28649,6 +29021,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -28753,6 +29133,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -29362,6 +29755,14 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
@@ -29466,6 +29867,19 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -30077,6 +30491,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -30177,6 +30599,19 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -30793,6 +31228,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -30893,6 +31336,19 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3",
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -31506,6 +31962,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -31607,6 +32071,18 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -32544,6 +33020,18 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -33405,6 +33893,18 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -34270,6 +34770,18 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -35131,6 +35643,18 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -35996,6 +36520,18 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -36859,6 +37395,18 @@
           }
         }
       },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -37720,6 +38268,18 @@
           "lib/net8.0/MailKit.dll": {
             "related": ".dll.config;.pdb;.xml"
           }
+        }
+      },
+      "Microcharts.Maui/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Maui.Controls": "2.88.3"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -38677,6 +39237,23 @@
         "lib/netstandard2.1/MailKit.xml",
         "mailkit.4.7.1.1.nupkg.sha512",
         "mailkit.nuspec"
+      ]
+    },
+    "Microcharts.Maui/1.0.0": {
+      "sha512": "Q7FWgkWSA44vgg5N9Nd4KdwoMflcAPYZ7VHqnjetcWu2z4EUx/75OgVqDJeP9WDmHC+hU4BPOyhnPhkS4+1RBg==",
+      "type": "package",
+      "path": "microcharts.maui/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0-android31.0/Microcharts.Maui.dll",
+        "lib/net6.0-android31.0/Microcharts.Maui.xml",
+        "lib/net6.0-ios16.1/Microcharts.Maui.dll",
+        "lib/net6.0-maccatalyst16.1/Microcharts.Maui.dll",
+        "lib/net6.0-windows10.0.19041/Microcharts.Maui.dll",
+        "microcharts.maui.1.0.0.nupkg.sha512",
+        "microcharts.maui.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
@@ -41442,6 +42019,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
+      "type": "package",
+      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/net6.0/System.Runtime.InteropServices.dll",
+        "ref/net6.0/System.Runtime.InteropServices.xml",
+        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+        "system.runtime.interopservices.nfloat.internal.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Security.Cryptography.Pkcs/8.0.0": {
       "sha512": "ULmp3xoOwNYjOYp4JZ2NK/6NdTgiN1GQXzVVN1njQ7LOZ0d0B9vyMnhyqbIi9Qw4JXj1JgCsitkTShboHRx7Eg==",
       "type": "package",
@@ -43548,6 +44142,7 @@
       "CommunityToolkit.Maui >= 9.0.2",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "MailKit >= 4.7.1.1",
+      "Microcharts.Maui >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
@@ -43561,6 +44156,7 @@
       "CommunityToolkit.Maui >= 9.0.2",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "MailKit >= 4.7.1.1",
+      "Microcharts.Maui >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
@@ -43574,6 +44170,7 @@
       "CommunityToolkit.Maui >= 9.0.2",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "MailKit >= 4.7.1.1",
+      "Microcharts.Maui >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
@@ -43587,6 +44184,7 @@
       "CommunityToolkit.Maui >= 9.0.2",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "MailKit >= 4.7.1.1",
+      "Microcharts.Maui >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
@@ -43674,6 +44272,10 @@
             "target": "Package",
             "version": "[4.7.1.1, )"
           },
+          "Microcharts.Maui": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -43744,6 +44346,10 @@
           "MailKit": {
             "target": "Package",
             "version": "[4.7.1.1, )"
+          },
+          "Microcharts.Maui": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
@@ -43816,6 +44422,10 @@
             "target": "Package",
             "version": "[4.7.1.1, )"
           },
+          "Microcharts.Maui": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -43887,6 +44497,10 @@
           "MailKit": {
             "target": "Package",
             "version": "[4.7.1.1, )"
+          },
+          "Microcharts.Maui": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",

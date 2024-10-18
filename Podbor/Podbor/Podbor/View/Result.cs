@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Podbor.Classes;
+using Podbor.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +10,8 @@ namespace Podbor.View
 {
     public class Result
     {
+        private int idDate;
+
         public int Id
         {
             get;
@@ -28,5 +32,18 @@ namespace Podbor.View
             get;
             set;
         }
+
+        public int IdDate
+        {
+            get => idDate;
+            set
+            {
+                var date = DBModel.GetModel<DateJournal>(value);
+                DateStr = $"{date.Year} {new DateTime(date.Year, date.Month, 1).ToString("MMMM")}";
+                idDate = value;
+            }
+        }
+
+        public string DateStr { get; set; }
     }
 }

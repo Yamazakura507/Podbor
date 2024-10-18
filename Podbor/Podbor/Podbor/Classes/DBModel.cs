@@ -61,8 +61,8 @@ namespace Podbor.Classes
                 {
                     var sql = @$"SELECT * FROM `{typeof(T).Name}`
                     WHERE {(WhereCollection is null ? "true" : String.Join(" AND ", WhereCollection.Select(i => $"`{i.Key}` = '{i.Value}'")))} 
-                    {(Limit == 0 ? null : $"LIMIT {Limit} OFFSET {Offset}")}
-                    {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"`{i.Key}` {(i.Value ? "asc" : "desc")}"))}")}";
+                    {(OrderCollection is null ? null : $" ORDER BY {String.Join(", ", OrderCollection.Select(i => $"`{i.Key}` {(i.Value ? "asc" : "desc")}"))}")} 
+                    {(Limit == 0 ? null : Offset == 0 ? $"LIMIT {Limit}" : $"LIMIT {Limit} OFFSET {Offset}")}";
                         var dt = ms.GetTable(sql.Trim());
 
                     if (dt is null) return null;
