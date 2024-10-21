@@ -38,7 +38,7 @@
                                   TargetType="{x:Type pageSuport:SupportPage}" />
                         <local:FlyautAccountModel Title="Настройки"
                                   IconSource="settings.png"
-                                  TargetType="{x:Type pageSuport:SupportPage}" />
+                                  TargetType="{x:Type page:SettingsPage}" />
                     </x:Array>
                 </CollectionView.ItemsSource>
                 <CollectionView.ItemTemplate>

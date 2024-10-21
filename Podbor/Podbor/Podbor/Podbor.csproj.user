@@ -131,6 +131,9 @@
     <MauiXaml Update="Pages\WorkPage\Planing\PlaningLisPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\WorkPage\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\WorkPage\Support\SupportInfoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

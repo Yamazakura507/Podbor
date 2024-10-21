@@ -86,8 +86,7 @@ public partial class AccountPage : ContentPage
                     chartInc.Chart = new LineChart()
                     {
                         Entries = active,
-                        BackgroundColor = SKColor.Empty,
-                        ShowYAxisText = true
+                        BackgroundColor = SKColor.Empty
                     };
 
                     chartExc.Chart = new LineChart()
