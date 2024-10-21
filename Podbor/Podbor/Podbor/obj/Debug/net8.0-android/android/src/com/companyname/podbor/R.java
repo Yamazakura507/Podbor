@@ -11630,15 +11630,16 @@ public final class R {
     public static final int registration=0x7f070102;
     public static final int save=0x7f070103;
     public static final int settings=0x7f070104;
-    public static final int stability=0x7f070105;
-    public static final int support=0x7f070106;
-    public static final int support_in=0x7f070107;
-    public static final int support_out=0x7f070108;
-    public static final int test_level_drawable=0x7f070109;
-    public static final int time=0x7f07010a;
-    public static final int tooltip_frame_dark=0x7f07010b;
-    public static final int tooltip_frame_light=0x7f07010c;
-    public static final int translete_cash=0x7f07010d;
+    public static final int splash=0x7f070105;
+    public static final int stability=0x7f070106;
+    public static final int support=0x7f070107;
+    public static final int support_in=0x7f070108;
+    public static final int support_out=0x7f070109;
+    public static final int test_level_drawable=0x7f07010a;
+    public static final int time=0x7f07010b;
+    public static final int tooltip_frame_dark=0x7f07010c;
+    public static final int tooltip_frame_light=0x7f07010d;
+    public static final int translete_cash=0x7f07010e;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
