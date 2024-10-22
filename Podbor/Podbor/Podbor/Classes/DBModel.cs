@@ -206,7 +206,7 @@ namespace Podbor.Classes
                     }
 
                     if (dtPolice is null) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {typeTb.Name}!\nДля получения прав обратитесь в подержку");
-                    if (!dtPolice.AsEnumerable().All(i =>  (isRead ? "WRA" : "WA").Contains(i["PoliceName"].ToString()))) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
+                    if (!dtPolice.AsEnumerable().All(i =>  (isRead ? "WAR" : "WA").Contains(i["PoliceName"].ToString()))) throw new Exception($"Увас нет прав {(isRead ? "чтения" : "записи")} объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
                     if (isAdmin && dtPolice.AsEnumerable().All(i =>  i["PoliceName"].ToString().Contains("A"))) throw new Exception($"Увас нет прав администрирования объекта {dtPolice.Rows[0]["Name"]}!\nДля получения прав обратитесь в подержку");
                 }
             }
